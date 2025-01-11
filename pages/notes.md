@@ -1,6 +1,5 @@
 ---
 layout: Post
-permalink: /
 feedformat: card
 title: Digital Garden
 ---
