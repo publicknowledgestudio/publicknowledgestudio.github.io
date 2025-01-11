@@ -1,5 +1,4 @@
 ---
-layout: post
 feed: show
 title: Lecture 2
 aliases: []
