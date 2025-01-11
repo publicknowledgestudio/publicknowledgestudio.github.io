@@ -68,7 +68,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /:title
+      permalink: /:slug
 
 markdown: kramdown
 
@@ -88,7 +88,7 @@ defaults:
       type: notes
     values:
       layout: Post
-      permalink: /:title
+      permalink: /:slug
       content-type: notes
 
 
