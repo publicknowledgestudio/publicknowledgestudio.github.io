@@ -19,15 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 # URL is the base hostname with protocol for your site, eg http://example.com
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gyanl.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # If you want to install this jekyll in a subpath (eg /digitalgarden) set it here. 
 # Else keep it Empty (DON'T PUT /; Keep it empty)
-baseurl: ""
+baseurl: "/dv"
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Jekyll Garden # Change this 
+heading: Data Visualization # Change this 
 content: Obsidian ready Jekyll Theme
 copyright:  
   year: © 2022
@@ -36,7 +36,7 @@ copyright:
 # Set title and content for private & broken link tooltop
 privatelinks:
   title: Private or Broken Links
-  msg: The page you're looking for is either not available or private!
+  msg: The page you're looking for is either not available or not published yet.
 
 # Theme level preferences
 # To enable set "enabled : true" else, use "enabled:false"
@@ -68,7 +68,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /note/:title
+      permalink: /:title
 
 markdown: kramdown
 
@@ -85,16 +85,10 @@ sass:
 defaults:
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: Post
-      permalink: /post/:title
-      content-type: post
-  - scope:
-      path: ""
       type: notes
     values:
       layout: Post
+      permalink: /:title
       content-type: notes
 
 
@@ -110,6 +104,7 @@ exclude:
   - _notes/000 Inbox
   - _notes/200 Private
   - _notes/300 Templates
+  - _notes/Private
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
