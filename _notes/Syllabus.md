@@ -1,5 +1,5 @@
 ---
-title: Syllabus
+title: "Syllabus"
 feed: show
 date modified: 12-01-2025
 date: 11-01-2025
