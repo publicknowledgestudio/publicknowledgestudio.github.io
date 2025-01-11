@@ -1,5 +1,4 @@
 ---
-feed: show
 layout: post
 title: Whatecver
 aliases:

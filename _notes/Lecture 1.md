@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Lecture 1
 feed: hide
 date: 11-05-2022
