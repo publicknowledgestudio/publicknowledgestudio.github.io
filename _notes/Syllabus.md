@@ -1,7 +1,11 @@
 ---
-title : Welcome to the garden
+layout: post
+title: Syllabus
 feed: show
-date : 15-04-2021
+date modified: 12-01-2025
+date: 11-01-2025
+aliases:
+  - Syllabus
 ---
 ## Course Syllabus
 
