@@ -142,7 +142,6 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 p a,
@@ -174,6 +173,10 @@ strong {
 
 html {
     scroll-behavior: smooth;
+    font-family: -apple-system, 'IBM Plex Sans', BlinkMacSystemFont, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss06' on, 'ss07' on;
+    font-kerning: normal;
 }
 
 body {
