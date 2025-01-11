@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Credits
 feed: show
 date: 11-05-2022

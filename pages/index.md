@@ -5,4 +5,5 @@
 layout: Post
 feedformat: card
 title: Home
+permalink: /
 ---

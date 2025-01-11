@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Syllabus
 feed: show
 date modified: 12-01-2025
