@@ -3,6 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: Post
-feedformat: card
-title: Home
+title: Jekyll Garden
 ---
