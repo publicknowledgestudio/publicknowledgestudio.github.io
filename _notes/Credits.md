@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Credits"
 feed: show
 date: 11-05-2022
 date modified: 12-01-2025
-aliases:
-  - Credits
 ---
 
 -   [Raghuveer](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll)

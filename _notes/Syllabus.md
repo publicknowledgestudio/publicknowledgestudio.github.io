@@ -3,8 +3,6 @@ title: "Syllabus"
 feed: show
 date modified: 12-01-2025
 date: 11-01-2025
-aliases:
-  - Syllabus
 ---
 ## Course Syllabus
 
@@ -18,12 +16,31 @@ aliases:
 
 ### Lecture Wise Breakdown
 
-#### Lecture 1 
-7 January 2025
+#### Introduction
+*Lecture 1 - 7 January 2025*
 - Data, Information, Processing Data to Information
 - Infographics, Data Visualisation
 - **Exercise:** Data Selfie
 - Types of measurements
 
+#### Why visualise
+*Lecture 2 - 14 January 2025*
 
+#### Lying with Data
+- Ethics in Data Visualisation
+- Common fallacies
 
+#### Infographics
+
+#### Geospatial visualisations
+- Contributing to OpenStreetMap
+
+#### Visual Encoding: 
+- Color
+- Shape
+- Size
+
+#### Visual Design
+- Typography
+- Spacing
+- Emphasis
