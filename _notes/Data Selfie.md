@@ -26,3 +26,11 @@ date modified: 12-01-2025
 - Think about how you might visualise the information. You can encode with position, size, shape, colour, etc. Try sketching bar charts, radial diagrams, or more abstract/artistic representations.
 - Use labels, legends, and a short caption explaining what each part represents.
 - Try using thicker pens, colored pencils, etc. to have more options with encoding.
+
+#### Some submissions
+
+![](assets/img/dataselfie-joshna.jpeg)![](assets/img/dataselfie-joshna-1.jpeg)
+> Joshna's visualisation of sounds in the classroom
+
+![](assets/img/dataselfie-kavya.jpeg)
+> Kavya's visualisation people she exchanged words with 

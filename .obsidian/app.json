@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "assets/img/",
   "newLinkFormat": "absolute",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "propertiesInDocument": "source"
 }

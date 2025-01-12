@@ -8,204 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4984721848470ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lesson Plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lesson Plan"
-            }
-          },
-          {
-            "id": "572366a5f7b4ba86",
-            "type": "leaf",
-            "state": {
-              "type": "mk-uri-view",
-              "state": {
-                "path": "https://www.make.md/static/latest.md"
-              },
-              "icon": "lucide-file",
-              "title": "https://www.make.md/static/latest.md"
-            }
-          },
-          {
             "id": "66e62f78c48f27ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/About.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "About"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "84c62a95f31b95be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0061ecd1df56538",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Credits.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Credits"
-            }
-          },
-          {
-            "id": "1f6e098fdfbb5adc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Private/Courses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Courses"
-            }
-          },
-          {
-            "id": "e952978b753bb7c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resources"
-            }
-          },
-          {
-            "id": "e1a0156c980a15fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Credits.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Credits"
-            }
-          },
-          {
-            "id": "02d1fc080a7f51d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Selfie.md",
+                "file": "_notes/Data Selfie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Data Selfie"
             }
-          },
-          {
-            "id": "4731e21d3561e2d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resources"
-            }
-          },
-          {
-            "id": "bd0d5aaf0942481c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Levels of Measurement.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Levels of Measurement"
-            }
-          },
-          {
-            "id": "4ae50d2dea1baa7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quantified Self.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quantified Self"
-            }
-          },
-          {
-            "id": "0603a9109e067cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Storytelling and Journalism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Storytelling and Journalism"
-            }
-          },
-          {
-            "id": "566f2d22b3993ed2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Models.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Image Models"
-            }
-          },
-          {
-            "id": "88009b26a148101a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,7 +74,7 @@
             }
           },
           {
-            "id": "b59ef5ca667d179a",
+            "id": "32bdf2147c7ca543",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -359,6 +175,20 @@
   },
   "active": "66e62f78c48f27ee",
   "lastOpenFiles": [
+    "assets/img/dataselfie-kavya.jpeg",
+    "assets/img/dataselfie-joshna-1.jpeg",
+    "assets/img/dataselfie-joshna.jpeg",
+    "assets/img/Joshna.jpeg",
+    "_notes/About.md",
+    "_notes/Quantified Self.md",
+    "_notes/Resources.md",
+    "_notes/Recommended Reading.md",
+    "_notes/Data Selfie.md",
+    "_notes/Data Ethics.md",
+    "_notes/Image Models.md",
+    "_notes/Credits.md",
+    "_notes/Syllabus.md",
+    "_notes/Lesson Plan.md",
     "_site/assets/img/Aboutadsdas.png",
     "_site/assets/img/Pasted image 20250112175829.png",
     "assets/img/Aboutadsdas.png",
@@ -366,13 +196,8 @@
     "_site/assets/img/sddsz.png",
     "assets/img/Pasted image 20250112175813.png",
     "_site/Courses.png",
-    "Courses.png",
-    "_site/assets/Courses.png",
-    "assets/Courses.png",
     "_notes/Private/Courses.md",
-    "_site/assets/img/Courses.png",
     "_notes/Private/Todo.md",
-    "_notes/About.md",
     "Tags",
     "Data Storytelling and Journalism.md",
     "Users/gyanlakhwani/Documents/GitHub/dv/assets",
@@ -394,16 +219,7 @@
     "Credits.md",
     "Recommended Reading.md",
     "Private/Todo.md",
-    "Private/Courses.md",
-    "Quantified Self.md",
-    "Levels of Measurement.md",
-    "Lecture 1.md",
-    "Lecture 2.md",
-    "A concept.md",
-    "Whatecver.md",
-    "Template/Untitled.md",
     "Template",
-    "Public/Syllabus.md",
     "Private"
   ]
 }

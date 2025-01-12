@@ -5,6 +5,32 @@ date modified: 12-01-2025
 date: 11-01-2025
 ---
 See also: [[Lesson Plan]]
+
+**Subject Code:** DD325  
+**Course Title:** Data Visualization  
+Jan to May 2025
+
+**Tuesdays**
+- 9am - 10am Lecture
+- 10 am - 1pm Studio
+- 1pm - 2pm Lunch
+- 2pm - 5pm Studio
+
+**Contact Hours:**  
+- **Lecture (L):** 1  
+- **Tutorial (T):** 0  
+- **Studio (S):** 6  
+
+**Studio Hours:** 4  
+**Examination Duration (Hrs):**  
+- **CWS:** 10  
+- **STS:** 40  
+- **MTE:** 10  
+- **ETE:** 20  
+- **STE:** 20  
+
+**Credit:** 4  
+**Semester:** 6th  
 ### Course Syllabus
 
 | **S. No.** | **Contents**                                                                  | **Contact Weeks** |

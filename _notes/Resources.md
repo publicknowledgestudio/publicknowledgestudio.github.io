@@ -6,8 +6,7 @@ date modified: 12-01-2025
 ---
 # What Can We Do with Data?
 
-Below is an overview of five main approaches to working with data, along with potential outcomes and examples.  
----
+Below is an overview of five main approaches to working with data, along with potential outcomes and examples. 
 ## 1. Exhibit
 
 **Goal**: Present raw data in a clear, straightforward manner.  
