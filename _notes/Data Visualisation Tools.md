@@ -1,10 +1,11 @@
 ---
-feed: show
-title: "Data Visualisation Tools"
 date: 12-01-2025
 date modified: 12-01-2025
+feed: show
+title: "Data Visualisation Tools"
 ---
 ### Activity Details
+
 This page lists a number of Data Visualisation tools. Pick one of these tools using the signup sheet shared on the class group and prepare a 5 minute presentation on it. You can cover what it does, how to prepare your data, some examples of things you made with it. You can do this by yourself or in teams of 2.
 
 Some of these tools will require some technical knowledge. If you know some programming or are willing to learn, go ahead and try out some tools like D3.js, Leaflet.js or Rshiny. Most other tools do not require programming knowledge, and this course will not focus on the technical aspect of data visualisation.
@@ -45,4 +46,5 @@ Some of these tools will require some technical knowledge. If you know some prog
 14. **Google Charts**
 
 ### Due Date
+
 Presentations on 14 Jan and 21 Jan 2025.

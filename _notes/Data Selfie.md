@@ -1,8 +1,8 @@
 ---
-feed: show
-title: "Data Selfie"
 date: 12-01-2025
 date modified: 12-01-2025
+feed: show
+title: "Data Selfie"
 ---
 ### We are all producing data all the time!
 
@@ -30,7 +30,9 @@ date modified: 12-01-2025
 #### Some submissions
 
 ![](assets/img/dataselfie-joshna.jpeg)![](assets/img/dataselfie-joshna-1.jpeg)
+
 > Joshna's visualisation of sounds in the classroom
 
 ![](assets/img/dataselfie-kavya.jpeg)
-> Kavya's visualisation people she exchanged words with 
+
+> Kavya's visualisation people she exchanged words with

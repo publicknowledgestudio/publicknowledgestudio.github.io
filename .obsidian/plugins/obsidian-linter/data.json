@@ -44,18 +44,18 @@
       "yaml-keys-to-remove": ""
     },
     "sort-yaml-array-values": {
-      "enabled": false,
-      "sort-alias-key": true,
-      "sort-tag-key": true,
-      "sort-array-keys": true,
+      "enabled": true,
+      "sort-alias-key": false,
+      "sort-tag-key": false,
+      "sort-array-keys": false,
       "ignore-keys": "",
-      "sort-order": "Ascending Alphabetical"
+      "sort-order": "Descending Alphabetical"
     },
     "yaml-key-sort": {
-      "enabled": false,
+      "enabled": true,
       "yaml-key-priority-sort-order": "",
       "priority-keys-at-start-of-yaml": true,
-      "yaml-sort-order-for-other-keys": "None"
+      "yaml-sort-order-for-other-keys": "Ascending Alphabetical"
     },
     "yaml-timestamp": {
       "enabled": true,
@@ -122,7 +122,7 @@
       "style": "space"
     },
     "convert-bullet-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "default-language-for-code-fences": {
       "enabled": false,
@@ -161,7 +161,7 @@
       "enabled": false
     },
     "remove-multiple-spaces": {
-      "enabled": false
+      "enabled": true
     },
     "strong-style": {
       "enabled": false,
@@ -176,11 +176,11 @@
       "list-style": "consistent"
     },
     "compact-yaml": {
-      "enabled": false,
+      "enabled": true,
       "inner-new-lines": false
     },
     "consecutive-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "convert-spaces-to-tabs": {
       "enabled": false,
@@ -213,7 +213,7 @@
       "enabled": false
     },
     "paragraph-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
       "enabled": false
@@ -242,7 +242,7 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": false,
+      "enabled": true,
       "twp-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {

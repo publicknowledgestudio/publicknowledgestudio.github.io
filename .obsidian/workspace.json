@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/About.md",
+                "file": "_notes/Lectures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About"
+              "title": "Lectures"
             }
           }
         ]
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "32bdf2147c7ca543",
+            "id": "36c1f87243192f62",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -176,25 +176,30 @@
   "active": "66e62f78c48f27ee",
   "lastOpenFiles": [
     "_notes/Data Selfie.md",
+    "_notes/Syllabus.md",
+    "_notes/Resources.md",
+    "_notes/Recommended Reading.md",
+    "_notes/Quantified Self.md",
+    "_notes/Levels of Measurement.md",
+    "_notes/Image Models.md",
+    "_notes/Geospatial Visualisations.md",
+    "_notes/Finding Datasets.md",
+    "_notes/Data Storytelling and Journalism.md",
+    "_notes/Data Visualisation Tools.md",
+    "_notes/Data Ethics.md",
+    "_notes/About.md",
+    "_notes/Credits.md",
+    "_notes/Lectures.md",
+    "assets/img/waldo.png",
     "assets/img/dataselfie-kavya.jpeg",
     "assets/img/dataselfie-joshna-1.jpeg",
     "assets/img/dataselfie-joshna.jpeg",
     "assets/img/Joshna.jpeg",
-    "_notes/About.md",
-    "_notes/Quantified Self.md",
-    "_notes/Resources.md",
-    "_notes/Recommended Reading.md",
-    "_notes/Data Ethics.md",
-    "_notes/Image Models.md",
-    "_notes/Credits.md",
-    "_notes/Syllabus.md",
-    "_notes/Lesson Plan.md",
     "_site/assets/img/Aboutadsdas.png",
     "_site/assets/img/Pasted image 20250112175829.png",
     "assets/img/Aboutadsdas.png",
     "_site/assets/img/Pasted image 20250112175813.png",
     "_site/assets/img/sddsz.png",
-    "assets/img/Pasted image 20250112175813.png",
     "_notes/Private/Courses.md",
     "_notes/Private/Todo.md",
     "Tags",
@@ -214,10 +219,6 @@
     "Finding Datasets.md",
     "Lesson Plan.md",
     "Image Models.md",
-    "Resources.md",
-    "Credits.md",
-    "Recommended Reading.md",
-    "Private/Todo.md",
     "Template",
     "Private"
   ]

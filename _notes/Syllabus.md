@@ -1,13 +1,14 @@
 ---
-title: "Syllabus"
-feed: show
-date modified: 12-01-2025
 date: 11-01-2025
+date modified: 12-01-2025
+feed: show
+title: "Syllabus"
 ---
-See also: [[Lesson Plan]]
 
-**Subject Code:** DD325  
-**Course Title:** Data Visualization  
+See also: [[Lectures]]
+
+**Subject Code:** DD325
+**Course Title:** Data Visualization
 Jan to May 2025
 
 **Tuesdays**
@@ -16,21 +17,21 @@ Jan to May 2025
 - 1pm - 2pm Lunch
 - 2pm - 5pm Studio
 
-**Contact Hours:**  
-- **Lecture (L):** 1  
-- **Tutorial (T):** 0  
-- **Studio (S):** 6  
+**Contact Hours:**
+- **Lecture (L):** 1
+- **Tutorial (T):** 0
+- **Studio (S):** 6
 
-**Studio Hours:** 4  
-**Examination Duration (Hrs):**  
-- **CWS:** 10  
-- **STS:** 40  
-- **MTE:** 10  
-- **ETE:** 20  
-- **STE:** 20  
+**Studio Hours:** 4
+**Examination Duration (Hrs):**
+- **CWS:** 10
+- **STS:** 40
+- **MTE:** 10
+- **ETE:** 20
+- **STE:** 20
 
-**Credit:** 4  
-**Semester:** 6th  
+**Credit:** 4
+**Semester:** 6th
 ### Course Syllabus
 
 | **S. No.** | **Contents**                                                                  | **Contact Weeks** |
@@ -41,8 +42,14 @@ Jan to May 2025
 | 4          | Mapping and cartography; Narrative; Text Visualization                        | 3                 |
 | **Total**  |                                                                               | **14**            |
 
+# Detailed Structure
 
-# Upcoming topics
+#### Data and Information
+- Data
+- Information
+- What can we do with data?
+- Forming insights
+- Data to Information
 
 #### Image models
 - Raster and vector images
@@ -85,6 +92,7 @@ Jan to May 2025
 - What separates illustrations from infographics?
 #### Lying with Data
 - Ethics in Data Visualisation
+- Data bias - where can it come from
 - Histories - data x design, staged photographs
 - Misleading graphics
 - Common fallacies
@@ -105,7 +113,7 @@ Jan to May 2025
 - Projections (Mercator, Robinson, etc.), scale, and symbolization.
 - Mapping statistical data (choropleth, proportional symbol maps).
 - **Exercise** Schematic Maps
-- India in Pixels - 
+- India in Pixels -
 - [Ashris Choudhury—Outlier 2021—Narrating a Nation Through Numbers: India in Pixels - YouTube](https://www.youtube.com/watch?v=p1uxZMGyX6E)
 #### Motion in Data Visualisations
 - What can motion add?
@@ -114,3 +122,4 @@ Jan to May 2025
 - Engages users, allows exploration of data from different angles. Encourages personal discovery and deeper insight.
 - Data Interfaces
 - Sci fi interfaces
+- Accessibility [Bring accessibility to charts in your app - WWDC21 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2021/10122/)
