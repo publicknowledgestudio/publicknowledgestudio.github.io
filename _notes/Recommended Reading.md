@@ -16,4 +16,9 @@ date modified: 12-01-2025
 # Additional Recommendations
 
 Tamara Munzner, _Visualization Analysis and Design_
+
 Ben Shneiderman, “The eyes have it: A task by data type taxonomy for information visualizations.”
+
+D’Ignazio, C., & Klein, L. F. (2023). _[Data Feminism](https://data-feminism.mitpress.mit.edu/)_. The MIT Press.
+
+

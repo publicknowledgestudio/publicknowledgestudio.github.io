@@ -74,11 +74,13 @@ date: 11-01-2025
 - What separates illustrations from infographics?
 #### Lying with Data
 - Ethics in Data Visualisation
+- Histories - data x design, staged photographs
 - Misleading graphics
 - Common fallacies
 - Spurious correlations
 #### Storytelling with data
 - Structuring data narratives with a clear beginning, middle, and end.
+- Who is this for?
 - New York Times interactive visual stories.
 - Gapminder (Hans Rosling) for data-driven storytelling.
 - Finding datasets

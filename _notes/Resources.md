@@ -54,7 +54,12 @@ Below is an overview of five main approaches to working with data, along with po
 
 - A news article explaining election results supported by interactive charts.  
 
-  
+# Data Storytelling
+### [Dear Data](https://www.dear-data.com/theproject)
+Dear Data is a year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec, two award-winning information designers living on different sides of the Atlantic. By collecting and hand drawing their personal data and sending it to each other in the form of postcards, they became friends.
+
+### [What Goes On At 213](https://sva.design/projects/17438/what-goes-on-at-213/)
+A pocket-book zine showing data visualization through illustration. San Myeong Kim observed people walking past this one door on East 23rd Street and took note of their peculiarities and illustrated them. They pose this question: In a space where infographics is created and consumed entirely digitally, how can I re-incorporate the raw handwritten quality to data visualization (in a fun, silly way)?
 
 **Reference**  
 
@@ -82,7 +87,9 @@ Below is an overview of five main approaches to working with data, along with po
 
 - A real-time business intelligence dashboard that alerts users to unusual sales patterns.  
 
-  
+### [The Life and Death of Data](https://lifeanddeathofdata.org/)
+
+### [Tied in Knots](https://tiedinknots.io/#/)
 
 **Reference**  
 
@@ -108,9 +115,12 @@ Below is an overview of five main approaches to working with data, along with po
 
 **Example**  
 
-- A museum piece visualizing climate change data as a dynamic art display that changes color over time.  
+- A museum piece visualizing climate change data as a dynamic art display that changes color over time.
 
-  
+# Data Art
+### [Poppy Field](https://www.poppyfield.org/)
+Following the end of the First World War, the poppy became a symbol of commemoration. It was among the first plants to spring to life on Europe's devastated battlefields. Poppy Field reflects on the human cost of war  
+from the beginning of the 20th Century.
 
 **Reference**  
 
@@ -132,32 +142,17 @@ Below is an overview of five main approaches to working with data, along with po
 
 - **APIs and Libraries**: Extensible codebases that empower broader data analysis and visualization.  
 
-  
+### [Data by Design](https://dataxdesign.io/)
+A digital book chronicling the history of data visualisation. By retelling the history of data visualization alongside the histories of colonialism and slavery, Data by Design shows how questions of ethics and justice have always been present—and continue to offer lessons to viewers and designers of data visualizations today.
 
-**Example**  
+### [The Data Visualization Society](https://datavizsociety.org/)
+The Data Visualization Society is a global community of data visualization professionals, educators, and enthusiasts.
 
-- An open-source library that generates interactive geographic maps for environmental agencies.  
+### [D3.js](https://d3js.org)
 
-  
-
-**Reference**  
-
-- D3.js: [https://d3js.org](https://d3js.org)
-# Data Storytelling
-### [Dear Data](https://www.dear-data.com/theproject)
-Dear Data is a year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec, two award-winning information designers living on different sides of the Atlantic. By collecting and hand drawing their personal data and sending it to each other in the form of postcards, they became friends.
-
-### [What Goes On At 213](https://sva.design/projects/17438/what-goes-on-at-213/)
-A pocket-book zine showing data visualization through illustration. San Myeong Kim observed people walking past this one door on East 23rd Street and took note of their peculiarities and illustrated them. They pose this question: In a space where infographics is created and consumed entirely digitally, how can I re-incorporate the raw handwritten quality to data visualization (in a fun, silly way)?
 
 ### [Data Visualization Society - YouTube](https://www.youtube.com/@DataVisualizationSociety/videos)
 
 
-# Data Art
-### [Poppy Field](https://www.poppyfield.org/)
-Following the end of the First World War, the poppy became a symbol of commemoration. It was among the first plants to spring to life on Europe's devastated battlefields. Poppy Field reflects on the human cost of war  
-from the beginning of the 20th Century.
 
-### [The Data Visualization Society](https://datavizsociety.org/)
 
-The Data Visualization Society is a global community of data visualization professionals, educators, and enthusiasts.
