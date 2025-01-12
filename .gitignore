@@ -5,3 +5,5 @@ pages/tags.md
 _notes/.obsidian
 _notes/Public/.obsidian
 _notes/Private/
+.obsidian/workspace.json
+assets/.DS_Store

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Data Selfie.md",
+                "file": "_notes/About.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Selfie"
+              "title": "About"
             }
           }
         ]
@@ -175,6 +175,7 @@
   },
   "active": "66e62f78c48f27ee",
   "lastOpenFiles": [
+    "_notes/Data Selfie.md",
     "assets/img/dataselfie-kavya.jpeg",
     "assets/img/dataselfie-joshna-1.jpeg",
     "assets/img/dataselfie-joshna.jpeg",
@@ -183,7 +184,6 @@
     "_notes/Quantified Self.md",
     "_notes/Resources.md",
     "_notes/Recommended Reading.md",
-    "_notes/Data Selfie.md",
     "_notes/Data Ethics.md",
     "_notes/Image Models.md",
     "_notes/Credits.md",
@@ -195,7 +195,6 @@
     "_site/assets/img/Pasted image 20250112175813.png",
     "_site/assets/img/sddsz.png",
     "assets/img/Pasted image 20250112175813.png",
-    "_site/Courses.png",
     "_notes/Private/Courses.md",
     "_notes/Private/Todo.md",
     "Tags",
