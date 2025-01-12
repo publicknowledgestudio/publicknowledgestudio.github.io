@@ -30,6 +30,7 @@ date: 11-01-2025
 - Decision-making with data
 - Card PIN Dataset
 - Student Age dataset
+- Exercise: [Data Portrait of the Class](https://blog.gramener.com/data-portraits-personalized-data-sketches/)
 # Upcoming topics
 
 #### Image models
@@ -63,6 +64,7 @@ date: 11-01-2025
 	Accuracy of Different Chart Types - Cleveland and McGill studies on how people interpret lengths, angles, and areas.
 - **Visual Encoding:** Color, Shape, Size
 - Color wheels, complementary, analogous, triadic color schemes.
+- Color for cartography
 - Perceptual aspects of color (simultaneous contrast, color blindness considerations).
 - **Visual Design:** Typography, Spacing, Emphasis
 - Plane graphic
@@ -89,6 +91,9 @@ date: 11-01-2025
 - Contributing to OpenStreetMap
 - Projections (Mercator, Robinson, etc.), scale, and symbolization.
 - Mapping statistical data (choropleth, proportional symbol maps).
+- **Exercise** Schematic Maps
+- India in Pixels - 
+- [Ashris Choudhury—Outlier 2021—Narrating a Nation Through Numbers: India in Pixels - YouTube](https://www.youtube.com/watch?v=p1uxZMGyX6E)
 #### Motion in Data Visualisations
 - What can motion add?
 - Shows temporal trends effectively.

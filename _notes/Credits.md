@@ -4,6 +4,12 @@ feed: show
 date: 11-05-2022
 date modified: 12-01-2025
 ---
+- [Prof. Venkatesh Rajamanickam](https://www.idc.iitb.ac.in/people/faculty/venkatesh-rajamanickam)at the [Information Design Lab](https://info-design-lab.github.io/) at IDC School of Design, IIT Bombay. I based a lot of the structure and exercises for this course on what I learnt during his Data Visualisation course while pursuing my masters at IDC.
+- [Rasagy Sharma](https://rasagy.in/) for his workshop on Geospatial visualisation at IDC and the Data Selfie workshop at UXNow 2022.
+- [Nishita Nirmal](https://www.linkedin.com/in/nishita-nirmal/?originalSubdomain=in) for her material on The Use of Color in Cartography and the Sky Images dataset.
+
+
+### For Jekyll Garden
 
 -   [Raghuveer](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll)
 -   [Santosh Thottingal](https://github.com/santhoshtr) who introduced me to Digital Garden
