@@ -17,7 +17,7 @@ date modified: 12-01-2025
 ### Create a pen and paper visualisation of your personal data
 
 - Collect some personal data, around 15-20 observations should be enough.
-- Write or list your data points in a simple format (e.g., date/time, category, count).
+- Write or list your data points in a simple tabular format. (e.g., date/time, category, count).
 - Identify any patterns or categories (like “morning vs. evening” or “work vs. personal”). Brainstorm a rough idea of how to visually represent each data point. You can experiment with shapes, lines, colors, or symbols that connect to your theme (e.g., hearts for likes, footprints for steps).
 
 ### Things to keep in mind
