@@ -22,9 +22,6 @@ These scales describe how data can be categorized, ranked, or measured with vary
 - **Car brands**: (Hyundai, Toyota, Mercedes)  
 - **Marital status**: (Unmarried, Married, Divorced)
 
-**Reference**  
-- [Nominal Data](https://www.scribbr.com/statistics/nominal-data/)
-
 ---
 
 ## 2. Ordinal
@@ -37,9 +34,6 @@ These scales describe how data can be categorized, ranked, or measured with vary
 - **Language ability**: (Beginner < Intermediate < Fluent)  
 - **Spiciness levels**: (Mild < Medium < Hot < Extra Hot)  
 - **Medal placements**: (Gold > Silver > Bronze)
-
-**Reference**  
-- [Ordinal Data](https://www.scribbr.com/statistics/ordinal-data/)
 
 ---
 
@@ -54,8 +48,6 @@ These scales describe how data can be categorized, ranked, or measured with vary
 - **Calendar years**: The interval of five years is always the same length, but year 0 doesn’t represent the absence of time.  
 - **Time of day**: From 1 p.m. to 2 p.m. is the same interval as from 2 p.m. to 3 p.m., but 0:00 hours is just a starting reference, not “no time.”
 
-**Reference**  
-- [Interval Data](https://www.scribbr.com/statistics/interval-data/)
 
 ---
 
@@ -71,9 +63,6 @@ These scales describe how data can be categorized, ranked, or measured with vary
 - **Weight**: 10 kg is half of 20 kg.  
 - **Temperature in Kelvin**: 0 K is absolute zero, meaning no thermal energy.
 
-**Reference**  
-- [Ratio Data](https://www.scribbr.com/statistics/ratio-data/)
-
 ---
 
 **Q1**  
@@ -83,9 +72,9 @@ How could you differentiate interval and ratio data in practical survey scenario
   
 **Q2**  
 
-What challenges might arise when analyzing ordinal data with large ranking scales?
+Are Likert scales and other similiar 5 point rating systems Ordinal or Interval scales?
 
   
 **Q3**  
 
-How do interval and ratio scales affect the choice of statistical tests and visualizations?  
+How do interval and ratio scales affect the choice visualizations?  

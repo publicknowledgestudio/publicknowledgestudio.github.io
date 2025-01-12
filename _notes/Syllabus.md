@@ -4,7 +4,8 @@ feed: show
 date modified: 12-01-2025
 date: 11-01-2025
 ---
-## Course Syllabus
+See also: [[Lesson Plan]]
+### Course Syllabus
 
 | **S. No.** | **Contents**                                                                  | **Contact Weeks** |
 | ---------- | ----------------------------------------------------------------------------- | ----------------- |
@@ -14,23 +15,7 @@ date: 11-01-2025
 | 4          | Mapping and cartography; Narrative; Text Visualization                        | 3                 |
 | **Total**  |                                                                               | **14**            |
 
-# Lecture Wise Breakdown
 
-#### Introduction
-*Lecture 1 - 7 January 2025*
-- Data, Information, Processing Data to Information
-- Infographics, Data Visualisation
-- Data models - structured and unstructured data, levels of measurements
-- **Exercise:** Data Selfie
-- **Homework:** Data Viz software tool presentations
-#### Why visualise
-*Lecture 2 - 14 January 2025*
-- **Presentations:** Data Viz software tool presentations
-- How transforming raw data into visual formats reveals hidden patterns and insights.
-- Decision-making with data
-- Card PIN Dataset
-- Student Age dataset
-- Exercise: [Data Portrait of the Class](https://blog.gramener.com/data-portraits-personalized-data-sketches/)
 # Upcoming topics
 
 #### Image models
