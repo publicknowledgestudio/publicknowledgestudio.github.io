@@ -4,6 +4,8 @@
 
 layout: Post
 feedformat: card
-title: Home
+title: DD 324 - Data Visualisation
 permalink: /
 ---
+
+Notes and other resources.
