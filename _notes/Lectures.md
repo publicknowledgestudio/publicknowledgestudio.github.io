@@ -9,9 +9,9 @@ See also: [[Syllabus]]
 
 #### [[Lecture 1]] - Introduction
 *7 January 2025*
-
 #### [[Lecture 2]] - Data to Information
 *14 January 2025*
-
-#### [[Lecture 3]]
+#### [[Lecture 3]] - TBD
 *21 January 2025*
+#### [[Lecture 4]] - TBD
+*28 January 2025*

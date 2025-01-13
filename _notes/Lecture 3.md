@@ -1,11 +1,13 @@
 ---
-date: 14-01-2025
+date: 07-01-2025
 date modified: 14-01-2025
 feed: show
 title: "Lecture 3"
 ---
 
 #### Morning
+
+#### Afternoon
 
 #### References
 

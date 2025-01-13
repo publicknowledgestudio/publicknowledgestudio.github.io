@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Lecture 2.md",
+                "file": "_notes/Exercise - Explore a Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Exercise - Explore a Dataset"
             }
           }
         ]
@@ -233,14 +233,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5b9ba4faeeb7e90",
+  "active": "71920b377068a680",
   "lastOpenFiles": [
-    "Exercise - Explore a Dataset.md",
+    "_notes/Lecture 1.md",
+    "_notes/Lectures.md",
+    "_notes/Lecture 3.md",
     "_notes/Exercise - Explore a Dataset.md",
     "_notes/Lecture 2.md",
-    "_notes/Lecture 3.md",
-    "_notes/Lectures.md",
-    "_notes/Lecture 1.md",
+    "Exercise - Explore a Dataset.md",
     "_notes/Exercise - PIN Point.md",
     "_notes/Syllabus.md",
     "_notes/Finding Datasets.md",
