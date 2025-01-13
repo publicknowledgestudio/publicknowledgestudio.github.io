@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 12-01-2025
+date modified: 13-01-2025
 feed: show
 title: "Syllabus"
 ---
@@ -10,6 +10,8 @@ See also: [[Lectures]]
 **Subject Code:** DD325
 **Course Title:** Data Visualization
 Jan to May 2025
+
+**Course Objective:** Learn to use data as a design material to exhibit, explore, explain, experience and enable.
 
 **Tuesdays**
 - 9am - 10am Lecture
