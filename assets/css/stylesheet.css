@@ -2,6 +2,7 @@
 layout: Stylesheet 
 --- 
 @import "fruity.css";
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 
 html,
@@ -69,6 +70,8 @@ html[data-theme="dark"] {
     --padding-normal: 1.2rem;
     --padding-broad: 2rem;
     --padding-thin: 0.8rem;
+    --font-heading: 'Besley', serif;
+    --font-body: -apple-system, 'IBM Plex Sans', BlinkMacSystemFont, sans-serif;
 }
 
 /* 02. Typography */
@@ -78,6 +81,8 @@ html[data-theme="dark"] {
     font-weight: var(--text-weight-normal);
     line-height: var(--text-leading-narrow);
     padding-bottom: 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 h1 {
@@ -85,6 +90,8 @@ h1 {
     line-height: var(--text-leading-narrow);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 h2 {
@@ -92,38 +99,48 @@ h2 {
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-normal) 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 h3 {
-    font-size: var(--text-xl);
+    font-size: var(--text-l);
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 h4 {
-    font-size: var(--text-l);
+    font-size: var(--text-m);
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 h5 {
-    font-size: var(--text-l);
+    font-size: var(--text-m);
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-thin) 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 h6 {
-    font-size: var(--text-m);
+    font-size: var(--text-s);
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
+    font-family: var(--font-heading);
+    margin: 0;
 }
 
 p {
-    font-size: var(--text-m);
+    font-size: var(--text-s);
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-normal);
     margin: 0 0 1em 0;
@@ -142,6 +159,7 @@ h4,
 h5,
 h6 {
     margin: 0;
+    margin-block-end: .1em;
 }
 
 p a,
@@ -173,10 +191,11 @@ strong {
 
 html {
     scroll-behavior: smooth;
-    font-family: -apple-system, 'IBM Plex Sans', BlinkMacSystemFont, sans-serif;
+    font-family: var(--font-body);
     -webkit-text-size-adjust: 100%;
     font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss06' on, 'ss07' on;
     font-kerning: normal;
+    font-size: 14px;
 }
 
 body {
