@@ -12,7 +12,7 @@ See also: [[Syllabus]]
 **Morning**
 - Data, Information, Processing Data to Information
 - Infographics, Data Visualisation
-- **Exercise:** [[Data Selfie]]
+- **Exercise:** [[_notes/Exercise - Data Selfie]]
 **Afternoon**
 - Data models - Levels of measurements
 - **Homework:** Data Viz software tool presentations

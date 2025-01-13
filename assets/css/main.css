@@ -1123,7 +1123,6 @@ a.box-feed:active {
   border-left: 5px solid var(--color-border-light);
 }
 .content ol {
-  list-style-position: inside;
   }
   .content ol:not([type]) {
     list-style-type: decimal;
@@ -1140,11 +1139,18 @@ ol p {
         display: contents;
     }      
 .content ul {
-  list-style: inside;
-  margin-top: 1rem; 
-  padding-left: 0.4rem;
-  margin-block: 0;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  unicode-bidi: isolate;
 }
+
+
+
   .content ul ul {
     list-style-type: ;
     margin-top: 0.5em;

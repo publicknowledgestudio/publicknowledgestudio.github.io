@@ -1,11 +1,11 @@
 ---
 date: 12-01-2025
-date modified: 12-01-2025
+date modified: 13-01-2025
 feed: show
 title: "Resources"
 ---
-# What Can We Do with Data?
 
+**What Can We Do with Data?**
 Below is an overview of five main approaches to working with data, along with potential outcomes and examples.
 
 ## 1. Exhibit
@@ -14,7 +14,7 @@ Below is an overview of five main approaches to working with data, along with po
 
 **Techniques**:  
 
-- **List**: Organized bullet points or enumerations of data.  
+- **List**:Organized bullet points or enumerations of data.  
 
 - **Table**: Rows and columns to compare different aspects easily.  
 
