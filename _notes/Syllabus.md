@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 13-01-2025
+date modified: 14-01-2025
 feed: show
 title: "Syllabus"
 ---
@@ -52,6 +52,12 @@ Jan to May 2025
 - What can we do with data?
 - Forming insights
 - Data to Information
+
+#### Data Models
+- Structured and unstructured data
+- Semi-structured data
+- Examples of both
+- Structured data - levels of measurement
 
 #### Image models
 - Raster and vector images
