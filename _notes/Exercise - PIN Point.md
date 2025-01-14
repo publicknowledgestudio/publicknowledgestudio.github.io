@@ -1,6 +1,6 @@
 ---
 date: 13-01-2025
-date modified: 13-01-2025
+date modified: 14-01-2025
 feed: show
 title: "Exercise - PIN Point"
 ---
@@ -13,7 +13,9 @@ Download this dataset of synthetic PIN card numbers from Kaggle. Open the .csv f
 
 Are you able to find any interesting insights from the dataset by exploring it? How about by trying to use Search
 
-**Sources**
-There are two blogs that have covered this dataset and done some interesting visualisations. I use some of this material in my presentations.
+**Sources:**
+
+There are two websites that have covered this dataset and done some interesting visualisations. I use some of this material in my presentations. Look through these after you have done your own analysis!
+
 - [Information is Beautiful](https://informationisbeautiful.net/visualizations/most-common-pin-codes/)
 - [PIN analysis - DataGenetics](http://www.datagenetics.com/blog/september32012/index.html)

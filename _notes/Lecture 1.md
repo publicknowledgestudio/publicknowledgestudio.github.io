@@ -14,7 +14,4 @@ title: "Lecture 1"
 
 #### Afternoon
 - Data models - Levels of measurements
-- **Homework:** Data Viz software tool presentations
-
-- Decision-making with data
-- Student Age dataset
+- **Homework Assigned:** Data Viz software tool presentations

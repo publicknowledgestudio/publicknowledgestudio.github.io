@@ -6,7 +6,8 @@ title: "Lecture 3"
 ---
 
 #### Morning
-
+- Decision-making with data
+- Student Age dataset
 #### Afternoon
 
 #### References

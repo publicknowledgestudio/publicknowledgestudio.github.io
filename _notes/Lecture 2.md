@@ -19,7 +19,8 @@ title: "Lecture 2"
 - **Exercise:** [[Exercise - Explore a Dataset]]
 
 #### Afternoon
-- **Presentations:** Data Viz software tool presentations
+- **Presentations:** [[Data Visualisation Tools]]
+- **Exercise:** [[Exercise - Explore a Dataset]] WITH AI!!!
 #### Resources
 
 Some datasets discussed in class:
