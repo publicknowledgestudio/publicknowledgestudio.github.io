@@ -1,13 +1,18 @@
 ---
 date: 07-01-2025
-date modified: 14-01-2025
+date modified: 19-01-2025
 feed: show
 title: "Lecture 3"
 ---
 
+## Exploring Unstructured Data
+
 #### Morning
+- Grading
+- Data models - Images as data
 - Decision-making with data
 - Student Age dataset
+- Exercise: Collect data for a week, table? visualise.
 #### Afternoon
 
 #### References

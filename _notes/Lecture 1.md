@@ -1,11 +1,11 @@
 ---
 date: 07-01-2025
-date modified: 14-01-2025
+date modified: 15-01-2025
 feed: show
 title: "Lecture 1"
 ---
 
-## Introduction
+## Data and Information
 #### Morning
 - Data, Information, Knowledge, Wisdom
 - Processing Data to Information

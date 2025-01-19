@@ -1,17 +1,20 @@
 ---
 date: 12-01-2025
-date modified: 14-01-2025
+date modified: 15-01-2025
 feed: show
 title: "Lectures"
 ---
 
 See also: [[Syllabus]]
 
-#### [[Lecture 1]] - Introduction
+Mid terms 3 march, so
+
+#### [[Lecture 1]] - Data and Information
 *7 January 2025*
-#### [[Lecture 2]] - Data to Information
+#### [[Lecture 2]] - Exploring Structured Data
 *14 January 2025*
-#### [[Lecture 3]] - TBD
+#### [[Lecture 3]] - Exploring Unstructured Data
 *21 January 2025*
 #### [[Lecture 4]] - TBD
 *28 January 2025*
+

@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 12-01-2025
+date modified: 14-01-2025
 feed: show
 title: "Data Visualisation Tools"
 ---
@@ -12,7 +12,7 @@ Some of these tools will require some technical knowledge. If you know some prog
 
 #### No-Code / Low-Code Tools
 1. **Flourish**  
-2. **Tableau**  
+2. **Tableau**
 3. **Infogram**  
 4. **ChartBlocks**  
 5. **Datawrapper**  

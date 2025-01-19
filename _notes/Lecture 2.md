@@ -1,11 +1,11 @@
 ---
 date: 13-01-2025
-date modified: 14-01-2025
+date modified: 19-01-2025
 feed: show
 title: "Lecture 2"
 ---
 
-## Data to Information
+## Exploring Structured Data
 #### Morning
 - Why visualise?
 - Visual representations can lead to insights
@@ -15,7 +15,6 @@ title: "Lecture 2"
 - Exploring datasets
 - Features in datasets
 - Data models - structured and unstructured data
-- Data models - images as data
 - **Exercise:** [[Exercise - Explore a Dataset]]
 
 #### Afternoon

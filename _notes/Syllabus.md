@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 14-01-2025
+date modified: 19-01-2025
 feed: show
 title: "Syllabus"
 ---
@@ -133,3 +133,4 @@ Jan to May 2025
 - Data Interfaces
 - Sci fi interfaces
 - Accessibility [Bring accessibility to charts in your app - WWDC21 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2021/10122/)
+- [Data Visualizations, Charts, and Graphs \| Digital Accessibility​](https://accessibility.huit.harvard.edu/data-viz-charts-graphs)w
