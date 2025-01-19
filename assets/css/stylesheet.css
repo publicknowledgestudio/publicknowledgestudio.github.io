@@ -62,10 +62,13 @@ html[data-theme="dark"] {
     --text-xl: clamp(1.62rem, calc(1.53rem + 0.43vw), 2.22rem);
     --text-xxl: clamp(1.94rem, calc(1.80rem + 0.73vw), 2.96rem);
     --text-jumbo: clamp(2.33rem, calc(2.10rem + 1.15vw), 4rem);
-    --heading-weight-normal: 500;
-    --heading-weight-bold: 700;
-    --text-weight-bold: 600;
+
+    --heading-weight-normal: 400;
+    --heading-weight-bold: 600;
+
     --text-weight-normal: 400;
+    --text-weight-bold: 600;
+
     --text-leading-wide: 1.6em;
     --text-leading-normal: 1.4em;
     --text-leading-narrow: 1.2em;
@@ -135,7 +138,7 @@ h5 {
 h6 {
     font-size: var(--text-s);
     line-height: var(--text-leading-normal);
-    font-weight: var(--heading-weight-normal);   
+    font-weight: var(--heading-weight-bold);   
     padding: var(--padding-thin) 0;
     font-family: var(--font-heading);
     margin: 0;
