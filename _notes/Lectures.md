@@ -1,5 +1,5 @@
 ---
-date: 12-01-2025
+date: 06-01-2025
 date modified: 19-01-2025
 feed: show
 tag: lecture
