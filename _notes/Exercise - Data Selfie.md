@@ -1,7 +1,8 @@
 ---
 date: 12-01-2025
-date modified: 13-01-2025
+date modified: 19-01-2025
 feed: show
+tag: exercise
 title: "Exercise - Data Selfie"
 ---
 ### We are all producing data all the time!
