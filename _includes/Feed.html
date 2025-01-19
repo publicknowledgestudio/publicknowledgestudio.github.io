@@ -46,6 +46,7 @@
      
     <!-- show only items tagged lecture -->
     <div class="related-wrapper">
+        <h5 class="meta-title centre-title">Lectures</h5>
     {% assign note_items = site.notes | sort: "date" | reverse %}
     {% for note_items in note_items %}
         {%- if note_items.feed == "show" and note_items.tags contains "lecture" -%}
@@ -60,6 +61,46 @@
         {%- endif -%}
     {%- endfor -%}
     </div>
+
+        <!-- show only items tagged exercise -->
+        <div class="related-wrapper">
+            <h5 class="meta-title centre-title">Exercises</h5>
+            {% assign note_items = site.notes | sort: "date" | reverse %}
+            {% for note_items in note_items %}
+                {%- if note_items.feed == "show" and note_items.tags contains "exercise" -%}
+                        <div class="notelist-feed">
+                            <a href="{{ site.baseurl }}{{note_items.url}}">
+                                <h6>{{ note_items.title }}</h6>
+                                <p class="excerpt">
+                                    {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
+                                </p>
+                            </a>
+                        </div>
+                {%- endif -%}
+            {%- endfor -%}
+            </div>
+
+        <!-- show everything other than lecture and exercise -->
+        <div class="related-wrapper">
+            <h5 class="meta-title centre-title">Other Notes</h5>
+            {% assign note_items = site.notes | sort: "date" | reverse %}
+            {% for note_items in note_items %}
+                {%- if note_items.feed == "show" and note_items.tags does not contain "lecture" and note_items.tags does not contain "exercise" -%}
+                        <div class="notelist-feed">
+                            <a href="{{ site.baseurl }}{{note_items.url}}">
+                                <h6>{{ note_items.title }}</h6>
+                                <p class="excerpt">
+                                    {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
+                                </p>
+                            </a>
+                        </div>
+                {%- endif -%}
+            {%- endfor -%}
+            </div>
+
+
+
+
 {%-endif -%}
 
 <!--Dynamic List Feed-->
