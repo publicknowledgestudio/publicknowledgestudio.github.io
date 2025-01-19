@@ -85,7 +85,7 @@
             <h5 class="meta-title centre-title">Other Notes</h5>
             {% assign note_items = site.notes | sort: "date" | reverse %}
             {% for note_items in note_items %}
-                {%- if note_items.feed == "show" and note_items.tags does not contain "lecture" and note_items.tags does not contain "exercise" -%}
+                {%- if note_items.feed == "show" and note_items.tags contains "lecture" != true and note_items.tags contains "exercise" != true -%}
                         <div class="notelist-feed">
                             <a href="{{ site.baseurl }}{{note_items.url}}">
                                 <h6>{{ note_items.title }}</h6>
