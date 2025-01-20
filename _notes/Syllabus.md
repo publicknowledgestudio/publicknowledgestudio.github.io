@@ -111,6 +111,7 @@ Jan to May 2025
 #### Geospatial visualisations
 - Mapping and cartography
 - History of maps
+- [MIT Senseable City Lab](https://senseable.mit.edu/)
 - Relevant [xkcd: Map Projections](https://xkcd.com/977/)
 - With a large enough sample size everything is a population map [xkcd: Heatmap](https://xkcd.com/1138/) [\[OC\] Geospatial density of the biggest fast food chains in the USA : r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/zkercv/oc_geospatial_density_of_the_biggest_fast_food/)
 - Exercise: Making a map

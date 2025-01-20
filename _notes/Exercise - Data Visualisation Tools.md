@@ -49,3 +49,8 @@ Some of these tools will require some technical knowledge. If you know some prog
 ### Due Date
 
 Presentations on 14 Jan and 21 Jan 2025.
+
+#### Submission Format
+
+- 5 minute presentation in class
+- Google Slides or PDF to be uploaded to the Class Google Drive

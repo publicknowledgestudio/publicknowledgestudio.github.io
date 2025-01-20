@@ -1,6 +1,6 @@
 ---
 date: 07-01-2025
-date modified: 19-01-2025
+date modified: 20-01-2025
 feed: show
 tag: exercise
 title: "Exercise - Explore a Dataset"
@@ -26,8 +26,9 @@ Based on what you found, what are some hypotheses you have about your data? Come
 
 #### Submission format
 
-Link to dataset
+A Google Doc with:
 
+- Link to dataset
 - Statement 1
 - Statement 2
 - Statement 3
