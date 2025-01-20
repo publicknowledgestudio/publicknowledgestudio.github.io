@@ -28,15 +28,15 @@ baseurl: "/dv"
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
 heading: Data Visualization # Change this 
-content: Obsidian ready Jekyll Theme
+content: Notes for Data Visualization
 copyright:  
-  year: © 2022
+  year: © 2025
   msg: Contents under CC-BY-NC 
 
 # Set title and content for private & broken link tooltop
 privatelinks:
-  title: Private or Broken Links
-  msg: The page you're looking for is either not available or not published yet.
+  title: Note does not exist
+  msg: This note is has not been published (yet).
 
 # Theme level preferences
 # To enable set "enabled : true" else, use "enabled:false"

@@ -19,7 +19,7 @@ title: "Lecture 2"
 - **Exercise:** [[Exercise - Explore a Dataset]]
 
 #### Afternoon
-- **Presentations:** [[Data Visualisation Tools]]
+- **Presentations:** [[_notes/Exercise - Data Visualisation Tools]]
 - **Exercise:** [[Exercise - Explore a Dataset]] WITH AI!!!
 #### Resources
 

@@ -1,23 +1,17 @@
 ---
 date: 11-01-2025
-date modified: 19-01-2025
+date modified: 20-01-2025
 feed: show
 title: "Syllabus"
 ---
 
-See also: [[Lectures]]
+See also: [[Lectures]] | [[Grading]]
 
 **Subject Code:** DD325
 **Course Title:** Data Visualization
 Jan to May 2025
 
 **Course Objective:** Learn to use data as a design material to exhibit, explore, explain, experience and enable.
-
-**Tuesdays**
-- 9am - 10am Lecture
-- 10 am - 1pm Studio
-- 1pm - 2pm Lunch
-- 2pm - 5pm Studio
 
 **Contact Hours:**
 - **Lecture (L):** 1
@@ -128,6 +122,7 @@ Jan to May 2025
 #### Motion in Data Visualisations
 - What can motion add?
 - Shows temporal trends effectively.
+- [If Denmark was 100 people - Ferdio](https://ferdio.com/en/work/statistics-denmark-100-people/)
 #### Interactive Data Dashboards
 - Engages users, allows exploration of data from different angles. Encourages personal discovery and deeper insight.
 - Data Interfaces

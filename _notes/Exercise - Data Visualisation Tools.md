@@ -1,8 +1,9 @@
 ---
 date: 12-01-2025
-date modified: 14-01-2025
+date modified: 20-01-2025
 feed: show
-title: "Data Visualisation Tools"
+tag: exercise
+title: "Exercise - Data Visualisation Tools"
 ---
 ### Activity Details
 

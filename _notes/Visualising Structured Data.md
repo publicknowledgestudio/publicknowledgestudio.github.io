@@ -1,12 +1,14 @@
 ---
 date: 12-01-2025
-date modified: 13-01-2025
+date modified: 20-01-2025
 feed: show
-title: "Resources"
+title: "Visualising Structured Data"
 ---
 
 **What Can We Do with Data?**
 Below is an overview of five main approaches to working with data, along with potential outcomes and examples.
+
+### [Data Viz Project \| Collection of data visualizations to get inspired and find the right type](https://datavizproject.com/)
 
 ## 1. Exhibit
 
@@ -103,6 +105,8 @@ A pocket-book zine showing data visualization through illustration. San Myeong K
 Following the end of the First World War, the poppy became a symbol of commemoration. It was among the first plants to spring to life on Europe's devastated battlefields. Poppy Field reflects on the human cost of war
 
 from the beginning of the 20th Century.
+
+[Climate Tribunal - Paolo CIRIO Artist](https://paolocirio.net/work/climate-tribunal/)
 
 **Reference**  
 
