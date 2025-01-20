@@ -3,14 +3,12 @@ date: 20-01-2025
 date modified: 20-01-2025
 feed: show
 tag: exercise
-title: "Exercise - 3 Visualisations"
+title: "Exercise - Three Ways of Visualising"
 ---
 
 ### Reference
 
-The [Data Viz Project](https://datavizproject.com/) has a collection of data visualizations to get inspired and find the right type for your use case.
-
-They also have a project called [1 dataset. 100 visualizations.](https://100.datavizproject.com/) which visualises a small table in 100 different ways.
+The [Data Viz Project](https://datavizproject.com/) has a collection of data visualizations to get inspired and find the right type for your use case. They also have a project called [1 dataset. 100 visualizations.](https://100.datavizproject.com/) which visualises this small table in 100 different ways.
 
 | Year | Norway | Denmark | Sweden |
 |-----:|-------:|--------:|-------:|
@@ -23,14 +21,14 @@ Find a small table of data that has at least 2x3 cells of data. Use the types of
 
 Here are some examples of tables:
 
-**Streaming Service Usage by Time of Day**
+##### Streaming Service Usage by Time of Day
 
 | **Time of Day** | **Service A** | **Service B** | **Service C** |
 |-----------------|---------------|---------------|---------------|
 | Morning         | 220 users     | 180 users     | 95 users      |
 | Evening         | 400 users     | 290 users     | 240 users     |
 
-**Average Test Scores by Subject and Class**
+##### Average Test Scores by Subject and Class
 
 | **Class** | **Math** | **Science** | **History** |
 | --------- | -------: | ----------: | ----------: |
@@ -38,7 +36,7 @@ Here are some examples of tables:
 | Class B   |       88 |          79 |          92 |
 | Class C   |       71 |          83 |          88 |
 
-**Seasonal Temperatures in 4 Cities**
+##### Seasonal Temperatures in 4 Cities
 
 | **Season** | **City A** | **City B** | **City C** | City D |
 | ---------- | ---------: | ---------: | ---------: | ------ |
@@ -49,8 +47,6 @@ Here are some examples of tables:
 
 3 minute presentation with:
 
-- Your table with [[Levels of Measurement]] for the features
-- Visualisation 1
-- Visualisation 2
-- Visualisation 3
+- Your table of data along with the source, and [[Levels of Measurement]] identified
+- 3 Visualisations with [[Marks and Channels]] for each
 - Any interesting takeaways in finding the data, creating the visualisation, or choices of visualisation.

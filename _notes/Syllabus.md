@@ -5,7 +5,7 @@ feed: show
 title: "Syllabus"
 ---
 
-See also: [[Lectures]] | [[Grading]]
+See also: [[Lectures]] · [[Grading]]
 
 **Subject Code:** DD325
 **Course Title:** Data Visualization
@@ -92,8 +92,9 @@ Jan to May 2025
 - Ben Schneiderman’s Visualization Mantra: “Overview first, zoom and filter, then details on demand.”
 #### Infographics
 - What separates illustrations from infographics?
-#### Lying with Data
+#### Lying with Data // Data and Truth
 - Ethics in Data Visualisation
+- [Photo quiz: This is an experiment about how we view history](https://pudding.cool/2020/10/photo-history/)
 - Data bias - where can it come from
 - Histories - data x design, staged photographs
 - Misleading graphics

@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 12-01-2025
+date modified: 20-01-2025
 feed: show
 title: "Recommended Reading"
 ---
@@ -15,7 +15,7 @@ title: "Recommended Reading"
 
 ### Books
 
-Tamara Munzner, _Visualization Analysis and Design_
+Tamara Munzner, _[Visualization Analysis and Design](https://www.cs.ubc.ca/~tmm/vadbook/)_
 
 Ben Shneiderman, “The eyes have it: A task by data type taxonomy for information visualizations.”
 

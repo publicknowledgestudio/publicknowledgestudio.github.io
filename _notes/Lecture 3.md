@@ -18,9 +18,26 @@ title: "Lecture 3"
 	- How to pick?
 	- [1 dataset. 100 visualizations.](https://100.datavizproject.com/)
 
+[5 Principles of Visual Perception \| Principles of Data Visualization](https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html)
+
+[Principles of Data Visualization](https://ucdavisdatalab.github.io/workshop_data_viz_principles/)
+
 - Decision-making with data
 - Student Age dataset
 - Exercise: Collect data for a week, table? visualise.
+
+#### Image models
+- Raster and vector images
+- What are images made of?
+- Time spent on campus - Rasagy's map of entry, exit
+- Sky maps over covid
+
+#### Text models
+- Qualitative vs. quantitative aspects (word counts, context, sentiment).
+- Challenges of analyzing unstructured text.
+- Word clouds, phrase nets, topic modeling visualizations
+- Leveraging NLP (Natural Language Processing) techniques for deeper insights.
+
 #### Afternoon
 - Data models - Images as data
 	- [Time Magazine Covers - Cultural Analytics Lab](https://lab.culturalanalytics.info/2016/04/timeline-4535-time-magazine-covers-1923.html)
@@ -32,6 +49,8 @@ title: "Lecture 3"
 - [Phototrails — Instagram Cities](https://phototrails.net/instagram-cities/)
 
 Videos as data
+
+[Visualizing 500 Days of Summer by @rasagy](https://rasagy.in/500days/)
 
 Text as data
 

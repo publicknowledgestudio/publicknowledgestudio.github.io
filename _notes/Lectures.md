@@ -6,7 +6,7 @@ tag: lecture
 title: "Lectures"
 ---
 
-See also: [[Syllabus]] | [[Grading]]
+See also: [[Syllabus]] · [[Grading]]
 
 #### Tuesdays
 - **10am - 12:30pm** Lectures + Studio

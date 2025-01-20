@@ -10,6 +10,8 @@ Below is an overview of five main approaches to working with data, along with po
 
 ### [Data Viz Project \| Collection of data visualizations to get inspired and find the right type](https://datavizproject.com/)
 
+[FlowingData - Data Visualization and Statistics](https://flowingdata.com/)
+
 ## 1. Exhibit
 
 **Goal**: Present raw data in a clear, straightforward manner.  

@@ -5,7 +5,7 @@ feed: show
 title: "Grading"
 ---
 
-See also: [[Syllabus]] | [[Lectures]]
+See also: [[Syllabus]] · [[Lectures]]
 
 ## Data Visualization Course Grading Plan
 
@@ -46,13 +46,14 @@ All project ideas must be approved by me at least two weeks prior to the submiss
 
 Team projects, of course, encourage collaboration. You are encouraged to work together on all parts of the project, and must ensure that every team member is involved in all aspects of the project (design, coding, and documentation). Although the team will receive a single grade, each team member will be asked to identify their own work product to ensure equitable division of labor. 
 
-| Team Collaboration                                            | 5   | Coordination, equitable contribution, and conflict resolution.                                                                                                                                                   |
-| ------------------------------------------------------------- | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Research/Implementation                                       | 5   | Quality of research, execution, and adherence to objectives.                                                                                                                                                     |
-| Presentation/Delivery                                         | 5   | Clarity, teamwork during presentation, and audience engagement.                                                                                                                                                  |
-| Innovation/Impact                                             | 5   | Creativity, problem-solving approach, and potential impact of the project.                                                                                                                                       |
-| Contribution Consistency                                      | 5   | Equal and consistent contribution by all team members.                                                                                                                                                           |
-| Total                                                         | 25  |                                                                                                                                                                                                                  |
+| Facets                   | Maximum Points | Evaluation Description                                                     |
+| ------------------------ | -------------- | -------------------------------------------------------------------------- |
+| Team Collaboration       | 5              | Coordination, equitable contribution, and conflict resolution.             |
+| Research/Implementation  | 5              | Quality of research, execution, and adherence to objectives.               |
+| Presentation/Delivery    | 5              | Clarity, teamwork during presentation, and audience engagement.            |
+| Innovation/Impact        | 5              | Creativity, problem-solving approach, and potential impact of the project. |
+| Contribution Consistency | 5              | Equal and consistent contribution by all team members.                     |
+| Total                    | 25             |                                                                            |
 
 #### 4. Final Project (30%)
 
@@ -60,30 +61,15 @@ The final project is an individual project, due during the first week of May, an
 
 Final project ideas must be approved by me at least four weeks before the submission deadline to ensure you receive adequate guidance.
 
-| Technical Accuracy, Methodology, Data Collection and Handling | 5   | Correctness of Data Analysis, coding, or calculations used in the visualization; Data collection methodology if data was collected by student; dataset processing and preparation if using third-party data set; |
-| ------------------------------------------------------------- | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Visualization Design                                          | 5   | Type of visualization used in relation to data-set; adherence to design principles                                                                                                                               |
-| Presentation Skills                                           | 5   | Effectiveness of presentation, clarity in communication, and explanation of the project.                                                                                                                         |
-| Documentation and Clarity                                     | 5   | Clarity of project write-up; including references, explanations, cited sources                                                                                                                                   |
-| Practical Application                                         | 5   | Real-world applicability or usefulness of the project outcomes.                                                                                                                                                  |
-| Critical Insights / Hypothesis                                | 5   | Depth and relevance of hypothesis and other insights communicated through project                                                                                                                                |
-| Total                                                         | 30  |                                                                                                                                                                                                                  |
-
-### Explanation:
-
-Grading Scale
-
-Grades will be assigned based on the following scale:
-
-- A: 90-100%
-
-- B: 80-89%
-
-- C: 70-79%
-
-- D: 60-69%
-
-- F: Below 60%
+| Facets                                                        | Maximum Points | Evaluation Description                                                                                                                                                                                           |
+| ------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Technical Accuracy, Methodology, Data Collection and Handling | 5              | Correctness of Data Analysis, coding, or calculations used in the visualization; Data collection methodology if data was collected by student; dataset processing and preparation if using third-party data set; |
+| Visualization Design                                          | 5              | Type of visualization used in relation to data-set; adherence to design principles                                                                                                                               |
+| Presentation Skills                                           | 5              | Effectiveness of presentation, clarity in communication, and explanation of the project.                                                                                                                         |
+| Documentation and Clarity                                     | 5              | Clarity of project write-up; including references, explanations, cited sources                                                                                                                                   |
+| Practical Application                                         | 5              | Real-world applicability or usefulness of the project outcomes.                                                                                                                                                  |
+| Critical Insights / Hypothesis                                | 5              | Depth and relevance of hypothesis and other insights communicated through project                                                                                                                                |
+| Total                                                         | 30             |                                                                                                                                                                                                                  |
 
 ### Academic Integrity
 

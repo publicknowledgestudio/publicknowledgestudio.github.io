@@ -1,17 +1,21 @@
 ---
 date: 12-01-2025
-date modified: 19-01-2025
+date modified: 20-01-2025
 feed: show
 title: "Courses"
 ---
 
 Data Visualisation Courses at other universities
 
-[Visualization Analysis and Design](https://www.cs.ubc.ca/~tmm/vadbook/)
+#### [Intro to Dataviz - Spring 2024](https://datavis.cs.columbia.edu/2024s_w4995/)
+
+Columbia University
+
+#### [Principles of Data Visualization](https://ucdavisdatalab.github.io/workshop_data_viz_principles/)
+
+UC Davis
 
 #### [Data: Past, Present, and Future](https://data-ppf.github.io/)
-
-Columbia University, 2017-2024
 
 Outlier Conf talks
 

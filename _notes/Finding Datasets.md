@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 14-01-2025
+date modified: 20-01-2025
 feed: show
 title: "Finding Datasets"
 ---
@@ -23,6 +23,10 @@ Similiar government website for US specific data.
 Tidy Tuesday is a weekly social data project organized by the [Data Science Learning Community](https://dslc.io/). They release a dataset every Monday with a goal of providing real-world datasets so that people can learn to work with data.
 
 P.S. They also have a [Podcast](https://www.tidytuesday.com/)!
+
+### [Google Research - Dataset Search](https://datasetsearch.research.google.com/)
+
+Dataset Search is a search engine for datasets. Using a simple keyword search, you can discover datasets hosted in thousands of repositories across the Web.
 
 ---
 
