@@ -16,17 +16,15 @@ title: "Lecture 3"
 - Picking the right visualisation type
 - **Exercise:** [[Exercise - Three Ways of Visualising]]
 - Common mistakes [WTF Visualizations](https://viz.wtf/) | [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html)
-- Human Visual Perceptions and Tradeoffs
-- [5 Principles of Visual Perception \| Principles of Data Visualization](https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html)
 
 #### Afternoon
+
 - **Presentations:** [[Exercise - Data Visualisation Tools]]
 - **Presentations:** [[Exercise - Three Ways of Visualising]]
-- **Data models - Text**
-- Qualitative vs. quantitative aspects (word counts, context, sentiment).
-- Challenges of analyzing unstructured text.
-- Word clouds, phrase nets, topic modeling visualizations
-- Leveraging NLP (Natural Language Processing) techniques for deeper insights.
+
+- Human Visual Perceptions and Tradeoffs
+- [5 Principles of Visual Perception - UC Davis Data Lab](https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html)
+- [Visual variables sheet - Data Viz Handbook](https://www.dropbox.com/s/ggmmqdvnjlapke5/DVHB_VisualVariables_A3.pdf?dl=0)
 
 - **Data models - Images as data**
 - Rasagy's map of entry, exit

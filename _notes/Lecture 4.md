@@ -6,6 +6,12 @@ tag: lecture
 title: "Lecture 4"
 ---
 
+- **Data models - Text**
+- Qualitative vs. quantitative aspects (word counts, context, sentiment).
+- Challenges of analyzing unstructured text.
+- Word clouds, phrase nets, topic modeling visualizations
+- Leveraging NLP (Natural Language Processing) techniques for deeper insights.
+
 - Visualise a dataset. Which tool? Flourish
 	-  Activity with Flourish
 
