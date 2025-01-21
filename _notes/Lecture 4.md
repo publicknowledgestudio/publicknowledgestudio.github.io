@@ -6,6 +6,13 @@ tag: lecture
 title: "Lecture 4"
 ---
 
+- **Presentations:** [[Exercise - Data Visualisation Tools]]
+
+Visual Perception
+
+- Optical Illusions
+- Why is 3D bad?
+
 - **Data models - Text**
 - Qualitative vs. quantitative aspects (word counts, context, sentiment).
 - Challenges of analyzing unstructured text.

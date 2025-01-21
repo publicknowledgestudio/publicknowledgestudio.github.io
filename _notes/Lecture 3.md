@@ -6,7 +6,7 @@ tag: lecture
 title: "Lecture 3"
 ---
 
-## Exploring Unstructured Data
+## Marks & Channels
 
 #### Morning
 - Grading Scheme
@@ -15,11 +15,10 @@ title: "Lecture 3"
 - [[Marks and Channels]]
 - Picking the right visualisation type
 - **Exercise:** [[Exercise - Three Ways of Visualising]]
-- Common mistakes [WTF Visualizations](https://viz.wtf/) | [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html)
+- Common mistakes [WTF Visualizations](https://viz.wtf/) · [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html)
 
 #### Afternoon
 
-- **Presentations:** [[Exercise - Data Visualisation Tools]]
 - **Presentations:** [[Exercise - Three Ways of Visualising]]
 
 - Human Visual Perceptions and Tradeoffs

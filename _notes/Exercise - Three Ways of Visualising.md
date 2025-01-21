@@ -58,3 +58,8 @@ Here are some examples of tables:
 - Your table of data along with the source, and [[Levels of Measurement]] identified
 - 3 Visualisations with [[Marks and Channels]] for each
 - Any interesting takeaways in finding the data, creating the visualisation, or choices of visualisation.
+
+If you are struggling with digital tools, you can:
+
+- Partly generate the chart with Google Sheets/Excel/etc. and then take it into Figma/Photoshop to add things on top of it
+- Draw it on paper

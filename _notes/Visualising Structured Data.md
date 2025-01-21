@@ -1,12 +1,14 @@
 ---
 date: 12-01-2025
-date modified: 20-01-2025
+date modified: 21-01-2025
 feed: show
 title: "Visualising Structured Data"
 ---
 
 **What Can We Do with Data?**
 Below is an overview of five main approaches to working with data, along with potential outcomes and examples.
+
+[An Award-winning Data Visualization Designer \| Visual Cinnamon](https://www.visualcinnamon.com/)
 
 ### [Data Viz Project \| Collection of data visualizations to get inspired and find the right type](https://datavizproject.com/)
 

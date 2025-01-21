@@ -7,6 +7,7 @@ title: "Lecture 2"
 ---
 
 ## Exploring Structured Data
+
 #### Morning
 - Why visualise?
 - Visual representations can lead to insights
@@ -21,6 +22,7 @@ title: "Lecture 2"
 #### Afternoon
 - **Presentations:** [[_notes/Exercise - Data Visualisation Tools]]
 - **Exercise:** [[Exercise - Explore a Dataset]] WITH AI!!!
+
 #### Resources
 
 Some datasets discussed in class:

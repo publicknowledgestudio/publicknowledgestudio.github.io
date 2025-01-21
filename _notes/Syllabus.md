@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 20-01-2025
+date modified: 21-01-2025
 feed: show
 title: "Syllabus"
 ---
@@ -52,6 +52,15 @@ Jan to May 2025
 - Semi-structured data
 - Examples of both
 - Structured data - levels of measurement
+#### Exploring Structured data
+- Dimensions in data
+- Basic Stats
+- Spreadsheets for exploring data
+- Identifying outliers and trends
+- Simple visualisations inside spreadsheets
+- Measures of central tendency - mean, median, mode
+- Frequency
+- Exploratory Data Analysis - Techniques like box plots, histograms, scatter plots to uncover insights.
 
 #### Image models
 - Raster and vector images
@@ -64,16 +73,6 @@ Jan to May 2025
 - Challenges of analyzing unstructured text.
 - Word clouds, phrase nets, topic modeling visualizations
 - Leveraging NLP (Natural Language Processing) techniques for deeper insights.
-
-#### Exploring data
-- Dimensions in data
-- Basic Stats
-- Spreadsheets for exploring data
-- Identifying outliers and trends
-- Simple visualisations inside spreadsheets
-- Measures of central tendency - mean, median, mode
-- Frequency
-- Exploratory Data Analysis - Techniques like box plots, histograms, scatter plots to uncover insights.
 #### Graphical Perception
 - Role of aesthetics, clarity, and function in effective visuals.
 - How structure influences the visualization form
@@ -129,5 +128,8 @@ Jan to May 2025
 - Engages users, allows exploration of data from different angles. Encourages personal discovery and deeper insight.
 - Data Interfaces
 - Sci fi interfaces
+- [Histography - Timeline of History](https://histography.io/)
+- [Royal Constellations](https://royalconstellations.visualcinnamon.com/)
+
 - Accessibility [Bring accessibility to charts in your app - WWDC21 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2021/10122/)
 - [Data Visualizations, Charts, and Graphs \| Digital Accessibility​](https://accessibility.huit.harvard.edu/data-viz-charts-graphs)w
