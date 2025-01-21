@@ -1,5 +1,5 @@
 ---
-date: 21-01-2025
+date: 20-01-2025
 date modified: 21-01-2025
 feed: show
 tag: lecture
@@ -15,11 +15,13 @@ title: "Lecture 3"
 - [[Marks and Channels]]
 - Picking the right visualisation type
 - **Exercise:** [[Exercise - Three Ways of Visualising]]
-- Common mistakes [WTF Visualizations](https://viz.wtf/)
+- Common mistakes [WTF Visualizations](https://viz.wtf/) | [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html)
 - Human Visual Perceptions and Tradeoffs
 - [5 Principles of Visual Perception \| Principles of Data Visualization](https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html)
 
 #### Afternoon
+- **Presentations:** [[Exercise - Data Visualisation Tools]]
+- **Presentations:** [[Exercise - Three Ways of Visualising]]
 - **Data models - Text**
 - Qualitative vs. quantitative aspects (word counts, context, sentiment).
 - Challenges of analyzing unstructured text.
@@ -38,33 +40,3 @@ title: "Lecture 3"
 - **Data models - Films as data**
 - [Visualizing 500 Days of Summer by @rasagy](https://rasagy.in/500days/)
 - [Visualization of movies - Part II - The Batman Trilogy](https://www.smartjava.org/examples/movie-viz/batman.html)
-
----
-
-- Visualise a dataset. Which tool? Flourish
-	-  Activity with Flourish
-
-[Principles of Data Visualization](https://ucdavisdatalab.github.io/workshop_data_viz_principles/)
-
-- Decision-making with data
-- Student Age dataset
-- Exercise: Collect data for a week, table? visualise.
-
-#### Image models
-- Raster and vector images
-- What are images made of?
-- Time spent on campus -
-- Sky maps over covid
-
-- Seeing trends over time
-
-Data models - Videos as data
-
-Text as data
-
-Audio as data?
-
-#### References
-
-- [Data Portrait of the Class](https://blog.gramener.com/data-portraits-personalized-data-sketches/)
-- [The Tu, Tum, Aap Project - Ashris](https://medium.com/@iashris/the-tu-tum-aap-project-visualizing-a-socio-linguistic-network-da23f2c1d7c5)
