@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Exercise - Three Ways of Visualising.md",
+                "file": "_notes/Lectures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise - Three Ways of Visualising"
+              "title": "Lectures"
             }
           }
         ]
@@ -175,15 +175,19 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_notes/Lecture 4.md",
+    "_notes/Lecture 3.md",
+    "_notes/Courses.md",
+    "_notes/Credits.md",
     "_notes/Lectures.md",
+    "_notes/Exercise - Data Selfie.md",
+    "_notes/Exercise - Three Ways of Visualising.md",
     "_notes/Quantified Self.md",
     "_notes/Recommended Reading.md",
     "_notes/Syllabus.md",
     "_notes/Levels of Measurement.md",
     "_notes/Marks and Channels.md",
     "_notes/Visualising Structured Data.md",
-    "_notes/Lecture 4.md",
-    "_notes/Lecture 3.md",
     "_notes/Lecture 2.md",
     "_notes/Lecture 1.md",
     "_notes/Image Models.md",
@@ -191,10 +195,8 @@
     "_notes/Private/Todo.md",
     "_site/lecture-4.html",
     "_site/lecture-31.html",
-    "_notes/Credits.md",
     "_notes/Data Ethics.md",
     "_notes/Data Storytelling and Journalism.md",
-    "_notes/Exercise - Three Ways of Visualising.md",
     "_notes/Grading.md",
     "_site/lecture-3.html",
     "_notes/Exercise - PIN Point.md",
@@ -202,8 +204,6 @@
     "_notes/Geospatial Visualisations.md",
     "_notes/Exercise - Data Visualisation Tools.md",
     "_notes/Exercise - Explore a Dataset.md",
-    "_notes/Exercise - Data Selfie.md",
-    "_notes/About.md",
     "_site/marks-and-channels.html",
     "_site/untitled.html",
     "_site/exercise-three-ways-of-visualising.html",

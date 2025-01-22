@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 19-01-2025
+date modified: 21-01-2025
 feed: show
 tag: exercise
 title: "Exercise - Data Selfie"
@@ -17,7 +17,7 @@ title: "Exercise - Data Selfie"
 - Payment/Splitwise data on UPI
 ### Create a pen and paper visualisation of your personal data
 
-- Collect some personal data, around 15-20 observations should be enough.
+- Collect some personal data, around 15-20 observations should be enough. You can either use one of the sources above or manually record a habit, behaviour or activity or something else.
 - Write or list your data points in a simple tabular format. (e.g., date/time, category, count).
 - Identify any patterns or categories (like “morning vs. evening” or “work vs. personal”). Brainstorm a rough idea of how to visually represent each data point. You can experiment with shapes, lines, colors, or symbols that connect to your theme (e.g., hearts for likes, footprints for steps).
 
