@@ -18,7 +18,7 @@ title: "Lecture 4"
 
 ## Human Visual Perception
 #### Afternoon
-
+- [[Exercise - Critique and Redesign]]
 - Optical Illusions
 - Gestalt Principles
 - Which visual properties for which type of data
