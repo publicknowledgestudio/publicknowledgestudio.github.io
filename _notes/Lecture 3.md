@@ -1,13 +1,12 @@
 ---
 date: 21-01-2025
-date modified: 22-01-2025
+date modified: 28-01-2025
 feed: show
 tag: lecture
 title: "Lecture 3"
 ---
 
 ## Marks & Channels
-
 #### Morning
 - Grading Scheme
 - **Reading:** Chapter 5 of Tamara Munzner's Visualization Analysis and Design
@@ -17,13 +16,10 @@ title: "Lecture 3"
 - **Exercise:** [[Exercise - Three Ways of Visualising]]
 - Common mistakes [WTF Visualizations](https://viz.wtf/) · [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html)
 
+## Unstructured Data
+
 #### Afternoon
-
 - **Presentations:** [[Exercise - Three Ways of Visualising]]
-
-- Human Visual Perceptions and Tradeoffs
-- [5 Principles of Visual Perception - UC Davis Data Lab](https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html)
-- [Visual variables sheet - Data Viz Handbook](https://www.dropbox.com/s/ggmmqdvnjlapke5/DVHB_VisualVariables_A3.pdf?dl=0)
 
 - **Data models - Images as data**
 - Rasagy's map of entry, exit

@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 21-01-2025
+date modified: 27-01-2025
 feed: show
 title: "Syllabus"
 ---
@@ -100,6 +100,9 @@ Jan to May 2025
 - Common fallacies
 - Spurious correlations
 #### Storytelling with data
+
+[Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC - YouTube](https://www.youtube.com/watch?v=jbkSRLYSojo)
+
 - Structuring data narratives with a clear beginning, middle, and end.
 - Who is this for?
 - New York Times interactive visual stories.

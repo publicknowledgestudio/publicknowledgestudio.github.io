@@ -1,6 +1,6 @@
 ---
 date: 06-01-2025
-date modified: 21-01-2025
+date modified: 28-01-2025
 feed: show
 tag: lecture
 title: "Lectures"
@@ -18,20 +18,20 @@ See also: [[Syllabus]] · [[Grading]]
 #### [[Lecture 2]] - Exploring Structured Data
 *14 January 2025*
 
-#### [[Lecture 3]] - Marks & Channels
+#### [[Lecture 3]] - Marks & Channels + Unstructured Data
 *21 January 2025*
 
-#### [[Lecture 4]] - Human Visual Perception
+#### [[Lecture 4]] - Making Charts + Human Visual Perception
 *28 January 2025*
 
-#### [[Lecture 5]] - Exploring Unstructured Data
+#### [[Lecture 5]]
 *4 February 2025*
 - Create groups for Midterm Project
 - Discuss topics
 
 No lecture on 11 February 2025 (Techfest/Engifest)
 
-#### [[Lecture 6]]
+#### [[Lecture 6]] - Exploring Unstructured Data
 *18 February 2025*
 - Finalise topics for Midterm project
 #### [[Lecture 7]]

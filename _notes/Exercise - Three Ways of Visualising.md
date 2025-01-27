@@ -1,27 +1,14 @@
 ---
 date: 20-01-2025
-date modified: 21-01-2025
+date modified: 28-01-2025
 feed: show
 tag: exercise
 title: "Exercise - Three Ways of Visualising"
 ---
 
-### Reference
+### Reference Material
 
-##### [From Data to Viz](https://www.data-to-viz.com/)
-
-Find the graphic you need. Has a handy flow chart to decide on the basis of what your data looks like.
-
-##### [Data Viz Project](https://datavizproject.com/)
-
-Collections of data visualizations to get inspired and find the right type for your use case.
-
-They also have a project called [1 dataset. 100 visualizations.](https://100.datavizproject.com/) which visualises this small table in 100 different ways.
-
-| Year | Norway | Denmark | Sweden |
-|-----:|-------:|--------:|-------:|
-| 2004 | 5      | 4       | 13     |
-| 2022 | 8      | 10      | 15     |
+See [[Which Chart to Use]] for a list of reference material that show the different types of visualisations and the types of charts that can be used to represent them.
 
 ### Instructions
 
