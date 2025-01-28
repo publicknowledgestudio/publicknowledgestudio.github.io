@@ -8,7 +8,7 @@ title: "Lecture 4"
 
 ## Making Charts
 #### Morning
-
+- **Reading:** Chapter 9 (Page 209-222) from Good Charts by Scott Berinato
 - **Presentations:** [[Exercise - Data Visualisation Tools]]
 - **Presentations:** [[Exercise - Three Ways of Visualising]]
 

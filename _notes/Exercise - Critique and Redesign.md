@@ -12,9 +12,11 @@ See [[Which Chart to Use]] for a list of reference material that show the differ
 
 ### Instructions
 
+Create teams of 2. If you are comfortable with a visualisation tool, try pairing up with someone who is struggling.
+
 The Hindu Publishes [Data Stories](https://www.thehindu.com/data/) about a variety of topics. These stories find interesting data insights and present them to the reader. Find a story in an area that you like, and critique the choice of visualisation. Why does it work or not work for the data? Is it easy to read and understand? Does it support the point that the story is trying to make?
 
-Then, try and come up with a better visualisation for the the same data. What did you change? Why is it better?
+Then, try and come up with a better visualisation for the the same data. What did you change? Why is it better? Try using Flourish to make the redesigned visualisation.
 
 Note: Some of the stories require a premium subscription to The Hindu. The rest can be accessed by creating a free account.
 

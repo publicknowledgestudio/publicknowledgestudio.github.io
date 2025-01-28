@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 27-01-2025
+date modified: 28-01-2025
 feed: show
 title: "Syllabus"
 ---
@@ -92,6 +92,8 @@ Jan to May 2025
 #### Infographics
 - What separates illustrations from infographics?
 #### Lying with Data // Data and Truth
+- What can be measured? Literacy rate - what is literate?
+- Rich people by state - tax returns >1cr
 - Ethics in Data Visualisation
 - [Photo quiz: This is an experiment about how we view history](https://pudding.cool/2020/10/photo-history/)
 - Data bias - where can it come from
