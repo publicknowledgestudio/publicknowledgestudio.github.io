@@ -1638,8 +1638,9 @@ fieldset[disabled] .button {
 
 
 .content blockquote {
+  margin-inline-start: 0;
   background-color: var(--color-bg-main);
-  border-left: 5px solid var(--color-border-light);
+  border-left: 5px solid var(--color-text-link);
 }
 
 .content ol {}
