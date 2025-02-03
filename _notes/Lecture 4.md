@@ -7,7 +7,7 @@ title: "Lecture 4"
 ---
 
 > **Link to Slides**
-> [[Data Viz - Lecture 4 - 28 Jan 2025.pdf]]
+> [Data Viz - Lecture 4 - 28 Jan 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 4 - 28 Jan 2025.pdf)
 
 ## Making Charts
 #### Morning

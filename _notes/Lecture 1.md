@@ -7,7 +7,7 @@ title: "Lecture 1"
 ---
 
 > **Link to Slides**
-> [[Data Viz - Lecture 1 - 7 Jan 2025.pdf]]
+> [Data Viz - Lecture 1 - 7 Jan 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 1 - 7 Jan 2025.pdf)
 
 ## Data and Information
 
