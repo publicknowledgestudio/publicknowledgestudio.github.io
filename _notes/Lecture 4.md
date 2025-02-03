@@ -1,10 +1,13 @@
 ---
 date: 27-01-2025
-date modified: 28-01-2025
+date modified: 03-02-2025
 feed: show
 tag: lecture
 title: "Lecture 4"
 ---
+
+> **Link to Slides**
+> [[Data Viz - Lecture 4 - 28 Jan 2025.pdf]]
 
 ## Making Charts
 #### Morning

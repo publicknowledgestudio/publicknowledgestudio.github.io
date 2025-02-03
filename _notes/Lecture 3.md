@@ -1,10 +1,14 @@
 ---
 date: 21-01-2025
-date modified: 28-01-2025
+date modified: 03-02-2025
 feed: show
 tag: lecture
 title: "Lecture 3"
 ---
+
+> **Link to Slides**
+> [[Data Viz - Lecture 3a - 21 Jan 2025.pdf]]
+> [[Data Viz - Lecture 3b - 21 Jan 2025.pdf]]
 
 ## Marks & Channels
 #### Morning

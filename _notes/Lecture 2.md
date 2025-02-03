@@ -1,10 +1,13 @@
 ---
 date: 14-01-2025
-date modified: 21-01-2025
+date modified: 03-02-2025
 feed: show
 tag: lecture
 title: "Lecture 2"
 ---
+
+> **Link to Slides**
+> [[Data Viz - Lecture 2 - 14 Jan 2025.pdf]]
 
 ## Exploring Structured Data
 
