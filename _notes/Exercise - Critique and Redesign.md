@@ -1,6 +1,6 @@
 ---
 date: 20-01-2025
-date modified: 28-01-2025
+date modified: 03-02-2025
 feed: show
 tag: exercise
 title: "Exercise - Critique and Redesign"
@@ -8,7 +8,7 @@ title: "Exercise - Critique and Redesign"
 
 ### Reference Material
 
-See [[Which Chart to Use]] for a list of reference material that show the different types of visualisations and the types of charts that can be used to represent them.
+See [[Which Chart to Use]] for a list of reference material that show the different types of data and the types of charts that can be used to represent them.
 
 ### Instructions
 
@@ -29,3 +29,13 @@ Upto 5 minute presentation with:
 - Issues identified with the existing visualisation
 - Your redesigned visualisation
 - What did you change? How is it better now?
+
+### FAQ
+
+**I can't figure out where the article sourced the data from. What do I do?**
+
+If you can back-calculate the data values from the chart, you can do that. If there are too many values and you feel like you'll spend too much time doing that, look for another story.
+
+**Can I use a source other than The Hindu Data Point?**
+
+Yes, but make sure it's a data journalism piece that is using data to tell a story or explain something. Another great source is [Data For India](https://www.dataforindia.com/).

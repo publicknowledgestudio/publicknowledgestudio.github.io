@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 20-01-2025
+date modified: 03-02-2025
 feed: show
 title: "Recommended Reading"
 ---
@@ -28,3 +28,5 @@ D’Ignazio, C., & Klein, L. F. (2023). _[Data Feminism](https://data-feminism.m
 [Alberto Cairo's The Art of Insight \| Substack](https://theartofinsight.substack.com/)
 
 [Florence Nightingale is a Design Hero \| by RJ Andrews \| Nightingale \| Medium](https://medium.com/nightingale/florence-nightingale-is-a-design-hero-8bf6e5f2147)
+
+[Data For India](https://www.dataforindia.com/)
