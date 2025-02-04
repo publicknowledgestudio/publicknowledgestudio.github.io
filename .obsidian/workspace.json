@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Lecture 1.md",
+                "file": "_notes/Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1"
+              "title": "Lecture 5"
             }
           }
         ]
@@ -175,15 +175,20 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
-    "gyanl.com/dv/pdf/Data.md",
+    "_notes/Lectures.md",
+    "_notes/Lecture 5.md",
+    "_notes/Lecture 4.md",
+    "_notes/Lecture 6.md",
+    "_notes/Exercise - Lying with Data.md",
+    "_notes/Private/Lecture 5.md",
+    "_notes/Lecture 3.md",
+    "_notes/Lecture 2.md",
     "_notes/Lecture 1.md",
+    "gyanl.com/dv/pdf/Data.md",
     "gyanl.com/dv/pdf",
     "gyanl.com/dv",
     "gyanl.com",
     "_notes/Exercise - Critique and Redesign.md",
-    "_notes/Lecture 4.md",
-    "_notes/Lecture 3.md",
-    "_notes/Lecture 2.md",
     "assets/pdf/Data Viz - Lecture 4 - 28 Jan 2025.pdf",
     "assets/pdf/Data Viz - Lecture 3b - 21 Jan 2025.pdf",
     "assets/pdf/Data Viz - Lecture 3a - 21 Jan 2025.pdf",
@@ -199,18 +204,13 @@
     "_notes/Syllabus.md",
     "_notes/Visualising Structured Data.md",
     "_notes/Exercise - PIN Point.md",
-    "_notes/Lecture 5.md",
-    "_notes/Private/Lecture 5.md",
     "_notes/Private/Exercise - PIN Point.md",
-    "_notes/Lectures.md",
     "_notes/Courses.md",
     "_notes/Credits.md",
     "_notes/Data Ethics.md",
     "_notes/Data Storytelling and Journalism.md",
     "Which Chart to Use.md",
     "_notes/Finding Datasets.md",
-    "Exercise - Data Portrait.md",
-    "_notes/Grading.md",
     "_site/assets/img/ogdv.jpg",
     "assets/img/ogdv.jpg",
     "_site/assets/img/waldo.png",

@@ -1,6 +1,6 @@
 ---
 date: 06-01-2025
-date modified: 28-01-2025
+date modified: 04-02-2025
 feed: show
 tag: lecture
 title: "Lectures"
@@ -24,16 +24,17 @@ See also: [[Syllabus]] · [[Grading]]
 #### [[Lecture 4]] - Making Charts + Human Visual Perception
 *28 January 2025*
 
-#### [[Lecture 5]]
+#### [[Lecture 5]] - Data tells Stories
 *4 February 2025*
 - Create groups for Midterm Project
 - Discuss topics
 
-No lecture on 11 February 2025 (Techfest/Engifest)
-
 #### [[Lecture 6]] - Exploring Unstructured Data
-*18 February 2025*
+*11 February 2025*
 - Finalise topics for Midterm project
+
+No lecture on 18 February 2025 (Techfest/Engifest)
+
 #### [[Lecture 7]]
 *25 February 2025*
 
