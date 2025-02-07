@@ -12,8 +12,9 @@ title: "Lecture 5"
 - The [Trifecta Check](https://junkcharts.typepad.com/junk_charts/junk-charts-trifecta-checkup-the-definitive-guide.html) for Critiquing Data Vis Projects
 - [WTF Visualizations](https://viz.wtf/)
 - [IIT graduates dominate the tech scene in India and abroad - Rest of World](https://restofworld.org/2023/iit-graduates-dominate-tech/)
+- [Arctic Death Spiral](https://www.arcticdeathspiral.org/)
 - Rules for Class Crits
-- **Presentations:** [[Exercise - Three Ways of Visualising]]
+- **Presentations:** [[Exercise - Critique and Redesign]]
 #### Afternoon
 
 - Create groups for Midterm Project

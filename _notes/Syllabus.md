@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 28-01-2025
+date modified: 07-02-2025
 feed: show
 title: "Syllabus"
 ---
@@ -74,13 +74,12 @@ Jan to May 2025
 - Word clouds, phrase nets, topic modeling visualizations
 - Leveraging NLP (Natural Language Processing) techniques for deeper insights.
 #### Graphical Perception
+- Data-ink ratio
 - Role of aesthetics, clarity, and function in effective visuals.
-- How structure influences the visualization form
-	- tree diagrams, node-link diagrams
-	- Bar, line, pie, scatter plots, etc.
-	- Minimizing visual clutter and maximizing data-ink ratio
-	- Contrast, Alignment, Repetition, Proximity
-	Accuracy of Different Chart Types - Cleveland and McGill studies on how people interpret lengths, angles, and areas.
+- Gestalt principles
+- Minimizing visual clutter and maximizing information density
+- Contrast, Alignment, Repetition, Proximity
+- Accuracy of Different Chart Types - Cleveland and McGill studies on how people interpret lengths, angles, and areas.
 - **Visual Encoding:** Color, Shape, Size
 - Color wheels, complementary, analogous, triadic color schemes.
 - Color for cartography
@@ -88,9 +87,17 @@ Jan to May 2025
 - **Visual Design:** Typography, Spacing, Emphasis
 - Plane graphic
 - Negative space
-- Ben Schneiderman’s Visualization Mantra: “Overview first, zoom and filter, then details on demand.”
+
 #### Infographics
 - What separates illustrations from infographics?
+#### Making Good Charts
+
+- **Tufte: Data-ink ratio**
+- Ben Schneiderman’s Visualization Mantra: “Overview first, zoom and filter, then details on demand.”
+
+- How structure influences the visualization form
+- tree diagrams, node-link diagrams
+- Bar, line, pie, scatter plots, etc.
 #### Lying with Data // Data and Truth
 - What can be measured? Literacy rate - what is literate?
 - Rich people by state - tax returns >1cr
