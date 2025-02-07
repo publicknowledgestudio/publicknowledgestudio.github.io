@@ -1,6 +1,6 @@
 ---
 date: 14-01-2025
-date modified: 03-02-2025
+date modified: 07-02-2025
 feed: show
 tag: lecture
 title: "Lecture 2"
@@ -9,7 +9,7 @@ title: "Lecture 2"
 > **Link to Slides**
 > [Data Viz - Lecture 2 - 14 Jan 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 2 - 14 Jan 2025.pdf)
 
-## Exploring Structured Data
+## Structured Data
 
 #### Morning
 - Why visualise?
@@ -23,7 +23,7 @@ title: "Lecture 2"
 - **Exercise:** [[Exercise - Explore a Dataset]]
 
 #### Afternoon
-- **Presentations:** [[_notes/Exercise - Data Visualisation Tools]]
+- **Presentations:** [[Data Visualisation Tools]]
 - **Exercise:** [[Exercise - Explore a Dataset]] WITH AI!!!
 
 #### Resources

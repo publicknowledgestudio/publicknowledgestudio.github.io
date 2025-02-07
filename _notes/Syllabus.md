@@ -41,38 +41,52 @@ Jan to May 2025
 # Detailed Structure
 
 #### Data and Information
-- Data
-- Information
+- Data, Information, Knowledge, Wisdom
+- **Exercise:** [[Exercise - Data Selfie]]
 - What can we do with data?
-- Forming insights
+- Exhibit, Explain, Explore, Experience, Enable
 - Data to Information
-
-#### Data Models
-- Structured and unstructured data
+- Forming insights
+- Levels of Measurement
+- Conceptual v/s Measurable Data
+- Infographics
+- What separates illustrations from infographics?
+#### Types of Data
+- **Exercise:** [[Exercise - PIN Point]]
+- Structured data (Tables)
 - Semi-structured data
-- Examples of both
-- Structured data - levels of measurement
+- Unstructured data (Longform text, images, audio, film)
 #### Exploring Structured data
 - Dimensions in data
 - Basic Stats
 - Spreadsheets for exploring data
+- **Exercise:** [[Exercise - Explore a Dataset]]
+- **Exercise:** [[Exercise - Explore a Dataset]] with AI!
 - Identifying outliers and trends
 - Simple visualisations inside spreadsheets
 - Measures of central tendency - mean, median, mode
 - Frequency
-- Exploratory Data Analysis - Techniques like box plots, histograms, scatter plots to uncover insights.
-
-#### Image models
-- Raster and vector images
-- What are images made of?
-- Time spent on campus - Rasagy's map of entry, exit
-- Sky maps over covid
-
-#### Text models
+- Exploratory Data Analysis - simple charts to uncover trends
+#### Text as Data
 - Qualitative vs. quantitative aspects (word counts, context, sentiment).
 - Challenges of analyzing unstructured text.
 - Word clouds, phrase nets, topic modeling visualizations
 - Leveraging NLP (Natural Language Processing) techniques for deeper insights.
+#### Images as Data
+- Raster and vector images
+- What are images made of?
+- Time spent on campus - Rasagy's map of entry, exit
+- Sky maps over covid
+- Data models - Films as data
+- [Visualizing 500 Days of Summer by @rasagy](https://rasagy.in/500days/)
+- [Visualization of movies - Part II - The Batman Trilogy](https://www.smartjava.org/examples/movie-viz/batman.html)
+
+#### Marks & Channels
+- Encoding Data into Visuals
+- [[Marks and Channels]]
+- Picking the right visualisation type
+- **Exercise:** [[Exercise - Three Ways of Visualising]]
+- Common mistakes [WTF Visualizations](https://viz.wtf/) · [Data to Viz Caveats](https://www.data-to-viz.com/caveats.html)
 #### Graphical Perception
 - Data-ink ratio
 - Role of aesthetics, clarity, and function in effective visuals.
@@ -87,18 +101,30 @@ Jan to May 2025
 - **Visual Design:** Typography, Spacing, Emphasis
 - Plane graphic
 - Negative space
+#### Types of Charts
+- [From Data to Viz](https://www.data-to-viz.com/)
+- [Data Viz Project](https://datavizproject.com/)
+- [Visual Vocabulary Poster - Financial Times ](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/FT4schools_RGS.pdf)
+- [Visual variables sheet - Data Viz Handbook](https://www.dropbox.com/s/ggmmqdvnjlapke5/DVHB_VisualVariables_A3.pdf?dl=0)
 
-#### Infographics
-- What separates illustrations from infographics?
 #### Making Good Charts
-
 - **Tufte: Data-ink ratio**
 - Ben Schneiderman’s Visualization Mantra: “Overview first, zoom and filter, then details on demand.”
 
 - How structure influences the visualization form
 - tree diagrams, node-link diagrams
 - Bar, line, pie, scatter plots, etc.
+#### Storytelling with data
+- Structuring data narratives with a clear beginning, middle, and end.
+- Who is this for?
+- [Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC - YouTube](https://www.youtube.com/watch?v=jbkSRLYSojo)
+- New York Times interactive visual stories.
+- Gapminder (Hans Rosling) for data-driven storytelling.
+- Finding datasets
+- Exploring datasets
+- Finding insights
 #### Lying with Data // Data and Truth
+- Alberto Cairo - How Charts Lie
 - What can be measured? Literacy rate - what is literate?
 - Rich people by state - tax returns >1cr
 - Ethics in Data Visualisation
@@ -108,17 +134,6 @@ Jan to May 2025
 - Misleading graphics
 - Common fallacies
 - Spurious correlations
-#### Storytelling with data
-
-[Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC - YouTube](https://www.youtube.com/watch?v=jbkSRLYSojo)
-
-- Structuring data narratives with a clear beginning, middle, and end.
-- Who is this for?
-- New York Times interactive visual stories.
-- Gapminder (Hans Rosling) for data-driven storytelling.
-- Finding datasets
-- Exploring datasets
-- Finding insights
 #### Geospatial visualisations
 - Mapping and cartography
 - History of maps

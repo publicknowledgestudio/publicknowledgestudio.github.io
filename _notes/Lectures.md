@@ -15,7 +15,7 @@ See also: [[Syllabus]] · [[Grading]]
 #### [[Lecture 1]] - Data and Information
 *7 January 2025*
 
-#### [[Lecture 2]] - Exploring Structured Data
+#### [[Lecture 2]] - Structured Data
 *14 January 2025*
 
 #### [[Lecture 3]] - Marks & Channels + Unstructured Data
@@ -27,7 +27,7 @@ See also: [[Syllabus]] · [[Grading]]
 #### [[Lecture 5]] - Convincing with Data
 *4 February 2025*
 
-#### [[Lecture 6]] - Telling Stories
+#### [[Lecture 6]] - Storytelling
 *11 February 2025*
 - Create groups for Midterm Project
 - Present and finalise topics
@@ -37,7 +37,7 @@ See also: [[Syllabus]] · [[Grading]]
 No lecture on 18 February 2025 (Techfest/Engifest)
 
 ---
-#### [[Lecture 7]]
+#### [[Lecture 7]] - Unstructured Data
 *25 February 2025*
 
 #### Midterm Exam/Project Presentations

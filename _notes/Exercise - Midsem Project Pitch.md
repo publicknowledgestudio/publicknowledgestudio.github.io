@@ -8,4 +8,4 @@ title: "Exercise - Midsem Project Pitch"
 
 ### Reference Material
 
-Create a project pitch for 
+Create a project pitch for
