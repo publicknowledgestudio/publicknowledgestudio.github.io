@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 20-01-2025
+date modified: 09-02-2025
 feed: show
 title: "Finding Datasets"
 ---
@@ -27,6 +27,10 @@ P.S. They also have a [Podcast](https://www.tidytuesday.com/)!
 ### [Google Research - Dataset Search](https://datasetsearch.research.google.com/)
 
 Dataset Search is a search engine for datasets. Using a simple keyword search, you can discover datasets hosted in thousands of repositories across the Web.
+
+### [Information is Beautiful - Data](https://informationisbeautiful.net/data/)
+
+all our best data.
 
 ---
 
