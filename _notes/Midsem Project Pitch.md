@@ -2,9 +2,8 @@
 date: 04-02-2025
 date modified: 09-02-2025
 feed: show
-title: "Midsem Exams"
+title: "Midsem Project Pitch"
 ---
-### Midsem Project Pitch
 
 Pitch a data visualisation project that you would like to work on. Here are some ideas, but you can also pitch something else.
 
@@ -16,9 +15,8 @@ Set up a system where people can come and add to your visualisation. This could 
 Example: [The Mood Test \| Domestic Data Streamers](https://www.domesticstreamers.com/art-research/work/the-mood-test/)
 
 **Multimedia data visualisation**
-Convert a dataset (weather, stock market, public sentiment) into an unexpected format like musical notes, rhythms, or sound waves.
+Convert a dataset (weather, stock market, public sentiment) into an unexpected format like musical notes, rhythms, lights, vibrations or motion.
 Ask people to describe their dreams and use AI-generated images and motion graphics to form dream trend visualizations (e.g., common themes like flying, falling, being chased).
-What does a Poori sound like?
 Example: [Play a Kandinsky — Google Arts & Culture](https://artsandculture.google.com/experiment/play-a-kandinsky/sgF5ivv105ukhA?hl=en)
 
 **Study an unusual thing**
