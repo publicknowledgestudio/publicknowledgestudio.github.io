@@ -35,7 +35,11 @@ The [Data Visualization Society](https://www.datavisualizationsociety.org) holds
 
 ### Submission format
 
-A presentation with:
+A 3 minute class presentation on 11 Feb (Tuesday)
+
+OR
+
+An email to gyanlakhwani@gmail.com by 14 Feb (Friday)
 
 - You team of 1-3 people
 - What do you want to visualise?
@@ -46,3 +50,4 @@ A presentation with:
 - What tools would you use?
 - What will your output format be?
 
+I will give you some pointers on things you could look into or clarify. If I feel the project is either too ambitious or not ambitious enough I may ask you to consider changing the scope. However, this is your project and it is up to you to decide what you work on and submit.
