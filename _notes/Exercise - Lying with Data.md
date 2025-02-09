@@ -1,11 +1,10 @@
 ---
-date: 04-02-2025
+date: 12-02-2025
 date modified: 09-02-2025
 feed: show
 tag: exercise
 title: "Exercise - Lying with Data"
 ---
-
 ### Reference Material
 
 See [[Which Chart to Use]] for a list of reference material that show the different types of data and the types of charts that can be used to represent them.
@@ -18,12 +17,7 @@ Alternatively, design a news-style or marketing graphic that has been manipulate
 
 ### Submission format
 
+-
 ### FAQ
 
-**I can't figure out where the article sourced the data from. What do I do?**
-
-If you can back-calculate the data values from the chart, you can do that. If there are too many values and you feel like you'll spend too much time doing that, look for another story.
-
-**Can I use a source other than the two listed here?**
-
-Yes, but make sure it's a data journalism piece that is using data to tell a story or explain something.
+-

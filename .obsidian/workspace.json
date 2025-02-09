@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Field Trip - Bird Noticing.md",
+                "file": "_notes/Exercise - Self Visualising System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Field Trip - Bird Noticing"
+              "title": "Exercise - Self Visualising System"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Exercise - Lying with Data.md",
+                "file": "_notes/Credits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise - Lying with Data"
+              "title": "Credits"
             }
           }
         ]
@@ -193,18 +193,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19cebb5adcf058e0",
+  "active": "855d0d8fdf17f8a6",
   "lastOpenFiles": [
-    "_notes/Exercise - Midsem Project Pitch.md",
+    "_notes/Field Trip - Bird Noticing.md",
+    "_notes/Field Trip - Library.md",
     "_notes/Exercise - Lying with Data.md",
+    "_notes/Exercise - Data Visualisation Tools.md",
+    "_notes/Exercise - Explore a Dataset.md",
+    "_notes/Exercise - Midsem Project Pitch.md",
+    "_notes/Exercise - Self Visualising System.md",
+    "_notes/Exercise - Three Ways of Visualising.md",
     "_notes/Midsem Project Pitch.md",
     "_notes/Quantified Self.md",
-    "_notes/Exercise - Data Visualisation Tools.md",
     "_notes/Exercise - Data Selfie.md",
     "_notes/Exercise - Critique and Redesign.md",
     "_notes/Data Storytelling and Journalism.md",
-    "_notes/Exercise - Self Visualising System.md",
-    "_notes/Field Trip - Bird Noticing.md",
     "_notes/Geospatial Visualisation.md",
     "_notes/Grading.md",
     "_notes/Image Models.md",
@@ -218,9 +221,6 @@
     "_notes/Lectures.md",
     "_notes/Visualising Structured Data.md",
     "_notes/Lecture 5.md",
-    "_notes/Rules for Class Crits.md",
-    "_notes/Exercise - Three Ways of Visualising.md",
-    "_notes/Lecture 4.md",
     "gyanl.com/dv/pdf",
     "gyanl.com/dv",
     "gyanl.com",

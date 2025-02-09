@@ -1,40 +1,44 @@
 ---
-date: 12-01-2025
+date: 12-02-2025
 date modified: 09-02-2025
 feed: show
 tag: exercise
 title: "Exercise - Self Visualising System"
 ---
 
-### Find and photograph a self visualising system
+Data doesn’t always need to be collected and processed to be seen—it often visualises itself in the physical world. By observing our surroundings, we can uncover naturally occurring data visualisations that tell stories of use, behavior, and change over time.
 
-If you think about data as something physical, we can start to see visualizations everywhere in our environment.
+### Instructions
 
-The cross section of a tree trunk
+Find and photograph a _self-visualising system_—a physical phenomenon that reveals patterns of human activity, environmental forces, or time. Consider examples such as:
 
-Worn out paths on a grass lawn where people have walked
+- The cross-section of a tree trunk, where rings indicate age and climate patterns.
 
-Patterns of wear on statues and door handles
+- Worn-out paths in grass or dirt, showing the most frequently traveled routes.
 
-[What if data visualized itself? \| Towards Data Science](https://towardsdatascience.com/what-if-data-visualized-itself-fd2e5dc1d744/)
+- The smooth, shiny surfaces of frequently touched statues, door handles, or stair railings.
 
-This article talks about self-visualising systems,
+- Residue, rust, or discoloration on walls or floors where water consistently flows.
 
-Look around your environment and find an example of a
+Think about how these patterns _naturally encode_ information. What behaviors or forces led to these marks? What story does the visualization tell?
 
-### Things to keep in mind
+### Submission format
 
-- You will share your visualisation with the class, only use data points you are okay with sharing. Consider categorising or anonymising details you don’t want to share. E.g. Categorise into hours of the day instead of exact time.
-- Think about how you might visualise the information. You can encode with position, size, shape, colour, etc. Try sketching bar charts, radial diagrams, or more abstract/artistic representations.
-- Use labels, legends, and a short caption explaining what each part represents.
-- Try using thicker pens, colored pencils, etc. to have more options with encoding.
+Submit a Google Doc containing:
 
-#### Some submissions
+1. **At least one photo** (more if you find multiple examples) of a self-visualising system in your environment.
 
-![](assets/img/dataselfie-joshna.jpeg)![](assets/img/dataselfie-joshna-1.jpeg)
+2. **A 250+ word reflection** answering the following questions:
 
-> Joshna's visualisation of sounds in the classroom
+- What is the subject of your photo?
+- What information does this visualization reveal?
+- How do human behavior or natural forces contribute to this pattern?
+- How might this type of visualization inspire digital or interactive data visualisation?
 
-![](assets/img/dataselfie-kavya.jpeg)
+### References
 
-> Kavya's visualisation people she exchanged words with
+[What if data visualized itself? | Towards Data Science](https://towardsdatascience.com/what-if-data-visualized-itself-fd2e5dc1d744/)
+
+[50 Self Visualising Information ideas \| heavy metal fashion, soil texture, planting hydrangeas](https://in.pinterest.com/vivekm2/self-visualising-information/)
+
+[Material Traces as Autographic Visualizations \| by dietmar offenhuber \| Multiple Views: Visualization Research Explained \| Medium](https://medium.com/multiple-views-visualization-research-explained/material-traces-as-autographic-visualizations-e814662aa60f)

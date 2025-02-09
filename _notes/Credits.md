@@ -1,6 +1,6 @@
 ---
 date: 11-05-2022
-date modified: 12-01-2025
+date modified: 09-02-2025
 feed: show
 title: "Credits"
 ---
@@ -10,4 +10,5 @@ title: "Credits"
 - [Rasagy Sharma](https://rasagy.in/) for his workshop on Geospatial visualisation at IDC during the Data Visualisation elective and the Data Selfie workshop at UXNow 2022, and also for encouraging me to teach!
 - [Nishita Nirmal](https://www.linkedin.com/in/nishita-nirmal/?originalSubdomain=in) for her material on The Use of Color in Cartography and the Sky Images dataset.
 - [Tanvi Sharma](https://tanvi.network/) for contributing a lot of great resources and examples.
-- [Charu Pragya](https://x.com/CharuPragyaa) for helping with course structure and planning learning objectives.
+- [Charu Pragya](https://x.com/CharuPragyaa) for helping with course structure, examples, grading, and planning learning objectives.
+- [Vivek Menon](https://www.vivekme.com/) for introducing me to self visualising systems.
