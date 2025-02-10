@@ -1,6 +1,6 @@
 ---
 date: 04-02-2025
-date modified: 04-02-2025
+date modified: 09-02-2025
 feed: show
 tag: lecture
 title: "Lecture 5"
@@ -16,6 +16,5 @@ title: "Lecture 5"
 - Rules for Class Crits
 - **Presentations:** [[Exercise - Critique and Redesign]]
 #### Afternoon
-
-- Create groups for Midterm Project
-- Discuss topics
+- Data can tell stories
+- **Presentations:** [[Exercise - Critique and Redesign]]

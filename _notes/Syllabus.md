@@ -1,6 +1,6 @@
 ---
 date: 11-01-2025
-date modified: 07-02-2025
+date modified: 11-02-2025
 feed: show
 title: "Syllabus"
 ---
@@ -114,16 +114,10 @@ Jan to May 2025
 - How structure influences the visualization form
 - tree diagrams, node-link diagrams
 - Bar, line, pie, scatter plots, etc.
-#### Storytelling with data
-- Structuring data narratives with a clear beginning, middle, and end.
-- Who is this for?
-- [Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC - YouTube](https://www.youtube.com/watch?v=jbkSRLYSojo)
-- New York Times interactive visual stories.
-- Gapminder (Hans Rosling) for data-driven storytelling.
-- Finding datasets
-- Exploring datasets
-- Finding insights
+
 #### Lying with Data // Data and Truth
+- Zomato rider payout
+- Correlation causation
 - Alberto Cairo - How Charts Lie
 - What can be measured? Literacy rate - what is literate?
 - Rich people by state - tax returns >1cr
@@ -134,6 +128,17 @@ Jan to May 2025
 - Misleading graphics
 - Common fallacies
 - Spurious correlations
+
+#### Storytelling with data
+- Structuring data narratives with a clear beginning, middle, and end.
+- Who is this for?
+- [Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC - YouTube](https://www.youtube.com/watch?v=jbkSRLYSojo)
+- New York Times interactive visual stories.
+- Gapminder (Hans Rosling) for data-driven storytelling.
+- Finding datasets
+- Exploring datasets
+- Finding insights
+
 #### Geospatial visualisations
 - Mapping and cartography
 - History of maps

@@ -1,6 +1,6 @@
 ---
-date: 12-02-2025
-date modified: 09-02-2025
+date: 11-02-2025
+date modified: 11-02-2025
 feed: show
 tag: exercise
 title: "Exercise - Self Visualising System"
@@ -32,7 +32,7 @@ Submit a Google Doc containing:
 
 - What is the subject of your photo?
 - What information does this visualization reveal?
-- How do human behavior or natural forces contribute to this pattern?
+- What's the story that it tells? How do human behavior or natural forces contribute to this pattern?
 - How might this type of visualization inspire digital or interactive data visualisation?
 
 ### References
