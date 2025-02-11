@@ -27,7 +27,7 @@ See also: [[Syllabus]] · [[Grading]]
 #### [[Lecture 5]] - Convincing with Data
 *4 February 2025*
 
-#### [[Lecture 6]] - Storytelling
+#### [[Lecture 7]] - Storytelling
 *11 February 2025*
 - Create groups for Midterm Project
 - Present and finalise topics

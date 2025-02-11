@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Field Trip - Bird Noticing.md",
+                "file": "_notes/Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Field Trip - Bird Noticing"
+              "title": "Lecture 5"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +75,7 @@
             }
           },
           {
-            "id": "9db821fb17c02f08",
+            "id": "b300658b95b4a838",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -175,42 +176,43 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
-    "_notes/Exercise - Self Visualising System.md",
-    "_notes/Private/Todo.md",
-    "_notes/Exercise - Midsem Project Pitch.md",
-    "_notes/Private/Feedback.md",
-    "_notes/Credits.md",
-    "_notes/Private/Untitled.md",
-    "_notes/Syllabus.md",
-    "_notes/Lectures.md",
     "_notes/Lecture 4.md",
     "_notes/Lecture 5.md",
-    "_notes/Private/Lecture 6.md",
-    "_notes/Field Trip - Bird Noticing.md",
-    "_notes/Field Trip - Library.md",
-    "_notes/Exercise - Lying with Data.md",
-    "_notes/Exercise - Data Visualisation Tools.md",
-    "_notes/Exercise - Explore a Dataset.md",
-    "_notes/Exercise - Three Ways of Visualising.md",
-    "_notes/Midsem Project Pitch.md",
-    "_notes/Quantified Self.md",
+    "_notes/Visualising Structured Data.md",
+    "assets/pdf/Data Viz - Lecture 5 - 4 Feb 2025.pdf",
     "_notes/Exercise - Data Selfie.md",
     "_notes/Exercise - Critique and Redesign.md",
     "_notes/Data Storytelling and Journalism.md",
-    "_notes/Geospatial Visualisation.md",
-    "_notes/Grading.md",
-    "_notes/Image Models.md",
-    "_notes/Marks and Channels.md",
-    "gyanl.com/dv/pdf",
-    "gyanl.com/dv",
-    "gyanl.com",
-    "assets/pdf/Data Viz - Lecture 4 - 28 Jan 2025.pdf",
-    "assets/pdf/Data Viz - Lecture 3b - 21 Jan 2025.pdf",
-    "assets/pdf/Data Viz - Lecture 3a - 21 Jan 2025.pdf",
-    "assets/pdf/Data Viz - Lecture 2 - 14 Jan 2025.pdf",
-    "assets/pdf/Data Viz - Lecture 1 - 7 Jan 2025.pdf",
-    "assets/pdf",
-    "assets/untitled folder",
+    "_notes/Data Ethics.md",
+    "assets/img/Data Ethics.png",
+    "_notes/Credits.md",
+    "_notes/Exercise - Explore a Dataset.md",
+    "_notes/Exercise - Midsem Project Pitch.md",
+    "_notes/Exercise - PIN Point.md",
+    "_notes/Lecture 6.md",
+    "_notes/Exercise - Data Visualisation Tools.md",
+    "_notes/Private/Todo.md",
+    "_site/lecture-6.html",
+    "_site/lecture-51.html",
+    "_notes/Field Trip - Bird Noticing.md",
+    "_notes/Exercise - Three Ways of Visualising.md",
+    "_notes/Exercise - Self Visualising Information.md",
+    "_site/exercise-self-visualising-information.html",
+    "_site/field-trip-bird-noticing.html",
+    "_site/exercise-self-visualising-system.html",
+    "_site/geospatial-visualisation.html",
+    "_site/rules-for-class-crits.html",
+    "_site/exercise-midsem-project-pitch.html",
+    "_site/lecture-5.html",
+    "_notes/Exercise - Lying with Data.md",
+    "_notes/Private/Exercise - Lying with Data.md",
+    "_notes/Private/Feedback.md",
+    "_notes/Private/Untitled.md",
+    "_notes/Syllabus.md",
+    "_notes/Lectures.md",
+    "_notes/Private/Lecture 7.md",
+    "_notes/Field Trip - Library.md",
+    "_notes/Midsem Project Pitch.md",
     "_site/assets/img/ogdv.jpg",
     "assets/img/ogdv.jpg",
     "_site/assets/img/waldo.png",
@@ -219,7 +221,6 @@
     "_site/assets/img/dataselfie-joshna-1.jpeg",
     "assets/img/waldo.png",
     "assets/img/dataselfie-kavya.jpeg",
-    "assets/img/dataselfie-joshna-1.jpeg",
-    "assets/img/dataselfie-joshna.jpeg"
+    "assets/img/dataselfie-joshna-1.jpeg"
   ]
 }

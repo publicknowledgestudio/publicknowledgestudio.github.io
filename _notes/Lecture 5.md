@@ -1,10 +1,13 @@
 ---
 date: 04-02-2025
-date modified: 09-02-2025
+date modified: 11-02-2025
 feed: show
 tag: lecture
 title: "Lecture 5"
 ---
+
+> **Link to Slides**
+> [Data Viz - Lecture 5 - 4 Feb 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 5 - 4 Feb 2025.pdf)
 
 ## Convincing with Data
 #### Morning

@@ -13,8 +13,10 @@ Track personal habits (sleep, screen time, food intake, mood) and use what you l
 The output can be an infographic style poster, a blog post, a video, or something else.
 
 ### References
+
 - [Quantified Self](https://quantifiedself.com/)
 - [Dear Data](https://www.dear-data.com/theproject)
+- [Feltron Annual Reports](http://feltron.com/)
 
 ### Submission format
 
@@ -39,7 +41,7 @@ I will give you some pointers on things you could look into or clarify. If I fee
 
 ### Alternate project ideas
 
-**11 Feb update:** I felt some of these might be ambitious for midsems so I have moved them down. You can still do them for midsems if you want, or park the idea for endsem projects.
+**11 Feb update:** I felt some of these might be ambitious for midsems so I have moved them down. You can try and still do them for midsems if you want, or park the idea for endsem projects.
 
 **Participatory data visualisation**
 Set up a system where people can come and add to your visualisation. This could look like a desk with some materials and some instructions on how to add to the visualisation.
