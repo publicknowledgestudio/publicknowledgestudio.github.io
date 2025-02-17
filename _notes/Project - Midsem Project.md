@@ -22,7 +22,7 @@ The output can be an infographic style poster, a blog post, a video, or somethin
 
 The project plan doc should be submitted in the Google Drive folder by 11:59 PM on Monday, 24 Feb 2025.
 
-Create a folder in [Midsem Project - Google Drive](https://drive.google.com/drive/folders/1AEVKhnQK-WMWhsO1V8vo5m-fOv9oPJpW?usp=drive_link) with the name of all team members. Create a Google Doc with the following details:
+Create a folder in [Midsem Project - Google Drive](https://drive.google.com/drive/folders/1AEVKhnQK-WMWhsO1V8vo5m-fOv9oPJpW?usp=drive_link) with the name of all team members. Create a Google Doc inside the folder with the following details:
 
 - Your team of 1-3 people with Roll numbers.
 - What do you want to visualise?

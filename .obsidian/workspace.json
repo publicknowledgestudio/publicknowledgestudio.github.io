@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Project - Midsem Project.md",
+                "file": "_notes/Project Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project - Midsem Project"
+              "title": "Project Ideas"
             }
           }
         ],
@@ -188,11 +188,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "662ea1034d1edd2e",
+  "active": "8a51888d0d9331d0",
   "lastOpenFiles": [
-    "_notes/Exercise - Three Ways of Visualising.md",
     "_notes/Project - Midsem Project.md",
-    "Project Ideas.md",
+    "_notes/Quantified Self.md",
+    "_notes/Marks and Channels.md",
+    "_notes/Exercise - Three Ways of Visualising.md",
+    "_notes/Project Ideas.md",
     "_notes/Lecture 6.md",
     "_notes/Lecture 3.md",
     "_notes/Lecture 2.md",
@@ -215,8 +217,6 @@
     "_notes/Exercise - Self Visualising Information.md",
     "_notes/Field Trip - Bird Noticing.md",
     "_notes/Finding Datasets.md",
-    "_notes/Geospatial Visualisation.md",
-    "_notes/Grading.md",
     "assets/pdf/Data Viz - Lecture 5 - 4 Feb 2025.pdf",
     "assets/img/Data Ethics.png",
     "_site/lecture-6.html",
