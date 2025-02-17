@@ -1,6 +1,6 @@
 ---
 date: 06-02-2025
-date modified: 11-02-2025
+date modified: 17-02-2025
 feed: show
 title: "Midsem Project"
 ---
@@ -17,41 +17,33 @@ The output can be an infographic style poster, a blog post, a video, or somethin
 - [Dear Data](https://www.dear-data.com/theproject)
 - [Feltron Annual Reports](http://feltron.com/)
 
-### Submission format
+### Project Plan Submission - Due 24 Feb 2025
 
-- You team of 1-3 people
+The project plan doc should be submitted in the Google Drive folder by 11:59 PM on Monday, 24 Feb 2025.
+
+Create a folder in [Midsem Project - Google Drive](https://drive.google.com/drive/folders/1AEVKhnQK-WMWhsO1V8vo5m-fOv9oPJpW?usp=drive_link) with the name of all team members. Create a Google Doc with the following details:
+
+- Your team of 1-3 people with Roll numbers.
 - What do you want to visualise?
 - Why do you want to visualise it?
 - What would be the title for your project?
-- Where will you find the data? Will you capture it yourself, or is it available somewhere?
+- Where will you find the data? Will you record it yourself, or is it available somewhere?
 - Is it an exploratory or explanatory visualisation?
 - What tools would you use?
 - What will your output format be?
 
-I will give you some pointers on things you could look into or clarify. If I feel the project is either too ambitious or not ambitious enough I may ask you to consider changing the scope. However, this is your project and it is up to you to decide what you work on and submit.
+I will give you some pointers on things you could look into or clarify. If I feel the project is either too ambitious or not ambitious enough I may ask you to consider changing the scope.
+
+### Project Submission - Due 10 March 2025
+
+The final project files should be submitted in the Google Drive folder by 11:59 PM on Monday, 10 March 2025. The visualisation should be self-explanatory, there will be no presentations for the project.
+
+Use the same [Midsem Project - Google Drive](https://drive.google.com/drive/folders/1AEVKhnQK-WMWhsO1V8vo5m-fOv9oPJpW?usp=drive_link) folder and add your project files. If your project is online somewhere else, add a link in a Google Doc so I can open it. Please ensure that the required access is granted to gyanlakhwani@gmail.com
 
 ---
 
 ### Alternate project ideas
 
-**11 Feb update:** I felt some of these might be ambitious for midsems so I have moved them down. You can try and still do them for midsems if you want, or park the idea for endsem projects.
+**11 Feb update:** I felt some of the other options might be ambitious for midsems so I have removed them from this page. You can try and still do them for midsems if you want, or park the idea for endsem projects.
 
-**Participatory data visualisation**
-Set up a system where people can come and add to your visualisation. This could look like a desk with some materials and some instructions on how to add to the visualisation.
-Example: [The Mood Test \| Domestic Data Streamers](https://www.domesticstreamers.com/art-research/work/the-mood-test/)
-
-**Multimedia data visualisation**
-Convert a dataset (weather, stock market, public sentiment) into an unexpected format like musical notes, rhythms, lights, vibrations or motion.
-Ask people to describe their dreams and use AI-generated images and motion graphics to form dream trend visualizations (e.g., common themes like flying, falling, being chased).
-Example: [Play a Kandinsky — Google Arts & Culture](https://artsandculture.google.com/experiment/play-a-kandinsky/sgF5ivv105ukhA?hl=en)
-
-**Study a trend**
-Try and study a trend using social media to capture data.
-What are the most common hand gestures in dance trends?
-How many posts accidentally capture a pet in the background?
-What are the photos people take at some popular spots?
-
-**Analyse longform text**
-Find a body of text data - say the lyrics to all the songs of your favorite artist, or all of the SMSes you receive. Come up with ways to analyse this text - like which words are used a lot, who sends more messages, etc. Use NLP tools or try and get ChatGPT to write some code to do this for you. How would you visualise this data?
-
-The [Data Visualization Society](https://www.datavisualizationsociety.org) holds the [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) and hosts a number of regular challenges. Their [Awards Showcase](https://www.informationisbeautifulawards.com/showcase?action=index&award=2023&controller=showcase&page=1&pcategory=winner&type=awards) lists out participants and winners, and is a great resource to find interesting data viz projects.
+See [[Project Ideas]]
