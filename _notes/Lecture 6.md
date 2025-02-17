@@ -16,7 +16,7 @@ title: "Lecture 6"
 - Birdwatching
 - [Jang Lee - Recognise The Sound](https://janglee.myportfolio.com/recognise-the-sound)
 - **Exercise:** [[Exercise - Self Visualising Information]]
-- **Presentations:** [[Midsem Project]]
+- **Presentations:** [[Project - Midsem Project]]
 #### Afternoon
 
 - [[Field Trip - Bird Noticing]]

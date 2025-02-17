@@ -1,8 +1,9 @@
 ---
-date: 06-02-2025
+date: 16-02-2025
 date modified: 17-02-2025
 feed: show
-title: "Midsem Project"
+tag: exercise
+title: "Project - Midsem Project"
 ---
 
 ### A Week in Data
