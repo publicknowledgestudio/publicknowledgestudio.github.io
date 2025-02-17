@@ -1,6 +1,6 @@
 ---
 date: 11-02-2025
-date modified: 11-02-2025
+date modified: 17-02-2025
 feed: show
 tag: exercise
 title: "Exercise - Self Visualising Information"
@@ -26,11 +26,11 @@ Think about how these patterns _naturally encode_ information. What behaviors or
 
 ### Submission format
 
-Submit a Google Doc containing:
+Submit a Google Doc in [This Folder](https://drive.google.com/drive/folders/1lclEzkFwDhtFZH0Y-h9dgf0Rkr7RiWXN?usp=drive_link) containing:
 
 1. **At least one photo** (more if you find multiple examples) of a self-visualising system in your environment.
 
-2. **A 250+ word reflection** answering the following questions:
+2. **A 250+ word essay** answering the following questions:
 
 - What is the subject of your photo?
 - What information does this visualization reveal?
