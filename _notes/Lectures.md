@@ -1,6 +1,6 @@
 ---
 date: 06-01-2025
-date modified: 07-02-2025
+date modified: 11-02-2025
 feed: show
 tag: lecture
 title: "Lectures"
@@ -27,7 +27,7 @@ See also: [[Syllabus]] · [[Grading]]
 #### [[Lecture 5]] - Convincing with Data
 *4 February 2025*
 
-#### [[Lecture 7]] - Storytelling
+#### [[Lecture 6]] - Data Around Us
 *11 February 2025*
 - Create groups for Midterm Project
 - Present and finalise topics
@@ -37,7 +37,7 @@ See also: [[Syllabus]] · [[Grading]]
 No lecture on 18 February 2025 (Techfest/Engifest)
 
 ---
-#### [[Lecture 7]] - Unstructured Data
+#### [[Lecture 7]] - Storytelling/Lying
 *25 February 2025*
 
 #### Midterm Exam/Project Presentations
@@ -46,10 +46,10 @@ No lecture on 18 February 2025 (Techfest/Engifest)
 #### [[Lecture 8]] - Online Lecture
 *11 March 2025*
 
-#### [[Lecture 9]] - Geospatial Visualisation
+#### [[Lecture 9]] - Potential Holiday
 *18 March 2025*
 
-#### [[Lecture 10]] - Geospatial Visualisation II
+#### [[Lecture 10]] - Geospatial Visualisation
 *25 March 2025*
 
 #### [[Lecture 11]] - Storytelling with Data
@@ -61,7 +61,7 @@ No lecture on 18 February 2025 (Techfest/Engifest)
 #### [[Lecture 13]] - Data and Motion
 *15 April 2025*
 
-#### [[Lecture 14]] - Interactive Visualisations
+#### [[Lecture 14]] - Interactive Visualisations / Dashboards
 *22 April 2025*
 
 #### Endterm Exam
