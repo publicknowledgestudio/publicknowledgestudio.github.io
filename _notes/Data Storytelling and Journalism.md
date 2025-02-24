@@ -1,6 +1,6 @@
 ---
 date: 12-01-2025
-date modified: 20-01-2025
+date modified: 24-02-2025
 feed: show
 title: "Data Storytelling and Journalism"
 ---
@@ -60,3 +60,5 @@ Data Stories, Data Visualisation, Interactive Graphics from The Hindu. They also
 ### [Disinformation, ‘fake news’ and influence Campaigns on Twitter](https://knightfoundation.org/features/misinfo/)
 
 Scrollytelling
+
+[A window into Delhi's deadly pollution](https://www.reuters.com/graphics/INDIA-POLLUTION/01008173281/)

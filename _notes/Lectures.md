@@ -37,7 +37,7 @@ See also: [[Syllabus]] · [[Grading]]
 No lecture on 18 February 2025 (Techfest/Engifest)
 
 ---
-#### [[Lecture 7]] - Storytelling/Lying
+#### [[_notes/Private/Lecture 7]] - Storytelling/Lying
 *25 February 2025*
 
 #### Midterm Exam/Project Presentations
