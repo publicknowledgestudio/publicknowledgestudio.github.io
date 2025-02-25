@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Lecture 7.md",
+                "file": "_notes/Exercise - Style a Map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 7"
+              "title": "Exercise - Style a Map"
             }
           }
         ],
@@ -191,11 +191,12 @@
   },
   "active": "662ea1034d1edd2e",
   "lastOpenFiles": [
+    "_notes/Project - Midsem Project.md",
+    "_notes/Exercise - Style a Map.md",
+    "_notes/Lecture 7.md",
     "_notes/Lecture 4.md",
     "_notes/Lecture 5.md",
-    "_notes/Lecture 7.md",
     "_notes/Lectures.md",
-    "_notes/Exercise - Style a Map.md",
     "_notes/Exercise - Data Selfie.md",
     "_notes/Exercise - Critique and Redesign.md",
     "_notes/Exercise - Three Ways of Visualising.md",
@@ -206,7 +207,6 @@
     "_notes/Private/Todo.md",
     "_notes/Private/Exercise - Lying with Data.md",
     "_notes/Exercise - Self Visualising Information.md",
-    "_notes/Project - Midsem Project.md",
     "_notes/Project Ideas.md",
     "_notes/Quantified Self.md",
     "_notes/Marks and Channels.md",
