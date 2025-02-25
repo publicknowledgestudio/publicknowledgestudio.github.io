@@ -1,6 +1,6 @@
 ---
 date: 06-01-2025
-date modified: 11-02-2025
+date modified: 25-02-2025
 feed: show
 tag: lecture
 title: "Lectures"
@@ -37,7 +37,7 @@ See also: [[Syllabus]] · [[Grading]]
 No lecture on 18 February 2025 (Techfest/Engifest)
 
 ---
-#### [[_notes/Private/Lecture 7]] - Storytelling/Lying
+#### [[Lecture 7]] - Colors and Cartography
 *25 February 2025*
 
 #### Midterm Exam/Project Presentations
@@ -46,22 +46,25 @@ No lecture on 18 February 2025 (Techfest/Engifest)
 #### [[Lecture 8]] - Online Lecture
 *11 March 2025*
 
-#### [[Lecture 9]] - Potential Holiday
-*18 March 2025*
+---
 
-#### [[Lecture 10]] - Geospatial Visualisation
+No lecture on 18 March 2025 (Gyan Travelling)
+
+---
+
+#### [[Lecture 9]] - Geospatial Visualisation
 *25 March 2025*
 
-#### [[Lecture 11]] - Storytelling with Data
+#### [[Lecture 10]] - Storytelling with Data
 *1 April 2025*
 
-#### [[Lecture 12]] - Lying and Bias
+#### [[Lecture 11]] - Lying and Bias
 *8 April 2025*
 
-#### [[Lecture 13]] - Data and Motion
+#### [[Lecture 12]] - Data and Motion
 *15 April 2025*
 
-#### [[Lecture 14]] - Interactive Visualisations / Dashboards
+#### [[Lecture 13]] - Interactive Visualisations / Dashboards
 *22 April 2025*
 
 #### Endterm Exam
