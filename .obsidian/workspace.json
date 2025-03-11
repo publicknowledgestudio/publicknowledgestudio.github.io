@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Exercise - Style a Map.md",
+                "file": "_notes/Grading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise - Style a Map"
+              "title": "Grading"
             }
           }
         ],
@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "dbb643f18a0381e9",
+            "id": "d20221c562dcf5af",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -191,6 +191,7 @@
   },
   "active": "662ea1034d1edd2e",
   "lastOpenFiles": [
+    "_notes/Geospatial Visualisation.md",
     "_notes/Project - Midsem Project.md",
     "_notes/Exercise - Style a Map.md",
     "_notes/Lecture 7.md",
@@ -203,7 +204,6 @@
     "_notes/Lecture 6.md",
     "_notes/Data Storytelling and Journalism.md",
     "_notes/Visualising Structured Data.md",
-    "_notes/Geospatial Visualisation.md",
     "_notes/Private/Todo.md",
     "_notes/Private/Exercise - Lying with Data.md",
     "_notes/Exercise - Self Visualising Information.md",

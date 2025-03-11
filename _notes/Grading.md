@@ -1,6 +1,6 @@
 ---
 date: 19-01-2025
-date modified: 20-01-2025
+date modified: 11-03-2025
 feed: show
 title: "Grading"
 ---
@@ -11,9 +11,18 @@ See also: [[Syllabus]] · [[Lectures]]
 
 ### Assessment and Grading Breakdown
 
-Your performance in this course will be evaluated across four components, each designed to assess your participation, understanding, and practical application of data visualization concepts discussed in the class.
+Your performance in this course will be evaluated across 6 components, each designed to assess your participation, understanding, and practical application of data visualization concepts discussed in the class.
 
-#### 1. Attendance and Class Participation (20%)
+| #   | Component                          | Weightage (%) |
+| --- | ---------------------------------- | ------------- |
+| 1   | Attendance and Class Participation | 10%           |
+| 2   | Class Activities and Presentations | 30%           |
+| 3   | Midsem Project                     | 20%           |
+| 4   | Midsem Exam                        | 5%            |
+| 5   | Final Project                      | 30%           |
+| 6   | Final Exam                         | 5%            |
+
+#### 1. Attendance and Class Participation (10%)
 
 Attendance reflects your consistent engagement with the course and is recorded for both the Morning Session (10:00 AM - 12:30 PM) and the Afternoon Session (1:30 PM - 3:30 PM) each Tuesday.
 
@@ -21,13 +30,13 @@ Attendance reflects your consistent engagement with the course and is recorded f
 
 I have an open door policy and if you need to take a break or leave, feel free to do so. The penalty is that you don't get the attendance credit and don't learn from the material. No distinction is made between excused and unexcused absences. Late arrivals will not receive attendance credit but can still participate in class activities.
 
-#### 2. Class Activities and Presentations (25%)
+#### 2. Class Exercises and Presentations (30%)
 
 Throughout the course, you will do in-class activities and deliver presentations about tools, techniques, and your own work during the course.
 
-- You will present visualizations, techniques, and analyses related to course content during designated weeks. showcasing your ability to communicate data insights effectively.
+- You will present visualizations, techniques, and analyses related to course content during designated weeks, showcasing your ability to communicate data insights effectively.
 
-- Your top five scores (out of 10) will be averaged to determine your presentation grade. Each presentation will be graded on a 5-point system.
+- Your top 6 scores will be averaged to determine your grade. Each presentation will be graded on a 5-point system.
 
 | Facets                 | Maximum Points | Evaluation Description                                                                                          |
 | ---------------------- | -------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -38,28 +47,30 @@ Throughout the course, you will do in-class activities and deliver presentations
 | Audience Interaction   | 1              | Ability to respond to questions and engage the audience effectively.                                            |
 | Total                  | 5 (x5)         |                                                                                                                 |
 
-#### 3. Midterm Project (25%)
+#### 3. Midsem Project (20%)
 
-The midterm project is a group project, due mid-March, and focuses on exploratory data visualization.
-
-All project ideas must be approved by me at least two weeks prior to the submission deadline to ensure sufficient guidance.
+The midterm project is a group project, and focuses on exploratory data visualization.
 
 Team projects, of course, encourage collaboration. You are encouraged to work together on all parts of the project, and must ensure that every team member is involved in all aspects of the project (design, coding, and documentation). Although the team will receive a single grade, each team member will be asked to identify their own work product to ensure equitable division of labor. 
 
-| Facets                   | Maximum Points | Evaluation Description                                                     |
-| ------------------------ | -------------- | -------------------------------------------------------------------------- |
-| Team Collaboration       | 5              | Coordination, equitable contribution, and conflict resolution.             |
-| Research/Implementation  | 5              | Quality of research, execution, and adherence to objectives.               |
-| Presentation/Delivery    | 5              | Clarity, teamwork during presentation, and audience engagement.            |
-| Innovation/Impact        | 5              | Creativity, problem-solving approach, and potential impact of the project. |
-| Contribution Consistency | 5              | Equal and consistent contribution by all team members.                     |
-| Total                    | 25             |                                                                            |
+| Facets                            | Maximum Points | Evaluation Description                                                                 |
+| --------------------------------- | -------------- | -------------------------------------------------------------------------------------- |
+| Punctuality                       | 2              | Submitting proposal (1) and final deliverable (1) by due date.                         |
+| Project Concept                   | 3              | Impactfulness, uniqueness of area of exploration. Evaluated based on project proposal. |
+| Data Collection                   | 4              | Quality of data collection and research.                                               |
+| Data Visualisation                | 5              | Effectiveness of visualisation. Choice of marks and channels.                          |
+| Visual Design of Final Submission | 6              | Aesthetics, final execution and storytelling.                                          |
+| Total                             | 20             |                                                                                        |
+
+#### 5. Midsem Exam (5%)
+
+Written exam conducted by university.
 
 #### 4. Final Project (30%)
 
-The final project is an individual project, due during the first week of May, and focuses on developing a real-world data visualization solution.
+The final project is an individual project, due in May, and focuses on developing a real-world data visualization solution.
 
-Final project ideas must be approved by me at least four weeks before the submission deadline to ensure you receive adequate guidance.
+Potential grading rubric (Subject to change)
 
 | Facets                                                        | Maximum Points | Evaluation Description                                                                                                                                                                                           |
 | ------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -70,6 +81,10 @@ Final project ideas must be approved by me at least four weeks before the submis
 | Practical Application                                         | 5              | Real-world applicability or usefulness of the project outcomes.                                                                                                                                                  |
 | Critical Insights / Hypothesis                                | 5              | Depth and relevance of hypothesis and other insights communicated through project                                                                                                                                |
 | Total                                                         | 30             |                                                                                                                                                                                                                  |
+
+#### 5. Endsem Exam (5%)
+
+Written exam conducted by university.
 
 ### Academic Integrity
 
