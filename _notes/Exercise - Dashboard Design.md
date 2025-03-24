@@ -5,11 +5,14 @@ feed: show
 tag: exercise
 title: "Exercise - Dashboard Design"
 ---
+
+I didn't want to give everyone in the class the exact same exercise, and I want everyone to have a sample dataset so there are restrictions similar to a real life visualisation problem. Use the prompt below to generate a problem statement to work on. If you have an industry or an area you would prefer to work on, modify the prompt to include it.
+
 ### Paste this into ChatGPT or another AI model
 
 Act as the client of a data analytics firm. My firm will conduct an analysis and derive insights through data visualization. As the client, please provide me with the following for my analysis:
 
-Industry: Specify the industry in which your company operates. Be creative!
+Industry: Specify the company name and industry in which your company operates. Be creative!
 
 Data: Provide data in an .csv format from a department within your company. Include as many columns and rows as you wish. Please ensure the data is clean and ready for analysis, as this is a dashboard design exercise, not a data cleaning exercise.
 
@@ -17,7 +20,7 @@ Business Objectives: Describe the overall objectives of your business and the sp
 
 Data Explanation: Offer a detailed explanation of the data columns in your spreadsheet to provide context for the analysis.
 
-Desired Insights: Specify the specific insights or Key Performance Indicators (KPIs) you want me to derive from your data.
+Desired Insights: Specify the specific insights or Key Performance Indicators (KPIs) you want me to derive from your data. Who will be looking at this dashboard? What might be their goals?
 
 ### Step 1 - Sketch and Ideate
 
