@@ -1,10 +1,12 @@
 ---
 date: 11-02-2025
-date modified: 25-02-2025
+date modified: 13-03-2025
 feed: show
 tag: lecture
 title: "Lecture 7"
 ---
+
+> **Link to Slides**
 
 ## Colors
 #### Morning
@@ -16,6 +18,6 @@ title: "Lecture 7"
 - [A list of named colors in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color#see_also)
 - [rebeccapurple – Eric’s Archived Thoughts](https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/)
 - [David Rumsey Historical Map Collection \| The Collection](https://www.davidrumsey.com/)
-- [[Exercise - Style a Map]]
-#### Afternoon
 
+#### Afternoon
+- [[Exercise - Style a Map]]

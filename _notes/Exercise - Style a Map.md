@@ -1,11 +1,12 @@
 ---
 date: 25-02-2025
-date modified: 25-02-2025
+date modified: 13-03-2025
 feed: show
 tag: exercise
 title: "Exercise - Style a Map"
 ---
 
+> Optional Exercise
 ### Find maps or other images that inspire you
 
 Create a moodboard. Some sources could be:
