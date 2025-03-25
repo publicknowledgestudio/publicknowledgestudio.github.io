@@ -1,12 +1,10 @@
 ---
 date: 11-02-2025
-date modified: 17-02-2025
+date modified: 25-03-2025
 feed: show
 tag: exercise
 title: "Exercise - Self Visualising Information"
 ---
-
-> Due after midsem exams, but stay on the lookout for examples and take photos when you see one.
 
 Data doesn’t always need to be collected and processed to be seen—it often visualises itself in the physical world. By observing our surroundings, we can uncover naturally occurring data visualisations that tell stories of use, behavior, and change over time.
 
@@ -24,7 +22,7 @@ Find and photograph a _self-visualising system_—a physical phenomenon that rev
 
 Think about how these patterns _naturally encode_ information. What behaviors or forces led to these marks? What story does the visualization tell?
 
-### Submission format
+### Submission - Due 11:59 PM, 31 March 2025
 
 Submit a Google Doc in [This Folder](https://drive.google.com/drive/folders/1lclEzkFwDhtFZH0Y-h9dgf0Rkr7RiWXN?usp=drive_link) containing:
 
