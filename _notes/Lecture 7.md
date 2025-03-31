@@ -1,13 +1,13 @@
 ---
 date: 11-02-2025
-date modified: 13-03-2025
+date modified: 31-03-2025
 feed: show
 tag: lecture
 title: "Lecture 7"
 ---
 
 > **Link to Slides**
-
+> [Data Viz - Lecture 7 - 25 Feb 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 7 - 25 Feb 2025.pdf)
 ## Colors
 #### Morning
 - **Reading:** [Reimagining Google Maps with a New Color Palette](https://design.google/library/exploring-color-google-maps)

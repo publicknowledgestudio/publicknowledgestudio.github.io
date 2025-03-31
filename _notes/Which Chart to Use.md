@@ -1,6 +1,6 @@
 ---
 date: 28-01-2025
-date modified: 28-01-2025
+date modified: 30-03-2025
 feed: show
 title: "Which Chart to Use"
 ---
@@ -26,3 +26,7 @@ The data team at Financial Times has a poster with different types of data and h
 ##### [Visual variables sheet - Data Viz Handbook](https://www.dropbox.com/s/ggmmqdvnjlapke5/DVHB_VisualVariables_A3.pdf?dl=0)
 
 Types of measurements organized by how well they are suited for representing data measured on each type of scale.
+
+##### [Plot Gallery - Observable](https://observablehq.com/@observablehq/plot-gallery)
+
+A lot of examples of different types of charts.

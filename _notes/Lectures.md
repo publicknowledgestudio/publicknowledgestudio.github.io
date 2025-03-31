@@ -52,7 +52,7 @@ No lecture on 18 March 2025 (Gyan Travelling)
 
 ---
 
-#### [[Lecture 9]] - Geospatial Visualisation
+#### [[_notes/Private/Lecture 9]] - Geospatial Visualisation
 *25 March 2025*
 
 #### [[Lecture 10]] - Storytelling with Data
