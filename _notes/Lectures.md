@@ -1,6 +1,6 @@
 ---
 date: 06-01-2025
-date modified: 25-02-2025
+date modified: 01-04-2025
 feed: show
 tag: lecture
 title: "Lectures"
@@ -52,7 +52,7 @@ No lecture on 18 March 2025 (Gyan Travelling)
 
 ---
 
-#### [[_notes/Private/Lecture 9]] - Geospatial Visualisation
+#### [[Lecture 9]] - Geospatial Visualisation
 *25 March 2025*
 
 #### [[Lecture 10]] - Storytelling with Data

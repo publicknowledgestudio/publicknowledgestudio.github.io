@@ -1,6 +1,6 @@
 ---
 date: 17-02-2025
-date modified: 17-02-2025
+date modified: 02-04-2025
 feed: show
 title: "Project Ideas"
 ---
@@ -23,4 +23,3 @@ What are the photos people take at some popular spots?
 **Analyse longform text**
 Find a body of text data - say the lyrics to all the songs of your favorite artist, or all of the SMSes you receive. Come up with ways to analyse this text - like which words are used a lot, who sends more messages, etc. Use NLP tools or try and get ChatGPT to write some code to do this for you. How would you visualise this data?
 
-The [Data Visualization Society](https://www.datavisualizationsociety.org) holds the [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) and hosts a number of regular challenges. Their [Awards Showcase](https://www.informationisbeautifulawards.com/showcase?action=index&award=2023&controller=showcase&page=1&pcategory=winner&type=awards) lists out participants and winners, and is a great resource to find interesting data viz projects.

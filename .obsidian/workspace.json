@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Exercise - Schematic Maps.md",
+                "file": "_notes/Project - Endsem Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise - Schematic Maps"
+              "title": "Project - Endsem Project"
             }
           },
           {
@@ -205,9 +205,18 @@
   },
   "active": "662ea1034d1edd2e",
   "lastOpenFiles": [
+    "_notes/Project - Midsem Project.md",
     "_notes/Lecture 9.md",
-    "_notes/Exercise - Schematic Maps.md",
+    "_notes/Lecture 10.md",
+    "_notes/Grading.md",
+    "_notes/Project - Endsem Project.md",
+    "_notes/Project Ideas.md",
+    "_notes/Physical Visualisations.md",
+    "_notes/Lectures.md",
     "_notes/Lecture 8.md",
+    "_notes/Private/Lecture 9.md",
+    "Lecture 10.md",
+    "_notes/Exercise - Schematic Maps.md",
     "_notes/Lecture 7.md",
     "assets/pdf/Data Viz - Lecture 8 - 24 March 2025.pdf",
     "_notes/Lecture 6.md",
@@ -216,23 +225,14 @@
     "_notes/Exercise - Self Visualising Information.md",
     "_notes/Exercise - Dashboard Design.md",
     "_notes/Exercise - Critique and Redesign.md",
-    "_notes/Private/Lecture 9.md",
-    "_notes/Grading.md",
     "_notes/Untitled.md",
     "_notes/Finding Datasets.md",
     "_notes/Geospatial Visualisation.md",
-    "_notes/Physical Visualisations.md",
     "_notes/About.md",
-    "_notes/Lectures.md",
     "_notes/Exercise - Three Ways of Visualising.md",
     "_notes/Field Trip - Bird Noticing.md",
     "_notes/Field Trip - DTU Library.md",
     "_notes/Exercise - Style a Map.md",
-    "_notes/Exercise - PIN Point.md",
-    "_notes/Exercise - Explore a Dataset.md",
-    "_notes/Exercise - Data Visualisation Tools.md",
-    "_notes/Exercise - Data Selfie.md",
-    "_notes/Project - Midsem Project.md",
     "assets/pdf/Data Viz - Lecture 6 - 11 Feb 2025.pdf",
     "assets/pdf/Data Viz - Lecture 5 - 4 Feb 2025.pdf",
     "assets/img/Data Ethics.png",
