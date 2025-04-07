@@ -8,6 +8,7 @@ title: "Lecture 8"
 
 > **Link to Slides**
 > [Data Viz - Lecture 8 - 24 March 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 8 - 24 March 2025.pdf)
+
 ## Data Viz in Interfaces
 #### Morning
 - Dashboard Etymology - [The History of the Dashboard – DED Company](https://ded.company/the-history-of-the-dashboard/)

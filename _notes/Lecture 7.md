@@ -8,6 +8,7 @@ title: "Lecture 7"
 
 > **Link to Slides**
 > [Data Viz - Lecture 7 - 25 Feb 2025.pdf](https://gyanl.com/dv/assets/pdf/Data Viz - Lecture 7 - 25 Feb 2025.pdf)
+
 ## Colors
 #### Morning
 - **Reading:** [Reimagining Google Maps with a New Color Palette](https://design.google/library/exploring-color-google-maps)

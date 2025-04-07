@@ -36,9 +36,9 @@ Throughout the course, you will do in-class activities and deliver presentations
 
 - You will present visualizations, techniques, and analyses related to course content during designated weeks, showcasing your ability to communicate data insights effectively.
 
-- Your top 5 scores will be averaged to determine your grade. Each presentation will be evaluated on the basis of Content Quality, Creativity/Originality, Presentation Skills, Time Management, Audience Interaction, etc. as applicable.
+- Each submission will be evaluated on the basis of Content Quality, Creativity/Originality, Presentation Skills, Time Management, Audience Interaction, etc. as applicable.
 
-I will grade each of these projects out of 8 and consider the best 5 scores.
+I will grade each of these submissions out of 8 and consider the best 5 scores.
 
 1. [[Exercise - Data Visualisation Tools]]
 2. [[Exercise - Data Selfie]]
