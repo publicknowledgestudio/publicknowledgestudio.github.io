@@ -11,12 +11,12 @@ See also: [[Syllabus]] · [[Lectures]]
 
 ### Assessment and Grading Breakdown
 
-Your performance in this course will be evaluated across 6 components, each designed to assess your participation, understanding, and practical application of data visualization concepts discussed in the class.
+Your performance in this course will be evaluated across the following components, each designed to assess your participation, understanding, and practical application of data visualization concepts discussed in the class.
 
 | #   | Component                          | Weightage (%) |
 | --- | ---------------------------------- | ------------- |
 | 1   | Attendance and Class Participation | 10%           |
-| 2   | Class Exercises and Presentations  | 40%           |
+| 2   | Class Exercises                    | 40%           |
 | 3   | Midsem Project                     | 20%           |
 | 4   | Midsem Exam                        | 5%            |
 | 5   | Final Project                      | 20%           |
@@ -30,13 +30,13 @@ Attendance reflects your consistent engagement with the course and is recorded f
 
 I have an open door policy and if you need to take a break or leave, feel free to do so. The penalty is that you don't get the attendance credit and don't learn from the material. No distinction is made between excused and unexcused absences. Late arrivals will not receive attendance credit but can still participate in class activities.
 
-#### 2. Class Exercises and Presentations (40%)
+#### 2. Class Exercises (40%)
 
 Throughout the course, you will do in-class activities and deliver presentations about tools, techniques, and your own work during the course.
 
 - You will present visualizations, techniques, and analyses related to course content during designated weeks, showcasing your ability to communicate data insights effectively.
 
-- Your top 6 scores will be averaged to determine your grade. Each presentation will be evaluated on the basis of Content Quality, Creativity/Originality, Presentation Skills, Time Management, Audience Interaction.
+- Your top 5 scores will be averaged to determine your grade. Each presentation will be evaluated on the basis of Content Quality, Creativity/Originality, Presentation Skills, Time Management, Audience Interaction, etc. as applicable.
 
 I will grade each of these projects out of 8 and consider the best 5 scores.
 
@@ -52,15 +52,15 @@ I will grade each of these projects out of 8 and consider the best 5 scores.
 
 The midterm project is a group project (groups up to 3). See [[Project - Midsem Project]].
 
-Team projects, of course, encourage collaboration. You are encouraged to work together on all parts of the project, and should ensure that every team member is involved in all aspects of the project. The team will receive a single grade.
+Team projects encourage collaboration. You should work together on all parts of the project, and should ensure that every team member is involved in all aspects of the project. The team will receive a single grade.
 
 | Facets                            | Maximum Points | Evaluation Description                                                                 |
 | --------------------------------- | -------------- | -------------------------------------------------------------------------------------- |
 | Punctuality                       | 2              | Submitting proposal (1) and final deliverable (1) by due date.                         |
 | Project Concept                   | 3              | Impactfulness, uniqueness of area of exploration. Evaluated based on project proposal. |
-| Data Collection                   | 4              | Quality of data collection and research.                                               |
+| Data Collection                   | 5              | Quality of data collection and research.                                               |
 | Data Visualisation                | 5              | Effectiveness of visualisation. Choice of marks and channels.                          |
-| Visual Design of Final Submission | 6              | Aesthetics, final execution and storytelling.                                          |
+| Visual Design of Final Submission | 5              | Aesthetics, final execution and storytelling.                                          |
 | Total                             | 20             |                                                                                        |
 
 #### 5. Midsem Exam (5%)
@@ -71,15 +71,15 @@ Written exam conducted by university.
 
 The midterm project is a group project (groups up to 3) due end of April. See [[Project - Endsem Project]].
 
-| Criteria                | Marks  | Description                                                              |
-| ----------------------- | ------ | ------------------------------------------------------------------------ |
-| Timeliness              | 1      | Proposal and final project submitted on time.                            |
-| Idea & Insights         | 3      | Originality of concept and depth of thinking or hypothesis.              |
-| Data & Research         | 4      | Quality of data collection, sources, and how well it's handled.          |
-| Visualisation           | 4      | Clear and effective use of charts, graphs, or visuals to show the data.  |
-| Design & Execution      | 4      | Aesthetic quality, clarity, and technical accuracy of the final outcome. |
-| Presentation & Write-up | 4      | Communication during presentation and quality of documentation.          |
-| **Total**               | **20** |                                                                          |
+| Criteria           | Marks  | Description                                                              |
+| ------------------ | ------ | ------------------------------------------------------------------------ |
+| Timeliness         | 1      | Proposal and final project submitted on time.                            |
+| Idea & Insights    | 3      | Originality of concept and depth of thinking or hypothesis.              |
+| Data & Research    | 4      | Quality of data collection, sources, and how well it's handled.          |
+| Visualisation      | 4      | Clear and effective use of charts, graphs, or visuals to show the data.  |
+| Design & Execution | 4      | Aesthetic quality, clarity, and technical accuracy of the final outcome. |
+| Presentation       | 4      | Communication during presentation and quality of documentation.          |
+| **Total**          | **20** |                                                                          |
 
 #### 5. Endsem Exam (5%)
 

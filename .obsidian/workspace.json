@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Exercise - Style a Map.md",
+                "file": "_notes/Grading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise - Style a Map"
+              "title": "Grading"
             }
           },
           {
@@ -204,7 +204,9 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_notes/Geospatial Visualisation.md",
     "_notes/Grading.md",
+    "_notes/Exercise - Style a Map.md",
     "_notes/Lecture 10.md",
     "_notes/Lecture 7.md",
     "_notes/Lecture 8.md",
@@ -220,7 +222,6 @@
     "_notes/Exercise - PIN Point.md",
     "_notes/Exercise - Schematic Maps.md",
     "_notes/Exercise - Self Visualising Information.md",
-    "_notes/Exercise - Style a Map.md",
     "Final Projects.md",
     "_notes/Project - Midsem Project.md",
     "_notes/Project - Endsem Project.md",
@@ -230,7 +231,6 @@
     "_notes/Private/Lecture 9.md",
     "Lecture 10.md",
     "assets/pdf/Data Viz - Lecture 8 - 24 March 2025.pdf",
-    "_notes/Which Chart to Use.md",
     "assets/pdf/Data Viz - Lecture 7 - 25 Feb 2025.pdf",
     "assets/pdf/Data Viz - Lecture 6 - 11 Feb 2025.pdf",
     "assets/pdf/Data Viz - Lecture 5 - 4 Feb 2025.pdf",
