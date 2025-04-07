@@ -1,6 +1,6 @@
 ---
-date: 11-02-2025
-date modified: 31-03-2025
+date: 25-02-2025
+date modified: 07-04-2025
 feed: show
 tag: lecture
 title: "Lecture 7"
