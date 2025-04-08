@@ -1,6 +1,6 @@
 ---
 date: 01-04-2025
-date modified: 07-04-2025
+date modified: 08-04-2025
 feed: show
 tag: lecture
 title: "Lecture 9"
@@ -16,6 +16,7 @@ title: "Lecture 9"
 - Schematic Maps
 - Types of projections
 - [xkcd: Map Projections](https://xkcd.com/977/)
+- [Why all world maps are wrong - YouTube](https://www.youtube.com/watch?v=kIID5FDi2JQ
 - [Country Size Comparison](https://www.mylifeelsewhere.com/country-size-comparison)
 - [Rasagy Sharma—Outlier 2022—Scheming Against Accurate Maps - YouTube](https://www.youtube.com/watch?v=4wPYzYMpJLc&t=5s)
 #### Afternoon
