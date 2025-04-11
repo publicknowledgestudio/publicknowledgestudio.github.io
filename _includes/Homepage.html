@@ -1,24 +1,43 @@
-<div class="home-intro">
-    <div class="jumbo">{{site.heading}}</div>
-    <div class="home-sub-text">
-        <div class="notes-grid">
-            {% assign notes = site.notes | sort: 'title' %}
-            {% for note in notes %}
-            <div class="note-card">
-                <a href="{{ note.url | relative_url }}">
-                    <h3>{{ note.title }}</h3>
-                    {% if note.description %}
-                    <p>{{ note.description }}</p>
-                    {% endif %}
-                </a>
-            </div>
-            {% endfor %}
-        </div>
+<div class="logo-text">PUBLIC<br>KNOW<br>LEDGE</div>
+
+<div class="top-right">
+    Public Knowledge Studio is an India-based design studio focused on crafting technology with care. We build
+    interfaces and experiences with precision, personality, and purpose.
+</div>
+
+<div class="controls-panel display-none" id="controls-panel">
+    <div class="control-group">
+        <label for="arms">Arms: <span id="arms-value"></span></label>
+        <input type="range" id="arms" min="" max="12" value="8">
+
+        <label for="length">Length: <span id="length-value"></span></label>
+        <input type="range" id="length" min="1" max="100" value="18">
+
+        <label for="width">Width: <span id="width-value"></span></label>
+        <input type="range" id="width" min="1" max="800" value="16">
     </div>
 </div>
 
-<div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-    <h5 class="meta-title"><a href="/">← Home</a></h5>
-    <div class="jumbo">{{page.title}}</div>
-    {%- include Content.html -%}
-    {%- include Feed.html -%}
+<div id="video-container" class="rotateIn">
+    <div id="clip-path-wrapper"></div>
+    <video id="masked-video" autoplay playsinline loop muted></video>
+</div>
+
+<div class="scroll-tip square-button">
+    SCROLL TO START
+</div>
+
+<div class="container">
+    <div id="animate-words" class="huge-text">
+        We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences that
+        help organisations turn complexity into clarity—and ideas into impact.
+    </div>
+
+    {% include sections/services.html %}
+    {% include sections/work.html %}
+    {% include sections/team.html %}
+    {% include sections/quote.html %}
+    {% include sections/footer.html %}
+</div>
+
+{% include scripts.html %} 
