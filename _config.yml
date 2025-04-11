@@ -75,6 +75,9 @@ collections:
     team:
       output: true
       permalink: /:slug
+    services:
+      output: true
+      permalink: /:slug
 
 markdown: kramdown
 

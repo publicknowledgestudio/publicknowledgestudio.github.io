@@ -1,6 +1,6 @@
 ---
-layout: team
-name: Ravee Deshpande
+layout: Post
+title: Ravee Deshpande
 image: /assets/img/team-ravee.jpg
 role: Partner
 order: 4
