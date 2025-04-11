@@ -1,0 +1,10 @@
+<div class="section-title">The Team</div>
+
+<div class="team-container">
+    {% for member in site.team %}
+    <div class="team-card">
+        <img class="team-image" src="{{ member.image }}" alt="">
+        <div class="team-name">{{ member.name }}</div>
+    </div>
+    {% endfor %}
+</div> 

@@ -27,16 +27,16 @@ baseurl: "/bloggy"
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Data Visualization # Change this 
-content: Notes for Data Visualization
+heading: Public Knowledge Studio # Change this 
+content: Public Knowledge is a design studio that makes technology work for humans.
 copyright:  
   year: © 2025
-  msg: Contents under CC-BY-NC 
+  msg: Public Knowledge Studio
 
 # Set title and content for private & broken link tooltop
 privatelinks:
-  title: Note does not exist
-  msg: This note is has not been published (yet).
+  title: Page not found
+  msg: This page doesn't exist yet.
 
 # Theme level preferences
 # To enable set "enabled : true" else, use "enabled:false"
@@ -44,15 +44,15 @@ preferences:
   search:
     enabled: true
   wiki_style_link: 
-    enabled: true
+    enabled: false
   pagepreview: 
-    enabled: true
+    enabled: false
   backlinks:
-    enabled: true
+    enabled: false
 # To enable a homepage, change the value to true and add content to _includes/Homepage.html
 # If enable : false, notes feed will be as homepage. 
   homepage: 
-    enabled: false ##If you need a homepage, change this to true and edit _includes/Homepage.html
+    enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
 encoding: utf-8
 

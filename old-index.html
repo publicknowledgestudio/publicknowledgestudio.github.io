@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap">
+
+    <!-- Load Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+
+    <!-- Open Graph Tags -->
+    <meta property="og:image" content="https://publicknowledge.co/pk-og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:title" content="Public Knowledge Studio">
+    <meta property="og:description"
+        content="Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.">
+    <meta property="og:url" content="https://publicknowledge.co">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Public Knowledge Studio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pblcknw">
+    <meta name="twitter:creator" content="@pblcknw">
+
+
+    <title>Public Knowledge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="logo-text">PUBLIC<br>KNOW<br>LEDGE</div>
+
+    <div class="top-right">
+        Public Knowledge Studio is an India-based design studio focused on crafting technology with care. We build
+        interfaces and experiences with
+        precision, personality, and purpose.
+    </div>
+
+
+    <div class="controls-panel display-none" id="controls-panel">
+
+        <div class="control-group">
+            <label for="arms">Arms: <span id="arms-value"></span></label>
+            <input type="range" id="arms" min="" max="12" value="8">
+
+            <label for="length">Length: <span id="length-value"></span></label>
+            <input type="range" id="length" min="1" max="100" value="18">
+
+            <label for="width">Width: <span id="width-value"></span></label>
+            <input type="range" id="width" min="1" max="800" value="16">
+        </div>
+    </div>
+
+    <div id="video-container" class="rotateIn">
+        <div id="clip-path-wrapper"></div>
+        <video id="masked-video" autoplay playsinline loop muted></video>
+    </div>
+
+    <script src="animate-asterisk.js"></script>
+
+    <div class="scroll-tip square-button ">
+        SCROLL TO START
+    </div>
+
+    <div class="container">
+
+        <div id="animate-words" class="huge-text">
+            We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences that
+            help organisations turn complexity into clarity—and ideas into impact.
+        </div>
+
+        <div class="section-title">The Services</div>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <div class="service-name">Strategy</div>
+                <div class="service-description">We help organisations ask better questions. Through design-led inquiry,
+                    we uncover what&rsquo;s not working—and shape interventions that are clear, usable, and grounded in
+                    context.</div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-name">Brandwork</div>
+                <div class="service-description">We design distinctive, versatile brand identities that translate well
+                    across digital and real-world touchpoints.</div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-name">Interface & Experience</div>
+                <div class="service-description">We craft web and app interfaces from scratch—no templates, no generic
+                    UI kits. Every screen and interaction is purpose-built to reflect your product, serve your users,
+                    and express your vision.</div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-name">Development</div>
+                <div class="service-description">We build accessible, performant front-ends—and work seamlessly with
+                    development teams to make sure what&rsquo;s designed can be delivered and scaled.</div>
+            </div>
+
+        </div>
+
+        <div class="section-title">The Work</div>
+
+        <div class="project-container">
+
+            <div class="project-line">
+
+                <a class="project" href="https://map.hammockmag.com" target="_blank" rel="noopener">
+                    <img class="project-thumbnail" src="img/hammock-thumbnail.jpg" alt="">
+                    <div class="project-title">Literary Map by Hammock Mag</div>
+                    <div class="project-description">Designing an interactive literary map for Hammock Mag, visualizing
+                        authors&rsquo; geographies with data-rich storytelling.</div>
+                    <div class="tag-container">
+                        <div class="tag">UI/UX</div>
+                        <div class="tag">Development</div>
+                        <div class="tag">Strategy</div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="project-line">
+
+                <div class="project">
+                    <img class="project-thumbnail" src="img/sa-thumbnail.jpg" alt="">
+                    <div class="project-title">Sa Biennale</div>
+                    <div class="project-description">Crafting immersive branding and design for sā Biennale,
+                        Asia&rsquo;s highest land art festival at the intersection of land art and climate activism.
+                    </div>
+                    <div class="tag-container">
+                        <div class="tag">Branding</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img class="project-thumbnail" src="img/ebc-reader-thumbnail.jpg" alt="">
+                    <div class="project-title">EBC Reader</div>
+                    <div class="project-description">Delivered a visual and strategic overhaul of EBC Reader,
+                        introducing LLM capabilities and enhancing content discovery for legal professionals.
+                    </div>
+                    <div class="tag-container">
+                        <div class="tag">UI/UX</div>
+                        <div class="tag">Strategy</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="project-line">
+
+                <div class="project">
+                    <img class="project-thumbnail" src="img/cakeshop-thumbnail.jpg" alt="">
+                    <div class="project-title">Cakeshop</div>
+                    <div class="project-description">Shaping product strategy and identity for Zomato Cakeshop,
+                        reimagining how desserts delight a broader audience.</div>
+                    <div class="tag-container">
+                        <div class="tag">UI/UX</div>
+                        <div class="tag">Strategy</div>
+                        <div class="tag">Branding</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-line">
+
+                <div class="project">
+                    <img class="project-thumbnail" src="img/amie-thumbnail.jpg" alt="">
+                    <div class="project-title">Amie</div>
+                    <div class="project-description">Developed Amie&rsquo;s identity and web design, elevating its
+                        vision of a rotating wardrobe for modern lifestyles.</div>
+                    <div class="tag-container">
+                        <div class="tag">Branding</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img class="project-thumbnail" src="img/net-gala-thumbnail.jpg" alt="">
+                    <div class="project-title">Net Gala</div>
+                    <div class="project-description">Built product strategy and design for Net Gala, a sports community
+                        and venue booking platform.</div>
+                    <div class="tag-container">
+                        <div class="tag">Strategy</div>
+                        <div class="tag">UI/UX</div>
+                        <div class="tag">Branding</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="project-line">
+
+                <a class="project" href="https://www.dancingwithmountains.com" target="_blank" rel="noopener">
+                    <img class="project-thumbnail" src="img/dancing-with-mountains-thumbnail.jpg" alt="">
+                    <div class="project-title">Dancing with Mountains</div>
+                    <div class="project-description">One line description for Hammock Mag</div>
+                    <div class="tag-container">
+                        <div class="tag">UI/UX</div>
+                        <div class="tag">Development</div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="project-line">
+
+                <div class="project">
+                    <img class="project-thumbnail" src="img/emotional-ai-thumbnail.jpg" alt="">
+                    <div class="project-title">Emotional AI</div>
+                    <div class="project-description">Designed emotional-AI products for iOS and web, blending deep
+                        research with human-centered strategy.</div>
+                    <div class="tag-container">
+                        <div class="tag">Branding</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </div>
+
+
+                <a class="project" href="https://www.borkowski.co.uk" target="_blank" rel="noopener">
+                    <img class="project-thumbnail" src="img/borkowski-thumbnail.jpg" alt="">
+                    <div class="project-title">Borkowski</div>
+                    <div class="project-description">Redefined Borkowski&rsquo;s digital presence with a bold, modern
+                        web and content strategy for the legacy PR agency.</div>
+                    <div class="tag-container">
+                        <div class="tag">Branding</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="section-title">The Team</div>
+
+        <div class="team-container">
+
+            <div class="team-card">
+                <img class="team-image" src="img/team-charu.jpg" alt="">
+                <div class="team-name">Charu Pragya</div>
+            </div>
+
+            <div class="team-card">
+                <img class="team-image" src="img/team-gyan.jpg" alt="">
+                <div class="team-name">Gyan Lakhwani</div>
+            </div>
+
+            <div class="team-card">
+                <img class="team-image" src="img/team-namita.jpg" alt="">
+                <div class="team-name">Namita Sunil</div>
+            </div>
+
+            <div class="team-card">
+                <img class="team-image" src="img/team-ravee.jpg" alt="">
+                <div class="team-name">Ravee Deshpande</div>
+            </div>
+
+        </div>
+
+        <div class="quote-container">
+            <div class="quote-text">Anyone affected by the indirect consequences of a specific action will automatically
+                share a common interest in controlling those consequences, in solving a common problem. Since every
+                action generates unintended consequences, publics continuously emerge, overlap, and disintegrate.</div>
+            <div class="quote-author">[John Dewey]</div>
+        </div>
+
+
+        <div class="footer">
+            Public Knowledge Studio 2025
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <script>
+        document.getElementById("toggle-controls").addEventListener("click", function () {
+            document.getElementById("controls-panel").classList.toggle("display-none");
+        });
+
+        // Function to copy email to clipboard
+        function copyEmail() {
+            const email = document.getElementById('email').textContent;
+
+            // Check if the Clipboard API is available
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(email).then(() => {
+                    showCopySuccess();
+                }).catch(err => {
+                    console.error('Failed to copy email: ', err);
+                    fallbackCopyToClipboard(email);
+                });
+            } else {
+                // Fallback for browsers that don't support the Clipboard API
+                fallbackCopyToClipboard(email);
+            }
+        }
+
+        // Fallback method using document.execCommand
+        function fallbackCopyToClipboard(text) {
+            // Create a temporary textarea element
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Make the textarea out of viewport
+            textArea.style.position = "fixed";
+            textArea.style.left = "-999999px";
+            textArea.style.top = "-999999px";
+            document.body.appendChild(textArea);
+
+            // Focus and select the text
+            textArea.focus();
+            textArea.select();
+
+            try {
+                // Execute the copy command
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    showCopySuccess();
+                } else {
+                    alert('Failed to copy email. Please try again.');
+                }
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+                alert('Failed to copy email. Please try again.');
+            }
+
+            // Remove the temporary textarea
+            document.body.removeChild(textArea);
+        }
+
+        // Show success message
+        function showCopySuccess() {
+            const button = document.getElementById('copyemail');
+            const originalText = button.textContent;
+            button.textContent = 'Copied!';
+
+            // Reset button text after 2 seconds
+            setTimeout(() => {
+                button.textContent = originalText;
+            }, 2000);
+        }
+
+    </script>
+
+    <script>
+        // Wait for DOM to be fully loaded and verify anime is available
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof window.anime === 'undefined') {
+                console.error('Anime.js library not loaded');
+                return;
+            }
+
+            // Get all huge-text elements
+            const hugeTexts = document.querySelectorAll('.huge-text');
+
+            hugeTexts.forEach(textElement => {
+                // Split text into words and wrap each in a span
+                const text = textElement.textContent;
+                textElement.textContent = '';
+
+                text.split('').forEach(word => {
+                    const span = document.createElement('span');
+                    span.textContent = word;
+                    span.style.opacity = '0';
+                    textElement.appendChild(span);
+                });
+
+                // Animate each character when the div is in view
+                const observer = new IntersectionObserver((entries) => {
+                    if (entries[0].isIntersecting) {
+                        window.anime({
+                            targets: textElement.querySelectorAll('span'),
+                            opacity: [.5, 1],
+                            duration: 140,
+                            delay: window.anime.stagger(10, { from: 10, to: 100, random: true }),
+                            easing: 'easeInOutSine'
+                        });
+                        observer.disconnect();
+                    }
+                });
+                observer.observe(textElement);
+            });
+
+
+            // Animate every project inside project-line when it's in view
+            const projectLines = document.querySelectorAll('.project-line');
+            projectLines.forEach(projectLine => {
+                const projectItems = projectLine.querySelectorAll('.project');
+                projectItems.forEach((item, index) => {
+                    const observer = new IntersectionObserver((entries) => {
+                        if (entries[0].isIntersecting) {
+                            window.anime({
+                                targets: item,
+                                translateY: [20, 0],
+                                opacity: [0, 1],
+                                duration: 2000,
+                                delay: 100 + (index * 200) // Stagger each project by .5s
+                            });
+                            observer.disconnect();
+                        }
+                    });
+                    observer.observe(item);
+                });
+            });
+
+            // Animate every service inside service-container when it's in view
+            const serviceContainer = document.querySelector('.service-container');
+            const serviceItems = serviceContainer.querySelectorAll('.service-card');
+            serviceItems.forEach((item, index) => {
+                const observer = new IntersectionObserver((entries) => {
+                    if (entries[0].isIntersecting) {
+                        window.anime({
+                            targets: item,
+                            translateY: [20, 0],
+                            opacity: [0, 1],
+                            duration: 2000,
+                            delay: 100 + (index * 300) // Stagger each project by .5s
+                        });
+                        observer.disconnect();
+                    }
+                });
+                observer.observe(item);
+            });
+
+            // Animate every team inside team-container when it's in view
+            const teamContainer = document.querySelector('.team-container');
+            const teamItems = teamContainer.querySelectorAll('.team-card');
+            teamItems.forEach((item, index) => {
+                const observer = new IntersectionObserver((entries) => {
+                    if (entries[0].isIntersecting) {
+                        window.anime({
+                            targets: item,
+                            translateY: [20, 0],
+                            opacity: [0, 1],
+                            duration: 2000,
+                            delay: 100 + (index * 300) // Stagger each project by .5s
+                        });
+                        observer.disconnect();
+                    }
+                });
+                observer.observe(item);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
