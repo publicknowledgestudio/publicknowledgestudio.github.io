@@ -72,6 +72,9 @@ collections:
     blog:
       output: true
       permalink: /:slug
+    team:
+      output: true
+      permalink: /:slug
 
 markdown: kramdown
 
@@ -88,11 +91,11 @@ sass:
 defaults:
   - scope:
       path: ""
-      type: notes
+      type: projects
     values:
       layout: Post
       permalink: /:slug
-      content-type: notes
+      content-type: projects
 
 
 # Exclude from processing.

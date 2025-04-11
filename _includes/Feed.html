@@ -29,14 +29,14 @@
 *
 {%- endcomment -%}
 
-<!--Notes Feed-->
-<!--Static Page : pages/notes.md-->
+<!--Projects Feed-->
+<!--Static Page : pages/projects.md-->
 
 {%- if page.feedformat == "card" -%}
     {%- if site.preferences.search.enabled -%}
         <!-- search bar -->
         <div class="block">
-            <input class="input is-medium" type="text" placeholder="Search notes.." id="search-input" autocomplete="off">
+            <input class="input is-medium" type="text" placeholder="Search projects.." id="search-input" autocomplete="off">
             <div id="search-results" class="search-results"></div>
         </div>
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/vendor/lunr.min.js"></script>
@@ -47,15 +47,15 @@
     <!-- show only items tagged lecture -->
     <div class="related-wrapper">
         <h5 class="meta-title centre-title">Lectures</h5>
-    {% assign note_items = site.notes | sort: "date" | reverse %}
-    {% for note_items in note_items %}
-        {%- if note_items.feed == "show" and note_items.tags contains "lecture" -%}
+    {% assign project_items = site.projects | sort: "date" | reverse %}
+    {% for project_items in project_items %}
+        {%- if project_items.feed == "show" and project_items.tags contains "lecture" -%}
                 <div class="notelist-feed">
-                    <a href="{{ site.baseurl }}{{note_items.url}}">
-                        <h6>{{ note_items.title }}</h6>
-                        <p>{{ note_items.date | date: "%d %B %Y" }}</p>
+                    <a href="{{ site.baseurl }}{{project_items.url}}">
+                        <h6>{{ project_items.title }}</h6>
+                        <p>{{ project_items.date | date: "%d %B %Y" }}</p>
                         <p class="excerpt">
-                            {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
+                            {{ project_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
                         </p>
                     </a>
                 </div>
@@ -66,14 +66,14 @@
         <!-- show only items tagged exercise -->
         <div class="related-wrapper">
             <h5 class="meta-title centre-title">Exercises</h5>
-            {% assign note_items = site.notes | sort: "date" | reverse %}
-            {% for note_items in note_items %}
-                {%- if note_items.feed == "show" and note_items.tags contains "exercise" -%}
+            {% assign project_items = site.projects | sort: "date" | reverse %}
+            {% for project_items in project_items %}
+                {%- if project_items.feed == "show" and project_items.tags contains "exercise" -%}
                         <div class="notelist-feed">
-                            <a href="{{ site.baseurl }}{{note_items.url}}">
-                                <h6>{{ note_items.title }}</h6>
+                            <a href="{{ site.baseurl }}{{project_items.url}}">
+                                <h6>{{ project_items.title }}</h6>
                                 <p class="excerpt">
-                                    {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
+                                    {{ project_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
                                 </p>
                             </a>
                         </div>
@@ -83,41 +83,38 @@
 
         <!-- show everything other than lecture and exercise -->
         <div class="related-wrapper">
-            <h5 class="meta-title centre-title">Other Notes</h5>
-            {% assign note_items = site.notes | sort: "date" | reverse %}
-            {% for note_items in note_items %}
-                {%- if note_items.feed == "show" and note_items.tags.size == 0 -%}
+            <h5 class="meta-title centre-title">Other Projects</h5>
+            {% assign project_items = site.projects | sort: "date" | reverse %}
+            {% for project_items in project_items %}
+                {%- if project_items.feed == "show" and project_items.tags.size == 0 -%}
                         <div class="notelist-feed">
-                            <a href="{{ site.baseurl }}{{note_items.url}}">
-                                <h6>{{ note_items.title }}</h6>
+                            <a href="{{ site.baseurl }}{{project_items.url}}">
+                                <h6>{{ project_items.title }}</h6>
                                 <p class="excerpt">
-                                    {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
+                                    {{ project_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
                                 </p>
                             </a>
                         </div>
                 {%- endif -%}
             {%- endfor -%}
             </div>
-
-
-
-
-{%-endif -%}
+{%- endif -%}
 
 <!--Dynamic List Feed-->
-<!--Static Page : pages/lists.md-->
-
 {%- if page.feedformat == "row" -%}
 <div class="block">
-    {% assign note_items = site.notes | sort: "date" | reverse %}
-    {% for note_items in note_items %}
-        {%- if note_items.format == "list" -%}
+    {% assign project_items = site.projects | sort: "date" | reverse %}
+    {% for project_items in project_items %}
+        {%- if project_items.format == "list" -%}
             <div class="list-feed">
-                    <a href="{{ site.baseurl }}{{note_items.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
-                        <div class="writinglist-title">
-                            {{note_items.title }}
-                        </div>
-                    </a>
+                <a href="{{ site.baseurl }}{{project_items.url}}" style="text-decoration: none;display:flex;justify-content:space-between;flex-direction:row;width:100%;">
+                    <div class="writinglist-title">
+                        {{project_items.title }}
+                    </div>
+                    <div style="min-width:100px;margin-left:10px;text-align:right;">
+                        {{ project_items.date | date: "%d %B %Y" }}
+                    </div>
+                </a>
             </div>
         {%-endif -%}
     {%- endfor -%}
