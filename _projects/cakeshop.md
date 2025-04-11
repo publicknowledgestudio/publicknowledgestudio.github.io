@@ -1,6 +1,8 @@
 ---
 date: 11-04-2025
 date modified: 11-04-2025
+description: 
+featured: yes
 feed: show
 format: list
 layout: Post

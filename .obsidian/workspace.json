@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Borkowski.md",
+                "file": "_projects/Cakeshop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Borkowski"
+              "title": "Cakeshop"
             }
           }
         ]
@@ -176,9 +176,17 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_quotes/dewey.md",
+    "_quotes/einstein.md",
+    "_quotes",
+    "untitled folder",
+    "_includes/work.html",
+    "_includes/team.html",
+    "_includes/services.html",
+    "_includes/quote.html",
     "_includes/footer.html",
-    "_projects/AHFL Website.md",
     "_projects/Borkowski.md",
+    "_projects/AHFL Website.md",
     "_projects/Cakeshop.md",
     "_projects/EBC Reader.md",
     "_projects/Listen.md",
@@ -188,13 +196,6 @@
     "_site/assets/video/radial-flowers.mp4",
     "assets/video/radial-flowers.mp4",
     "_site/assets/video/sa-biennale-thumbnail.webm",
-    "_site/assets/video/listen-thumbnail.mp4",
-    "_site/assets/video",
-    "assets/video/listen-thumbnail.mp4",
-    "assets/video/sa-biennale-thumbnail.webm",
-    "assets/video",
-    "_site/assets/js/animate-asterisk.js",
-    "assets/js/animate-asterisk.js",
     "_services/development.md",
     "_services/interface-experience.md",
     "_services/brandwork.md",
@@ -211,7 +212,6 @@
     "_notes/Project - Endsem Project.md",
     "_notes/Lecture 4.md",
     "_notes/Lecture 2.md",
-    "_notes/Lecture 1.md",
     "assets/img/Data Ethics.png",
     "_site/assets/img/ogdv.jpg",
     "assets/img/ogdv.jpg",

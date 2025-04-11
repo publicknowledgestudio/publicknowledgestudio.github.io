@@ -1,0 +1,6 @@
+{% assign random_quote = site.quotes | sample %}
+
+<div class="quote-container">
+    <div class="quote-text">{{ random_quote.content }}</div>
+    <div class="quote-author">[{{ random_quote.author }}]</div>
+</div> 
