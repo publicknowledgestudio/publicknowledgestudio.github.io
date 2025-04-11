@@ -1,0 +1,73 @@
+{
+    "rules": [
+        {
+            "name": "Jekyll Posts",
+            "pattern": "_posts/\\d{4}-\\d{2}-\\d{2}-.*\\.md$",
+            "description": "Jekyll blog posts with date prefix"
+        },
+        {
+            "name": "Jekyll Layouts",
+            "pattern": "_layouts/.*\\.html$",
+            "description": "Jekyll layout templates"
+        },
+        {
+            "name": "Jekyll Includes",
+            "pattern": "_includes/.*\\.html$",
+            "description": "Jekyll include files"
+        },
+        {
+            "name": "Jekyll Collections",
+            "pattern": "_\\w+/.*\\.md$",
+            "description": "Jekyll collection files"
+        },
+        {
+            "name": "Jekyll Data",
+            "pattern": "_data/.*\\.(yml|yaml|json|csv)$",
+            "description": "Jekyll data files"
+        },
+        {
+            "name": "Jekyll Config",
+            "pattern": "_config\\.yml$",
+            "description": "Jekyll configuration file"
+        },
+        {
+            "name": "Jekyll Assets",
+            "pattern": "assets/.*\\.(css|js|scss|sass|jpg|jpeg|png|gif|svg)$",
+            "description": "Jekyll static assets"
+        },
+        {
+            "name": "Gemfile",
+            "pattern": "Gemfile$",
+            "description": "Ruby dependencies file"
+        },
+        {
+            "name": "Markdown Files",
+            "pattern": ".*\\.md$",
+            "description": "Markdown documentation and content"
+        }
+    ],
+    "ignore": [
+        "_site/",
+        ".jekyll-cache/",
+        "node_modules/",
+        ".git/",
+        ".DS_Store",
+        "*.swp",
+        "*.swo"
+    ],
+    "snippets": {
+        "jekyll-front-matter": {
+            "prefix": "frontmatter",
+            "body": [
+                "---",
+                "layout: ${1:default}",
+                "title: ${2:Title}",
+                "date: ${3:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}}",
+                "categories: ${4:[]}",
+                "tags: ${5:[]}",
+                "---"
+            ],
+            "description": "Jekyll front matter template"
+        }
+    }
+} 
