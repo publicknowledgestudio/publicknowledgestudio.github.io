@@ -175,6 +175,8 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_includes/StartupCard.html",
+    "_includes/startup-card.html",
     "_includes/ContactButton.html",
     "_site/assets/img/pk-star.png",
     "_site/assets/img/Screenshot 2025-04-18 at 8.49.53 PM.png",
@@ -212,8 +214,6 @@
     "_site/:slug.md",
     "_quotes",
     "untitled folder",
-    "_includes/work.html",
-    "_includes/team.html",
     "_projects/Listen.md",
     "_notes/Data Storytelling and Journalism.md",
     "_notes/Lecture 10.md",
