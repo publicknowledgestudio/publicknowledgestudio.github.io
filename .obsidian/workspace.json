@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Cakeshop.md",
+                "file": "_projects/Borkowski.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cakeshop"
+              "title": "Borkowski"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "932d1cd12e690200",
+            "id": "8e5343ed5f8faeaf",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,51 +175,51 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
-    "_quotes/dewey.md",
+    "_includes/ContactButton.html",
+    "_site/assets/img/pk-star.png",
+    "_site/assets/img/Screenshot 2025-04-18 at 8.49.53 PM.png",
+    "_site/assets/img/pk-star-screenshot.png",
+    "assets/img/pk-star.png",
+    "_projects/Cakeshop.md",
+    "_projects/Borkowski.md",
+    "_projects/Amie.md",
+    "_team/gyan-lakhwani.md",
+    "_team/charu-pragya.md",
+    "_services/brandwork.md",
+    "_services/development.md",
+    "_services/interface-experience.md",
+    "_services/strategy.md",
     "_quotes/einstein.md",
+    "_quotes/dewey.md",
+    "_team/ravee-deshpande.md",
+    "_team/namita-sunil.md",
+    "_projects/Bobo Cakery.md",
+    "_site/bobo-cakery.html",
+    "_site/assets/img/bobo-thumbnail.jpg",
+    "assets/img/bobo-thumbnail.jpg",
+    "_site/amie.html",
+    "_projects/EBC Reader.md",
+    "_projects/Sā Biennale.md",
+    "_site/sā-biennale.html",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_projects/Pink List.md",
+    "_includes/Homepage.html",
+    "_site/assets/img/ahfl-thumbnail.jpg",
+    "assets/img/ahfl-thumbnail.jpg",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_site/literary-map-by-hammock-mag.html",
+    "_site/untitled.html",
+    "_site/:slug.md",
     "_quotes",
     "untitled folder",
     "_includes/work.html",
     "_includes/team.html",
-    "_includes/services.html",
-    "_includes/quote.html",
-    "_includes/footer.html",
-    "_projects/Borkowski.md",
-    "_projects/AHFL Website.md",
-    "_projects/Cakeshop.md",
-    "_projects/EBC Reader.md",
     "_projects/Listen.md",
-    "_projects/Literary Map.md",
-    "_projects/Pink List.md",
-    "_projects/Sa Biennale.md",
-    "_site/assets/video/radial-flowers.mp4",
-    "assets/video/radial-flowers.mp4",
-    "_site/assets/video/sa-biennale-thumbnail.webm",
-    "_services/development.md",
-    "_services/interface-experience.md",
-    "_services/brandwork.md",
-    "_services/strategy.md",
     "_notes/Data Storytelling and Journalism.md",
     "_notes/Lecture 10.md",
     "_notes/Exercise - Style a Map.md",
     "_notes/Exercise - Three Ways of Visualising.md",
-    "_notes/Field Trip - Bird Noticing.md",
-    "_notes/Field Trip - DTU Library.md",
-    "_notes/Lecture 9.md",
-    "_notes/Lecture 8.md",
-    "_notes/Lecture 3.md",
-    "_notes/Project - Endsem Project.md",
-    "_notes/Lecture 4.md",
-    "_notes/Lecture 2.md",
     "assets/img/Data Ethics.png",
-    "_site/assets/img/ogdv.jpg",
-    "assets/img/ogdv.jpg",
-    "_site/assets/img/waldo.png",
-    "_site/assets/img/dataselfie-kavya.jpeg",
-    "_site/assets/img/dataselfie-joshna.jpeg",
-    "_site/assets/img/dataselfie-joshna-1.jpeg",
-    "assets/img/waldo.png",
-    "assets/img/dataselfie-kavya.jpeg",
-    "assets/img/dataselfie-joshna-1.jpeg"
+    "_site/assets/img/ogdv.jpg"
   ]
 }

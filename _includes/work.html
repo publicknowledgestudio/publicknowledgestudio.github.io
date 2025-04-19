@@ -2,8 +2,7 @@
 
 <div class="project-container">
     {% for project in site.projects %}
-    <div class="project-line">
-        <a class="project" href="{{ project.url }}" target="_blank" rel="noopener">
+        <a class="project curl" href="{{ project.url }}" target="_blank" rel="noopener">
             <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
             <div class="project-title">{{ project.title }}</div>
             <div class="project-description">{{ project.description }}</div>
@@ -13,6 +12,5 @@
                 {% endfor %}
             </div>
         </a>
-    </div>
     {% endfor %}
 </div> 

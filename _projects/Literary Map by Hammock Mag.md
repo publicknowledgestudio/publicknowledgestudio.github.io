@@ -5,9 +5,9 @@ external_url: https://map.hammockmag.com
 feed: show
 format: list
 layout: Post
-tags: [UI/UX, Development, Strategy]
+tags: UI/UX, Development, Strategy
 thumbnail: assets/img/hammock-thumbnail.jpg
-title: "Literary Map"
+title: "Literary Map by Hammock Mag"
 ---
 
 Designing an interactive literary map for Hammock Mag, visualizing authors' geographies with data-rich storytelling.

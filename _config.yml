@@ -73,10 +73,13 @@ collections:
       output: true
       permalink: /:slug
     team:
-      output: true
+      output: false
       permalink: /:slug
     services:
-      output: true
+      output: false
+      permalink: /:slug
+    quotes:
+      output: false
       permalink: /:slug
 
 markdown: kramdown

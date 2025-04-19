@@ -1,6 +1,15 @@
-{% assign random_quote = site.quotes | sample %}
-
-<div class="quote-container">
-    <div class="quote-text">{{ random_quote.content }}</div>
-    <div class="quote-author">[{{ random_quote.author }}]</div>
-</div> 
+{% for quote in site.quotes %}
+<div class="quote-container" style="display: none;">
+    <div class="quote-text">{{ quote.content }}</div>
+    <div class="quote-author">[{{ quote.author }}]</div>
+</div>
+{% endfor %}
+<script>
+    const quotes = document.querySelectorAll('.quote-container');
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    quotes.forEach((quote, index) => {
+        if (index === randomIndex) {
+            quote.style.display = 'flex';
+        }
+    });
+</script>
