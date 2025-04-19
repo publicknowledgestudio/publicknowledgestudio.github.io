@@ -27,9 +27,6 @@
 
 :root {
     /* Colors */
-    --primary-color: #FF0000;
-    --secondary-color: #00FF00;
-    --accent-color: #0000FF;
     --text-reg: #2A2A2A;
     --background-color: #F5F3F1;
     --background-color-dark: #ece4dc;
@@ -37,6 +34,8 @@
     --charcoal: #2A2A2A;
     --black-5: rgba(0, 0, 0, .1);
     --white: #FFFFFF;
+    --card-background: #faf9f9;
+
     --focus-outline: 2px solid var(--accent-color);
     --focus-outline-offset: 2px;
 
@@ -100,9 +99,9 @@
         --background-color-dark: #2A2A2A;
         --slightly-warm-gray: #2C2C2C;
         --charcoal: #E8E8E8;
+        --white: #181717;
         --black-5: rgba(255, 255, 255, 0.1);
-        --white: #1A1A1A;
-        --card-background: #2A2A2A;
+        --card-background: #1d1d1d;
         --card-border: rgba(255, 255, 255, 0.1);
         --card-shadow: rgba(0, 0, 0, 0.2);
     }
@@ -566,7 +565,7 @@ a.project:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    max-width: 320px;
+    max-width: 330px;
     position: absolute;
     top: var(--spacing-2xl);
     right: var(--spacing-xl);
@@ -792,26 +791,27 @@ textarea {
 
 .startup-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     border-radius: var(--border-radius-lg);
-    background-color: var(--slightly-warm-gray);
+    background-color: var(--card-background);
     transition: transform var(--transition-normal) ease;
     width: var(--width-desktop);
     max-width: var(--max-width);
     margin: auto;
     overflow: hidden;
+    border: .5px solid var(--black-5);
 }
 
 .startup-card-content {
     flex-grow: 1;
-    padding: var(--spacing-md) var(--spacing-2xl) var(--spacing-3xl) var(--spacing-2xl);
+    padding: var(--spacing-md) var(--spacing-3xl) var(--spacing-3xl) var(--spacing-3xl);
 }
 
 .startup-card-image {
     width: 100%;
     flex-grow: 1;
     object-fit: cover;
-    background-image: url(img/glassy-asterisk-light.png);
+    background-image: url(../img/glassy-asterisk-light.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -819,7 +819,7 @@ textarea {
 
 @media (prefers-color-scheme: dark) {
     .startup-card-image {
-        background-image: url(img/glassy-asterisk-dark.png);
+        background-image: url(../img/glassy-asterisk-dark.png);
     }
 }
 
@@ -851,6 +851,7 @@ a .startup-cta:hover {
 }
 
 .startup-cta {
+    font-weight: 300;
     width: fit-content;
     display: inline-flex;
     align-items: center;
@@ -903,11 +904,11 @@ a .startup-cta:hover {
 }
 
 .cta-avatar {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     border: 2px solid var(--background-color);
-    margin-right: -12px;
+    margin-right: -14px;
 }
 
 /* Mobile Styles */

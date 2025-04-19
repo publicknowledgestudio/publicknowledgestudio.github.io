@@ -175,6 +175,10 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_site/assets/img/glassy-asterisk-light.png",
+    "_site/assets/img/glassy-asterisk-dark.png",
+    "assets/img/glassy-asterisk-dark.png",
+    "assets/img/glassy-asterisk-light.png",
     "_includes/StartupCard.html",
     "_includes/startup-card.html",
     "_includes/ContactButton.html",
@@ -207,19 +211,15 @@
     "_projects/Pink List.md",
     "_includes/Homepage.html",
     "_site/assets/img/ahfl-thumbnail.jpg",
-    "assets/img/ahfl-thumbnail.jpg",
     "_projects/Literary Map by Hammock Mag.md",
     "_site/literary-map-by-hammock-mag.html",
     "_site/untitled.html",
     "_site/:slug.md",
     "_quotes",
-    "untitled folder",
     "_projects/Listen.md",
     "_notes/Data Storytelling and Journalism.md",
     "_notes/Lecture 10.md",
     "_notes/Exercise - Style a Map.md",
-    "_notes/Exercise - Three Ways of Visualising.md",
-    "assets/img/Data Ethics.png",
-    "_site/assets/img/ogdv.jpg"
+    "_notes/Exercise - Three Ways of Visualising.md"
   ]
 }
