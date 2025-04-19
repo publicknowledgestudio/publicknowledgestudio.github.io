@@ -3,7 +3,7 @@ date: 11-04-2025
 date modified: 11-04-2025
 feed: show
 format: list
-layout: Post
+layout: Project
 tags: Branding, UI/UX
 thumbnail: img/sa-thumbnail.jpg
 title: "Sā Biennale"

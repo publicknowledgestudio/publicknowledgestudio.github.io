@@ -3,7 +3,7 @@ author:
 date: 02-06-2024
 date modified: 11-04-2025
 feed: show
-layout: Post
+layout: Project
 subtitle: 
 tags: 
 thumbnail: /assets/thumbs/default.png

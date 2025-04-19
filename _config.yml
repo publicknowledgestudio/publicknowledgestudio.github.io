@@ -23,7 +23,7 @@ url: "https://publicknowledge.co" # the base hostname & protocol for your site, 
 
 # If you want to install this jekyll in a subpath (eg /digitalgarden) set it here. 
 # Else keep it Empty (DON'T PUT /; Keep it empty)
-baseurl: "/bloggy"
+baseurl: ""
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
@@ -127,3 +127,17 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# CORS Headers
+cors:
+  enabled: true
+  headers:
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: "GET, OPTIONS"
+    Access-Control-Allow-Headers: "Content-Type"
+
+# View Transitions
+view_transitions:
+  enabled: true
+  transition_duration: 0.5s
+  transition_timing_function: cubic-bezier(0.4, 0, 0.2, 1)

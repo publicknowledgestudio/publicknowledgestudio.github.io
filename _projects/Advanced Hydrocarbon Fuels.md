@@ -3,7 +3,7 @@ date: 29-03-2024
 date modified: 11-04-2025
 description: Saving the world one plastic bag at a time.
 feed: show
-layout: Post
+layout: Project
 permalink: ahfl
 tags: website
 thumbnail: /assets/img/ahfl-thumbnail.jpg

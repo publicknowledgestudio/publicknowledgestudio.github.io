@@ -5,7 +5,7 @@ description: A bespoke e-commerce website for Bobo Cakery, a bakery that special
 featured: yes
 feed: show
 format: list
-layout: Post
+layout: Project
 tags: [UI/UX, Strategy, Branding]
 thumbnail: assets/img/bobo-thumbnail.jpg
 title: "Bobo Cakery"

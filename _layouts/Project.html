@@ -1,0 +1,17 @@
+{% include head.html %}
+
+<body>
+    <div class="project-container">
+        <img class="page-header-image" src="{{ page.thumbnail }}" alt="{{ page.title }}" style="view-transition-name: {{ page.title | remove_spaces }};">
+        <div class="project-header">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.subtitle }}</p>
+        </div>
+        <div class="project-content">
+            {{ content }}
+        </div>
+    </div>
+</body>
+
+{% include footer.html %}
+</html> 

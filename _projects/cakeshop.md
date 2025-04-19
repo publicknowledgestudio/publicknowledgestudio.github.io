@@ -5,7 +5,7 @@ description:
 featured: yes
 feed: show
 format: list
-layout: Post
+layout: Project
 tags: [UI/UX, Strategy, Branding]
 thumbnail: assets/img/cakeshop-thumbnail.jpg
 title: "Cakeshop"

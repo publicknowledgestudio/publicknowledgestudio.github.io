@@ -2,8 +2,8 @@
 
 <div class="project-container">
     {% for project in site.projects %}
-        <a class="project curl" href="{{ project.url }}" target="_blank" rel="noopener">
-            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
+        <a class="project curl" href="{{ project.url }}" rel="noopener">
+            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="" style="view-transition-name: {{ project.title | remove_spaces }};">
             <div class="project-title">{{ project.title }}</div>
             <div class="project-description">{{ project.description }}</div>
             <div class="tag-container">

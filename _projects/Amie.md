@@ -5,4 +5,5 @@ description: Developed Amie’s identity and web design, elevating its vision of
 feed: show
 thumbnail: /assets/img/amie-thumbnail.jpg
 title: "Amie"
+layout: Project
 ---
