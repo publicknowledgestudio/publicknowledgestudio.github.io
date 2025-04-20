@@ -1,11 +1,13 @@
 ---
-date: 06-05-2024
-date modified: 19-04-2025
+date: 20-04-2025
+date modified: 20-04-2025
+external_url: https://borkowski.co.uk
 feed: show
 layout: Project
 permalink: borkowski
 subtitle: London PR
-tags: website
+tags:
+  - website
 thumbnail: /assets/img/borkowski-thumbnail.jpg
 title: "Borkowski"
 ---
@@ -16,3 +18,5 @@ title: "Borkowski"
 Something we did after [[Hammock Map]]
 
 [[Advanced Hydrocarbon Fuels]]
+
+.{grid}

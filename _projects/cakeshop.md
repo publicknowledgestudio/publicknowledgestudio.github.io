@@ -1,11 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 11-04-2025
-description: 
+date modified: 20-04-2025
 featured: yes
 feed: show
-format: list
 layout: Project
+subtitle: 
 tags: [UI/UX, Strategy, Branding]
 thumbnail: assets/img/cakeshop-thumbnail.jpg
 title: "Cakeshop"

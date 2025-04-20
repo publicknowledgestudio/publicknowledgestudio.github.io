@@ -1,17 +1,40 @@
 {% include head.html %}
 
 <body>
-    <div class="project-container">
-        <img class="page-header-image" src="{{ page.thumbnail }}" alt="{{ page.title }}" style="view-transition-name: {{ page.title | remove_spaces }};">
-        <div class="project-header">
-            <h1>{{ page.title }}</h1>
-            <p>{{ page.subtitle }}</p>
+    <div class="logo-text">PUBLIC<br>KNOW<br>LEDGE</div>
+    <img class="page-header-image" src="{{ page.header | default: page.thumbnail }}" alt="{{ page.title }}">
+
+    <div class="project-content">
+        <div class="project-header container-width">
+            <div class="flex-2">
+                <h1 class="mbs-0 sans uppercase" style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">{{
+                    page.title }}
+                    {% if page.external_url %}
+                    <a class="superscript sans inline hover-accent" href="{{ page.external_url }}" target="_blank" rel="noopener">[LIVE SITE
+                        &nearr;]</a>
+                    {% endif %}
+                </h1>
+                <p class="mono uppercase">
+                    IN {{ page.date | date: "%B %Y" }}
+                    <br> BY {% for person in page.team %} {{ person }} {% endfor %}
+                </p>
+            </div>
+            <div class="flex-1">
+                <p class="mbs-0">{{ page.subtitle }}</p>
+                <div class="tag-container">
+                    {% for tag in page.tags %}
+                    <div class="tag">{{ tag }}</div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-        <div class="project-content">
+        <div class="container-width">
             {{ content }}
         </div>
     </div>
+
 </body>
 
 {% include footer.html %}
-</html> 
+
+</html>

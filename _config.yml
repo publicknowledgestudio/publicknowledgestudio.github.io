@@ -127,17 +127,3 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# CORS Headers
-cors:
-  enabled: true
-  headers:
-    Access-Control-Allow-Origin: "*"
-    Access-Control-Allow-Methods: "GET, OPTIONS"
-    Access-Control-Allow-Headers: "Content-Type"
-
-# View Transitions
-view_transitions:
-  enabled: true
-  transition_duration: 0.5s
-  transition_timing_function: cubic-bezier(0.4, 0, 0.2, 1)

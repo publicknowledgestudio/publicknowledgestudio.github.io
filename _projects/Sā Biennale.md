@@ -1,11 +1,12 @@
 ---
 date: 11-04-2025
-date modified: 11-04-2025
+date modified: 20-04-2025
 feed: show
 format: list
 layout: Project
 tags: Branding, UI/UX
-thumbnail: img/sa-thumbnail.jpg
+team: ["Charu Pragya", "Gyan Lakhwani"]
+thumbnail: assets/img/sa-thumbnail.jpg
 title: "Sā Biennale"
 ---
 

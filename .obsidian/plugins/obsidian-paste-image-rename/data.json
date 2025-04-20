@@ -3,7 +3,7 @@
   "dupNumberAtStart": false,
   "dupNumberDelimiter": "-",
   "dupNumberAlways": false,
-  "autoRename": false,
+  "autoRename": true,
   "handleAllAttachments": true,
   "excludeExtensionPattern": "html?",
   "disableRenameNotice": false

@@ -2,10 +2,10 @@
 
 <div class="project-container">
     {% for project in site.projects %}
-        <a class="project curl" href="{{ project.url }}" rel="noopener">
-            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="" style="view-transition-name: {{ project.title | remove_spaces }};">
-            <div class="project-title">{{ project.title }}</div>
-            <div class="project-description">{{ project.description }}</div>
+        <a class="project" href="{{ project.url }}" rel="noopener">
+            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
+            <div class="project-title" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
+            <div class="project-description">{{ project.subtitle }}</div>
             <div class="tag-container">
                 {% for tag in project.tags %}
                 <div class="tag">{{ tag }}</div>

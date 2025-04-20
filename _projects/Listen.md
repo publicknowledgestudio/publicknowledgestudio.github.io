@@ -1,16 +1,17 @@
 ---
 author: 
 date: 02-06-2024
-date modified: 11-04-2025
+date modified: 20-04-2025
 feed: show
 layout: Project
-subtitle: 
-tags: 
-thumbnail: /assets/thumbs/default.png
+subtitle: not want to say certain things when being recorded. You may have less authentic conversatio
+tags: [Design]
+team: ["Charu Pragya", "Gyan Lakhwani"]
+thumbnail: /assets/img/emotional-ai-thumbnail.jpg
 title: "Listen"
 ---
 
-### Potential Issues
+## Potential Issues
 
 - People may not want to say certain things when being recorded. You may have less authentic conversations when recording them.
 - could erode personal and authenticity in human interactions. The idea of recording and analyzing personal conversations through AI could be seen as a step towards a 
