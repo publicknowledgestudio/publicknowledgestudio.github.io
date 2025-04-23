@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Borkowski.md",
+                "file": "_projects/Net Gala.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Borkowski"
+              "title": "Net Gala"
             }
           }
         ]
@@ -144,18 +144,6 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "abae7fc569da53a0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Template/Untitled.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Untitled"
-            }
           }
         ]
       }
@@ -176,6 +164,28 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_projects/Sā Biennale.md",
+    "_projects/Net Gala.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_site/assets/img/ng-logo.jpg",
+    "_site/assets/img/ng-posters.jpg",
+    "assets/img/ng-posters.jpg",
+    "assets/img/ng-logo.jpg",
+    "_site/assets/img/Net Gala-1.jpg",
+    "_site/assets/img/Net Gala.jpg",
+    "_site/assets/img/Net Gala-2.jpg",
+    "assets/img/Net Gala-1.jpg",
+    "assets/img/Net Gala.jpg",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_projects/Amie.md",
+    "_site/assets/img/AHFL-Horiz-Mono.png",
+    "_projects/Borkowski.md",
+    "_site/assets/css/blog.css",
+    "assets/css/blog.css",
+    "_site/assets/css/Borkowski-1.css",
+    "assets/css/Borkowski-1.css",
+    "_site/assets/css/Borkowski.css",
+    "assets/css/Borkowski.css",
     "_site/Template/Image Grid.md",
     "_site/Template/Carousel.md",
     "Template/Image Grid.md",
@@ -185,31 +195,10 @@
     "_site/Template/Image Grid.html",
     "_site/Template/Untitled.html",
     "_site/Template/Untitled.md",
-    "_site/Template",
-    "_projects/Amie.md",
-    "Template",
-    "_site/assets/fonts/TASAOrbiterVF.woff2",
-    "_site/assets/fonts/Amie.woff2",
-    "assets/fonts/TASAOrbiterVF.woff2",
     "_projects/Cakeshop.md",
-    "_site/assets/img/Amie.jpg",
-    "assets/img/Amie.jpg",
-    "_site/assets/img/Cakeshop.png",
-    "_site/assets/img/Cakeshop-1.png",
-    "assets/img/Cakeshop.png",
-    "_site/assets/img/Amie-2.png",
-    "_site/assets/img/Amie-3.png",
-    "assets/img/Amie-2.png",
-    "_site/assets/img/Amie-1.png",
-    "assets/img/Amie-1.png",
     "_projects/Bobo Cakery.md",
-    "_projects/Advanced Hydrocarbon Fuels.md",
-    "_projects/Sā Biennale.md",
     "_projects/Listen.md",
-    "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Borkowski.md",
     "_projects/EBC Reader.md",
-    "_site/test2.html",
     "_site/test2.md",
     "test2.md",
     "_site/test1.md",
@@ -219,8 +208,6 @@
     "_quotes/einstein.md",
     "_team/gyan-lakhwani.md",
     "_team/charu-pragya.md",
-    "_services/brandwork.md",
-    "_services/development.md",
-    "_services/interface-experience.md"
+    "_services/brandwork.md"
   ]
 }

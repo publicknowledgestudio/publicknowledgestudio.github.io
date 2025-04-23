@@ -4,7 +4,7 @@
     <div class="logo-text">PUBLIC<br>KNOW<br>LEDGE</div>
     <img class="page-header-image" src="{{ page.header | default: page.thumbnail }}" alt="{{ page.title }}">
 
-    <div class="project-content">
+    <div class="blog-container">
         <div class="project-header container-width">
             <div class="flex-2">
                 <h1 class="mbs-0 sans uppercase" style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">{{
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-width">
+        <div class="blog">
             {{ content }}
         </div>
     </div>

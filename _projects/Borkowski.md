@@ -19,4 +19,6 @@ Something we did after [[Hammock Map]]
 
 [[Advanced Hydrocarbon Fuels]]
 
-.{grid}
+{: .img-grid }
+
+![](../assets/img/Borkowski-1.png)![](../assets/img/Borkowski.png)![](../assets/img/Borkowski.png)

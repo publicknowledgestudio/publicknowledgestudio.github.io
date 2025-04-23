@@ -15,3 +15,23 @@ dsfhkfdsbjkfds
 ![Write a description](../assets/img/Amie.jpg)
 
 fsdsdffsd
+
+# Heading 1
+
+Some text
+
+## Heading 2
+
+Some text
+
+### Heading 3
+
+Some text
+
+#### Heading 4
+
+Some text
+
+##### Heading 5
+
+Some text
