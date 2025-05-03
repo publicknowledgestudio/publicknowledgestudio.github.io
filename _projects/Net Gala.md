@@ -3,7 +3,7 @@ date: 29-03-2024
 date modified: 21-04-2025
 feed: show
 layout: Project
-permalink: ahfl
+permalink: netgala
 subtitle: Saving the world one plastic bag at a time.
 tags:
   - website

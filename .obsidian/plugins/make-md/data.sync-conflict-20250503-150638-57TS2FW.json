@@ -22,7 +22,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
+  "currentWaypoint": 3,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -44,9 +44,7 @@
     "//_layouts",
     "_notes/Private",
     "_site/assets/img",
-    "_projects",
-    "_team",
-    "_blog"
+    "_projects"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

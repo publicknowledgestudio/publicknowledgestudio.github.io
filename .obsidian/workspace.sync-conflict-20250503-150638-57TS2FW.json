@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Net Gala.md",
+                "file": "_projects/Amie.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Net Gala"
+              "title": "Amie"
+            }
+          },
+          {
+            "id": "f3b2f93c7c7f5f55",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +88,7 @@
             }
           },
           {
-            "id": "560298eb1d780926",
+            "id": "b6574949fb74b8e4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -144,6 +157,18 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "abae7fc569da53a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Template/Untitled.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
           }
         ]
       }
@@ -154,57 +179,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": false
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "19cebb5adcf058e0",
+  "active": "f3b2f93c7c7f5f55",
   "lastOpenFiles": [
-    "_includes/logo.html",
-    "_site/assets/img/listen-ui-recording.png",
-    "assets/img/listen-ui-recording.png",
-    "_site/assets/img/listen-ui-abstract.png",
-    "assets/img/listen-ui-abstract.png",
-    "_site/assets/img/listen-pills.png",
-    "assets/img/listen-pills.png",
-    "_site/assets/img/listen-icon-mockup.png",
-    "assets/img/listen-icon-mockup.png",
-    "_site/assets/img/listen-splash-mockup.png",
-    "assets/img/listen-splash-mockup.png",
-    "_site/netgala.html",
-    "_team/ravee-deshpande.md",
-    "_team/gyan-lakhwani.md",
-    "_team/namita-sunil.md",
-    "_projects/Borkowski.md",
-    "_projects/Net Gala.md",
-    "_site/assets/favicon/site.webmanifest",
-    "_site/assets/favicon/favicon.ico",
-    "_site/assets/favicon",
-    "assets/favicon/site.webmanifest",
-    "assets/favicon/favicon.ico",
-    "assets/favicon",
-    "assets/untitled folder",
-    "_projects/Sā Biennale.md",
-    "_projects/Literary Map by Hammock Mag.md",
+    "Template/Carousel.md",
+    "Template/Image Grid.md",
+    "_site/Template/Carousel.html",
+    "_site/Template/Image Grid.html",
+    "Template",
+    "_site/Template/Untitled.md",
+    "_site/Template",
+    "assets/fonts/TASAOrbiterVF.woff2",
+    "_site/assets/fonts/TASAOrbiterVF.woff2",
+    "_site/assets/img/Amie.jpg",
+    "assets/img/Amie.jpg",
+    "assets/img/Amie-2.png",
+    "assets/img/Amie-1.png",
+    "_site/assets/img/Amie-2.png",
+    "_site/assets/img/Amie-1.png",
+    "assets/img/Amie--1.png",
+    "assets/img/Amie-.png",
+    "_site/assets/img/Amie--1.png",
+    "_site/assets/img/Amie-.png",
+    "_projects/Bobo Cakery.md",
     "_projects/Advanced Hydrocarbon Fuels.md",
     "_projects/Amie.md",
-    "_site/assets/css/blog.css",
-    "assets/css/blog.css",
-    "_site/Template/Image Grid.md",
-    "_site/Template/Carousel.md",
-    "Template/Image Grid.md",
-    "Template/Carousel.md",
-    "_site/Template/Untitled.md",
-    "_projects/Cakeshop.md",
-    "_projects/Bobo Cakery.md",
+    "_projects/Sā Biennale.md",
     "_projects/Listen.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/Borkowski.md",
     "_projects/EBC Reader.md",
+    "_projects/Cakeshop.md",
+    "_site/test2.html",
     "_site/test2.md",
     "test2.md",
+    "_site/test1.html",
     "_site/test1.md",
     "test1.md",
+    "_layouts/test.html",
+    "_includes/cors-headers.html",
     "_quotes/neel.md",
     "_quotes/dewey.md",
-    "_quotes/einstein.md"
+    "_quotes/einstein.md",
+    "_team/gyan-lakhwani.md",
+    "_team/charu-pragya.md",
+    "_services/brandwork.md",
+    "_services/development.md",
+    "_services/interface-experience.md",
+    "_services/strategy.md",
+    "_team/ravee-deshpande.md"
   ]
 }

@@ -147,6 +147,14 @@
     margin-block-start: 0;
 }
 
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
 .hover-accent:hover {
 
     color: red;
@@ -611,14 +619,20 @@ a.project:hover {
 }
 
 .logo-text {
+    display: flex;
+    flex-direction: column;
     z-index: 11;
     position: fixed;
     top: var(--spacing-2xl);
     left: var(--spacing-4xl);
     font-size: var(--font-size-3xl);
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: var(--letter-spacing-tight);
-    mix-blend-mode: difference;
+    transition: .2s;
+}
+
+.logo-text:hover{
+    flex-direction: column-reverse;
 }
 
 .top-right {
