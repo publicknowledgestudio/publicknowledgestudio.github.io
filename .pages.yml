@@ -1,0 +1,25 @@
+content:
+  - name: notes
+    label: Notes
+    type: collection
+    path: _notes
+  - name: projects
+    label: Projects
+    type: collection
+    path: _projects
+  - name: quotes
+    label: Quotes
+    type: collection
+    path: _quotes
+  - name: services
+    label: Services
+    type: collection
+    path: _services
+  - name: team
+    label: Team
+    type: collection
+    path: _team
+  - name: pages
+    label: Pages
+    type: collection
+    path: pages
