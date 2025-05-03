@@ -1,24 +1,57 @@
 ---
 author: 
 date: 02-06-2024
-date modified: 20-04-2025
+date modified: 03-05-2025
 feed: show
+header: /assets/img/listen-hero.jpg
 layout: Project
-subtitle: not want to say certain things when being recorded. You may have less authentic conversatio
-tags: [Design]
-team: ["Charu Pragya", "Gyan Lakhwani"]
+subtitle: Designed emotional-AI products for iOS and web, blending deep research with human-centered strategy.
+tags:
+  - Design
+  - UI/UX
+team:
+  - Charu Pragya
+  - Namita Sunil
+  - Ravee Deshpande
+  - Gyan Lakhwani
 thumbnail: /assets/img/emotional-ai-thumbnail.jpg
 title: "Listen"
 ---
 
-## Potential Issues
+<div class="img-grid">
+<img src="../assets/img/listen-gradient-logo.png" alt="A sunny beach">
+<img src="../assets/img/listen-splash-mockup.png" alt="A sunny beach">
+</div>
 
-- People may not want to say certain things when being recorded. You may have less authentic conversations when recording them.
-- could erode personal and authenticity in human interactions. The idea of recording and analyzing personal conversations through AI could be seen as a step towards a 
-- surveillance culture, where people may feel hesitant to speak freely for fear of being recorded and analyzed. 
-- oversimplify complex human emotions and interactions into quantifiable data,
-- potential misinterpretations - accuracy of sentiment analysis and emotional recognition technology is not perfect 
-- overemphasis on adapting behavior based on AI suggestions rather than genuine human connection.
-- and undue reliance on technology to manage relationships
-- concerns about data security and the 
-- potential for sensitive personal conversations to be hacked or leaked.
+# Heading for Section
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+<div class="img-grid">
+<img src="../assets/img/listen-icon-mockup.png" alt="A sunny beach">
+<img src="../assets/img/listen-pills.png" alt="A sunny beach">
+</div>
+
+<div class="img-grid">
+<img src="../assets/img/listen-ui-abstract.png" alt="A sunny beach">
+</div>
+
+<div class="img-grid">
+<img src="../assets/img/listen-ui-recording.png" alt="A sunny beach">
+<img src="../assets/img/listen-ui-recording.png" alt="A sunny beach">
+</div>
+
+<div class="img-grid">
+<img src="../assets/img/Listen-1.png" alt="A sunny beach">
+<img src="../assets/img/Listen.png" alt="A sunny beach">
+</div>
+
+<div class="img-grid">
+<img src="../assets/img/Listen-3.png" alt="A sunny beach">
+<img src="../assets/img/Listen-4.png" alt="A sunny beach">
+</div>
+
+<div class="img-grid">
+<img src="../assets/img/Listen-5.png" alt="A sunny beach">
+<img src="../assets/img/Listen-6.png" alt="A sunny beach">
+</div>

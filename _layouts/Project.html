@@ -1,7 +1,8 @@
 {% include head.html %}
 
 <body>
-    <div class="logo-text">PUBLIC<br>KNOW<br>LEDGE</div>
+
+    {% include logo.html %}
     <img class="page-header-image" src="{{ page.header | default: page.thumbnail }}" alt="{{ page.title }}">
 
     <div class="blog-container">
@@ -14,9 +15,17 @@
                         &nearr;]</a>
                     {% endif %}
                 </h1>
-                <p class="mono uppercase">
+                <p class="sans uppercase">
                     IN {{ page.date | date: "%B %Y" }}
-                    <br> BY {% for person in page.team %} {{ person }} {% endfor %}
+                    <br> BY 
+                    {% assign team = page.team %}
+                    {% for person in team %}
+                      {% assign index = forloop.index0 %}
+                      {% assign last_index = team.size | minus: 1 %}
+                      {% if index == 0 %}
+                      {% else %} + {% endif %}
+                      {{ person }}
+                    {% endfor %}
                 </p>
             </div>
             <div class="flex-1">
