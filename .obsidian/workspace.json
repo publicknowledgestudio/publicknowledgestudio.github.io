@@ -11,10 +11,14 @@
             "id": "19cebb5adcf058e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_projects/Listen.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Listen"
             }
           }
         ]
@@ -71,7 +75,7 @@
             }
           },
           {
-            "id": "560298eb1d780926",
+            "id": "c583e2e3457d2732",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -80,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -139,6 +144,21 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "8a486ca43a2b8431",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_projects/Listen.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Listen"
+            }
           }
         ]
       }
@@ -149,46 +169,50 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false
     }
   },
-  "active": "8a51888d0d9331d0",
+  "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
-    "_notes/New Employee Checklist.md",
-    "_notes/Website Inspiration.md",
-    "_notes/Ways of Working.md",
+    "_includes/footer.html",
+    "_includes/Footer.html",
     "_notes/Software.md",
+    "_notes/New Employee Checklist.md",
     "_notes/Internship.md",
+    "_notes/Ways of Working.md",
     "_notes/FAQs.md",
-    "_notes/Design Process.md",
-    "_notes/Collections.md",
+    "_notes/Website Inspiration.md",
     "_notes/Case Studies.md",
-    "_notes/example-exercise.md",
-    "_notes/example-note.md",
-    "_projects/Listen.md",
+    "_notes/Collections.md",
+    "_notes/Design Process.md",
+    "Template/Image(s).md",
     "_site/Template/Image(s).md",
     "_site/assets/img/listen-namecard.png",
     "assets/img/listen-namecard.png",
-    "_site/assets/img/listen-posters.png",
     "_site/assets/img/listen-laptop.png",
+    "_site/assets/img/listen-posters.png",
     "assets/img/listen-posters.png",
     "assets/img/listen-laptop.png",
     "_site/assets/img/Listen-9.png",
     "assets/img/Listen-9.png",
     "_site/assets/img/Listen-8.png",
     "assets/img/Listen-8.png",
-    "_site/Template/Video.md",
     "Template/Video.md",
-    "Template/Listen.",
+    "_site/Template/Video.md",
     "_site/assets/video/demo-1.mp4",
     "assets/video/demo-1.mp4",
-    "_projects/EBC Reader.md",
     "_projects/Cakeshop.md",
     "_projects/Borkowski.md",
     "_projects/Advanced Hydrocarbon Fuels.md",
     "_projects/Amie.md",
     "_projects/Bobo Cakery.md",
+    "_projects/EBC Reader.md",
+    "_projects/Listen.md",
     "_projects/Net Gala.md",
     "_projects/Literary Map by Hammock Mag.md",
     "_projects/Sā Biennale.md",

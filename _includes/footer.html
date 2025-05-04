@@ -1,3 +1,51 @@
 <div class="footer">
-    Public Knowledge Studio 2025
+
+    <div class="container-width footer-equal-columns sans">
+
+        <div class="footer-column uppercase">
+            {% include logo.html %}
+
+        </div>
+
+        <div class="footer-column">
+            <p>
+                New Delhi, India
+                <br> 28.5378° N, 77.1431° E
+                <br> <span id="delhi-time"></span>
+                <script>
+                    function updateTime() {
+                        const delhiTime = new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+                        const delhiDate = new Date().toLocaleDateString('en-US', { timeZone: 'Asia/Kolkata', weekday: 'long', day: 'numeric', month: 'long' });
+                        document.getElementById('delhi-time').textContent = `${delhiTime}, ${delhiDate}`;
+                    }
+                    updateTime();
+                    setInterval(updateTime, 1000);
+
+                </script>
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <p>
+                Public Knowledge Studio is an India-based design studio focused on crafting technology with care. We
+                build
+                interfaces and experiences with precision, personality, and purpose.
+            </p>
+
+            {% include ContactButton.html content="Book a call" %}
+        </div>
+
+        <div class="footer-column">
+            <p>
+                <a href="https://www.instagram.com/publicknowledgestudio/">Instagram</a>
+                <br><a href="https://www.x.com/publicknowledgestudio">X/Twitter</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-fill-width mono uppercase">
+        Public Knowledge
+    </div>
+
 </div>

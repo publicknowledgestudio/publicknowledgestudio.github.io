@@ -65,6 +65,7 @@
 .blog {
     position: relative;
     z-index: 10 !important;
+    padding-bottom: var(--spacing-4xl);
 }
 
 .blog h1,
