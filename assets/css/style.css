@@ -1004,7 +1004,7 @@ a .startup-cta:hover {
     flex: 2;
 }
 /* Mobile Styles */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     .scroll-tip {
         display: none;

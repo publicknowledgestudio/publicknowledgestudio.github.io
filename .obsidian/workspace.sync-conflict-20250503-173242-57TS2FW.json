@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Amie.md",
+                "file": "_projects/Listen.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Amie"
+              "title": "Listen"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "e01de44253e9a612",
+            "id": "c583e2e3457d2732",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -146,15 +146,18 @@
             }
           },
           {
-            "id": "abae7fc569da53a0",
+            "id": "8a486ca43a2b8431",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Untitled.md"
+                "file": "_projects/Listen.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Listen"
             }
           }
         ]
@@ -168,59 +171,59 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false
     }
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
-    "_site/Template/Untitled.md",
-    "_site/Template",
-    "assets/fonts/TASAOrbiterVF.woff2",
-    "_site/assets/fonts/TASAOrbiterVF.woff2",
-    "_site/assets/img/Amie.jpg",
-    "assets/img/Amie.jpg",
-    "assets/img/Amie-2.png",
-    "assets/img/Amie-1.png",
-    "_site/assets/img/Amie-2.png",
-    "_site/assets/img/Amie-1.png",
-    "assets/img/Amie--1.png",
-    "assets/img/Amie-.png",
-    "_site/assets/img/Amie--1.png",
-    "_site/assets/img/Amie-.png",
-    "_projects/Bobo Cakery.md",
+    "assets/img/listen-posters.png",
+    "assets/img/listen-laptop.png",
+    "_site/assets/img/Listen-9.png",
+    "assets/img/Listen-9.png",
+    "_site/assets/img/Listen-8.png",
+    "assets/img/Listen-8.png",
+    "_site/assets/img/Listen-7.png",
+    "assets/img/Listen-7.png",
+    "_site/assets/img/Listen-5.png",
+    "_site/assets/img/Listen-6.png",
+    "_site/assets/img/Listen-4.png",
+    "Template/Video.md",
+    "_site/Template/Video.md",
+    "_site/assets/video/demo-1.mp4",
+    "assets/video/demo-1.mp4",
+    "_projects/Cakeshop.md",
+    "_projects/Borkowski.md",
     "_projects/Advanced Hydrocarbon Fuels.md",
     "_projects/Amie.md",
-    "_projects/Sā Biennale.md",
-    "_projects/Listen.md",
-    "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Borkowski.md",
+    "_projects/Bobo Cakery.md",
     "_projects/EBC Reader.md",
-    "_projects/Cakeshop.md",
-    "_site/test2.html",
+    "_projects/Listen.md",
+    "_projects/Net Gala.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/Sā Biennale.md",
+    "_includes/logo.html",
+    "_site/netgala.html",
+    "_team/ravee-deshpande.md",
+    "_team/gyan-lakhwani.md",
+    "_team/namita-sunil.md",
+    "_site/assets/favicon/site.webmanifest",
+    "_site/assets/favicon/favicon.ico",
+    "_site/assets/favicon",
+    "assets/favicon/site.webmanifest",
+    "assets/favicon/favicon.ico",
+    "assets/favicon",
+    "_site/Template/Image Grid.md",
+    "_site/Template/Carousel.md",
+    "Template/Image Grid.md",
+    "Template/Carousel.md",
+    "_site/Template/Untitled.md",
     "_site/test2.md",
     "test2.md",
-    "_site/test1.html",
     "_site/test1.md",
     "test1.md",
-    "_layouts/test.html",
-    "_includes/cors-headers.html",
-    "_quotes/neel.md",
-    "_layouts/Project.html",
-    "_layouts/project.html",
-    "_quotes/dewey.md",
-    "_quotes/einstein.md",
-    "_includes/StartupCard.html",
-    "_team/gyan-lakhwani.md",
-    "_team/charu-pragya.md",
-    "_services/brandwork.md",
-    "_services/development.md",
-    "_services/interface-experience.md",
-    "_services/strategy.md",
-    "_team/ravee-deshpande.md",
-    "_team/namita-sunil.md",
-    "_projects/Pink List.md"
+    "_quotes/neel.md"
   ]
 }

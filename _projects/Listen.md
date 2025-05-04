@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="img-grid">
 <img src="../assets/img/listen-ui-recording.png" alt="A sunny beach">
-<img src="../assets/img/listen-ui-recording.png" alt="A sunny beach">
+<img src="../assets/img/listen-namecard.png" alt="A sunny beach">
 </div>
 
 <div class="img-grid">
@@ -52,6 +52,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="img-grid">
+<img src="../assets/img/listen-laptop.png" alt="A sunny beach">
+</div>
+
+<div class="img-grid">
 <img src="../assets/img/Listen-5.png" alt="A sunny beach">
 <img src="../assets/img/Listen-6.png" alt="A sunny beach">
 </div>
+
+<div class="img-grid">
+<img src="../assets/img/listen-posters.png" alt="A sunny beach">
+</div>
+

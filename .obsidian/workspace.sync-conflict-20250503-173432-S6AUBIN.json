@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Cakeshop.md",
+                "file": "_projects/Listen.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Cakeshop"
+              "title": "Listen"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "3f5dff01396a7d6d",
+            "id": "560298eb1d780926",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,18 +143,6 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "abae7fc569da53a0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Template/Untitled.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Untitled"
-            }
           }
         ]
       }
@@ -166,61 +153,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "templates:Insert template": false
     }
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
-    "_site/assets/img/Amie.jpg",
-    "assets/img/Amie.jpg",
-    "_site/assets/img/Cakeshop.png",
-    "_site/assets/img/Cakeshop-1.png",
-    "assets/img/Cakeshop.png",
-    "_projects/Amie.md",
-    "_site/assets/img/Amie-2.png",
-    "_site/assets/img/Amie-3.png",
-    "assets/img/Amie-2.png",
-    "_site/assets/img/Amie-1.png",
-    "assets/img/Amie-1.png",
-    "_site/assets/img/Amie--1.png",
-    "_projects/Bobo Cakery.md",
-    "_projects/Advanced Hydrocarbon Fuels.md",
-    "_projects/Sā Biennale.md",
-    "_projects/Listen.md",
-    "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Borkowski.md",
+    "_site/assets/img/listen-namecard.png",
+    "assets/img/listen-namecard.png",
+    "_site/assets/img/listen-posters.png",
+    "_site/assets/img/listen-laptop.png",
+    "assets/img/listen-posters.png",
+    "assets/img/listen-laptop.png",
+    "_site/assets/img/Listen-9.png",
+    "assets/img/Listen-9.png",
+    "_site/assets/img/Listen-8.png",
+    "assets/img/Listen-8.png",
+    "_site/assets/img/Listen-7.png",
+    "_site/Template/Video.md",
+    "Template/Video.md",
+    "Template/Listen.",
+    "_site/assets/video/demo-1.mp4",
+    "assets/video/demo-1.mp4",
     "_projects/EBC Reader.md",
+    "_projects/Listen.md",
     "_projects/Cakeshop.md",
-    "_site/test2.html",
+    "_projects/Borkowski.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_projects/Amie.md",
+    "_projects/Bobo Cakery.md",
+    "_projects/Net Gala.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/Sā Biennale.md",
+    "_includes/logo.html",
+    "_site/netgala.html",
+    "_team/ravee-deshpande.md",
+    "_team/gyan-lakhwani.md",
+    "_team/namita-sunil.md",
+    "_site/assets/favicon/site.webmanifest",
+    "_site/assets/favicon/favicon.ico",
+    "_site/assets/favicon",
+    "assets/favicon/site.webmanifest",
+    "assets/favicon/favicon.ico",
+    "_site/Template/Image Grid.md",
+    "_site/Template/Carousel.md",
+    "Template/Image Grid.md",
+    "Template/Carousel.md",
+    "_site/Template/Untitled.md",
     "_site/test2.md",
     "test2.md",
-    "_site/test1.html",
     "_site/test1.md",
     "test1.md",
-    "_layouts/test.html",
-    "_includes/cors-headers.html",
-    "_quotes/neel.md",
-    "_layouts/Project.html",
-    "_layouts/project.html",
-    "_quotes/dewey.md",
-    "_quotes/einstein.md",
-    "_includes/StartupCard.html",
-    "_includes/startup-card.html",
-    "_includes/ContactButton.html",
-    "_team/gyan-lakhwani.md",
-    "_team/charu-pragya.md",
-    "_services/brandwork.md",
-    "_services/development.md",
-    "_services/interface-experience.md",
-    "_services/strategy.md",
-    "_team/ravee-deshpande.md",
-    "_team/namita-sunil.md",
-    "_site/bobo-cakery.html",
-    "_projects/Pink List.md"
+    "_quotes/neel.md"
   ]
 }

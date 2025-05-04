@@ -46,4 +46,11 @@ layout: base
     {% include quote.html %}
 </div>
 
+{% for note in site.notes %}
+    <div class="note">
+        <a href="{{ note.url }}"><h2>{{ note.title }}</h2></a>
+        <p>{{ note.content }}</p>
+    </div>
+{% endfor %}
+
 {% include scripts.html %} 
