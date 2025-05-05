@@ -179,6 +179,12 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_site/assets/img/listen-bagoss.png",
+    "_site/assets/img/listen-overused.png",
+    "_site/assets/img/listen-investor.png",
+    "assets/img/listen-bagoss.png",
+    "assets/img/listen-overused.png",
+    "assets/img/listen-investor.png",
     "_includes/footer.html",
     "_includes/Footer.html",
     "_notes/Software.md",
@@ -197,11 +203,6 @@
     "_site/assets/img/listen-laptop.png",
     "_site/assets/img/listen-posters.png",
     "assets/img/listen-posters.png",
-    "assets/img/listen-laptop.png",
-    "_site/assets/img/Listen-9.png",
-    "assets/img/Listen-9.png",
-    "_site/assets/img/Listen-8.png",
-    "assets/img/Listen-8.png",
     "Template/Video.md",
     "_site/Template/Video.md",
     "_site/assets/video/demo-1.mp4",
@@ -223,7 +224,6 @@
     "_site/assets/favicon/site.webmanifest",
     "_site/assets/favicon/favicon.ico",
     "_site/assets/favicon",
-    "assets/favicon/site.webmanifest",
-    "assets/favicon/favicon.ico"
+    "assets/favicon/site.webmanifest"
   ]
 }

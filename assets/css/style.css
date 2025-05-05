@@ -43,7 +43,10 @@
     --black-5: rgba(0, 0, 0, .1);
     --white: #FFFFFF;
     --card-background: #faf9f9;
-    --footer-background: rgba(255, 255, 255, 0.5);
+    --footer-background: rgba(255, 255, 255, 0.75);
+    --glass-edge: rgba(255, 255, 255, 0.1);
+
+
     --focus-outline: 2px solid var(--accent-color);
     --focus-outline-offset: 2px;
 
@@ -256,19 +259,18 @@ header {
     z-index: 20;
     position: relative;
     width: 100%;
-    margin: auto;
     text-align: left;
     padding: var(--spacing-3xl) 0 0 0;
     background-color: var(--footer-background);
     backdrop-filter: blur(20px) contrast(130%) saturate(150%);
-    border-top: .5px solid #fff;
+    border-top: 1px solid var(--glass-edge);
 }
 
 .footer-fill-width {
-    font-size: 8.25vw;
+    font-size: 8.75vw;
     text-align: center;
     margin-top: 0;
-    mix-blend-mode: difference;
+    letter-spacing: var(--letter-spacing-tight);
 }
 
 .footer-equal-columns {
