@@ -313,7 +313,7 @@ header {
     z-index: 22;
     font-size: 80px;
     transition: .2s;
-    animation: fadeOut 1s ease-out forwards; 
+    animation: fadeOut 7s ease-out forwards; 
     pointer-events: none;
     margin-top: -44px;
     margin-left: -26px;
