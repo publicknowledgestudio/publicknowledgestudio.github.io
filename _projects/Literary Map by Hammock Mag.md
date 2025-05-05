@@ -1,11 +1,16 @@
 ---
 date: 11-04-2025
-date modified: 20-04-2025
+date modified: 05-05-2025
 external_url: https://map.hammockmag.com
 feed: show
 format: list
 layout: Project
+order: 1
 tags: UI/UX Development Strategy
+team:
+ - Gyan Lakhwani
+ - Charu Pragya
+ - Namita Sunil
 thumbnail: assets/img/hammock-thumbnail.jpg
 title: "Literary Map by Hammock Mag"
 ---

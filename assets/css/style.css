@@ -353,19 +353,14 @@ h1{
 .project-container {
     width: var(--width-desktop);
     max-width: var(--max-width);
-    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: start;
+    gap: var(--spacing-4xl);
     margin: 0 auto;
-    z-index: 10;
-    gap: var(--spacing-sm);
-    view-transition-name: project-container;
 }
 
-.project-container:nth-child(3n) {
+.project-container:nth-child(3n + 1) {
     grid-column: span 2;
-    /* third item spans both columns */
 }
 
 .project {
@@ -1126,7 +1121,6 @@ a .startup-cta:hover {
     .footer-equal-columns {
         display: flex;
         flex-direction: column;
-        gap: var(--spacing-xl);
         width: var(--width-mobile);
     }
 
@@ -1192,13 +1186,13 @@ a .startup-cta:hover {
 
     .project-container {
         width: var(--width-mobile);
-        gap: var(--spacing-4xl);
         grid-template-columns: 1fr;
+        gap: var(--spacing-4xl);
+        margin: 0 auto;
     }
 
-    .project-container:nth-child(3n) {
-        grid-column: 1;
-        /* third item spans both columns */
+    .project-container > * {
+        grid-column: 1 !important;
     }
 
     .project-line {
@@ -1363,22 +1357,4 @@ a .startup-cta:hover {
         opacity: 0;
         transform: translateX(20px);
     }
-}
-
-/* Prevent layout shifts during transition */
-.project-title,
-h1 {
-    contain: paint;
-    will-change: transform, opacity;
-}
-
-/* Container transition styles */
-.project-container {
-    view-transition-name: project-container;
-}
-
-::view-transition-old(project-container),
-::view-transition-new(project-container) {
-    animation-duration: 1s;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

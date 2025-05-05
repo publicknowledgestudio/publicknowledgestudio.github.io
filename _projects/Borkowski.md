@@ -1,9 +1,10 @@
 ---
 date: 20-04-2025
-date modified: 20-04-2025
+date modified: 05-05-2025
 external_url: https://borkowski.co.uk
 feed: show
 layout: Project
+order: 9
 permalink: borkowski
 subtitle: London PR
 tags:

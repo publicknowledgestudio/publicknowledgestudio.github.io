@@ -1,10 +1,11 @@
 ---
 author: 
 date: 02-06-2024
-date modified: 03-05-2025
+date modified: 05-05-2025
 feed: show
 header: /assets/img/listen-hero.jpg
 layout: Project
+order: 8
 subtitle: Designed emotional-AI products for iOS and web, blending deep research with human-centered strategy.
 tags:
   - Design
@@ -15,7 +16,7 @@ team:
   - Ravee Deshpande
   - Gyan Lakhwani
 thumbnail: /assets/img/emotional-ai-thumbnail.jpg
-title: "Listen"
+title: "Emotional AI"
 ---
 
 <div class="img-grid">

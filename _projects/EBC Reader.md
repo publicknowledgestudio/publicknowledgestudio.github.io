@@ -1,9 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 20-04-2025
+date modified: 05-05-2025
 feed: show
 format: list
 layout: Project
+order: 3
 tags: UI/UX Strategy
 thumbnail: assets/img/ebc-reader-thumbnail.jpg
 title: "EBC Reader"

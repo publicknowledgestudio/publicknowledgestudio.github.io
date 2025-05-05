@@ -1,8 +1,9 @@
 ---
 date: 29-03-2024
-date modified: 03-05-2025
+date modified: 05-05-2025
 feed: show
 layout: Project
+order: 6
 permalink: netgala
 subtitle: Saving the world one plastic bag at a time.
 tags:

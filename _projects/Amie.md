@@ -1,9 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 20-04-2025
+date modified: 05-05-2025
 feed: show
 header: /assets/img/amie-header.jpg
 layout: Project
+order: 4
 subtitle: Developed Amie’s identity and web design, elevating its vision of a rotating wardrobe for modern lifestyles.
 team: ["Charu Pragya", "Namita Sunil"]
 thumbnail: /assets/img/amie-thumbnail.jpg
