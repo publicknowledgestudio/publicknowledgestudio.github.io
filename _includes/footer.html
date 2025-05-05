@@ -1,19 +1,18 @@
-
 <div class="footer-edge"></div>
 <div class="footer">
 
     <div class="container-width footer-equal-columns sans">
 
         <div class="footer-column uppercase">
-            {% include logo.html %}
 
-        </div>
-
-        <div class="footer-column secondary">
             <p>
-                / New Delhi, India
-                <br>/ 28.5378° N, 77.1431° E
-                <br>/ <span id="delhi-time"></span>
+                Public Knowledge Studio
+
+                <span class="secondary line-height-tight">
+                    <br>/ New Delhi, India
+                    <br>/ 28.5378° N, 77.1431° E
+                    <br>/ <span id="delhi-time"></span>
+                </span>
                 <script>
                     function updateTime() {
                         const delhiTime = new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
@@ -24,37 +23,48 @@
                     setInterval(updateTime, 1000);
 
                 </script>
+
             </p>
         </div>
 
         <div class="footer-column">
-            <p>
-                Public Knowledge Studio is an India-based design studio focused on crafting technology with care. We
-                build
-                interfaces and experiences with precision, personality, and purpose.
-            </p>
+            <p class="secondary">ABOUT</p>
+            <div>
+                We are an India-based design studio focused on crafting technology with care.
+            </div>
 
-            {% include ContactButton.html content="Book a call" %}
+            <p class="secondary">CONTACT</p>
+            <div class="uppercase">
+                <a class="square-button" href="https://www.instagram.com/publicknowledgestudio/">Instagram</a>
+                <a class="square-button" href="https://www.x.com/publicknowledgestudio">X/Twitter</a>
+                <br><a class="square-button" href="mailto:hello@publicknowledgestudio.com">Email</a>
+                <a class="square-button" href="https://cal.com/publicknowledgestudio/30min">Book a call</a>
+            </div>
+
+            <p class="secondary">INDEX</p>
+            <div class="uppercase">
+                {% for project in site.projects %}
+                <a class="square-button" href="{{ project.url }}">{{ project.title }}</a>
+                {% endfor %}
+            </div>
+
+            <p class="secondary">PEOPLE</p>
+            <div class="cta-avatars">
+                <img src="assets/img/team-charu.jpg" alt="Team member 1" class="cta-avatar">
+                <img src="assets/img/team-gyan.jpg" alt="Team member 2" class="cta-avatar">
+                <img src="assets/img/team-namita.jpg" alt="Team member 2" class="cta-avatar">
+                <img src="assets/img/team-ravee.jpg" alt="Team member 2" class="cta-avatar">
+
+            </div>
         </div>
 
-        <div class="footer-column">
-            <p>
-                <a href="https://www.instagram.com/publicknowledgestudio/">Instagram</a>
-                <br><a href="https://www.x.com/publicknowledgestudio">X/Twitter</a>
-            </p>
-        </div>
-
-    </div>
-
-    <div class="footer-fill-width mono uppercase">
-        Public Knowledge
     </div>
 
 </div>
 
 <script>
     // Wait for both DOM and window load to ensure everything is ready
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
         // Function to initialize the footer effects
         function initFooterEffects() {
             const footer = document.querySelector('.footer');
@@ -65,72 +75,88 @@
             }
 
             const asteriskSpawnInterval = 200; // in ms
-            const asteriskFadeTime = 500; // in ms
             const asteriskRemovalTime = 1000; // in ms
-            const asteriskTrailLength = 10; // in px
+            const asteriskTrailLength = 12; // in px
             const asteriskSaturation = 80; // HSL saturation percentage
             const asteriskLightness = 60; // HSL lightness percentage
+            const asteriskHueStep = 10; // Hue shift per asterisk
             let currentHue = 0; // Starting hue
 
             let isMouseInFooter = false;
             let asteriskSpawnTimer;
-            let asteriskFadeTimer;
-            let asteriskRemovalTimer;
+            let lastMouseX = 0;
+            let lastMouseY = 0;
+            let lastSpawnX = 0;
+            let lastSpawnY = 0;
 
-            footer.addEventListener('mouseenter', () => {
+            footer.addEventListener('mouseenter', (event) => {
                 isMouseInFooter = true;
-                spawnAsterisk();
+                lastMouseX = event.clientX;
+                lastMouseY = event.clientY;
+                lastSpawnX = event.clientX;
+                lastSpawnY = event.clientY;
+                spawnAsterisk(event);
             });
 
             footer.addEventListener('mouseleave', () => {
                 isMouseInFooter = false;
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                    asteriskSpawnTimer = null;
+                }
             });
 
             footer.addEventListener('mousemove', (event) => {
                 if (isMouseInFooter) {
+                    lastMouseX = event.clientX;
+                    lastMouseY = event.clientY;
                     spawnAsterisk(event);
                 }
             });
 
             function spawnAsterisk(event) {
+                if (!isMouseInFooter) return;
+
+                // Check if mouse position has changed since last spawn
+                if (lastMouseX === lastSpawnX && lastMouseY === lastSpawnY) {
+                    return;
+                }
+
                 if (asteriskSpawnTimer) {
                     clearTimeout(asteriskSpawnTimer);
                 }
-                if (event) {
-                    const asterisk = document.createElement('div');
-                    asterisk.className = 'asterisk';
-                    const footerRect = footer.getBoundingClientRect();
-                    asterisk.style.left = `${event.clientX - footerRect.left}px`;
-                    asterisk.style.top = `${event.clientY - footerRect.top}px`;
-                    asterisk.textContent = '*';
-                    // Set the color using HSL
-                    asterisk.style.color = `hsl(${currentHue}, ${asteriskSaturation}%, ${asteriskLightness}%)`;
-                    // Increment hue for next asterisk (cycle through 360 degrees)
-                    currentHue = (currentHue + 20) % 360;
-                    footer.appendChild(asterisk);
-                }
+
+                const asterisk = document.createElement('div');
+                asterisk.className = 'asterisk';
+                const footerRect = footer.getBoundingClientRect();
+                asterisk.style.left = `${lastMouseX - footerRect.left}px`;
+                asterisk.style.top = `${lastMouseY - footerRect.top}px`;
+                asterisk.textContent = '*';
+                // Set the color using HSL
+                asterisk.style.color = `hsl(${currentHue}, ${asteriskSaturation}%, ${asteriskLightness}%)`;
+                // Increment hue for next asterisk (cycle through 360 degrees)
+                currentHue = (currentHue + asteriskHueStep) % 360;
+                footer.appendChild(asterisk);
+
+                // Update last spawn position
+                lastSpawnX = lastMouseX;
+                lastSpawnY = lastMouseY;
+
+                // Remove asterisk after specified time
+                setTimeout(() => {
+                    asterisk.remove();
+                }, asteriskRemovalTime);
+
                 asteriskSpawnTimer = setTimeout(() => {
                     spawnAsterisk(event);
                 }, asteriskSpawnInterval);
-            }
-
-            function fadeAsterisk(asterisk) {
-                if (asteriskFadeTimer) {
-                    clearTimeout(asteriskFadeTimer);
-                }
-                asteriskFadeTimer = setTimeout(() => {
-                    asterisk.style.opacity = 0;
-                    asteriskFadeTimer = setTimeout(() => {
-                        asterisk.remove();
-                    }, asteriskRemovalTime);
-                }, asteriskFadeTime);
             }
 
             footer.addEventListener('mousemove', (event) => {
                 if (isMouseInFooter) {
                     const asterisks = document.querySelectorAll('.asterisk');
                     if (asterisks.length > asteriskTrailLength) {
-                        fadeAsterisk(asterisks[0]);
+                        asterisks[0].remove();
                     }
                 }
             });

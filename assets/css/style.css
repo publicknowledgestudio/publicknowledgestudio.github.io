@@ -36,7 +36,7 @@
 :root {
     /* Colors */
     --text-reg: rgb(42, 42, 42);
-    --text-secondary: rgba(42, 42, 42, .75);
+    --text-secondary: rgba(42, 42, 42, .6);
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
     --slightly-warm-gray: #faf9f9;
@@ -64,7 +64,7 @@
     --font-size-3xl: 32px;
     --font-size-4xl: 48px;
     --line-height-base: 1.5;
-    --line-height-tight: 1.4;
+    --line-height-tight: 1.2;
     --letter-spacing-tight: -0.03em;
     --letter-spacing-regular: 0;
     --letter-spacing-wide: 0.05em;
@@ -148,6 +148,10 @@
     display: inline;
 }
 
+.line-height-tight {
+    line-height: var(--line-height-tight);
+}
+
 .secondary {
     color: var(--text-secondary);
 }
@@ -173,6 +177,10 @@
     padding-left: 2px;
 }
 
+.mg-top-6xl{
+    margin-top: var(--spacing-6xl);
+}
+
 .hover-accent:hover {
 
     color: red;
@@ -183,21 +191,6 @@
     max-width: var(--max-width-desktop);
     width: var(--width-desktop);
     margin: auto;
-}
-
-.asterisk{
-    color: #000;
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    pointer-events: none;
-    z-index: 21;
-    font-size: 80px;
-    transition: .2s;
-}
-
-.asterisk:hover{
-    transform: scale(1.5);
 }
 
 /* Ensure proper stacking context */
@@ -250,7 +243,7 @@ body {
     width: var(--width-desktop);
     max-width: var(--max-width);
     margin: auto;
-    padding: var(--spacing-3xl) 0 var(--spacing-xs) 0;
+    padding: 0 0 var(--spacing-6xl) 0;
 }
 
 .quote-text {
@@ -289,23 +282,48 @@ header {
     position: relative;
     width: 100%;
     text-align: left;
-    padding: var(--spacing-3xl) 0 0 0;
+    padding: var(--spacing-3xl) 0 var(--spacing-5xl) 0;
     background-color: var(--footer-background);
     backdrop-filter: blur(20px) contrast(130%) saturate(150%);
     border-top: 1px solid var(--glass-edge);
+    cursor: none;
 }
 
-.footer-fill-width {
-    font-size: 8.75vw;
-    text-align: center;
-    margin-top: 0;
-    letter-spacing: var(--letter-spacing-tight);
+.footer p{
+    margin-top: 40px;
+    margin-block-end: .5em;
 }
+
+.asterisk{
+    font-family: var(--font-stack-mono);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    z-index: 22;
+    font-size: 80px;
+    transition: .2s;
+    animation: fadeOut 1s ease-out forwards; 
+    pointer-events: none;
+    margin-top: -44px;
+    margin-left: -26px;
+}
+
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 
 .footer-equal-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
-    gap: var(--spacing-3xl);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 25vw;
 }
 
 h1,
@@ -451,24 +469,24 @@ a.project:hover {
 
 .square-button {
     font-family: var(--font-stack-mono);
-    padding: 0 var(--spacing-xs);
+    padding: 0;
     transition: padding var(--transition-fast);
 }
 
 .square-button::before {
-    content: '[';
-}
-
-.square-button::after {
-    content: ']';
-}
-
-.square-button:hover::before {
     content: '[\00a0';
 }
 
-.square-button:hover::after {
+.square-button::after {
     content: '\00a0]';
+}
+
+.square-button:hover::before {
+    content: '\00a0[';
+}
+
+.square-button:hover::after {
+    content: ']\00a0';
 }
 
 .service-container {
@@ -939,7 +957,7 @@ textarea {
 
 .startup-card-content {
     flex-grow: 1;
-    padding: var(--spacing-md) var(--spacing-3xl) var(--spacing-3xl) var(--spacing-3xl);
+    padding: var(--spacing-xl) var(--spacing-3xl) var(--spacing-4xl) var(--spacing-3xl);
 }
 
 .startup-card-image {
@@ -991,7 +1009,7 @@ a .startup-cta:hover {
     display: inline-flex;
     align-items: center;
     gap: var(--spacing-md);
-    padding: var(--spacing-sm) var(--spacing-lg) var(--spacing-sm) var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--border-radius-lg);
     text-decoration: none;
     color: var(--charcoal);
@@ -1035,11 +1053,12 @@ a .startup-cta:hover {
 .cta-avatars {
     display: flex;
     margin-right: 0.5rem;
+    margin-left: -2px;
 }
 
 .cta-avatar {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 2px solid var(--background-color);
     margin-right: -14px;
@@ -1102,13 +1121,7 @@ a .startup-cta:hover {
     .footer-column a {
         margin: 0;
     }
-    
-    .footer-fill-width {
-        font-size: 8.4vw;
-        text-align: center;
-        margin-top: 0;
-        mix-blend-mode: difference;
-    }
+
     
     .footer-equal-columns {
         display: grid;
