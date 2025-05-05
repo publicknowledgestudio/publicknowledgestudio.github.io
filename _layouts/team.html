@@ -1,1 +1,47 @@
- 
+{% include head.html %}
+
+<body>
+
+    {% include logo.html %}
+
+
+    <div class="project-header container-width">
+        <div class="flex-2 mg-top-6xl">
+            <h1 class="mg-top-6xl sans uppercase"
+                style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">{{
+                page.name }}
+            </h1>
+        </div>
+
+    </div>
+
+    <img src="{{ page.image }}" alt="{{ page.name }}">
+    <div class="blog">
+        {{ content }}
+    </div>
+
+    {% for project in site.projects %}
+    {% if project.team contains page.name %}
+    <div class="project-container">
+        <a href="{{ project.url }}">
+            <img height="200px" width="200px" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+        </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+</body>
+
+{% include footer.html %}
+
+<script>
+    window.addEventListener('scroll', function () {
+        var headerImage = document.querySelector('.page-header-image');
+        if (window.scrollY < 500) {
+            headerImage.style.height = (80 + window.scrollY / 20) + 'vh';
+        }
+    });
+</script>
+
+
+</html>

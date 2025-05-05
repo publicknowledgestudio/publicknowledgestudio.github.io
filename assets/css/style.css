@@ -471,6 +471,8 @@ a.project:hover {
     font-family: var(--font-stack-mono);
     padding: 0;
     transition: padding var(--transition-fast);
+    backdrop-filter: blur(20px);
+    z-index: 25;
 }
 
 .square-button::before {
@@ -1105,28 +1107,27 @@ a .startup-cta:hover {
     .footer {
         width: 100%;
         margin: 0;
-        padding: var(--spacing-lg) 0;
+        padding: var(--spacing-2xl) 0 var(--spacing-5xl) 0;
     }
 
     .footer-column {
-        display: flex;
-        flex-direction: column;
-        gap: var(--spacing-md);
+        max-width: 100%;
     }
 
     .footer-column p {
-        margin: 0;
+
     }   
 
     .footer-column a {
-        margin: 0;
+
     }
 
     
     .footer-equal-columns {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: var(--spacing-3xl);
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xl);
+        width: var(--width-mobile);
     }
 
 

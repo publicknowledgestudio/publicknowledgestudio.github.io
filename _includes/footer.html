@@ -50,11 +50,11 @@
 
             <p class="secondary">PEOPLE</p>
             <div class="cta-avatars">
-                <img src="assets/img/team-charu.jpg" alt="Team member 1" class="cta-avatar">
-                <img src="assets/img/team-gyan.jpg" alt="Team member 2" class="cta-avatar">
-                <img src="assets/img/team-namita.jpg" alt="Team member 2" class="cta-avatar">
-                <img src="assets/img/team-ravee.jpg" alt="Team member 2" class="cta-avatar">
-
+                {% for person in site.team %}
+                <a href="{{ person.url }}">
+                    <img src="{{ person.image }}" alt="{{ person.name }}" class="cta-avatar">
+                </a>
+                {% endfor %}
             </div>
         </div>
 
