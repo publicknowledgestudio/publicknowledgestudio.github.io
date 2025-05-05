@@ -38,7 +38,7 @@
     --text-reg: #2A2A2A;
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
-    --slightly-warm-gray: #EFEEEC;
+    --slightly-warm-gray: #faf9f9;
     --charcoal: #2A2A2A;
     --black-5: rgba(0, 0, 0, .1);
     --white: #FFFFFF;
@@ -253,6 +253,11 @@ header {
     margin: auto;
     padding: var(--spacing-3xl) 0 var(--spacing-xs) 0;
     align-items: center;
+}
+
+.footer-edge{
+    height: 1px;
+    backdrop-filter: blur(20px) contrast(75%) saturate(300%);
 }
 
 .footer {
@@ -703,7 +708,7 @@ a.project:hover {
 }
 
 .rotateIn {
-    animation: rotateIn 3s both;
+    animation: rotateIn 1.5s both;
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     animation-delay: 0ms;
 }
@@ -733,7 +738,7 @@ a.project:hover {
 @keyframes rotateIn {
     0% {
         opacity: 0;
-        transform: rotate(-180deg);
+        transform: rotate(-90deg);
     }
 
     100% {
