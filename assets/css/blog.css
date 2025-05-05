@@ -4,12 +4,14 @@
     background-color: var(--background-color);
     margin-top: var(--header-image-height-desktop);
     padding-top: var(--spacing-lg);
+    -webkit-box-shadow: 0px -4px 12px rgba(0, 0, 0, .1);
     box-shadow: 0px -4px 12px rgba(0, 0, 0, .1);
 }
 
 .page-header-image {
     width: 100vw;
     height: calc(var(--header-image-height-desktop) + 10vh);
+    -o-object-fit: cover;
     object-fit: cover;
     position: fixed;
     top: 0;
@@ -19,7 +21,12 @@
 }
 
 .project-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     margin-top: var(--spacing-2xl);
     margin-bottom: var(--spacing-3xl);
@@ -27,38 +34,54 @@
 
 .img-grid-fullwidth {
     margin: 0 var(--spacing-lg);
+    display: -ms-grid;
     display: grid;
     grid-auto-flow: column;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
     align-items: stretch;
     gap: var(--spacing-lg);
 }
 
 
 .img-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: var(--width-desktop);
     max-width: var(--max-width);
     gap: var(--spacing-2xl);
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: var(--spacing-2xl) auto;
 }
 
 .img-grid img {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
     flex: 1 1 0;
     min-width: 0;
     max-width: 100%;
     height: auto;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: var(--border-radius-md);
     /* Or whatever suits your layout */
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .img-carousel {
     width: var(--width-desktop);
     max-width: var(--max-width-desktop);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
@@ -147,6 +170,9 @@ figcaption {
     }
 
     .img-grid {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: var(--width-mobile);
         gap: var(--spacing-lg);
@@ -154,6 +180,9 @@ figcaption {
     }
 
     .project-header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: calc(var(--width-mobile) - var(--spacing-2xl));
         max-width: var(--max-width);
