@@ -35,7 +35,8 @@
 
 :root {
     /* Colors */
-    --text-reg: #2A2A2A;
+    --text-reg: rgb(42, 42, 42);
+    --text-secondary: rgba(42, 42, 42, .75);
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
     --slightly-warm-gray: #faf9f9;
@@ -43,7 +44,7 @@
     --black-5: rgba(0, 0, 0, .1);
     --white: #FFFFFF;
     --card-background: #faf9f9;
-    --footer-background: rgba(255, 255, 255, 0.75);
+    --footer-background: rgba(255, 255, 255, 0.9);
     --glass-edge: rgba(255, 255, 255, 0.1);
 
 
@@ -110,6 +111,7 @@
     :root {
         /* Colors - Dark Theme */
         --text-reg: #E8E8E8;
+        --text-secondary: rgba(255, 255, 255, .75);
         --background-color: #1a1a1a;
         --background-color-dark: #2A2A2A;
         --slightly-warm-gray: #2C2C2C;
@@ -119,6 +121,9 @@
         --card-background: #1d1d1d;
         --card-border: rgba(255, 255, 255, 0.1);
         --card-shadow: rgba(0, 0, 0, 0.2);
+
+        --footer-background: rgba(0, 0, 0, 0.82);
+        --glass-edge: rgba(0, 0, 0, 0.75);
     }
 }
 
@@ -141,6 +146,10 @@
 
 .inline {
     display: inline;
+}
+
+.secondary {
+    color: var(--text-secondary);
 }
 
 .superscript {
@@ -174,6 +183,21 @@
     max-width: var(--max-width-desktop);
     width: var(--width-desktop);
     margin: auto;
+}
+
+.asterisk{
+    color: #000;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+    z-index: 21;
+    font-size: 80px;
+    transition: .2s;
+}
+
+.asterisk:hover{
+    transform: scale(1.5);
 }
 
 /* Ensure proper stacking context */

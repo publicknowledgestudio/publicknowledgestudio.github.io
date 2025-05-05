@@ -13,7 +13,7 @@ class AsteriskAnimation {
       initialLength: 18,
       initialWidth: 16,
       debounceDelay: 250,
-      videoSource: '/assets/video/radial-flowers.mp4',
+      videoSource: '/assets/video/listen-thumbnail.mp4',
       ...options
     };
 

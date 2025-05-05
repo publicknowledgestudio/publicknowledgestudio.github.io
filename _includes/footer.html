@@ -9,11 +9,11 @@
 
         </div>
 
-        <div class="footer-column">
+        <div class="footer-column secondary">
             <p>
-                New Delhi, India
-                <br> 28.5378° N, 77.1431° E
-                <br> <span id="delhi-time"></span>
+                / New Delhi, India
+                <br>/ 28.5378° N, 77.1431° E
+                <br>/ <span id="delhi-time"></span>
                 <script>
                     function updateTime() {
                         const delhiTime = new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
@@ -51,3 +51,92 @@
     </div>
 
 </div>
+
+<script>
+    // Wait for both DOM and window load to ensure everything is ready
+    window.addEventListener('load', function() {
+        // Function to initialize the footer effects
+        function initFooterEffects() {
+            const footer = document.querySelector('.footer');
+            if (!footer) {
+                console.warn('Footer element not found, retrying in 100ms...');
+                setTimeout(initFooterEffects, 100);
+                return;
+            }
+
+            const asteriskSpawnInterval = 200; // in ms
+            const asteriskFadeTime = 500; // in ms
+            const asteriskRemovalTime = 1000; // in ms
+            const asteriskTrailLength = 10; // in px
+            const asteriskSaturation = 80; // HSL saturation percentage
+            const asteriskLightness = 60; // HSL lightness percentage
+            let currentHue = 0; // Starting hue
+
+            let isMouseInFooter = false;
+            let asteriskSpawnTimer;
+            let asteriskFadeTimer;
+            let asteriskRemovalTimer;
+
+            footer.addEventListener('mouseenter', () => {
+                isMouseInFooter = true;
+                spawnAsterisk();
+            });
+
+            footer.addEventListener('mouseleave', () => {
+                isMouseInFooter = false;
+            });
+
+            footer.addEventListener('mousemove', (event) => {
+                if (isMouseInFooter) {
+                    spawnAsterisk(event);
+                }
+            });
+
+            function spawnAsterisk(event) {
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                }
+                if (event) {
+                    const asterisk = document.createElement('div');
+                    asterisk.className = 'asterisk';
+                    const footerRect = footer.getBoundingClientRect();
+                    asterisk.style.left = `${event.clientX - footerRect.left}px`;
+                    asterisk.style.top = `${event.clientY - footerRect.top}px`;
+                    asterisk.textContent = '*';
+                    // Set the color using HSL
+                    asterisk.style.color = `hsl(${currentHue}, ${asteriskSaturation}%, ${asteriskLightness}%)`;
+                    // Increment hue for next asterisk (cycle through 360 degrees)
+                    currentHue = (currentHue + 20) % 360;
+                    footer.appendChild(asterisk);
+                }
+                asteriskSpawnTimer = setTimeout(() => {
+                    spawnAsterisk(event);
+                }, asteriskSpawnInterval);
+            }
+
+            function fadeAsterisk(asterisk) {
+                if (asteriskFadeTimer) {
+                    clearTimeout(asteriskFadeTimer);
+                }
+                asteriskFadeTimer = setTimeout(() => {
+                    asterisk.style.opacity = 0;
+                    asteriskFadeTimer = setTimeout(() => {
+                        asterisk.remove();
+                    }, asteriskRemovalTime);
+                }, asteriskFadeTime);
+            }
+
+            footer.addEventListener('mousemove', (event) => {
+                if (isMouseInFooter) {
+                    const asterisks = document.querySelectorAll('.asterisk');
+                    if (asterisks.length > asteriskTrailLength) {
+                        fadeAsterisk(asterisks[0]);
+                    }
+                }
+            });
+        }
+
+        // Start initialization
+        initFooterEffects();
+    });
+</script>
