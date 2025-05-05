@@ -33,10 +33,12 @@ layout: base
 </div>
 
 <div class="container">
-    <div class="section-title">About</div>
-    <div id="animate-words" class="huge-text">
-        We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences that
-        help organisations turn complexity into clarity—and ideas into impact.
+    <div class="about-section">
+        <div class="section-title">About</div>
+        <div id="animate-words" class="huge-text">
+            We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences that
+            help organisations turn complexity into clarity—and ideas into impact.
+        </div>
     </div>
 
     {% include StartupCard.html %}
@@ -47,10 +49,12 @@ layout: base
 </div>
 
 {% for note in site.notes %}
-    <div class="note">
-        <a href="{{ note.url }}"><h2>{{ note.title }}</h2></a>
-        <p>{{ note.content }}</p>
-    </div>
+<div class="note">
+    <a href="{{ note.url }}">
+        <h2>{{ note.title }}</h2>
+    </a>
+    <p>{{ note.content }}</p>
+</div>
 {% endfor %}
 
-{% include scripts.html %} 
+{% include scripts.html %}

@@ -28,32 +28,29 @@
         </div>
 
         <div class="footer-column">
-            <p class="secondary">ABOUT</p>
-            <div>
-                We are an India-based design studio focused on crafting technology with care.
-            </div>
+
 
             <p class="secondary">CONTACT</p>
-            <div class="uppercase">
+            <div class="uppercase glowy">
                 <a class="square-button" href="https://www.instagram.com/publicknowledgestudio/">Instagram</a>
-                <a class="square-button" href="https://www.x.com/publicknowledgestudio">X/Twitter</a>
+                <br><a class="square-button" href="https://www.x.com/publicknowledgestudio">X/Twitter</a>
                 <br><a class="square-button" href="mailto:hello@publicknowledgestudio.com">Email</a>
-                <a class="square-button" href="https://cal.com/publicknowledgestudio/30min">Book a call</a>
+                <br><a class="square-button" href="https://cal.com/publicknowledgestudio/30min">Book a call</a>
             </div>
 
             <p class="secondary">INDEX</p>
-            <div class="uppercase">
-                {% for project in site.projects %}
-                <a class="square-button" href="{{ project.url }}">{{ project.title }}</a>
+            <div class="uppercase glowy">
+                {% for project in site.projects | sort: 'title' %}
+                <a class="square-button" href="{{ project.url }}">{{ project.title }}</a><br>
                 {% endfor %}
             </div>
 
             <p class="secondary">PEOPLE</p>
-            <div class="cta-avatars">
+            <div class="uppercase glowy">
                 {% for person in site.team %}
-                <a href="{{ person.url }}">
-                    <img src="{{ person.image }}" alt="{{ person.name }}" class="cta-avatar">
-                </a>
+                <a class="square-button" href="{{ person.url }}">
+                    <img src="{{ person.image }}" alt="{{ person.name }}" class="img-tiny"> {{ person.name }}
+                </a><br>
                 {% endfor %}
             </div>
         </div>
