@@ -2,11 +2,11 @@
 date: 11-04-2025
 date modified: 19-04-2025
 feed: show
-image: /assets/img/team-charu.jpg
+image: /assets/img/charu-tall.jpg
 layout: team
 name: Charu Pragya
 order: 1
-role: Partner
+role: Founding Partner
 title: "charu-pragya"
 ---
 

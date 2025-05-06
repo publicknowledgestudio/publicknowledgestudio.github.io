@@ -35,7 +35,7 @@
 
 :root {
     /* Colors */
-    --text-reg: rgb(42, 42, 42);
+    --text-reg: rgb(42, 42, 42);ð
     --text-secondary: rgba(42, 42, 42, .6);
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
@@ -46,7 +46,12 @@
     --black-3: rgba(0, 0, 0, .03);
     --white: #FFFFFF;
     --card-background: #faf9f9;
-    --footer-background: rgba(255, 255, 255, 0.9);
+    --footer-background: rgba(255, 255, 255, 0.92);
+    --footer-background-gradient: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, .8) 100%
+    );
     --glass-edge: rgba(255, 255, 255, 0.1);
 
 
@@ -124,7 +129,8 @@
         --card-border: rgba(255, 255, 255, 0.1);
         --card-shadow: rgba(0, 0, 0, 0.2);
 
-        --footer-background: rgba(0, 0, 0, 0.82);
+        --footer-background: rgba(0, 0, 0, 0.9);
+        --footer-background-gradient: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0.9));
         --glass-edge: rgba(0, 0, 0, 0.75);
     }
 }
@@ -182,6 +188,12 @@
 
 .mg-top-6xl {
     margin-top: var(--spacing-6xl);
+}
+
+.space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .img-tiny {
@@ -299,22 +311,15 @@ header {
     align-items: center;
 }
 
-.footer-edge {
-    height: 1px;
-    -webkit-backdrop-filter: blur(20px) contrast(75%) saturate(300%);
-    backdrop-filter: blur(20px) contrast(75%) saturate(300%);
-}
-
 .footer {
     z-index: 20;
     position: relative;
     width: 100%;
     text-align: left;
     padding: var(--spacing-3xl) 0 var(--spacing-5xl) 0;
-    background-color: var(--footer-background);
+    background: var(--footer-background-gradient);
     -webkit-backdrop-filter: blur(20px) contrast(130%) saturate(150%);
     backdrop-filter: blur(20px) contrast(130%) saturate(150%);
-    border-top: 1px solid var(--glass-edge);
     cursor: crosshair;
 }
 
@@ -646,8 +651,20 @@ a.project:hover {
     display: ;
 }
 
+.team-card-content {
+    background-color: var(--background-color);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+}
+
 .team-card {
-    padding: var(--spacing-2xl);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: var(--spacing-md);
     border-radius: var(--border-radius-lg);
     background-color: var(--slightly-warm-gray);
     -webkit-transition: -webkit-transform var(--transition-normal) ease;
@@ -667,8 +684,7 @@ a.project:hover {
 }
 
 .team-name {
-    padding-top: var(--spacing-lg);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
 }
 
 
@@ -677,6 +693,7 @@ a.project:hover {
     font-size: var(--font-size-md);
     font-family: var(--font-stack-sans);
     opacity: .85;
+    line-height: var(--line-height-tight);
 }
 
 .team-image {
@@ -714,11 +731,13 @@ a.project:hover {
         grid-template-columns: repeat(2, 1fr);
         width: var(--width-desktop);
         gap: var(--spacing-3xl);
+
     }
 
     .team-card {
-        gap: var(--spacing-md);
-        padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg) var(--spacing-md);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     .team-name {
@@ -1606,17 +1625,17 @@ a .startup-cta:hover {
 
 
     .team-card {
-        padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg) var(--spacing-md);
+        height: 300px;
+        padding: var(--spacing-sm);
     }
 
     .team-name {
         text-wrap: pretty;
-        font-size: var(--font-size-lg);
-        line-height: 1.2;
+        font-size: var(--font-size-md);
     }
 
     .team-description {
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-sm);
     }
 
     .team-image {}
@@ -1728,6 +1747,10 @@ a .startup-cta:hover {
     .startup-description {
         font-family: var(--font-stack-sans);
         font-size: var(--font-size-md);
+    }
+
+    .desktop-only {
+        display: none;
     }
 
 }

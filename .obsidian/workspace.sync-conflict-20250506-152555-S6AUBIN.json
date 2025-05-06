@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Literary Map by Hammock Mag.md",
+                "file": "_projects/Net Gala.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Literary Map by Hammock Mag"
+              "title": "Net Gala"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "c583e2e3457d2732",
+            "id": "efd710495ebf4ae5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_projects/Literary Map by Hammock Mag.md",
+                "file": "_projects/Listen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Literary Map by Hammock Mag"
+              "title": "Outline of Listen"
             }
           }
         ]
@@ -181,29 +181,40 @@
   "lastOpenFiles": [
     "_site/assets/img/namita-tall.jpg",
     "assets/img/namita-tall.jpg",
-    "assets/img/ravee-tall.jpg",
     "_site/assets/img/ravee-tall.jpg",
-    "assets/img/charu-tall.jpg",
+    "assets/img/ravee-tall.jpg",
     "_site/assets/img/charu-tall.jpg",
+    "assets/img/charu-tall.jpg",
     "_site/assets/img/gyan-tall.jpg",
     "assets/img/gyan-tall.jpg",
     "_site/assets/img/Frame 1171285269.png",
     "assets/img/Frame 1171285269.png",
     "_site/assets/img/hammock_laptop.png",
-    "_projects/Emotional AI.md",
     "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Cakeshop.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
     "_projects/Amie.md",
-    "_projects/Listen.md",
-    "_projects/Dancing with Mountains.md",
-    "_site/dancing-with-mountains.html",
-    "_site/emotional-ai.html",
-    "_site/charu-pragya.html",
-    "_site/gyan-lakhwani.html",
-    "_site/namita-sunil.html",
     "_site/ravee-deshpande.html",
-    "_includes/footer.html",
-    "_includes/Footer.html",
+    "_site/namita-sunil.html",
+    "_site/gyan-lakhwani.html",
+    "_site/charu-pragya.html",
+    "_site/borkowski.html",
+    "_site/sā-biennale.html",
+    "_site/literary-map-by-hammock-mag.html",
+    "_site/ebc-reader.html",
+    "_site/cakeshop.html",
+    "_site/bobo-cakery.html",
+    "_site/Template/Video.md",
+    "_site/Template/Image(s).md",
+    "_site/Template/Carousel.md",
+    "_site/README.md",
+    "_projects/Bobo Cakery.md",
+    "_projects/Borkowski.md",
+    "_projects/Cakeshop.md",
+    "_projects/Dancing with Mountains.md",
+    "_projects/EBC Reader.md",
+    "_projects/Emotional AI.md",
+    "_projects/Net Gala.md",
+    "_projects/Sā Biennale.md",
     "_notes/Software.md",
     "_notes/New Employee Checklist.md",
     "_notes/Internship.md",
@@ -213,17 +224,6 @@
     "_notes/Case Studies.md",
     "_notes/Collections.md",
     "_notes/Design Process.md",
-    "Template/Image(s).md",
-    "_site/Template/Image(s).md",
-    "Template/Video.md",
-    "_site/Template/Video.md",
-    "_site/assets/video/demo-1.mp4",
-    "assets/video/demo-1.mp4",
-    "_projects/Borkowski.md",
-    "_projects/Advanced Hydrocarbon Fuels.md",
-    "_projects/Bobo Cakery.md",
-    "_projects/EBC Reader.md",
-    "_projects/Net Gala.md",
-    "_projects/Sā Biennale.md"
+    "Template/Image(s).md"
   ]
 }

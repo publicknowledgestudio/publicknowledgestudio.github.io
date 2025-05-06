@@ -2,11 +2,11 @@
 date: 11-04-2025
 date modified: 19-04-2025
 feed: show
-image: /assets/img/team-gyan.jpg
+image: /assets/img/gyan-tall.jpg
 layout: team
 name: Gyan Lakhwani
 order: 2
-role: Partner
+role: Founding Partner
 title: "gyan-lakhwani"
 ---
 
