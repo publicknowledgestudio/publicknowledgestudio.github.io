@@ -27,19 +27,11 @@ Some text about amie.
 
 Some text
 
-## Heading 2
-
-Some text
-
-### Heading 3
-
-Some text
-
-#### Heading 4
-
-Some text
-
-##### Heading 5
+<div class="img-carousel">
+<img src="../assets/img/amie-1.png" alt="Alt text">
+<img src="../assets/img/amie-2.png" alt="Alt text">
+<img src="../assets/img/amie-3.png" alt="Alt text">
+</div>
 
 Some text
 

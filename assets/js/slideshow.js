@@ -117,65 +117,51 @@
       let startY = null;
       let isDragging = false;
       let currentTranslate = 0;
-      let isHorizontalSwipe = false;
 
       function getTranslateX(index) {
-        return index === 0 ? 0 : -(index * 100);
+        return -(index * 100);
       }
 
-      function setTranslateX(translate, targetIndex) {
-        const gap = parseInt(getComputedStyle(track).gap) || 0;
-        const slideWidth = track.offsetWidth;
-        const totalWidth = (slideWidth * images.length) + (gap * (images.length - 1));
-        const gapOffset = targetIndex * (gap / totalWidth * 100);
-        track.style.transform = `translateX(${translate - gapOffset}%)`;
+      function setTranslateX(translate) {
+        track.style.transform = `translateX(${translate}%)`;
       }
 
       track.addEventListener("touchstart", e => {
+        e.preventDefault();
         startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
         isDragging = true;
-        isHorizontalSwipe = false;
         currentTranslate = getTranslateX(currentIndex);
-      }, { passive: true });
+      }, { passive: false });
 
       track.addEventListener("touchmove", e => {
         if (!isDragging) return;
+        e.preventDefault();
         
         const currentX = e.touches[0].clientX;
         const currentY = e.touches[0].clientY;
         const diffX = currentX - startX;
         const diffY = currentY - startY;
 
-        // If we haven't determined the swipe direction yet
-        if (!isHorizontalSwipe) {
-          // If the movement is more vertical than horizontal, let the default scroll happen
-          if (Math.abs(diffY) > Math.abs(diffX)) {
-            isDragging = false;
-            return;
-          }
-          // Otherwise, it's a horizontal swipe
-          isHorizontalSwipe = true;
+        // If the movement is more vertical than horizontal, let the default scroll happen
+        if (Math.abs(diffY) > Math.abs(diffX)) {
+          isDragging = false;
+          return;
         }
 
-        // Only handle horizontal swipes
-        if (isHorizontalSwipe) {
-          console.log('Touch move diffX:', diffX);
-          const slideWidth = track.offsetWidth;
-          const totalWidth = (slideWidth * images.length) + (parseInt(getComputedStyle(track).gap) || 0) * (images.length - 1);
-          const diffXPercent = (diffX / totalWidth) * 100;
-          const newTranslate = currentTranslate + diffXPercent;
-          
-          // Calculate the target index based on the translation
-          const targetIndex = Math.round(-newTranslate / 100);
-          const clampedIndex = Math.max(0, Math.min(images.length - 1, targetIndex));
-          
-          setTranslateX(newTranslate, clampedIndex);
-        }
-      }, { passive: true });
+        const slideWidth = track.offsetWidth;
+        const diffXPercent = (diffX / slideWidth) * 100;
+        const newTranslate = currentTranslate + diffXPercent;
+        
+        // Calculate the target index based on the translation
+        const targetIndex = Math.round(-newTranslate / 100);
+        const clampedIndex = Math.max(0, Math.min(images.length - 1, targetIndex));
+        
+        setTranslateX(newTranslate);
+      }, { passive: false });
 
       track.addEventListener("touchend", e => {
-        if (!isDragging || !isHorizontalSwipe) return;
+        if (!isDragging) return;
         
         const endX = e.changedTouches[0].clientX;
         const diffX = endX - startX;
@@ -193,20 +179,31 @@
           updateCarousel();
         }
         
-        startX = null;
-        startY = null;
-        isDragging = false;
-        isHorizontalSwipe = false;
+        // Reset touch state after a small delay
+        setTimeout(() => {
+          startX = null;
+          startY = null;
+          isDragging = false;
+        }, 50);
       }, { passive: true });
 
-      track.addEventListener("touchcancel", () => {
+      track.addEventListener("touchcancel", e => {
         startX = null;
         startY = null;
         isDragging = false;
-        isHorizontalSwipe = false;
         updateCarousel();
       }, { passive: true });
-  
+
+      // Add touch-action CSS property
+      track.style.touchAction = 'pan-x';
+
+      // Add click handler to help reset state
+      track.addEventListener("click", () => {
+        startX = null;
+        startY = null;
+        isDragging = false;
+      });
+
       // Initialize the carousel
       updateCarousel();
     }
