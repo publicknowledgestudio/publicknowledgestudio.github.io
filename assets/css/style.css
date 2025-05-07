@@ -398,6 +398,7 @@ h4,
 h5 {
     font-weight: 500;
     font-family: var(--font-stack-sans);
+    line-height: var(--line-height-tight);
 }
 
 h1 {

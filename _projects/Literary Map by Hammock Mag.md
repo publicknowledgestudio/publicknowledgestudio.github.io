@@ -40,10 +40,11 @@ The tool was built as a responsive web app with a clean, immersive interface. We
 
 From a design perspective, we emphasized minimalism and legibility—leveraging generous white space, serif typography, and organic animations. Technically, we optimized for fast load times and mobile browsing while preserving the editorial richness of the original stories.
 
+# Impact
+
+The result is a map that functions not just as a digital archive, but as a living essay—expanding how literary work can be organized, read, and revisited.
+
 <div class="img-grid">
 <img src="../assets/img/hammock-text.png" alt="A sunny beach">
 <img src="../assets/img/hammock-poster.png" alt="A sunny beach">
 </div>
-# Impact
-
-The result is a map that functions not just as a digital archive, but as a living essay—expanding how literary work can be organized, read, and revisited.

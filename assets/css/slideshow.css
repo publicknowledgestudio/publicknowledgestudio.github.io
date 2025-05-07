@@ -26,6 +26,7 @@
     /* Hide scrollbar but keep functionality */
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
+    border-radius: var(--border-radius-md);
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -37,7 +38,6 @@
     width: 100%;
     flex-shrink: 0;
     position: relative;
-    cursor: pointer;
     scroll-snap-align: start;
 }
 
@@ -47,12 +47,13 @@
     height: auto;
     display: block;
     border-radius: 8px;
-    transition: transform 0.2s ease;
+    transition: transform 0.15s ease;
 }
 
+/* Remove hover effect since we don't want clickable images */
 .carousel-slide:hover img {
-    outline: 1px solid var(--black-5);
-    outline-offset: 2px;
+    outline: none;
+    outline-offset: 0;
 }
 
 /* Navigation Container */
@@ -108,7 +109,7 @@
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.15s ease;
 }
 
 .carousel-dots .dot.active {

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Amie.md",
+                "file": "_projects/Literary Map by Hammock Mag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amie"
+              "title": "Literary Map by Hammock Mag"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "0188463697d8abc3",
+            "id": "4f86bc11ce851695",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -179,34 +179,34 @@
   },
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
+    "_projects/Amie.md",
     "_site/assets/img/amie-type.png",
     "assets/img/amie-type.png",
     "_site/assets/img/amie-colours.png",
     "assets/img/amie-colours.png",
+    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md",
     "_site/assets/img/ravee-tall.png",
     "assets/img/ravee-tall.png",
-    "_projects/Emotional AI.md",
-    "_projects/Amie.md",
     "_site/assets/img/amie-type.jpg",
-    "_site/assets/img/amie-colours.jpg",
     "assets/img/amie-type.jpg",
+    "_site/assets/img/amie-colours.jpg",
     "assets/img/amie-colours.jpg",
-    "_site/assets/img/amie-grid.png",
-    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md",
     "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
-    "_site/assets/js/slideshow.js",
-    "assets/css/slideshow.css",
-    "assets/js/slideshow.js",
-    "_site/assets/css/slideshow.css",
+    "_projects/Dancing with Mountains.md",
+    "_projects/Bobo Cakery.md",
     "_projects/Literary Map by Hammock Mag.md",
+    "_site/assets/css/slideshow.css",
+    "assets/css/slideshow.css",
+    "_projects/Emotional AI.md",
     "_projects/Cakeshop.md",
     "_projects/Listen.md",
-    "_projects/Dancing with Mountains.md",
     "_site/dancing-with-mountains.html",
     "_site/emotional-ai.html",
     "_site/charu-pragya.html",
     "_site/gyan-lakhwani.html",
     "_site/namita-sunil.html",
+    "_site/ravee-deshpande.html",
+    "_includes/footer.html",
     "_notes/Software.md",
     "_notes/New Employee Checklist.md",
     "_notes/Internship.md",
@@ -222,7 +222,6 @@
     "_site/Template/Video.md",
     "_projects/Borkowski.md",
     "_projects/Advanced Hydrocarbon Fuels.md",
-    "_projects/Bobo Cakery.md",
     "_projects/EBC Reader.md",
     "_projects/Net Gala.md"
   ]

@@ -127,6 +127,9 @@
   
       // Initialize the carousel
       updateCarousel();
+      
+      // Ensure carousel starts at first image
+      track.scrollLeft = 0;
     }
   
     document.addEventListener("DOMContentLoaded", function () {
