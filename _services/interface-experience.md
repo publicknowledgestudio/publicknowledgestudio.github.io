@@ -3,8 +3,8 @@ date: 11-04-2025
 date modified: 19-04-2025
 feed: show
 layout: service
-name: Interface & Experience
-order: 3
+name: Interface & Experience Design
+order: 2
 title: "interface-experience"
 ---
 

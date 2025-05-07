@@ -1,11 +1,37 @@
 <div class="section-title">The Services</div>
+<div class="section-divider desktop-only"></div>
 
-<div class="service-container">
-    {% assign sorted_services = site.services | sort: 'order' %}
-    {% for service in sorted_services %}
-    <div class="service-card">
-        <div class="service-name">{{ service.name }}</div>
-        <div class="service-description">{{ service.content }}</div>
+<div class="flex-row container-width">
+    <div class="mg-top-md">
+        Polish your pitch. Price your product. Launch the site. Relaunch it, this time even better. Build the app. Go viral.
+        Celebrate. Then do it all again. With us.
     </div>
-    {% endfor %}
-</div> 
+
+
+    <div class="service-container">
+        {% assign sorted_services = site.services | sort: 'order' %}
+        {% for service in sorted_services %}
+        <details class="service-card">
+            <summary class="service-name">{{ service.name }}</summary>
+            <div class="service-description">{{ service.content }}</div>
+        </details>
+        {% endfor %}
+    </div>
+
+</div>
+
+<script>
+    document.querySelectorAll('.service-card').forEach(details => {
+        details.addEventListener('click', (e) => {
+            // Only handle clicks on the summary element
+            if (e.target.tagName === 'SUMMARY') {
+                // Close all other details elements
+                document.querySelectorAll('.service-card').forEach(otherDetails => {
+                    if (otherDetails !== details) {
+                        otherDetails.removeAttribute('open');
+                    }
+                });
+            }
+        });
+    });
+</script>

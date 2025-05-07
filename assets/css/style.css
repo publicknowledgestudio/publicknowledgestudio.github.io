@@ -35,8 +35,8 @@
 
 :root {
     /* Colors */
-    --text-reg: rgb(42, 42, 42);ð
-    --text-secondary: rgba(42, 42, 42, .6);
+    --text-reg: rgb(42, 42, 42);
+    --text-secondary: rgba(42, 42, 42, .7);
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
     --slightly-warm-gray: #faf9f9;
@@ -47,11 +47,9 @@
     --white: #FFFFFF;
     --card-background: #faf9f9;
     --footer-background: rgba(255, 255, 255, 0.92);
-    --footer-background-gradient: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 255, 255, .8) 100%
-    );
+    --footer-background-gradient: linear-gradient(to bottom,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, .8) 100%);
     --glass-edge: rgba(255, 255, 255, 0.1);
 
 
@@ -188,6 +186,10 @@
     padding-left: 2px;
 }
 
+.mg-top-md {
+    margin-top: var(--spacing-md);
+}
+
 .mg-top-6xl {
     margin-top: var(--spacing-6xl);
 }
@@ -212,7 +214,7 @@
 }
 
 .container-width {
-    max-width: var(--max-width-desktop);
+    max-width: var(--max-width);
     width: var(--width-desktop);
     margin: auto;
 }
@@ -605,53 +607,82 @@ a.project:hover {
     width: var(--width-desktop);
     margin: 0 auto;
     padding-bottom: var(--spacing-6xl);
-    max-width: var(--max-width-desktop);
+    max-width: var(--max-width);
     width: var(--width-desktop);
 }
 
 .service-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr var(--spacing-2xl) 1fr var(--spacing-2xl) 1fr var(--spacing-2xl) 1fr;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--spacing-2xl);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     width: var(--width-desktop);
     max-width: var(--max-width);
     margin: 0 auto;
-    padding-bottom: var(--spacing-6xl);
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: start;
-    height: 100px;
-    overflow-y: visible;
+    padding-bottom: var(--spacing-2xl);
 }
-
 
 .service-card {
-    padding: var(--spacing-2xl);
     border-radius: var(--border-radius-lg);
-    background-color: var(--slightly-warm-gray);
-    -webkit-transition: -webkit-transform var(--transition-normal) ease;
-    transition: -webkit-transform var(--transition-normal) ease;
-    -o-transition: transform var(--transition-normal) ease;
-    transition: transform var(--transition-normal) ease;
-    transition: transform var(--transition-normal) ease, -webkit-transform var(--transition-normal) ease;
-    height: auto;
+    transition: .2s;
+    padding: 0;
+    overflow: hidden;
+    transition: background-color var(--transition-normal) ease;
 }
 
-.service-description {
-    font-size: var(--font-size-md);
-    font-family: var(--font-stack-sans);
-    opacity: .85;
+
+
+.section-divider {
+    width: var(--width-desktop);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    height: 1px;
+    background-color: var(--text-reg);
+    opacity: .5;
+    margin-bottom: calc(var(--spacing-md) * -1);
+}
+
+.service-card summary {
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding: var(--spacing-md) var(--spacing-4xl) var(--spacing-lg) var(--spacing-2xl);
+}
+
+
+
+.service-card summary::-webkit-details-marker {
     display: none;
 }
 
-.service-card:hover {}
+.service-card summary::after {
+    content: '+';
+    position: absolute;
+    right: var(--spacing-sm);
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s;
+    font-size: var(--font-size-2xl);
+}
 
+.service-card[open] summary::after {
+    transform: translateY(-50%) rotate(135deg);
+}
 
-.service-card:hover .service-description {
-    display: block;
-    display: ;
+.service-card .service-description {
+    padding: 0 var(--spacing-2xl) var(--spacing-lg) var(--spacing-2xl);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all var(--transition-normal) ease;
+    max-height: 0;
+    overflow: hidden;
+    color: var(--text-secondary);
+}
+
+.service-card[open] .service-description {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 1000px;
+    /* Adjust this value based on your content */
 }
 
 .team-card-content {
@@ -675,7 +706,12 @@ a.project:hover {
 
 .service-name {
     font-size: var(--font-size-xl);
-    height: var(--spacing-5xl);
+    margin: 0;
+}
+
+.service-description p {
+    color: var(--text-secondary);
+    margin-block-start: 0;
 }
 
 .team-name {
@@ -700,24 +736,6 @@ a.project:hover {
 
 
 @media (max-width: 1200px) {
-    .service-container {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 1fr var(--spacing-2xl) 1fr;
-        grid-template-columns: repeat(2, 1fr);
-        gap: var(--spacing-2xl);
-        margin: 0 auto;
-        height: 240px;
-    }
-
-    .service-card {
-        width: auto;
-    }
-
-    .service-name {
-
-        height: var(--spacing-4xl);
-    }
 
     .team-container {
         display: -ms-grid;
@@ -793,6 +811,7 @@ a.project:hover {
     -ms-flex-direction: row;
     flex-direction: row;
     gap: var(--spacing-3xl);
+    justify-content: space-between;
 }
 
 .card {
@@ -1546,12 +1565,16 @@ a .startup-cta:hover {
         border-radius: 0 0 var(--border-radius-sm) var(--border-radius-sm);
     }
 
+    .mg-top-lg {
+        margin-top: var(--spacing-md);
+    }
+
     .flex-row {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        gap: var(--spacing-md);
+        gap: 0;
     }
 
     .container {
@@ -1635,23 +1658,6 @@ a .startup-cta:hover {
 
     .team-image {}
 
-    .service-container {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-        gap: var(--spacing-2xl);
-        width: var(--width-mobile);
-        margin: 0 auto;
-        height: auto;
-    }
-
-    .service-card {
-        width: 100%;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        height: auto;
-    }
 
     .about-section {
         display: -webkit-box;
@@ -1748,6 +1754,54 @@ a .startup-cta:hover {
         display: none;
     }
 
+    .container-width {
+        width: var(--width-mobile);
+    }
+
+    .service-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+        width: var(--width-mobile);
+        margin: 0 auto;
+        height: auto;
+        padding-top: var(--spacing-xl);
+    }
+
+    .service-card {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .service-card summary {
+        padding: var(--spacing-md) 0;
+    }
+
+    .service-card:hover {
+        background-color: var(--background-color);
+    }
+
+    .service-card .service-description {
+        padding: 0;
+    }
+
+
+    .service-name {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-xl) var(--spacing-2xl) var(--spacing-xl) 0;
+    }
+
+    .service-card summary::after {
+        right: var(--spacing-sm);
+    }
+
+    .service-description p {
+        padding-right: var(--spacing-3xl);
+    }
 }
 
 /* View Transitions */

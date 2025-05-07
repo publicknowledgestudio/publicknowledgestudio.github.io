@@ -27,14 +27,6 @@ Some text about amie.
 
 Some text
 
-<div class="img-carousel">
-<img src="../assets/img/amie-1.png" alt="Alt text">
-<img src="../assets/img/amie-2.png" alt="Alt text">
-<img src="../assets/img/amie-3.png" alt="Alt text">
-</div>
-
-Some text
-
 <div class="img-grid">
 <img src="../assets/img/amie-grid.png" alt="Alt text">
 </div>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Literary Map by Hammock Mag.md",
+                "file": "_services/brandwork.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Literary Map by Hammock Mag"
+              "title": "brandwork"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,6 +179,9 @@
   "active": "19cebb5adcf058e0",
   "lastOpenFiles": [
     "_projects/Amie.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_projects/Emotional AI.md",
+    "_projects/Literary Map by Hammock Mag.md",
     "_site/assets/img/amie-type.png",
     "assets/img/amie-type.png",
     "_site/assets/img/amie-colours.png",
@@ -194,10 +196,8 @@
     "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
     "_projects/Dancing with Mountains.md",
     "_projects/Bobo Cakery.md",
-    "_projects/Literary Map by Hammock Mag.md",
     "_site/assets/css/slideshow.css",
     "assets/css/slideshow.css",
-    "_projects/Emotional AI.md",
     "_projects/Cakeshop.md",
     "_projects/Listen.md",
     "_site/dancing-with-mountains.html",
@@ -221,7 +221,6 @@
     "Template/Video.md",
     "_site/Template/Video.md",
     "_projects/Borkowski.md",
-    "_projects/Advanced Hydrocarbon Fuels.md",
     "_projects/EBC Reader.md",
     "_projects/Net Gala.md"
   ]
