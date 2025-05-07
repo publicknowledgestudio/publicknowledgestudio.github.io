@@ -47,10 +47,14 @@
 {% include footer.html %}
 
 <script>
+
+var headerImage = document.querySelector('.page-header-image');
+var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
+var browserHeight = window.innerHeight;
+
   window.addEventListener('scroll', function() {
-    var headerImage = document.querySelector('.page-header-image');
-    if (window.scrollY < 500) {
-      headerImage.style.height = (80 + window.scrollY / 20) + 'vh';
+    if (window.scrollY < browserHeight) {
+      headerImage.style.height = (headerImageHeight + window.scrollY / 10) + 'vh';
     }
   });
 </script>
