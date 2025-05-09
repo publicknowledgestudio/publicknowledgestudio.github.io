@@ -1,7 +1,8 @@
 <div class="section-title">The Work</div>
 
 <div class="project-container">
-    {% for project in site.projects | sort: 'date' %}
+    {% assign sorted_projects = site.projects | sort: 'order' %}
+    {% for project in sorted_projects %}
         <a class="project" href="{{ project.url }}" rel="noopener">
             <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
             <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>

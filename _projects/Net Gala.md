@@ -1,26 +1,21 @@
 ---
+banner: /assets/img/net-gala-banner.jpg
 date: 29-03-2024
-date modified: 05-05-2025
+date modified: 09-05-2025
 feed: show
 layout: Project
-order: 6
-permalink: netgala
+order: 1
 subtitle: Saving the world one plastic bag at a time.
 tags:
   - website
 team:
   - Charu Pragya
   - Gyan Lakhwani
-thumbnail: /assets/img/ahfl-thumbnail.jpg
+thumbnail: /assets/img/netgala-thumbnail.jpg
 title: "Net Gala"
 ---
 
 Advanced Hydrocarbon Fuels Limited came to us to help them communicate their patented process to turn plastic into fuel.
-
-<figure>
-  <img src="../assets/img/AHFL-Horiz-Mono.png" alt="A sunny beach">
-  <figcaption>Logo lockup in dark and light mode</figcaption>
-</figure>
 
 {: .img-grid }
 

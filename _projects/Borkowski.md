@@ -1,6 +1,7 @@
 ---
+banner: /assets/img/borkowski-thumbnail.jpg
 date: 20-04-2025
-date modified: 05-05-2025
+date modified: 09-05-2025
 external_url: https://borkowski.co.uk
 feed: show
 layout: Project

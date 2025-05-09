@@ -1,24 +1,25 @@
 ---
 date: 29-03-2025
-date modified: 05-05-2025
+date modified: 09-05-2025
 feed: show
 layout: Project
 order: 10
 permalink: ahfl
 subtitle: Saving the world one plastic bag at a time.
-tags: website
-team: ["Charu Pragya", "Gyan Lakhwani"]
+tags:
+  - website
+team:
+  - Charu Pragya
+  - Gyan Lakhwani
 thumbnail: /assets/img/ahfl-thumbnail.jpg
 title: "Advanced Hydrocarbon Fuels"
 ---
 
 Advanced Hydrocarbon Fuels Limited came to us to help them communicate their patented process to turn plastic into fuel.
 
-<figure>
-  <img src="../assets/img/AHFL-Horiz-Mono.png" alt="A sunny beach">
-  <figcaption>Logo lockup in dark and light mode</figcaption>
-</figure>
-
+<div class="img-grid">
+<img src="../assets/img/AHFL-Horiz-Mono.png" alt="Alt text">
+</div>
 ## Turning Plastic into Fuel
 
 **Designing clarity for a complex chemical breakthrough**

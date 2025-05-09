@@ -1,10 +1,11 @@
 ---
 date: 11-04-2025
-date modified: 20-04-2025
+date modified: 09-05-2025
 featured: yes
 feed: show
 format: list
 layout: Project
+order: 20
 subtitle: A bespoke e-commerce website for Bobo Cakery, a bakery that specialises in highly-customised artisanal cakes.
 tags: [UI/UX, Strategy, Branding]
 team: ["Charu Pragya", "Gyan Lakhwani", "Namita Sunil"]

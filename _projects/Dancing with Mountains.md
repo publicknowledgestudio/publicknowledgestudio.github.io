@@ -1,10 +1,11 @@
 ---
-banner: /assets/img/dwm-5.jpg
+banner: /assets/img/dwm-banner.jpg
 date: 02-06-2024
 date modified: 09-05-2025
+external_url: https://www.dancingwithmountains.com/
 feed: show
 layout: Project
-order: 7
+order: 2
 subtitle: Designed emotional-AI products for iOS and web, blending deep research with human-centered strategy.
 tags:
   - Design
@@ -14,7 +15,7 @@ team:
   - Namita Sunil
   - Ravee Deshpande
   - Gyan Lakhwani
-thumbnail: /assets/img/dancing-thumbnail.jpg
+thumbnail: /assets/img/dancing-with-mountains-thumbnail.jpg
 title: "Dancing with Mountains"
 ---
 

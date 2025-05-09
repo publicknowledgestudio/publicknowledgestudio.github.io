@@ -2,10 +2,11 @@
 banner: /assets/img/ebc-reader-header.jpg
 date: 11-04-2025
 date modified: 09-05-2025
+external_url: https://www.ebcreader.com/
 feed: show
 format: list
 layout: Project
-order: 3
+order: 6
 tags: UI/UX Strategy
 team:
   - Charu Pragya

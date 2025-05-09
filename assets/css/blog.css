@@ -167,7 +167,7 @@ figcaption {
 }
 
 /* Breakpoint */
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 
     .blog-container {
         margin-top: var(--header-image-height-mobile);

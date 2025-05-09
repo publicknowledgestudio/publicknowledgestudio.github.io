@@ -10,8 +10,8 @@ class AsteriskAnimation {
   constructor(options = {}) {
     // Default configuration
     this.config = {
-      initialLength: 12,
-      initialWidth: 12,
+      initialLength: 14,
+      initialWidth: 10,
       debounceDelay: 250,
       videoSource: '/assets/video/radial-flowers.mp4',
       ...options
@@ -37,8 +37,8 @@ class AsteriskAnimation {
       centerX: 0,
       centerY: 0,
       radius: 0,
-      lastWidth: window.innerWidth,
-      lastHeight: window.innerHeight
+      lastWidth: window.visualViewport ? window.visualViewport.width : window.innerWidth,
+      lastHeight: window.visualViewport ? window.visualViewport.height : window.innerHeight
     };
 
     // Bind methods to preserve 'this' context
@@ -122,6 +122,11 @@ class AsteriskAnimation {
     // Window resize event
     window.addEventListener('resize', this.handleResize);
 
+    // Visual Viewport resize event for mobile Safari
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', this.handleResize);
+    }
+
     // Input change events
     ['arms', 'length', 'width'].forEach(id => {
       this.elements[id].addEventListener('input', () => {
@@ -138,10 +143,13 @@ class AsteriskAnimation {
    * Handle window resize events
    */
   handleResize() {
-    if (window.innerWidth !== this.state.lastWidth ||
-      window.innerHeight !== this.state.lastHeight) {
-      this.state.lastWidth = window.innerWidth;
-      this.state.lastHeight = window.innerHeight;
+    const currentWidth = window.visualViewport ? window.visualViewport.width : window.innerWidth;
+    const currentHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+
+    if (currentWidth !== this.state.lastWidth ||
+      currentHeight !== this.state.lastHeight) {
+      this.state.lastWidth = currentWidth;
+      this.state.lastHeight = currentHeight;
       this.updateDimensions();
     }
   }
@@ -150,7 +158,8 @@ class AsteriskAnimation {
    * Handle scroll events
    */
   handleScroll() {
-    const scrollProgress = Math.min(window.scrollY / (window.innerHeight * 2), 1);
+    const viewportHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    const scrollProgress = Math.min(window.scrollY / (viewportHeight * 2), 1);
 
     const newLength = this.config.initialLength + (200 - this.config.initialLength) * scrollProgress;
     const newWidth = this.config.initialWidth + (1500 - this.config.initialWidth) * scrollProgress;
@@ -168,8 +177,11 @@ class AsteriskAnimation {
    * Update dimensions based on window size
    */
   updateDimensions() {
-    this.state.centerX = window.innerWidth / 2;
-    this.state.centerY = window.innerHeight / 2;
+    const viewportWidth = window.visualViewport ? window.visualViewport.width : window.innerWidth;
+    const viewportHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+
+    this.state.centerX = viewportWidth / 2;
+    this.state.centerY = viewportHeight / 2;
     this.state.radius = Math.min(this.state.centerX, this.state.centerY);
     this.updateAsterisk();
   }

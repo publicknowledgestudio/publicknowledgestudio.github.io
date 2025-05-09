@@ -1,10 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 05-05-2025
+date modified: 09-05-2025
 feed: show
 format: list
 layout: Project
-order: 2
+order: 7
 tags: Branding, UI/UX
 team: ["Charu Pragya", "Gyan Lakhwani"]
 thumbnail: assets/img/sa-thumbnail.jpg
