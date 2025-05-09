@@ -1,10 +1,13 @@
 ---
 author: 
+date: 14-05-2024
+date modified: 09-05-2025
+feed: show
 layout: post
 subtitle: 
 tags: 
 thumbnail: /assets/thumbs/default.png
-title: 
+title: "New Employee Checklist"
 ---
 
 ## Studio side
@@ -31,6 +34,6 @@ title:
 - [ ] Install [CSSPeeper](https://csspeeper.com/)
 
 **Receipts and Timesheets**
-- [ ] Create a Drive folder in your drive called “{Name} - Receipts” 
+- [ ] Create a Drive folder in your drive called “{Name} - Receipts”
 - [ ] Create a Drive folder in your drive called "{Name} - Timesheets”
 - [ ] Share these folders with gyan@publicknowledge.co and charu@publicknowledge.co

@@ -10,10 +10,10 @@ class AsteriskAnimation {
   constructor(options = {}) {
     // Default configuration
     this.config = {
-      initialLength: 18,
-      initialWidth: 16,
+      initialLength: 12,
+      initialWidth: 12,
       debounceDelay: 250,
-      videoSource: '/assets/video/listen-thumbnail.mp4',
+      videoSource: '/assets/video/radial-flowers.mp4',
       ...options
     };
 

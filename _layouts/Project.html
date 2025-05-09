@@ -3,7 +3,7 @@
 <body>
 
     {% include logo.html %}
-    <img class="page-header-image" src="{{ page.header | default: page.thumbnail }}" alt="{{ page.title }}">
+    <img class="page-header-image" src="{{ page.banner | default: page.thumbnail }}" alt="{{ page.title }}">
 
     <div class="blog-container">
         <div class="project-header container-width">

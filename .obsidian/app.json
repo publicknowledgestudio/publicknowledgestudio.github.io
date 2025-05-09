@@ -3,5 +3,6 @@
   "attachmentFolderPath": "assets/img/",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "source",
+  "showInlineTitle": true
 }

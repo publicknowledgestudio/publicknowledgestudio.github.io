@@ -60,6 +60,10 @@
     --line-height-sans-base: 1.2;
     --line-height-sans-tight: 1.1;
 
+    --letter-spacing-tight: -0.03em;
+    --letter-spacing-regular: 0;
+    --letter-spacing-wide: 0.03em;
+
     --font-size-base: 1em;
     --font-size-sm: 14px;
     --font-size-md: 16px;
@@ -69,14 +73,13 @@
     --font-size-3xl: 32px;
     --font-size-4xl: 48px;
 
-    --letter-spacing-tight: -0.03em;
-    --letter-spacing-regular: 0;
-    --letter-spacing-wide: 0.05em;
+
 
     /* Layout */
     --max-width: 1920px;
-    --width-desktop: 85vw;
+    --width-desktop: 86vw;
     --width-mobile: 90vw;
+
     --container-width: 800px;
     --spacing-xs: 4px;
     --spacing-sm: 8px;
@@ -141,7 +144,7 @@
 
 .sans {
     font-family: var(--font-stack-sans);
-    letter-spacing: var(--letter-spacing-regular);
+    letter-spacing: var(--letter-spacing-wide);
 }
 
 .uppercase {
@@ -937,7 +940,7 @@ a.project:hover {
     z-index: 11;
     position: absolute;
     top: 52px;
-    left: 10vw;
+    left: 7vw;
     font-size: var(--font-size-3xl);
     line-height: 1.15;
     letter-spacing: var(--letter-spacing-tight);
@@ -971,7 +974,7 @@ a.project:hover {
     max-width: 330px;
     position: absolute;
     top: 52px;
-    right: 10vw;
+    right: 7vw;
     gap: var(--spacing-md);
 }
 
@@ -1349,7 +1352,7 @@ textarea {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    padding: var(--spacing-xl) var(--spacing-3xl) var(--spacing-4xl) var(--spacing-3xl);
+    padding: var(--spacing-xl) var(--spacing-xl) var(--spacing-4xl) var(--spacing-xl);
 }
 
 .startup-card-image {
@@ -1417,6 +1420,7 @@ a .startup-cta:hover {
     border-radius: var(--border-radius-lg);
     text-decoration: none;
     color: var(--charcoal);
+    letter-spacing: var(--letter-spacing-regular);
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;

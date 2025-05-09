@@ -15,7 +15,8 @@
               "state": {
                 "file": "_projects/Amie.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Amie"
@@ -70,12 +71,12 @@
             "state": {
               "type": "bookmarks",
               "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
-            "id": "0188463697d8abc3",
+            "id": "b2ca3b95ec0f4d8a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -114,8 +115,8 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -128,8 +129,8 @@
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -141,8 +142,8 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -156,8 +157,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of Literary Map by Hammock Mag"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -169,20 +170,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false,
       "templates:Insert template": false
     }
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
-    "_site/Template/Quote.md",
+    "_notes/Design Process.md",
+    "_notes/Website Inspiration.md",
+    "_notes/Ways of Working.md",
+    "_notes/Collections.md",
+    "_notes/Case Studies.md",
+    "_notes/Software.md",
+    "_notes/New Employee Checklist.md",
+    "_notes/FAQs.md",
+    "_notes/Internship.md",
+    "_quotes/dewey.md",
+    "_quotes/neel.md",
+    "_quotes/einstein.md",
+    "_team/charu-pragya.md",
+    "_team/ravee-deshpande.md",
+    "_team/namita-sunil.md",
+    "_team/gyan-lakhwani.md",
+    "_services/brandwork.md",
+    "_services/interface-experience.md",
+    "_services/strategy.md",
+    "_services/development.md",
+    "_projects/Net Gala.md",
+    "_projects/Sā Biennale.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/Emotional AI.md",
+    "_projects/EBC Reader.md",
     "_projects/Dancing with Mountains.md",
-    "Template/Quote.md",
-    "_projects/Untitled.md",
     "_site/assets/img/dwm-5.jpg",
     "_site/assets/img/dwm-3.jpg",
     "_site/assets/img/dwm-4.jpg",
@@ -193,37 +211,15 @@
     "_site/assets/img/dwm-2.gif",
     "assets/img/dwm-1.gif",
     "assets/img/dwm-2.gif",
-    "_projects/Amie.md",
     "_site/untitled.html",
-    "Template/Dark-Light Mode.md",
-    "Template/Desktop-Mobile Only.md",
-    "_site/Template/Dark-Light Mode.md",
-    "_site/Template/Desktop-Mobile Only.md",
-    "Template/Dark Mode-Light Mode.md",
-    "_site/Template/Dark Mode-Light Mode.md",
-    "_projects/Emotional AI.md",
-    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md",
     "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
     "_site/assets/js/slideshow.js",
     "assets/css/slideshow.css",
     "assets/js/slideshow.js",
     "_site/assets/css/slideshow.css",
-    "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Cakeshop.md",
-    "_projects/Listen.md",
     "_site/dancing-with-mountains.html",
     "_site/emotional-ai.html",
     "_site/charu-pragya.html",
-    "_site/gyan-lakhwani.html",
-    "_notes/Software.md",
-    "_notes/New Employee Checklist.md",
-    "_notes/Internship.md",
-    "_notes/Ways of Working.md",
-    "_notes/FAQs.md",
-    "_notes/Website Inspiration.md",
-    "_notes/Case Studies.md",
-    "_notes/Collections.md",
-    "_notes/Design Process.md",
-    "Template/Image(s).md"
+    "_site/gyan-lakhwani.html"
   ]
 }

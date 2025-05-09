@@ -1,7 +1,7 @@
 {
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
-  "navigatorEnabled": true,
+  "navigatorEnabled": false,
   "filePreviewOnHover": false,
   "blinkEnabled": false,
   "datePickerTime": false,
@@ -22,8 +22,8 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
-  "enableFolderNote": true,
+  "currentWaypoint": 0,
+  "enableFolderNote": false,
   "folderIndentationLines": true,
   "revealActiveFile": false,
   "spacesStickers": true,
@@ -46,6 +46,8 @@
     "_site/assets/img",
     "_team",
     "_blog",
+    "_services",
+    "_quotes",
     "_projects"
   ],
   "expandFolderOnClick": true,
@@ -64,8 +66,6 @@
     "_assets",
     "_blocks"
   ],
-  "newFileLocation": "root",
-  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
@@ -74,7 +74,7 @@
   "inlineContextSectionsExpanded": true,
   "banners": true,
   "inlineContextNameLayout": "vertical",
-  "spacesUseAlias": false,
+  "spacesUseAlias": true,
   "fmKeyAlias": "aliases",
   "fmKeyBanner": "banner",
   "fmKeyColor": "color",
@@ -93,7 +93,6 @@
   "selectedKit": "default",
   "actionMaxSteps": 100,
   "contextPagination": 25,
-  "searchWorker": false,
   "skipFolderNames": [],
   "skipFolders": [],
   "enhancedLogs": false,
@@ -103,5 +102,6 @@
   "notesPreview": false,
   "editStickerInSidebar": true,
   "overrideNativeMenu": false,
+  "searchWorker": false,
   "dataviewInlineContext": false
 }
