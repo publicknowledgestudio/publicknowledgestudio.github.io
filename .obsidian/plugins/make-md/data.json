@@ -44,9 +44,9 @@
     "//_layouts",
     "_notes/Private",
     "_site/assets/img",
-    "_projects",
     "_team",
-    "_blog"
+    "_blog",
+    "_projects"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -64,6 +64,8 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

@@ -1,6 +1,6 @@
 ---
 date: 11-04-2025
-date modified: 07-05-2025
+date modified: 09-05-2025
 feed: show
 header: /assets/img/amie-header.jpg
 layout: Project
@@ -36,6 +36,14 @@ Some text
 <img src="../assets/img/amie-packet.png" alt="Alt text">
 </div>
 
+
+<div class="quote-container">
+    <div class="quote-text">Charu and Namita didn’t just understand my vision; they elevated it, delivering a site design more thoughtful and beautiful than I could have imagined. I loved it instantly.</div>
+    <div class="quote-author">Naira Oberoi
+    <div class="quote-author secondary">Founder of Amie</div>
+    </div>
+
+</div>
 <div class="img-grid">
 <img src="../assets/img/amie-colours.png" alt="Alt text">
 <img src="../assets/img/amie-type.png" alt="Alt text">
