@@ -110,8 +110,8 @@
     --transition-normal: 0.3s ease;
     --transition-slow: 1s;
 
-    --header-image-height-desktop: 75vh;
-    --header-image-height-mobile: 40vh;
+    --header-image-height-desktop: 70vh;
+    --header-image-height-mobile: 70vh;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -50,13 +50,23 @@
 
 var headerImage = document.querySelector('.page-header-image');
 var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
-var browserHeight = window.innerHeight;
+var browserHeight = window.visualViewport ? window.visualViewport.height : window.outerHeight;
 
-  window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function() {
     if (window.scrollY < browserHeight) {
-      headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
+        headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
     }
-  });
+});
+
+// Update height on viewport resize (handles mobile Safari address bar)
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', function() {
+        browserHeight = window.visualViewport.height;
+        if (window.scrollY < browserHeight) {
+            headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
+        }
+    });
+}
 </script>
 
 

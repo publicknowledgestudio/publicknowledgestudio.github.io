@@ -47,3 +47,7 @@ Some text
 <img src="../assets/img/amie-colours.png" alt="Alt text">
 <img src="../assets/img/amie-type.png" alt="Alt text">
 </div>
+<div class="img-grid">
+<img src="../assets/img/amie-mockup1.png" alt="Alt text">
+<img src="../assets/img/amie-mockup2.png" alt="Alt text">
+</div>

@@ -97,10 +97,10 @@
 
 .blog h1 {
     display: inline-block;
-    width: 40vw;
+    width: calc(var(--width-desktop)/2);
     margin-top: var(--spacing-4xl);
     margin-bottom: var(--spacing-3xl);
-    margin-left: 10vw;
+    margin-left: calc((100vw - var(--width-desktop)) / 2);
     vertical-align: top;
 }
 
@@ -109,7 +109,25 @@
     margin-bottom: var(--spacing-3xl);
     display: inline-block;
     padding-left: calc(var(--spacing-2xl) / 2);
-    width: 38vw;
+    width: calc(var(--width-desktop)/2.15);
+    font-size: var(--font-size-lg);
+}
+
+.blog h2 {
+    display: inline-block;
+    width: calc(var(--width-desktop)/2);
+    margin-top: var(--spacing-4xl);
+    margin-bottom: var(--spacing-3xl);
+    margin-left: calc((100vw - var(--width-desktop)) / 2);
+    vertical-align: top;
+}
+
+.blog h2+p {
+    margin-top: var(--spacing-4xl);
+    margin-bottom: var(--spacing-3xl);
+    display: inline-block;
+    padding-left: calc(var(--spacing-2xl) / 2);
+    width: calc(var(--width-desktop)/2.15);
 }
 
 
@@ -148,7 +166,7 @@ figcaption {
     margin: auto;
 }
 
-/* Mobile Styles */
+/* Breakpoint */
 @media (max-width: 900px) {
 
     .blog-container {
@@ -193,6 +211,24 @@ figcaption {
         margin: var(--spacing-lg) auto var(--spacing-3xl) auto;
         display: block;
         padding: 0;
+        font-size: var(--font-size-md);
+    }
+
+    .blog h2 {
+        display: block;
+        width: calc(var(--width-mobile) - var(--spacing-2xl));
+        max-width: var(--max-width);
+        margin: var(--spacing-3xl) auto var(--spacing-lg) auto;
+        padding: 0;
+    }
+
+    .blog h2+p {
+        width: calc(var(--width-mobile) - var(--spacing-2xl));
+        max-width: var(--max-width);
+        margin: var(--spacing-lg) auto var(--spacing-3xl) auto;
+        display: block;
+        padding: 0;
+
     }
 
 }
