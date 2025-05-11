@@ -1,12 +1,13 @@
 ---
 banner: /assets/img/ebc-reader-header.jpg
 date: 11-04-2025
-date modified: 09-05-2025
+date modified: 11-05-2025
 external_url: https://www.ebcreader.com/
 feed: show
 format: list
 layout: Project
 order: 6
+subtitle: Helping EBC Group reimagine the brand and experiences for their e-Library offering, EBC Reader, for an AI-first era
 tags: UI/UX Strategy
 team:
   - Charu Pragya

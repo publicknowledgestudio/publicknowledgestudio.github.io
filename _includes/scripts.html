@@ -68,6 +68,9 @@
 </script>
 
 <script>
+
+    const ANIM_DURATION = 2000;
+    const ANIM_DELAY = 80;
     // Wait for DOM to be fully loaded and verify anime is available
     document.addEventListener('DOMContentLoaded', function () {
         if (typeof window.anime === 'undefined') {
@@ -107,7 +110,7 @@
         });
 
         // Animate every project inside project-line when it's in view
-        const projectLines = document.querySelectorAll('.project-line');
+        const projectLines = document.querySelectorAll('.project-container');
         projectLines.forEach(projectLine => {
             const projectItems = projectLine.querySelectorAll('.project');
             projectItems.forEach((item, index) => {
@@ -118,7 +121,7 @@
                             translateY: [20, 0],
                             opacity: [0, 1],
                             duration: 2000,
-                            delay: 100 + (index * 200) // Stagger each project by .5s
+                            delay: 50 + (index * 50) // Stagger each project by .5s
                         });
                         observer.disconnect();
                     }
@@ -137,8 +140,8 @@
                         targets: item,
                         translateY: [20, 0],
                         opacity: [0, 1],
-                        duration: 2000,
-                        delay: 100 + (index * 300) // Stagger each project by .5s
+                        duration: ANIM_DURATION,
+                        delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
                     });
                     observer.disconnect();
                 }
@@ -156,8 +159,8 @@
                         targets: item,
                         translateY: [20, 0],
                         opacity: [0, 1],
-                        duration: 2000,
-                        delay: 100 + (index * 300) // Stagger each project by .5s
+                        duration: ANIM_DURATION,
+                        delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
                     });
                     observer.disconnect();
                 }

@@ -1,13 +1,13 @@
 ---
 banner: /assets/img/borkowski-thumbnail.jpg
 date: 20-04-2025
-date modified: 09-05-2025
+date modified: 11-05-2025
 external_url: https://borkowski.co.uk
 feed: show
 layout: Project
 order: 9
 permalink: borkowski
-subtitle: London PR
+subtitle: A fresh look for a London-based PR Agency. We helped Borkowski refresh their brand and website for a bold new look.
 tags:
   - website
 thumbnail: /assets/img/borkowski-thumbnail.jpg

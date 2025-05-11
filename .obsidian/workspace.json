@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Literary Map by Hammock Mag.md",
+                "file": "_projects/Amie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Literary Map by Hammock Mag"
+              "title": "Amie"
             }
           }
         ]
@@ -66,7 +66,17 @@
             }
           },
           {
-            "id": "654c83062ff39e2e",
+            "id": "9420122fcc6861a8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b2ca3b95ec0f4d8a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -76,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,50 +175,51 @@
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
-    "_projects/Net Gala.md",
-    "_projects/Sā Biennale.md",
-    "_projects/Dancing with Mountains.md",
-    "_projects/EBC Reader.md",
-    "_projects/Literary Map by Hammock Mag.md",
+    "_site/faqs.html",
+    "_site/case-studies.html",
+    "_site/new-employee-checklist.html",
+    "_site/design-process.html",
+    "_site/software.html",
+    "_site/collections.html",
+    "_site/website-inspiration.html",
+    "_site/internship.html",
+    "_site/ways-of-working.html",
+    "_includes/work-unclickable.html",
+    "_site/assets/img/listen-thumbnail.jpg",
+    "assets/img/listen-thumbnail.jpg",
     "_site/assets/img/netgala-thumbnail.jpg",
     "assets/img/netgala-thumbnail.jpg",
     "_site/net-gala.html",
-    "_projects/Bobo Cakery.md",
-    "_site/assets/img/net-gala-banner.jpg",
     "assets/img/net-gala-banner.jpg",
-    "_projects/Borkowski.md",
-    "_projects/Cakeshop.md",
-    "_projects/Listen.md",
-    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_site/assets/img/net-gala-banner.jpg",
     "_site/assets/img/dwm-banner.jpg",
     "assets/img/dwm-banner.jpg",
     "_site/assets/img/amie-mockup1.png",
-    "assets/img/amie-mockup1.png",
     "_site/assets/img/amie-mockup2.png",
-    "assets/img/amie-mockup2.png",
-    "_site/listen.html",
-    "_projects/Amie.md",
-    "_site/Template/Quote.md",
-    "Template/Quote.md",
-    "_projects/Untitled.md",
-    "_site/untitled.html",
-    "Template/Dark-Light Mode.md",
-    "Template/Desktop-Mobile Only.md",
-    "_site/Template/Dark-Light Mode.md",
-    "_site/Template/Desktop-Mobile Only.md",
-    "Template/Dark Mode-Light Mode.md",
-    "_site/Template/Dark Mode-Light Mode.md",
-    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md",
-    "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
-    "_site/assets/js/slideshow.js",
-    "assets/css/slideshow.css",
-    "assets/js/slideshow.js",
-    "_site/assets/css/slideshow.css",
-    "_site/dancing-with-mountains.html",
-    "_site/emotional-ai.html",
+    "_projects/Listen.md",
+    "_notes/Design Process.md",
+    "_notes/Website Inspiration.md",
+    "_notes/Ways of Working.md",
+    "_notes/Collections.md",
+    "_notes/Case Studies.md",
     "_notes/Software.md",
     "_notes/New Employee Checklist.md",
+    "_notes/FAQs.md",
     "_notes/Internship.md",
-    "_notes/Ways of Working.md"
+    "_quotes/dewey.md",
+    "_quotes/neel.md",
+    "_quotes/einstein.md",
+    "_team/charu-pragya.md",
+    "_team/ravee-deshpande.md",
+    "_team/namita-sunil.md",
+    "_team/gyan-lakhwani.md",
+    "_services/brandwork.md",
+    "_services/interface-experience.md",
+    "_services/strategy.md",
+    "_services/development.md",
+    "_projects/Net Gala.md",
+    "_projects/Sā Biennale.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/Emotional AI.md"
   ]
 }

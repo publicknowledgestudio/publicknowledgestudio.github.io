@@ -607,8 +607,6 @@ a.project:hover {
     -webkit-transition: padding var(--transition-fast);
     -o-transition: padding var(--transition-fast);
     transition: padding var(--transition-fast);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
     z-index: 25;
 }
 

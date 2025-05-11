@@ -1,0 +1,25 @@
+<div class="section-title">The Work</div>
+
+<div class="project-container">
+    {% assign sorted_projects = site.projects | sort: 'order' %}
+    {% for project in sorted_projects %}
+        {% if project.external_url %}
+        <a class="project" href="{{ project.external_url }}" rel="noopener">
+        {% else %}
+        <div class="project">
+        {% endif %}
+            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
+            <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
+            <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
+            <div class="tag-container project-description-mobile-padding">
+                {% for tag in project.tags %}
+                <div class="tag">{{ tag }}</div>
+                {% endfor %}
+            </div>
+        {% if project.external_url %}
+        </a>
+        {% else %}
+        </div>
+        {% endif %}
+    {% endfor %}
+</div> 

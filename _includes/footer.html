@@ -1,4 +1,3 @@
-
 <div class="footer">
 
     <div class="container-width footer-equal-columns sans">
@@ -35,9 +34,10 @@
             <p class="secondary">CONTACT</p>
             <div class="uppercase glowy">
                 <a class="square-button" href="https://www.instagram.com/publicknowledgestudio/">Instagram</a>
-                <br><a class="square-button" href="https://www.x.com/publicknowledgestudio">X/Twitter</a>
-                <br><a class="square-button" href="mailto:hello@publicknowledgestudio.com">Email</a>
-                <br><a class="square-button" href="https://cal.com/publicknowledgestudio/30min">Book a call</a>
+                <br><a class="square-button" href="https://x.com/pblcknw">X/Twitter</a>
+                <br><a class="square-button" href="mailto:hello@publicknowledge.co">Email</a>
+                <br><a class="square-button" href="https://wa.me/+917982121546">WhatsApp</a>
+                <br><a class="square-button" href="https://calendar.app.google/uPWkrEeLiyFCYSPx5">Book a call</a>
             </div>
 
             <p class="secondary">INDEX</p>
@@ -51,7 +51,7 @@
             <div class="uppercase glowy">
                 {% for person in site.team %}
                 <a class="square-button" href="{{ person.url }}">
-                    <img src="{{ person.image }}" alt="{{ person.name }}" class="img-tiny"> {{ person.name }}
+                    {{ person.name }}
                 </a><br>
                 {% endfor %}
             </div>

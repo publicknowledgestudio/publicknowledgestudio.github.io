@@ -1,11 +1,11 @@
 ---
 date: 29-03-2025
-date modified: 09-05-2025
+date modified: 11-05-2025
 feed: show
 layout: Project
 order: 10
 permalink: ahfl
-subtitle: Saving the world one plastic bag at a time.
+subtitle: Saving the world one plastic bag at a time. We helped AHFL communicate their patented process to turn plastic into fuel.
 tags:
   - website
 team:

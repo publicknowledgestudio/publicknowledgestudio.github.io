@@ -1,10 +1,11 @@
 ---
 date: 11-04-2025
-date modified: 09-05-2025
+date modified: 11-05-2025
 feed: show
 format: list
 layout: Project
 order: 7
+subtitle: Immersive branding and design for sā Biennale, Asia's highest land art festival
 tags: Branding, UI/UX
 team: ["Charu Pragya", "Gyan Lakhwani"]
 thumbnail: assets/img/sa-thumbnail.jpg
