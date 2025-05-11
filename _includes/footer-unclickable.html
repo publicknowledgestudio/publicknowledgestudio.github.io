@@ -1,0 +1,167 @@
+<div class="footer">
+
+    <div class="container-width footer-equal-columns sans">
+
+        <div class="footer-column space-between">
+
+            <p class="uppercase">
+                Public Knowledge Studio
+
+                <span class="secondary line-height-tight">
+                    <br>/ New Delhi, India
+                    <br>/ 28.5378° N, 77.1431° E
+                    <br>/ <span id="delhi-time"></span>
+                </span>
+                <script>
+                    function updateTime() {
+                        const delhiTime = new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+                        const delhiDate = new Date().toLocaleDateString('en-US', { timeZone: 'Asia/Kolkata', weekday: 'long', day: 'numeric', month: 'long' });
+                        document.getElementById('delhi-time').textContent = `${delhiTime}, ${delhiDate}`;
+                    }
+                    updateTime();
+                    setInterval(updateTime, 1000);
+
+                </script>
+
+            </p>
+            <p class="secondary desktop-only"> This is a space for fun. There should be more in the world. This is ours.
+            </p>
+        </div>
+
+        <div class="footer-column">
+
+
+            <p class="secondary">CONTACT</p>
+            <div class="uppercase glowy">
+                <a class="square-button" href="https://www.instagram.com/publicknowledgestudio/">Instagram</a>
+                <br><a class="square-button" href="https://x.com/pblcknw">X/Twitter</a>
+                <br><a class="square-button" href="mailto:hello@publicknowledge.co">Email</a>
+                <br><a class="square-button" href="https://wa.me/+917982121546">WhatsApp</a>
+                <br><a class="square-button" href="https://calendar.app.google/uPWkrEeLiyFCYSPx5">Book a call</a>
+            </div>
+
+            <p class="secondary">INDEX</p>
+            <div class="uppercase glowy">
+                {% for project in site.projects | sort: 'title' %}
+                <span class="square-button">{{ project.title }}</span><br>
+                {% endfor %}
+            </div>
+
+            <p class="secondary">PEOPLE</p>
+            <div class="uppercase glowy">
+                {% for person in site.team %}
+                <span class="square-button">
+                    {{ person.name }}
+                </span><br>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    // Wait for both DOM and window load to ensure everything is ready
+    window.addEventListener('load', function () {
+        // Function to initialize the footer effects
+        function initFooterEffects() {
+            const footer = document.querySelector('.footer');
+            if (!footer) {
+                console.warn('Footer element not found, retrying in 100ms...');
+                setTimeout(initFooterEffects, 100);
+                return;
+            }
+
+            const asteriskSpawnInterval = 200; // in ms
+            const asteriskRemovalTime = 5000; // in ms
+            const asteriskTrailLength = 200; // in px
+            const asteriskSaturation = 80; // HSL saturation percentage
+            const asteriskLightness = 65; // HSL lightness percentage
+            const asteriskHueStep = 10; // Hue shift per asterisk
+            let currentHue = 0; // Starting hue
+
+            let isMouseInFooter = false;
+            let asteriskSpawnTimer;
+            let lastMouseX = 0;
+            let lastMouseY = 0;
+            let lastSpawnX = 0;
+            let lastSpawnY = 0;
+
+            footer.addEventListener('mouseenter', (event) => {
+                isMouseInFooter = true;
+                lastMouseX = event.clientX;
+                lastMouseY = event.clientY;
+                lastSpawnX = event.clientX;
+                lastSpawnY = event.clientY;
+                spawnAsterisk(event);
+            });
+
+            footer.addEventListener('mouseleave', () => {
+                isMouseInFooter = false;
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                    asteriskSpawnTimer = null;
+                }
+            });
+
+            footer.addEventListener('mousemove', (event) => {
+                if (isMouseInFooter) {
+                    lastMouseX = event.clientX;
+                    lastMouseY = event.clientY;
+                    spawnAsterisk(event);
+                }
+            });
+
+            function spawnAsterisk(event) {
+                if (!isMouseInFooter) return;
+
+                // Check if mouse position has changed since last spawn
+                if (lastMouseX === lastSpawnX && lastMouseY === lastSpawnY) {
+                    return;
+                }
+
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                }
+
+                const asterisk = document.createElement('div');
+                asterisk.className = 'asterisk';
+                const footerRect = footer.getBoundingClientRect();
+                asterisk.style.left = `${lastMouseX - footerRect.left}px`;
+                asterisk.style.top = `${lastMouseY - footerRect.top}px`;
+                asterisk.textContent = '*';
+                // Set the color using HSL
+                asterisk.style.color = `hsl(${currentHue}, ${asteriskSaturation}%, ${asteriskLightness}%)`;
+                // Increment hue for next asterisk (cycle through 360 degrees)
+                currentHue = (currentHue + asteriskHueStep) % 360;
+                footer.appendChild(asterisk);
+
+                // Update last spawn position
+                lastSpawnX = lastMouseX;
+                lastSpawnY = lastMouseY;
+
+                // Remove asterisk after specified time
+                setTimeout(() => {
+                    asterisk.remove();
+                }, asteriskRemovalTime);
+
+                asteriskSpawnTimer = setTimeout(() => {
+                    spawnAsterisk(event);
+                }, asteriskSpawnInterval);
+            }
+
+            footer.addEventListener('mousemove', (event) => {
+                if (isMouseInFooter) {
+                    const asterisks = document.querySelectorAll('.asterisk');
+                    if (asterisks.length > asteriskTrailLength) {
+                        asterisks[0].remove();
+                    }
+                }
+            });
+        }
+
+        // Start initialization
+        initFooterEffects();
+    });
+</script>
