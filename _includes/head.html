@@ -2,51 +2,68 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="view-transition" content="same-origin" />
 
-    <!-- Ahrefs Analytics -->
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="Vy76uyQJ8xxpx7yndQfJ1Q" async></script>
+    <!-- Preload critical assets -->
+    <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
+    <link rel="preload" href="{{ '/assets/css/blog.css' | relative_url }}" as="style">
+    <link rel="preload" href="{{ '/assets/js/animate-asterisk.js' | relative_url }}" as="script">
+    <link rel="preload" href="{{ '/assets/fonts/Copernicus-Book.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/TASAOrbiterVF.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2JTH807F5"></script>
+    <!-- Defer non-critical JavaScript -->
+    <script defer src="https://analytics.ahrefs.com/analytics.js" data-key="Vy76uyQJ8xxpx7yndQfJ1Q"></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-Q2JTH807F5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Q2JTH807F5');
     </script>
 
-    <!-- Load JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="{{ '/assets/js/animate-asterisk.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/slideshow.js' | relative_url }}"></script>
-    <!-- Load Font Awesome Brands -->
+    <!-- Load critical JavaScript -->
+    <script src="{{ '/assets/js/animate-asterisk.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>
 
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.">
+    <meta name="keywords" content="design studio, web design, app development, interactive design, technology, user experience">
+    <meta name="author" content="Public Knowledge Studio">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
 
     <!-- Open Graph Tags -->
-    <meta property="og:image" content="https://publicknowledge.co/pk-og.jpg">
+    <meta property="og:image" content="https://publicknowledge.co/assets/img/pk-og.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:title" content="Public Knowledge Studio">
-    <meta property="og:description"
-        content="Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.">
-    <meta property="og:url" content="https://publicknowledge.co">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio">
+    <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:site_name" content="Public Knowledge Studio">
+
+    <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pblcknw">
     <meta name="twitter:creator" content="@pblcknw">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio">
+    <meta name="twitter:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.{% endif %}">
+    <meta name="twitter:image" content="https://publicknowledge.co/pk-og.jpg">
 
+    <!-- Favicon -->
     <link rel="icon" href="{{ '/assets/favicon/favicon.png' | relative_url }}" type="image/png">
     <link rel="icon" href="{{ '/assets/favicon/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ '/assets/favicon/favicon.png' | relative_url }}">
 
-    <title>Public Knowledge</title>
+    <!-- Page Title -->
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
+    {% if page.layout != 'home' %}
+        <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
+    {% endif %}
 </head>
