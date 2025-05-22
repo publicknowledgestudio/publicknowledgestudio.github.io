@@ -15,6 +15,11 @@
     <link rel="preload" href="{{ '/assets/fonts/TASAOrbiterVF.woff2' | relative_url }}" as="font" type="font/woff2"
         crossorigin>
 
+    <!-- Load critical JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="{{ '/assets/js/setup-anime.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>
+
     <!-- Defer non-critical JavaScript -->
     <script defer src="https://analytics.ahrefs.com/analytics.js" data-key="Vy76uyQJ8xxpx7yndQfJ1Q"></script>
     <script defer src="https://www.googletagmanager.com/gtag/js?id=G-Q2JTH807F5"></script>
@@ -25,17 +30,10 @@
         gtag('config', 'G-Q2JTH807F5');
     </script>
 
-    <!-- Load critical JavaScript -->
-    <script src="{{ '/assets/js/animate-asterisk.js' | relative_url }}" defer></script>
-    <script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="{{ '/assets/js/setup-anime.js' | relative_url }}" defer></script>
-
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.">
+        content="Public Knowledge is a design studio that creates interactive, hand-crafted web and app experiences that feel unique to your brand.">
     <meta name="keywords"
         content="design studio, web design, app development, interactive design, technology, user experience">
     <meta name="author" content="Public Knowledge Studio">
