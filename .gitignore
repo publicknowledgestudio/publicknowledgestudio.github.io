@@ -7,5 +7,8 @@ _notes/Public/.obsidian
 _notes/Private/
 .obsidian/workspace.json
 assets/.DS_Store
+.makemd/
 .makemd/superstate.mdc
 .makemd/fileCache.mdc
+.obsidian/workspace.json
+.obsidian/plugins/make-md/Spaces.mdb

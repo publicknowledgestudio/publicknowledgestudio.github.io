@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 feedformat: card
 title: Notes
 permalink: /notes
