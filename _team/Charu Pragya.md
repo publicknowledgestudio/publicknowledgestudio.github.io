@@ -11,7 +11,7 @@ name: Charu Pragya
 order: 1
 portfolio: chauciao.com
 role: Founding Partner
-title: "charu-pragya"
+title: "Charu Pragya"
 twitter: https://x.com/CharuPragyaa
 ---
 

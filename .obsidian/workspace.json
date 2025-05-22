@@ -11,15 +11,10 @@
             "id": "8aa2d34713739b24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_team/charu-pragya.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "charu-pragya"
+              "title": "New tab"
             }
           }
         ]
@@ -165,9 +160,18 @@
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
+    "_site/assets/img/net-gala-thumbnail.png",
+    "assets/img/net-gala-thumbnail.png",
+    "_team/charu-pragya.md",
+    "_team/Charu Pragya.md",
+    "_team/Ravee Deshpande.md",
     "_team/namita-sunil.md",
-    "_projects/cakeshop.md",
+    "_team/Namita Sunil.md",
+    "_team/Gyan Lakhwani.md",
+    "_site/gyanl.html",
+    "_includes/setup-anime.js",
     "_includes/team-unclickable.html",
+    "_projects/cakeshop.md",
     "_site/ravee-deshpande.html",
     "_site/gyan-lakhwani.html",
     "_site/charu-pragya.html",
@@ -175,11 +179,8 @@
     "_layouts/project.html",
     "_layouts/post.html",
     "assets/sass/_style-base.scss",
-    "assets/sass",
-    "_team/charu-pragya.md",
     "_team/gyan-lakhwani.md",
     "_projects/Amie.md",
-    "_site/sa-biennale.html",
     "_site/assets/img/image 70.png",
     "_site/assets/img/logo.png",
     "_site/assets/img/image 70@2x.png",
@@ -191,7 +192,6 @@
     "_projects/Bobo Cakery.md",
     "assets/img/logo.png",
     "assets/img/image 70@2x.png",
-    "assets/img/image 70.png",
     "_projects/Borkowski.md",
     "_projects/Advanced Hydrocarbon Fuels.md",
     "_projects/Dancing with Mountains.md",
@@ -205,11 +205,6 @@
     "Template/Quote.md",
     "_projects/Untitled.md",
     "Template/Dark-Light Mode.md",
-    "Template/Desktop-Mobile Only.md",
-    "_site/Template/Dark-Light Mode.md",
-    "_site/Template/Desktop-Mobile Only.md",
-    "Template/Dark Mode-Light Mode.md",
-    "_site/Template/Dark Mode-Light Mode.md",
-    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md"
+    "Template/Desktop-Mobile Only.md"
   ]
 }

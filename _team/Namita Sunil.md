@@ -7,7 +7,7 @@ layout: team
 name: Namita Sunil
 order: 3
 role: Branding & Product Design
-title: "namita-sunil"
+title: "Namita Sunil"
 ---
 
 Namita leads brand and visual design at Public Knowledge Studio.

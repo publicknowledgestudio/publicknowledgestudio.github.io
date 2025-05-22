@@ -113,6 +113,34 @@
                 }
             });
 
+            // Touch support for mobile
+            footer.addEventListener('touchstart', (event) => {
+                isMouseInFooter = true;
+                const touch = event.touches[0];
+                lastMouseX = touch.clientX;
+                lastMouseY = touch.clientY;
+                lastSpawnX = touch.clientX;
+                lastSpawnY = touch.clientY;
+                spawnAsterisk({ clientX: touch.clientX, clientY: touch.clientY });
+            });
+
+            footer.addEventListener('touchmove', (event) => {
+                if (isMouseInFooter) {
+                    const touch = event.touches[0];
+                    lastMouseX = touch.clientX;
+                    lastMouseY = touch.clientY;
+                    spawnAsterisk({ clientX: touch.clientX, clientY: touch.clientY });
+                }
+            });
+
+            footer.addEventListener('touchend', () => {
+                isMouseInFooter = false;
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                    asteriskSpawnTimer = null;
+                }
+            });
+
             function spawnAsterisk(event) {
                 if (!isMouseInFooter) return;
 
