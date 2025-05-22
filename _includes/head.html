@@ -43,7 +43,7 @@
     <link rel="canonical" href="{{ page.url | absolute_url }}">
 
     <!-- Open Graph Tags -->
-    <meta property="og:image" content="{% if page.banner %}{{ page.banner | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}">
+    <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio">
@@ -60,7 +60,7 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {% endif %}Public Knowledge Studio">
     <meta name="twitter:description"
         content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.{% endif %}">
-    <meta name="twitter:image" content="{% if page.banner %}{{ page.banner | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}">
+    <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}">
 
     <!-- Favicon -->
     <link rel="icon" href="{{ '/assets/favicon/favicon.png' | relative_url }}" type="image/png">
