@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Listen.md",
+                "file": "_projects/Net Gala.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Listen"
+              "title": "Net Gala"
             }
           }
         ]
@@ -165,25 +165,33 @@
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
-    "_team/Charu Pragya.md",
+    "_projects/Sā Biennale.md",
+    "_projects/Listen.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/EBC Reader.md",
+    "_projects/Dancing with Mountains.md",
+    "_projects/cakeshop.md",
+    "_projects/Amie.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
     "_site/assets/img/net-gala-thumbnail.png",
     "assets/img/net-gala-thumbnail.png",
+    "_team/charu-pragya.md",
+    "_team/Charu Pragya.md",
     "_team/Ravee Deshpande.md",
+    "_team/namita-sunil.md",
     "_team/Namita Sunil.md",
     "_team/Gyan Lakhwani.md",
-    "_projects/Advanced Hydrocarbon Fuels.md",
     "_site/gyanl.html",
-    "_site/gyan-lakhwani.html",
-    "_projects/cakeshop.md",
+    "_includes/setup-anime.js",
     "_includes/team-unclickable.html",
     "_site/ravee-deshpande.html",
+    "_site/gyan-lakhwani.html",
     "_site/charu-pragya.html",
     "_site/namita-sunil.html",
     "_layouts/project.html",
     "_layouts/post.html",
     "assets/sass/_style-base.scss",
-    "assets/sass",
-    "_projects/Amie.md",
+    "_team/gyan-lakhwani.md",
     "_site/assets/img/image 70.png",
     "_site/assets/img/logo.png",
     "_site/assets/img/image 70@2x.png",
@@ -191,24 +199,16 @@
     "assets/img/email-signature.png",
     "_site/assets/img/email-signature.png",
     "_site/assets/img/pk-og.jpg",
-    "_projects/Listen.md",
     "_projects/Bobo Cakery.md",
     "assets/img/logo.png",
     "_projects/Borkowski.md",
-    "_projects/Dancing with Mountains.md",
     "_projects/Net Gala.md",
-    "_projects/Literary Map by Hammock Mag.md",
     "_projects/Cakeshop.md",
-    "_projects/EBC Reader.md",
-    "_projects/Sā Biennale.md",
     "_notes/Case Studies.md",
     "_site/Template/Quote.md",
     "Template/Quote.md",
     "_projects/Untitled.md",
     "Template/Dark-Light Mode.md",
-    "Template/Desktop-Mobile Only.md",
-    "_site/Template/Dark-Light Mode.md",
-    "_site/Template/Desktop-Mobile Only.md",
-    "Template/Dark Mode-Light Mode.md"
+    "Template/Desktop-Mobile Only.md"
   ]
 }
