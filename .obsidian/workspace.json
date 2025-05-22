@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_team/namita-sunil.md",
+                "file": "_team/charu-pragya.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "namita-sunil"
+              "title": "charu-pragya"
             }
           }
         ]
@@ -165,6 +165,7 @@
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
+    "_team/namita-sunil.md",
     "_projects/cakeshop.md",
     "_includes/team-unclickable.html",
     "_site/ravee-deshpande.html",
@@ -209,7 +210,6 @@
     "_site/Template/Desktop-Mobile Only.md",
     "Template/Dark Mode-Light Mode.md",
     "_site/Template/Dark Mode-Light Mode.md",
-    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md",
-    "_notes/Software.md"
+    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md"
   ]
 }

@@ -5,27 +5,33 @@
     {% include logo.html %}
 
     <div class="container-width">
-        <header class="team-member-header">
-            <div class="team-member-info">
-                <h1 class="sans uppercase" style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">
+        <div class="team-member-main">
+            <div class="team-member-photo-col">
+                <img src="{{ page.image }}" alt="{{ page.name }}" class="team-member-photo">
+            </div>
+            <div class="team-member-info-col">
+                <h1 class="sans uppercase mbs-0 mbe-0" style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">
                     {{ page.name }}
                 </h1>
-                {% if page.role %}
-                <div class="team-member-role">{{ page.role }}</div>
-                {% endif %}
+                <div class="team-member-socials">
+                    {% if page.portfolio %}<a href="{{ page.portfolio }}" class="tag">Portfolio</a>{% endif %}
+                    {% if page.instagram %}<a href="{{ page.instagram }}" class="tag">Instagram</a>{% endif %}
+                    {% if page.twitter %}<a href="{{ page.twitter }}" class="tag">X</a>{% endif %}
+                    {% if page.linkedin %}<a href="{{ page.linkedin }}" class="tag">LinkedIn</a>{% endif %}
+                    {% if page.email %}<a class="tag" onclick="navigator.clipboard.writeText('{{ page.email }}')">Copy Email</a>{% endif %}
+                </div>
+                <div class="team-member-bio-text">
+                    {{ content }}
+                    {% if page.name == 'Charu Pragya' %}
+                    {% include ContactButton.html content="Set up an Introduction" %}
+                    {% endif %}
+                </div>
             </div>
-            <img src="{{ page.image }}" alt="{{ page.name }}" class="team-member-photo">
-        </header>
-
-        <section class="team-member-bio">
-            <div class="blog">
-                {{ content }}
-            </div>
-        </section>
+        </div>
 
         {% assign member_projects = site.projects | where_exp: "project", "project.team contains page.name" %}
         {% if member_projects.size > 0 %}
-        <section class="team-member-projects">
+        <section class="team-member-projects flex-col gap-4xl">
             <div class="section-title">Projects</div>
             <div class="project-container">
                 {% for project in member_projects %}
