@@ -73,7 +73,7 @@ collections:
       output: true
       permalink: /:slug
     team:
-      output: false
+      output: true
       permalink: /:slug
     services:
       output: false
