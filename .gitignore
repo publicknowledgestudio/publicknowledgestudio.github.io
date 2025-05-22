@@ -12,3 +12,4 @@ assets/.DS_Store
 .makemd/fileCache.mdc
 .obsidian/workspace.json
 .obsidian/plugins/make-md/Spaces.mdb
+*.mdb
