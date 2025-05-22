@@ -64,7 +64,6 @@ plugins:
   - jekyll-tidy
     
 ## Enable Collections
-## Suggested collects are "notes" "lists" and "blog"
 collections:
     projects:
       output: true

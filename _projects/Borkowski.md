@@ -4,7 +4,7 @@ date: 20-04-2025
 date modified: 11-05-2025
 external_url: https://borkowski.co.uk
 feed: show
-layout: project
+layout: case-study
 order: 9
 permalink: borkowski
 subtitle: A fresh look for a London-based PR Agency. We helped Borkowski refresh their brand and website for a bold new look.

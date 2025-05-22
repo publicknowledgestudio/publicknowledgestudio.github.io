@@ -2,7 +2,7 @@
 date: 29-03-2025
 date modified: 22-05-2025
 feed: show
-layout: project
+layout: case-study
 order: 10
 permalink: ahfl
 subtitle: Saving the world one plastic bag at a time. We helped AHFL communicate their patented process to turn plastic into fuel.

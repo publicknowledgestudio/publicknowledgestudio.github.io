@@ -3,7 +3,7 @@ banner: /assets/img/listen-hero.jpg
 date: 02-06-2024
 date modified: 22-05-2025
 feed: show
-layout: project
+layout: case-study
 order: 8
 subtitle: Designed emotional-AI products for iOS and web, blending deep research with human-centered strategy.
 tags:
