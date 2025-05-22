@@ -1,7 +1,6 @@
 ---
 date: 11-04-2025
 date modified: 22-05-2025
-email: charu@publicknowledge.co
 feed: show
 image: /assets/img/charu-tall.jpg
 instagram: instagram.com/chauciao
