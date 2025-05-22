@@ -90,16 +90,13 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
-  
-sass:
-  style: compressed
 
 defaults:
   - scope:
       path: ""
       type: projects
     values:
-      layout: Post
+      layout: post
       permalink: /:slug
       content-type: projects
 
@@ -114,6 +111,7 @@ defaults:
 #
 exclude:
   - Template
+  - .makemd
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

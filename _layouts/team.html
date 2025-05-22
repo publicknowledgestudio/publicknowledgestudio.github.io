@@ -4,32 +4,48 @@
 
     {% include logo.html %}
 
-    <header class="team-member-header">
-        <h1 class="mg-top-6xl sans uppercase"
-            style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">{{
-            page.name }}
-        </h1>
-        <img src="{{ page.image }}" alt="{{ page.name }}" class="team-member-photo" style="width: 200px; height: 200px;">
-    </header>
+    <div class="container-width">
+        <header class="team-member-header">
+            <div class="team-member-info">
+                <h1 class="sans uppercase" style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">
+                    {{ page.name }}
+                </h1>
+                {% if page.role %}
+                <div class="team-member-role">{{ page.role }}</div>
+                {% endif %}
+            </div>
+            <img src="{{ page.image }}" alt="{{ page.name }}" class="team-member-photo">
+        </header>
 
-    <section class="team-member-bio">
-        <div class="blog">
-            {{ content }}
-        </div>
-    </section>
+        <section class="team-member-bio">
+            <div class="blog">
+                {{ content }}
+            </div>
+        </section>
 
-    <section class="team-member-projects">
-        <h2>Projects</h2>
-        {% for project in site.projects %}
-        {% if project.team contains page.name %}
-        <div class="project-container">
-            <a href="{{ project.url }}">
-                <img height="200px" width="200px" src="{{ project.thumbnail }}" alt="{{ project.title }}">
-            </a>
-        </div>
+        {% assign member_projects = site.projects | where_exp: "project", "project.team contains page.name" %}
+        {% if member_projects.size > 0 %}
+        <section class="team-member-projects">
+            <div class="section-title">Projects</div>
+            <div class="project-container">
+                {% for project in member_projects %}
+                <a class="project" href="{{ project.url }}" rel="noopener">
+                    <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+                    <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">
+                        {{ project.title }}
+                    </div>
+                    <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
+                    <div class="tag-container project-description-mobile-padding">
+                        {% for tag in project.tags %}
+                        <div class="tag">{{ tag }}</div>
+                        {% endfor %}
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
         {% endif %}
-        {% endfor %}
-    </section>
+    </div>
 
 </body>
 
