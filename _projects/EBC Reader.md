@@ -5,7 +5,7 @@ date modified: 11-05-2025
 external_url: https://www.ebcreader.com/
 feed: show
 format: list
-layout: Project
+layout: project
 order: 6
 subtitle: Helping EBC Group reimagine the brand and experiences for their e-Library offering, EBC Reader, for an AI-first era
 tags: UI/UX Strategy

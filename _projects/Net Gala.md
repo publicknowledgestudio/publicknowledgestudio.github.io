@@ -3,7 +3,7 @@ banner: /assets/img/net-gala-banner.jpg
 date: 29-03-2024
 date modified: 11-05-2025
 feed: show
-layout: Project
+layout: project
 order: 1
 subtitle: Playing sports together is fun. It should feel that way. Strategy and User Experience for a sports community and venue booking platform.
 tags:

@@ -3,7 +3,7 @@ banner: /assets/img/amie-header.jpg
 date: 11-04-2025
 date modified: 09-05-2025
 feed: show
-layout: Project
+layout: project
 order: 4
 subtitle: Developed Amie’s identity and web design, elevating its vision of a rotating wardrobe for modern lifestyles.
 team:
