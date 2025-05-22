@@ -1962,3 +1962,54 @@ a .startup-cta:hover {
         transform: translateX(20px);
     }
 }
+
+/* Team Member Page Styles */
+.team-member-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-4xl);
+    margin: var(--spacing-6xl) 0 var(--spacing-4xl) 0;
+}
+
+.team-member-info {
+    flex: 1;
+}
+
+.team-member-role {
+    font-family: var(--font-stack-sans);
+    font-size: var(--font-size-lg);
+    color: var(--text-secondary);
+    margin-top: var(--spacing-sm);
+}
+
+.team-member-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+}
+
+.team-member-bio {
+    margin-bottom: var(--spacing-6xl);
+}
+
+.team-member-projects {
+    margin-bottom: var(--spacing-6xl);
+}
+
+@media (max-width: 800px) {
+    .team-member-header {
+        flex-direction: column-reverse;
+        gap: var(--spacing-2xl);
+        margin: var(--spacing-4xl) 0;
+    }
+
+    .team-member-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-member-info {
+        text-align: center;
+    }
+}

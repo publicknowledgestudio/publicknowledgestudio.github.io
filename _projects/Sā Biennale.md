@@ -3,7 +3,7 @@ date: 11-04-2025
 date modified: 19-05-2025
 feed: show
 format: list
-layout: Project
+layout: project
 order: 7
 permalink: sa-biennale
 subtitle: Immersive branding and design for sā Biennale, Asia's highest land art festival
