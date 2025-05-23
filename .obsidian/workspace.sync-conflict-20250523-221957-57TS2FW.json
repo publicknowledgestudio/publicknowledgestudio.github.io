@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Dancing with Mountains.md",
+                "file": "_projects/Net Gala.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dancing with Mountains"
+              "title": "Net Gala"
             }
           }
         ]
@@ -65,17 +66,7 @@
             }
           },
           {
-            "id": "9420122fcc6861a8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "ff2e031eb263f90a",
+            "id": "654c83062ff39e2e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -85,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -114,8 +105,8 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -128,8 +119,8 @@
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -141,8 +132,8 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -156,8 +147,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of Literary Map by Hammock Mag"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -169,61 +160,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false,
       "templates:Insert template": false
     }
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
+    "_site/charu.html",
+    "_site/namita.html",
+    "_site/ravee.html",
+    "_layouts/case-study.html",
+    "_projects/Cakeshop.md",
+    "_projects/Sā Biennale.md",
+    "_projects/Listen.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/EBC Reader.md",
+    "_projects/Dancing with Mountains.md",
+    "_projects/cakeshop.md",
+    "_projects/Amie.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_site/assets/img/net-gala-thumbnail.png",
+    "assets/img/net-gala-thumbnail.png",
+    "_team/charu-pragya.md",
+    "_team/Charu Pragya.md",
+    "_team/Ravee Deshpande.md",
+    "_team/namita-sunil.md",
+    "_team/Namita Sunil.md",
+    "_team/Gyan Lakhwani.md",
+    "_site/gyanl.html",
+    "_includes/setup-anime.js",
+    "_includes/team-unclickable.html",
+    "_site/ravee-deshpande.html",
+    "_site/gyan-lakhwani.html",
+    "_site/charu-pragya.html",
+    "_site/namita-sunil.html",
+    "_team/gyan-lakhwani.md",
+    "_site/assets/img/image 70.png",
+    "_site/assets/img/logo.png",
+    "_site/assets/img/image 70@2x.png",
+    "assets/img/pk-og.jpg",
+    "assets/img/email-signature.png",
+    "_site/assets/img/email-signature.png",
+    "_site/assets/img/pk-og.jpg",
+    "_projects/Bobo Cakery.md",
+    "assets/img/logo.png",
+    "_projects/Borkowski.md",
+    "_projects/Net Gala.md",
+    "_notes/Case Studies.md",
     "_site/Template/Quote.md",
     "Template/Quote.md",
-    "_site/assets/img/dwm-5.jpg",
-    "assets/img/dwm-5.jpg",
-    "_site/assets/img/dwm-4.jpg",
-    "_site/assets/img/dwm-3.jpg",
-    "assets/img/dwm-3.jpg",
-    "assets/img/dwm-4.jpg",
-    "_site/assets/img/dwm-1.gif",
-    "assets/img/dwm-1.gif",
-    "_site/assets/img/dwm-2.gif",
-    "assets/img/dwm-2.gif",
-    "_projects/Amie.md",
-    "_site/untitled.html",
     "_projects/Untitled.md",
     "Template/Dark-Light Mode.md",
-    "Template/Desktop-Mobile Only.md",
-    "_site/Template/Dark-Light Mode.md",
-    "_site/Template/Desktop-Mobile Only.md",
-    "Template/Dark Mode-Light Mode.md",
-    "_site/Template/Dark Mode-Light Mode.md",
-    "_projects/Emotional AI.md",
-    "_projects/Amie.sync-conflict-20250507-190353-S6AUBIN.md",
-    "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
-    "_site/assets/js/slideshow.js",
-    "assets/css/slideshow.css",
-    "assets/js/slideshow.js",
-    "_site/assets/css/slideshow.css",
-    "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Cakeshop.md",
-    "_projects/Listen.md",
-    "_projects/Dancing with Mountains.md",
-    "_site/dancing-with-mountains.html",
-    "_site/emotional-ai.html",
-    "_site/charu-pragya.html",
-    "_site/gyan-lakhwani.html",
-    "_notes/Software.md",
-    "_notes/New Employee Checklist.md",
-    "_notes/Internship.md",
-    "_notes/Ways of Working.md",
-    "_notes/FAQs.md",
-    "_notes/Website Inspiration.md",
-    "_notes/Case Studies.md",
-    "_notes/Collections.md",
-    "_notes/Design Process.md",
-    "Template/Image(s).md"
+    "Template/Desktop-Mobile Only.md"
   ]
 }

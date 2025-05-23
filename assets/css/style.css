@@ -26,8 +26,6 @@
 
 :root {
 
-    --mobile-breakpoint: 900px;
-
     /* Colors */
     --text-reg: rgb(42, 42, 42);
     --text-secondary: rgba(42, 42, 42, .7);
@@ -77,7 +75,7 @@
 
     /* Layout */
     --max-width: 1920px;
-    --width-desktop: 86vw;
+    --width-desktop: 90vw;
     --width-mobile: 90vw;
 
     --container-width: 800px;
