@@ -1,14 +1,14 @@
 ---
 date: 11-04-2025
-date modified: 22-05-2025
+date modified: 23-05-2025
 feed: show
 image: /assets/img/charu-tall.jpg
-instagram: instagram.com/chauciao
+instagram: https://www.instagram.com/chauuciao/
 layout: team
 linkedin: https://www.linkedin.com/in/charu-pragya-755956133/
 name: Charu Pragya
 order: 1
-portfolio: chauciao.com
+portfolio: https://chauciao.com
 role: Founding Partner
 title: "Charu Pragya"
 twitter: https://x.com/CharuPragyaa
