@@ -8,6 +8,7 @@ layout: team
 linkedin: https://www.linkedin.com/in/charu-pragya-755956133/
 name: Charu Pragya
 order: 1
+permalink: charu
 portfolio: https://chauciao.com
 role: Founding Partner
 title: "Charu Pragya"
