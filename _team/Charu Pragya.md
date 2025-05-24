@@ -1,10 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 23-05-2025
+date modified: 24-05-2025
 feed: show
 image: /assets/img/charu-tall.jpg
 instagram: https://www.instagram.com/chauuciao/
-layout: team
+layout: team-member
 linkedin: https://www.linkedin.com/in/charu-pragya-755956133/
 name: Charu Pragya
 order: 1

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Amie.md",
+                "file": "_projects/Net Gala.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Amie"
+              "title": "Net Gala"
             }
           }
         ]
@@ -66,17 +66,7 @@
             }
           },
           {
-            "id": "9420122fcc6861a8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "b2ca3b95ec0f4d8a",
+            "id": "654c83062ff39e2e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -86,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -175,51 +165,51 @@
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
-    "assets/img/net-gala-banner.jpg",
-    "_site/assets/img/net-gala-banner.jpg",
-    "_site/assets/img/dwm-banner.jpg",
-    "assets/img/dwm-banner.jpg",
-    "_site/assets/img/amie-mockup1.png",
-    "_site/assets/img/amie-mockup2.png",
-    "assets/img/amie-mockup2.png",
-    "assets/img/amie-mockup1.png",
-    "assets/img/ebc-reader-header.jpg",
-    "_site/assets/img/ebc-reader-header.jpg",
-    "_projects/Listen.md",
-    "_site/listen.html",
-    "_site/assets/img/listen-billboard.jpg",
-    "_notes/Design Process.md",
-    "_notes/Website Inspiration.md",
-    "_notes/Ways of Working.md",
-    "_notes/Collections.md",
-    "_notes/Case Studies.md",
-    "_notes/Software.md",
-    "_notes/New Employee Checklist.md",
-    "_notes/FAQs.md",
-    "_notes/Internship.md",
-    "_quotes/dewey.md",
-    "_quotes/neel.md",
-    "_quotes/einstein.md",
-    "_team/charu-pragya.md",
-    "_team/ravee-deshpande.md",
-    "_team/namita-sunil.md",
-    "_team/gyan-lakhwani.md",
-    "_services/brandwork.md",
-    "_services/interface-experience.md",
-    "_services/strategy.md",
-    "_services/development.md",
-    "_projects/Net Gala.md",
+    "_team/Harshit Chandna.md",
+    "_quotes/exupery.md",
+    "_quotes/ogilvy.md",
+    "_quotes/ogilvy1.md",
+    "_quotes/rams.md",
+    "_quotes/adams.md",
+    "_site/charu.html",
+    "_site/namita.html",
+    "_site/ravee.html",
+    "_layouts/case-study.html",
+    "_projects/Cakeshop.md",
     "_projects/Sā Biennale.md",
+    "_projects/Listen.md",
     "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Emotional AI.md",
-    "_site/untitled.html",
-    "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
-    "_site/assets/js/slideshow.js",
-    "assets/css/slideshow.css",
-    "assets/js/slideshow.js",
-    "_site/assets/css/slideshow.css",
-    "_site/dancing-with-mountains.html",
-    "_site/emotional-ai.html",
-    "_site/charu-pragya.html"
+    "_projects/EBC Reader.md",
+    "_projects/Dancing with Mountains.md",
+    "_projects/cakeshop.md",
+    "_projects/Amie.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_site/assets/img/net-gala-thumbnail.png",
+    "assets/img/net-gala-thumbnail.png",
+    "_team/charu-pragya.md",
+    "_team/Charu Pragya.md",
+    "_team/Ravee Deshpande.md",
+    "_team/namita-sunil.md",
+    "_team/Namita Sunil.md",
+    "_team/Gyan Lakhwani.md",
+    "_site/gyanl.html",
+    "_includes/setup-anime.js",
+    "_includes/team-unclickable.html",
+    "_site/ravee-deshpande.html",
+    "_site/gyan-lakhwani.html",
+    "_site/charu-pragya.html",
+    "_team/gyan-lakhwani.md",
+    "_site/assets/img/image 70.png",
+    "_site/assets/img/logo.png",
+    "_site/assets/img/image 70@2x.png",
+    "assets/img/pk-og.jpg",
+    "assets/img/email-signature.png",
+    "_site/assets/img/email-signature.png",
+    "_site/assets/img/pk-og.jpg",
+    "_projects/Bobo Cakery.md",
+    "assets/img/logo.png",
+    "_projects/Borkowski.md",
+    "_projects/Net Gala.md",
+    "_notes/Case Studies.md"
   ]
 }

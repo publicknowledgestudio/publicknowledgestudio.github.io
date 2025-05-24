@@ -35,7 +35,7 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Public Knowledge is a design studio that creates interactive, hand-crafted web and app experiences that feel unique to your brand.">
+        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that creates interactive, hand-crafted web and app experiences that feel unique to your brand.{% endif %}">
     <meta name="keywords"
         content="design studio, web design, app development, interactive design, technology, user experience">
     <meta name="author" content="Public Knowledge Studio">

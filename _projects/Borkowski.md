@@ -15,7 +15,7 @@ title: "Borkowski"
 ---
 
 > #### Team
-> [[Charu Pragya]], [[Gyan Lakhwani]]
+> [[Charu Pragya]], [[../_team/Harshit Chandna]]
 
 Something we did after [[Hammock Map]]
 

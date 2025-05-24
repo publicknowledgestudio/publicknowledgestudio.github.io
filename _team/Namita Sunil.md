@@ -1,9 +1,9 @@
 ---
 date: 11-04-2025
-date modified: 23-05-2025
+date modified: 24-05-2025
 feed: show
 image: /assets/img/namita-tall.jpg
-layout: team
+layout: team-member
 name: Namita Sunil
 order: 3
 permalink: namita

@@ -1,7 +1,8 @@
 <div class="section-title">The Team</div>
 
+{% assign sorted_team = site.team | sort: 'order' %}
 <div class="team-container">
-    {% for member in site.team %}
+    {% for member in sorted_team %}
     <div class="team-card" style="background-image: url({{ member.image }})">
         <div class="team-card-content">
             <div class="team-name">{{ member.name }}</div>
