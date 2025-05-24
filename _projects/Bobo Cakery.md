@@ -1,10 +1,9 @@
 ---
 date: 11-04-2025
-date modified: 11-05-2025
+date modified: 24-05-2025
 external_url: https://bobocakery.com/
 featured: yes
 feed: show
-format: list
 layout: case-study
 order: 20
 subtitle: A bespoke e-commerce website for Bobo Cakery, a bakery that specialises in highly-customised artisanal cakes.

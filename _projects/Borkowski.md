@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/borkowski-thumbnail.jpg
 date: 20-04-2025
-date modified: 11-05-2025
+date modified: 24-05-2025
 external_url: https://borkowski.co.uk
 feed: show
 layout: case-study
