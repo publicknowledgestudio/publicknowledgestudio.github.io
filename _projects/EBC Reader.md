@@ -13,6 +13,7 @@ team:
   - Charu Pragya
   - Namita Sunil
   - Gyan Lakhwani
+  - Harshit Chandna
 thumbnail: assets/img/ebc-reader-thumbnail.jpg
 title: "EBC Reader"
 ---
