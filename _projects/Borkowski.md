@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/borkowski-thumbnail.jpg
 date: 20-04-2025
-date modified: 24-05-2025
+date modified: 03-06-2025
 external_url: https://borkowski.co.uk
 feed: show
 layout: case-study
@@ -10,6 +10,10 @@ permalink: borkowski
 subtitle: A fresh look for a London-based PR Agency. We helped Borkowski refresh their brand and website for a bold new look.
 tags:
   - website
+team:
+  - Charu Pragya
+  - Ravee Deshpande
+  - Gyan Lakhwani
 thumbnail: /assets/img/borkowski-thumbnail.jpg
 title: "Borkowski"
 ---

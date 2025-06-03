@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/net-gala-banner.jpg
 date: 29-03-2024
-date modified: 22-05-2025
+date modified: 03-06-2025
 feed: show
 layout: case-study
 order: 1
@@ -12,6 +12,7 @@ tags:
 team:
   - Charu Pragya
   - Gyan Lakhwani
+  - Namita Sunil
 thumbnail: /assets/img/netgala-thumbnail.jpg
 title: "Net Gala"
 ---

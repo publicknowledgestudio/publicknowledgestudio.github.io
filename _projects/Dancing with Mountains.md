@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/dwm-banner.jpg
 date: 02-06-2024
-date modified: 22-05-2025
+date modified: 03-06-2025
 external_url: https://www.dancingwithmountains.com/
 feed: show
 layout: case-study
@@ -13,7 +13,6 @@ team:
   - Charu Pragya
   - Namita Sunil
   - Ravee Deshpande
-  - Gyan Lakhwani
 thumbnail: /assets/img/dancing-with-mountains-thumbnail.jpg
 title: "Dancing with Mountains"
 ---
