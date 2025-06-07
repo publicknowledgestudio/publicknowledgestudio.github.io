@@ -8,7 +8,9 @@ format: list
 layout: case-study
 order: 6
 subtitle: Helping EBC Group reimagine the brand and experiences for their e-Library offering, EBC Reader, for an AI-first era
-tags: UI/UX Strategy
+tags: 
+  - UI/UX
+  - Strategy
 team:
   - Charu Pragya
   - Namita Sunil

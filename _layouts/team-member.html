@@ -10,7 +10,8 @@
                 <img src="{{ page.image }}" alt="{{ page.name }}" class="team-member-photo">
             </div>
             <div class="team-member-info-col">
-                <h1 class="sans uppercase mbs-0 mbe-0" style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">
+                <h1 class="sans uppercase mbs-0 mbe-0"
+                    style="view-transition-name: title-{{ page.title | replace: ' ', '' }};">
                     {{ page.name }}
                 </h1>
                 <div class="team-member-socials">
@@ -35,22 +36,31 @@
             <div class="section-title">Projects</div>
             <div class="project-container">
                 {% for project in member_projects %}
-                <a class="project" href="{{ project.url }}" rel="noopener">
-                    <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="{{ project.title }}">
-                    <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">
-                        {{ project.title }}
-                    </div>
-                    <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
-                    <div class="tag-container project-description-mobile-padding">
-                        {% for tag in project.tags %}
-                        <div class="tag">{{ tag }}</div>
-                        {% endfor %}
-                    </div>
+                {% if project.external_url %}
+                <a class="project" href="{{ project.external_url }}" rel="noopener">
+                    {% else %}
+                    <div class="project">
+                        {% endif %}
+                        <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+                        <div class="project-title project-description-mobile-padding"
+                            style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">
+                            {{ project.title }}
+                        </div>
+                        <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
+                        <div class="tag-container project-description-mobile-padding">
+                            {% for tag in project.tags %}
+                            <div class="tag">{{ tag }}</div>
+                            {% endfor %}
+                        </div>
+                        {% if project.external_url %}
                 </a>
-                {% endfor %}
+                {% else %}
             </div>
-        </section>
-        {% endif %}
+            {% endif %}
+            {% endfor %}
+    </div>
+    </section>
+    {% endif %}
     </div>
 
 </body>

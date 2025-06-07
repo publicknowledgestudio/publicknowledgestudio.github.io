@@ -1,17 +1,22 @@
-<div class="section-title">The Work</div>
+---
+layout: base
+---
+
+<div class="section-title">Projects tagged: {{ page.tag }}</div>
+
 
 <div class="project-container">
-    {% assign sorted_projects = site.projects | sort: 'order' %}
-    {% for project in sorted_projects %}
+    {% assign tagged_projects = site.projects | where_exp: "project", "project.tags contains page.tag" | sort: 'order' %}
+    {% for project in tagged_projects %}
         <a class="project" href="{{ project.url }}" rel="noopener">
-            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
+            <img class="project-thumbnail" src="/{{ project.thumbnail }}" alt="{{ project.title }} thumbnail">
             <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
             <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
             <div class="tag-container project-description-mobile-padding">
                 {% for tag in project.tags %}
-                <a href="/tag/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+                <div class="tag">{{ tag }}</div>
                 {% endfor %}
             </div>
         </a>
     {% endfor %}
-</div> 
+</div>

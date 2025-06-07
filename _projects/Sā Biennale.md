@@ -7,7 +7,9 @@ layout: case-study
 order: 7
 permalink: sa-biennale
 subtitle: Immersive branding and design for sā Biennale, Asia's highest land art festival
-tags: Branding, UI/UX
+tags: 
+  - Branding 
+  - UI/UX
 team:
   - Charu Pragya
   - Gyan Lakhwani

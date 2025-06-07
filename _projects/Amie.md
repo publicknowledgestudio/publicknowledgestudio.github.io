@@ -6,6 +6,9 @@ feed: show
 layout: case-study
 order: 4
 subtitle: Developed Amie’s identity and web design, elevating its vision of a rotating wardrobe for modern lifestyles.
+tags:
+  - branding
+  - website
 team:
   - Charu Pragya
   - Namita Sunil

@@ -32,7 +32,7 @@
                 <p class="mbs-0">{{ page.subtitle }}</p>
                 <div class="tag-container">
                     {% for tag in page.tags %}
-                    <a href="/tag/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+                    <div class="tag">{{ tag }}</div>
                     {% endfor %}
                 </div>
             </div>

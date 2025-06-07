@@ -68,12 +68,15 @@ collections:
     projects:
       output: true
       permalink: /:slug
-    notes:
+    blog:
       output: true
       permalink: /:slug
     team:
       output: true
       permalink: /:slug
+    tags:
+      output: true
+      permalink: /tag/:slug
     services:
       output: false
       permalink: /:slug

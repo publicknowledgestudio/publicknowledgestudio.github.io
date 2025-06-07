@@ -3,7 +3,7 @@ author:
 date: 04-06-2024
 date modified: 09-05-2025
 feed: show
-layout: post
+layout: blog
 subtitle: 
 tags: 
 thumbnail: /assets/thumbs/default.png
