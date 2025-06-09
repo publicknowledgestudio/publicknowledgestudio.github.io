@@ -29,7 +29,10 @@
     /* Colors */
     --text-reg: rgb(42, 42, 42);
     --text-secondary: rgba(42, 42, 42, .7);
+
     --header-background: rgba(255, 255, 255, 0.6);
+    --header-shadow: rgba(0, 0, 0, 0.1);
+
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
     --slightly-warm-gray: #faf9f9;
@@ -140,7 +143,8 @@
         --card-border: rgba(255, 255, 255, 0.1);
         --card-shadow: rgba(0, 0, 0, 0.2);
 
-        --header-background: rgba(0, 0, 0, 0.6);
+        --header-background: rgba(30, 30, 30, 0.4);
+        --header-shadow: rgba(0, 0, 0, 0.3);
 
         --footer-background: rgba(0, 0, 0, 0.9);
         --footer-background-gradient: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0.9));
@@ -300,6 +304,8 @@
 
     backdrop-filter: blur(20px) contrast(130%) saturate(150%);
     -webkit-backdrop-filter: blur(20px) contrast(130%) saturate(150%);
+
+    box-shadow: 0px 2px 12px var(--header-shadow);
 
 }
 
@@ -1656,35 +1662,6 @@ a .startup-cta:hover {
 }
 
 
-
-/* View Transitions */
-::view-transition-old(*),
-::view-transition-new(*) {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Title transitions */
-::view-transition-old(title-*),
-::view-transition-new(title-*) {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-::view-transition-old(title-*) {
-    -webkit-animation-name: fade-out-slide;
-    animation-name: fade-out-slide;
-}
-
-::view-transition-new(title-*) {
-    -webkit-animation-name: fade-in-slide;
-    animation-name: fade-in-slide;
-}
-
 /* Keyframe animations */
 @-webkit-keyframes fade-in-slide {
     from {
@@ -1878,7 +1855,7 @@ a .startup-cta:hover {
     .site-nav {
         top: var(--spacing-md);
         padding: var(--spacing-md) var(--spacing-lg);
-
+        width: calc(var(--width-mobile) * .95);
     }
 
     .desktop-only {
