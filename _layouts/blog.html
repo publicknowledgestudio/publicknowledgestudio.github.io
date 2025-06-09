@@ -15,27 +15,32 @@
                         &nearr;]</a>
                     {% endif %}
                 </h1>
-                <p class="sans uppercase">
-                    IN {{ page.date | date: "%B %Y" }}
-                    <br> BY 
-                    {% assign team = page.team %}
-                    {% for person in team %}
-                      {% assign index = forloop.index0 %}
-                      {% assign last_index = team.size | minus: 1 %}
-                      {% if index == 0 %}
-                      {% else %} + {% endif %}
-                      {{ person }}
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="flex-1">
                 <p class="mbs-0">{{ page.subtitle }}</p>
                 <div class="tag-container">
                     {% for tag in page.tags %}
                     <div class="tag">{{ tag }}</div>
                     {% endfor %}
                 </div>
+                <p class="sans uppercase">
+                    Published {{ page.date | date: "%B %Y" }}
+                    {% if page.author %}
+                    <br> BY 
+                    {% for author_name in page.author %}
+                      {% assign team_member = site.team | where: "name", author_name | first %}
+                      {% assign index = forloop.index0 %}
+                      {% assign last_index = page.author.size | minus: 1 %}
+                      {% if index == 0 %}
+                      {% else %} + {% endif %}
+                      {% if team_member %}
+                        <a href="{{ team_member.url }}">{{ author_name }}</a>
+                      {% else %}
+                        {{ author_name }}
+                      {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </p>
             </div>
+
         </div>
         <div class="blog">
             {{ content }}
@@ -67,6 +72,14 @@ if (window.visualViewport) {
         }
     });
 }
+
+// Clickable checkboxes
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+  // remove the disabled attribute; added by kramdown by default
+  checkbox.removeAttribute('disabled');
+});
+
 </script>
 
 

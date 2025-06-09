@@ -1,6 +1,6 @@
----
-layout: base
----
+{% include head.html %}
+
+<body>
 
 {% include logo.html %}
 
@@ -28,11 +28,14 @@ layout: base
     <video id="masked-video" autoplay playsinline loop muted></video>
 </div>
 
+
+
 <div class="scroll-tip square-button">
     SCROLL TO START
 </div>
 
-<div class="container">
+<div class="container mt-120vh">
+    {% include site-nav.html %}
     <div class="about-section">
         <div class="section-title">About</div>
         <div id="animate-words" class="huge-text">
@@ -47,3 +50,10 @@ layout: base
     {% include team.html %}
     {% include quote.html %}
 </div>
+
+
+{% include footer.html %}
+</body>
+
+
+</html> 

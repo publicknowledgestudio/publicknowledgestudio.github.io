@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/amie-header.jpg
 date: 11-04-2025
-date modified: 22-05-2025
+date modified: 07-06-2025
 feed: show
 layout: case-study
 order: 4

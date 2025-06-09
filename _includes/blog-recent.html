@@ -1,0 +1,13 @@
+<a href="/blog" class="section-title">The Journal</a>
+
+<div class="blog-tile-container">
+    {% assign sorted_blog = site.blog | sort: 'date' | reverse %}
+    {% for post in sorted_blog limit:4 %}
+        <a href="{{ post.url }}">
+            <div class="blog-tile">
+                <div class="team-name">{{ post.title }}</div>
+                <div class="team-description sans secondary">{{ post.subtitle }}</div>
+            </div>
+        </a>
+    {% endfor %}
+</div>

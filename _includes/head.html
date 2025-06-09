@@ -72,8 +72,13 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    {% if page.layout != 'home' %}
+    {% if page.layout == 'blog' %}
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
+
+    {% elsif page.layout == 'case-study' %}
+    <link rel="stylesheet" href="{{ '/assets/css/case-study.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
+
     {% endif %}
 </head>

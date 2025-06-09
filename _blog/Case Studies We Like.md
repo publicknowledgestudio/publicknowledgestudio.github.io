@@ -1,13 +1,13 @@
 ---
 author: 
 date: 04-05-2025
-date modified: 09-05-2025
+date modified: 08-06-2025
 feed: show
 layout: blog
-subtitle: 
+subtitle: Work by other studios we like
 tags: 
 thumbnail: /assets/thumbs/default.png
-title: "Case Studies"
+title: "Case Studies We Like"
 ---
 
 ##### [CMF Watch Pro Watch Faces by Twingate Studio](https://cmf.twingate.studio/)

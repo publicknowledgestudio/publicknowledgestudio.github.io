@@ -1,7 +1,7 @@
 ---
 author: Gyan Lakhwani
 date: 06-05-2024
-date modified: 07-06-2025
+date modified: 08-06-2025
 feed: show
 layout: blog
 subtitle: Practices
@@ -52,6 +52,6 @@ How you can serve people exceptionally well. What is a standard practice that do
 
 ### References
 
-[Creating a new agency culture – Thought | Output](https://www.studio-output.com/thought/creating-a-new-agency-culture/)
+[Creating a new agency culture - Output](https://www.studio-output.com/thought/creating-a-new-agency-culture/)
 
 [Primary Branding Studio - Sprints](https://primary.studio/sprints/)

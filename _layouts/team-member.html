@@ -2,7 +2,7 @@
 
 <body>
 
-    {% include logo.html %}
+    {% include site-nav.html %}
 
     <div class="container-width">
         <div class="team-member-main">
@@ -29,6 +29,8 @@
                 </div>
             </div>
         </div>
+
+
 
         {% assign member_projects = site.projects | where_exp: "project", "project.team contains page.name" %}
         {% if member_projects.size > 0 %}
