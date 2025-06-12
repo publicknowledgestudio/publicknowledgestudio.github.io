@@ -1285,15 +1285,17 @@ a.tag:hover {
 }
 
 .controls-panel {
+    font-family: var(--font-stack-sans);
     z-index: 2;
     position: absolute;
-    top: var(--spacing-6xl);
+    top: var(--spacing-md);
     right: var(--spacing-md);
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--background-color);
     padding: var(--spacing-md);
-    border-radius: var(--border-radius-sm);
+    border-radius: var(--border-radius-md);
     -webkit-box-shadow: 0 2px 10px var(--black-5);
     box-shadow: 0 2px 10px var(--black-5);
+    border: 1px solid var(--black-5);
     z-index: 1000;
 }
 
@@ -1305,7 +1307,7 @@ a.tag:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
 }
 
 .control-group label {

@@ -74,6 +74,8 @@ class AsteriskAnimation {
 
     video.addEventListener('error', (e) => {
       console.error('Error loading video:', e);
+      // Add background color if video fails to load
+      video.style.backgroundColor = 'var(--accent-color)';
     });
 
     // Try to play the video
@@ -110,6 +112,9 @@ class AsteriskAnimation {
 
     // Scroll event
     window.addEventListener('scroll', this.handleScroll);
+
+    // Keydown event for asterisk shortcut
+    document.addEventListener('keydown', this.handleKeydown.bind(this));
   }
 
   /**
@@ -144,6 +149,27 @@ class AsteriskAnimation {
     this.updateValue('width', 'px');
 
     this.updateAsterisk();
+  }
+
+  /**
+   * Handle keydown events for asterisk shortcut
+   */
+  handleKeydown(event) {
+    // Debug logging to see what key is being pressed
+    console.log('Key pressed:', event.key, 'Code:', event.code, 'KeyCode:', event.keyCode);
+    
+    // Check if the pressed key is asterisk (*) - try multiple ways
+    if (event.key === '*' || event.key === 'Multiply' || event.code === 'NumpadMultiply' || 
+        (event.shiftKey && event.key === '8')) {
+      console.log('Asterisk detected! Showing controls panel');
+      const controlsPanel = document.getElementById('controls-panel');
+      if (controlsPanel) {
+        controlsPanel.classList.remove('display-none');
+        console.log('Controls panel shown');
+      } else {
+        console.log('Controls panel not found');
+      }
+    }
   }
 
   /**
