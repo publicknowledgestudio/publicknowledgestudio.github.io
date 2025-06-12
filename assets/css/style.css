@@ -619,7 +619,7 @@ a.tag:hover {
 .huge-text {
     font-size: var(--font-size-4xl);
     letter-spacing: var(--letter-spacing-tight);
-    line-height: var(--line-height-tight);
+    line-height: var(--line-height-base);
 }
 
 .scroll-tip {

@@ -76,7 +76,7 @@ class AsteriskAnimation {
       console.error('Error loading video:', e);
     });
 
-    // Try to play the video, with fallback for autoplay restrictions
+    // Try to play the video
     const playPromise = video.play();
 
     if (playPromise !== undefined) {
@@ -84,35 +84,8 @@ class AsteriskAnimation {
         console.log('Video playing successfully');
       }).catch(error => {
         console.warn('Autoplay prevented:', error);
-        // Add a play button if autoplay is blocked
-        this.addPlayButton();
       });
     }
-  }
-
-  /**
-   * Add a play button if autoplay is blocked
-   */
-  addPlayButton() {
-    const playButton = document.createElement('button');
-    playButton.textContent = 'Play Video';
-    playButton.style.position = 'fixed';
-    playButton.style.bottom = '20px';
-    playButton.style.left = '50%';
-    playButton.style.transform = 'translateX(-50%)';
-    playButton.style.zIndex = '10';
-    playButton.style.padding = '10px 20px';
-    playButton.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
-    playButton.style.border = 'none';
-    playButton.style.borderRadius = '4px';
-    playButton.style.cursor = 'pointer';
-
-    playButton.addEventListener('click', () => {
-      this.elements.video.play();
-      playButton.remove();
-    });
-
-    document.body.appendChild(playButton);
   }
 
   /**
