@@ -11,10 +11,15 @@
             "id": "6415775eaff6fbc7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_blog/Website Inspiration.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Website Inspiration"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "todo",
+                "query": "bitesi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,12 +76,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "45d701e63b77bb21",
@@ -161,17 +165,17 @@
   },
   "active": "6415775eaff6fbc7",
   "lastOpenFiles": [
-    "_blog/Ways of Working.md",
-    "_blog/Website Inspiration.md",
-    "_blog/Case Studies We Like.md",
-    "_blog/Design Process.md",
-    "_blog/Internship.md",
     "_blog/Collections.md",
-    "_blog/Welcoming Summer 2025 Interns.md",
-    "_blog/Keep the Web Weird - Design Degree Showcase, IIT Delhi.md",
-    "_blog/Vibe Code Your Portfolio.md",
-    "_blog/New Employee Checklist.md",
+    "_blog/Design Process.md",
     "_blog/FAQs.md",
+    "_blog/Internship.md",
+    "_blog/Keep the Web Weird - Design Degree Showcase, IIT Delhi.md",
+    "_blog/New Employee Checklist.md",
+    "_blog/Vibe Code Your Portfolio.md",
+    "_blog/Case Studies We Like.md",
+    "_blog/Welcoming Summer 2025 Interns.md",
+    "_blog/Website Inspiration.md",
+    "_blog/Ways of Working.md",
     "_site/blog/case-studies-we-like.html",
     "_blog/Software.md",
     "_site/team.html",

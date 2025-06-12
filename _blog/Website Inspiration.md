@@ -1,7 +1,7 @@
 ---
 author: Charu Pragya
 date: 06-05-2024
-date modified: 09-06-2025
+date modified: 12-06-2025
 feed: hide
 layout: blog
 subtitle: Sites that we love
@@ -38,7 +38,6 @@ Single purpose page
 
 ##### [Off Menu - Full-Service Design Subscription](https://offmenu.design/)
 
-##### [Bitesized | World's Most Delicious Design Subscription](https://www.bitesized.design/)
 ### Interactions
 ##### [Books | Adam Majmudar](https://adammaj.com/books)
 
