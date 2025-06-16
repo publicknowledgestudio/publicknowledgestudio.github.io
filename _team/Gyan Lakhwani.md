@@ -1,13 +1,12 @@
 ---
 date: 11-04-2025
-date modified: 07-06-2025
+date modified: 16-06-2025
 email: gyan@publicknowledge.co
 feed: show
 image: /assets/img/gyan-tall.jpg
 instagram: https://www.instagram.com/gyanl
 layout: team-member
 linkedin: https://www.linkedin.com/in/gyanlakhwani
-name: Gyan Lakhwani
 order: 2
 permalink: gyanl
 portfolio: https://gyanl.com
