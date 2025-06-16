@@ -541,6 +541,12 @@ h1 {
     margin: 0 auto;
 }
 
+@media (min-width: 1600px) {
+    .project-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .project-container>*:nth-child(3n-2) {
     -ms-grid-column-span: 1;
     grid-column: span 1;
@@ -710,7 +716,7 @@ a.tag:hover {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr var(--spacing-2xl) 1fr var(--spacing-2xl) 1fr var(--spacing-2xl) 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-2xl);
     max-width: var(--max-width);
     width: var(--width-desktop);
@@ -718,6 +724,12 @@ a.tag:hover {
     padding-bottom: var(--spacing-6xl);
     max-width: var(--max-width);
     width: var(--width-desktop);
+}
+
+@media (min-width: 1440px) {
+    .team-container {
+        grid-template-columns: repeat(6, 1fr);
+    }
 }
 
 .service-container {
