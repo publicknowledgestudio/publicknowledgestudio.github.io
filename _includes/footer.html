@@ -163,5 +163,20 @@
 
         // Start initialization
         initFooterEffects();
+
+        function updateAccentColor() {
+            const currentTime = new Date();
+            const minutes = currentTime.getMinutes();
+
+            // Map minutes (0-59) to hue (0-255)
+            const accentH = (minutes / 59) * 255;
+            
+            // Update the CSS variables
+            document.documentElement.style.setProperty('--accent-h', accentH);
+        }
+
+        // Run once and then every minute
+        updateAccentColor();
+        setInterval(updateAccentColor, 60000);
     });
 </script>

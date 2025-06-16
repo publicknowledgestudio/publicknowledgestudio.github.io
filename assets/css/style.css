@@ -44,7 +44,11 @@
     --black: #000000;
     --white: #FFFFFF;
 
-    --accent-color: #ff4343;
+    --accent-h: 348;
+    --accent-s: 70%;
+    --accent-l: 40%;
+
+    --accent-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 
     --card-background: #faf9f9;
     --footer-background: rgba(255, 255, 255, 0.92);
@@ -130,6 +134,12 @@
         --text-secondary: rgba(255, 255, 255, .75);
         --background-color: #1a1a1a;
         --background-color-dark: #2A2A2A;
+
+        --accent-h: 348;
+        --accent-s: 80%;
+        --accent-l: 65%;
+
+        --accent-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 
         --slightly-warm-gray: #2C2C2C;
         --charcoal: #E8E8E8;
@@ -726,7 +736,7 @@ a.tag:hover {
     width: var(--width-desktop);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
     .team-container {
         grid-template-columns: repeat(6, 1fr);
     }
