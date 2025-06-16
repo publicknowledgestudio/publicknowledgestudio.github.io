@@ -32,7 +32,7 @@
 
 
 
-        {% assign member_projects = site.projects | where_exp: "project", "project.team contains page.name" %}
+        {% assign member_projects = site.projects | where_exp: "project", "project.team contains page.title" %}
         {% if member_projects.size > 0 %}
         <section class="team-member-projects flex-col gap-4xl">
             <div class="section-title">Projects</div>
@@ -43,7 +43,7 @@
                     {% else %}
                     <div class="project">
                         {% endif %}
-                        <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+                        <img class="project-thumbnail" src="/{{ project.thumbnail }}" alt="{{ project.title }}">
                         <div class="project-title project-description-mobile-padding"
                             style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">
                             {{ project.title }}

@@ -11,7 +11,7 @@ tags:
 team:
   - Charu Pragya
   - Gyan Lakhwani
-thumbnail: /assets/img/ahfl-thumbnail.jpg
+thumbnail: assets/img/ahfl-thumbnail.jpg
 title: "Advanced Hydrocarbon Fuels"
 ---
 

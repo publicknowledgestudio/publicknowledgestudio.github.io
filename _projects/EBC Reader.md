@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/ebc-reader-header.jpg
 date: 11-04-2025
-date modified: 03-06-2025
+date modified: 16-06-2025
 external_url: https://www.ebcreader.com/
 feed: show
 format: list
@@ -16,6 +16,7 @@ team:
   - Namita Sunil
   - Gyan Lakhwani
   - Harshit Chandna
+  - Devina Narang
 thumbnail: assets/img/ebc-reader-thumbnail.jpg
 title: "EBC Reader"
 ---

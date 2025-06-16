@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_team/Devina Narang.md",
+                "file": "_projects/Advanced Hydrocarbon Fuels.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Devina Narang"
+              "title": "Advanced Hydrocarbon Fuels"
             }
           }
         ]
@@ -165,8 +165,19 @@
   },
   "active": "6415775eaff6fbc7",
   "lastOpenFiles": [
-    "_team/Ravee Deshpande.md",
+    "_projects/Amie.md",
+    "_projects/Bobo Cakery.md",
+    "_projects/Borkowski.md",
+    "_projects/Cakeshop.md",
+    "_projects/Dancing with Mountains.md",
+    "_projects/EBC Reader.md",
+    "_projects/Freestand.md",
+    "_projects/Listen.md",
+    "_projects/Literary Map by Hammock Mag.md",
+    "_projects/Net Gala.md",
+    "_projects/Sā Biennale.md",
     "_team/Devina Narang.md",
+    "_team/Ravee Deshpande.md",
     "_team/Namita Sunil.md",
     "_team/Gyan Lakhwani.md",
     "_team/Harshit Chandna.md",
@@ -175,9 +186,6 @@
     "_site/team",
     "_site/ravee.html",
     "_site/assets/img/devina-tall.jpg",
-    "_projects/Dancing with Mountains.md",
-    "_projects/Cakeshop.md",
-    "_projects/Bobo Cakery.md",
     "_blog/Website Inspiration.md",
     "_blog/Collections.md",
     "_blog/Design Process.md",
@@ -187,19 +195,12 @@
     "_blog/New Employee Checklist.md",
     "_blog/Vibe Code Your Portfolio.md",
     "_blog/Case Studies We Like.md",
-    "_blog/Welcoming Summer 2025 Interns.md",
-    "_blog/Ways of Working.md",
     "_site/blog/case-studies-we-like.html",
-    "_blog/Software.md",
     "_site/team.html",
-    "pages/team.md",
-    "pages/blog copy.md",
     "_includes/site-nav.html",
     "_includes/site-nav.hmtl",
     "_site/blog.html",
     "_site/pages/blog.html",
-    "_site/pages/blog.md",
-    "pages/blog.md",
     "_site/pages",
     "_site/assets/img/spectra-thumbnail.jpg",
     "assets/img/spectra-thumbnail.jpg",
@@ -209,7 +210,6 @@
     "assets/img/spectra-thumbnail.png",
     "_site/assets/img/config-25-poster.jpg",
     "assets/img/config-25-poster.jpg",
-    "_site/assets/img/config-25-2.jpg",
-    "_projects/Amie.md"
+    "_site/assets/img/config-25-2.jpg"
   ]
 }

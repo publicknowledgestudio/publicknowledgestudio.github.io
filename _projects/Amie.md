@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/amie-header.jpg
 date: 11-04-2025
-date modified: 07-06-2025
+date modified: 16-06-2025
 feed: show
 layout: case-study
 order: 4
@@ -12,7 +12,7 @@ tags:
 team:
   - Charu Pragya
   - Namita Sunil
-thumbnail: /assets/img/amie-thumbnail.jpg
+thumbnail: assets/img/amie-thumbnail.jpg
 title: "Amie"
 ---
 

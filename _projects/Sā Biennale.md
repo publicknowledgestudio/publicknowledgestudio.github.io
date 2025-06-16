@@ -1,6 +1,6 @@
 ---
 date: 11-04-2025
-date modified: 07-06-2025
+date modified: 16-06-2025
 feed: show
 format: list
 layout: case-study
@@ -14,6 +14,8 @@ team:
   - Charu Pragya
   - Gyan Lakhwani
   - Namita Sunil
+  - Ravee Deshpande
+  - Devina Narang
 thumbnail: assets/img/sa-thumbnail.jpg
 title: "Sā Biennale"
 ---

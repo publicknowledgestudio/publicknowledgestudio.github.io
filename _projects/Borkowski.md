@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/borkowski-thumbnail.jpg
 date: 20-04-2025
-date modified: 03-06-2025
+date modified: 16-06-2025
 external_url: https://borkowski.co.uk
 feed: show
 layout: case-study
@@ -14,7 +14,7 @@ team:
   - Charu Pragya
   - Ravee Deshpande
   - Gyan Lakhwani
-thumbnail: /assets/img/borkowski-thumbnail.jpg
+thumbnail: assets/img/borkowski-thumbnail.jpg
 title: "Borkowski"
 ---
 

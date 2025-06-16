@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/listen-hero.jpg
 date: 02-06-2024
-date modified: 22-05-2025
+date modified: 16-06-2025
 feed: show
 layout: case-study
 order: 8
@@ -14,7 +14,7 @@ team:
   - Namita Sunil
   - Ravee Deshpande
   - Gyan Lakhwani
-thumbnail: /assets/img/listen-thumbnail.jpg
+thumbnail: assets/img/listen-thumbnail.jpg
 title: "Listen"
 ---
 # The Brief
