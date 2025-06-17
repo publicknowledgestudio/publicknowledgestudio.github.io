@@ -1,15 +1,24 @@
+# Jekyll
 _site
 .jekyll-cache
+
+# OS Files
+.DS_Store
 pages/.DS_Store
-pages/tags.md
-_notes/.obsidian
-_notes/Public/.obsidian
-_notes/Private/
-.obsidian/workspace.json
 assets/.DS_Store
+
+# Legacy Notes
+pages/tags.md
+_notes/Private/
+
+# Obsidian
+.obsidian/
+**/.obsidian/
+
+# MakeMD
 .makemd/
-.makemd/superstate.mdc
-.makemd/fileCache.mdc
-.obsidian/workspace.json
-.obsidian/plugins/make-md/Spaces.mdb
+**/.makemd/
 *.mdb
+
+# Space files
+.space/
