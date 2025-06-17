@@ -87,6 +87,43 @@
             let lastMouseY = 0;
             let lastSpawnX = 0;
             let lastSpawnY = 0;
+            let activeAsterisks = []; // Track active asterisks
+
+            function spawnAsterisk(event) {
+                if (!isMouseInFooter) return;
+
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                }
+
+                const asterisk = document.createElement('div');
+                asterisk.className = 'asterisk';
+                const footerRect = footer.getBoundingClientRect();
+                asterisk.style.left = `${lastMouseX - footerRect.left}px`;
+                asterisk.style.top = `${lastMouseY - footerRect.top}px`;
+                asterisk.textContent = '*';
+                asterisk.style.color = `hsl(${currentHue}, ${asteriskSaturation}%, ${asteriskLightness}%)`;
+                currentHue = (currentHue + asteriskHueStep) % 360;
+                footer.appendChild(asterisk);
+                activeAsterisks.push(asterisk);
+
+                // Update last spawn position
+                lastSpawnX = lastMouseX;
+                lastSpawnY = lastMouseY;
+
+                // Remove asterisk after specified time
+                setTimeout(() => {
+                    const index = activeAsterisks.indexOf(asterisk);
+                    if (index > -1) {
+                        activeAsterisks.splice(index, 1);
+                    }
+                    asterisk.remove();
+                }, asteriskRemovalTime);
+
+                asteriskSpawnTimer = setTimeout(() => {
+                    spawnAsterisk(event);
+                }, asteriskSpawnInterval);
+            }
 
             footer.addEventListener('mouseenter', (event) => {
                 isMouseInFooter = true;
@@ -103,61 +140,62 @@
                     clearTimeout(asteriskSpawnTimer);
                     asteriskSpawnTimer = null;
                 }
+                // Clear all active asterisks
+                activeAsterisks.forEach(asterisk => asterisk.remove());
+                activeAsterisks = [];
             });
 
             footer.addEventListener('mousemove', (event) => {
-                if (isMouseInFooter) {
-                    lastMouseX = event.clientX;
-                    lastMouseY = event.clientY;
-                    spawnAsterisk(event);
-                }
-            });
-
-            function spawnAsterisk(event) {
                 if (!isMouseInFooter) return;
+
+                lastMouseX = event.clientX;
+                lastMouseY = event.clientY;
 
                 // Check if mouse position has changed since last spawn
                 if (lastMouseX === lastSpawnX && lastMouseY === lastSpawnY) {
                     return;
                 }
 
-                if (asteriskSpawnTimer) {
-                    clearTimeout(asteriskSpawnTimer);
-                }
-
-                const asterisk = document.createElement('div');
-                asterisk.className = 'asterisk';
-                const footerRect = footer.getBoundingClientRect();
-                asterisk.style.left = `${lastMouseX - footerRect.left}px`;
-                asterisk.style.top = `${lastMouseY - footerRect.top}px`;
-                asterisk.textContent = '*';
-                // Set the color using HSL
-                asterisk.style.color = `hsl(${currentHue}, ${asteriskSaturation}%, ${asteriskLightness}%)`;
-                // Increment hue for next asterisk (cycle through 360 degrees)
-                currentHue = (currentHue + asteriskHueStep) % 360;
-                footer.appendChild(asterisk);
-
-                // Update last spawn position
-                lastSpawnX = lastMouseX;
-                lastSpawnY = lastMouseY;
-
-                // Remove asterisk after specified time
-                setTimeout(() => {
-                    asterisk.remove();
-                }, asteriskRemovalTime);
-
-                asteriskSpawnTimer = setTimeout(() => {
-                    spawnAsterisk(event);
-                }, asteriskSpawnInterval);
-            }
-
-            footer.addEventListener('mousemove', (event) => {
-                if (isMouseInFooter) {
-                    const asterisks = document.querySelectorAll('.asterisk');
-                    if (asterisks.length > asteriskTrailLength) {
-                        asterisks[0].remove();
+                // Manage trail length
+                while (activeAsterisks.length >= asteriskTrailLength) {
+                    const oldestAsterisk = activeAsterisks.shift();
+                    if (oldestAsterisk) {
+                        oldestAsterisk.remove();
                     }
                 }
+
+                spawnAsterisk(event);
+            });
+
+            // Add touch support for mobile
+            footer.addEventListener('touchstart', (event) => {
+                isMouseInFooter = true;
+                const touch = event.touches[0];
+                lastMouseX = touch.clientX;
+                lastMouseY = touch.clientY;
+                lastSpawnX = touch.clientX;
+                lastSpawnY = touch.clientY;
+                spawnAsterisk({ clientX: touch.clientX, clientY: touch.clientY });
+            });
+
+            footer.addEventListener('touchmove', (event) => {
+                if (isMouseInFooter) {
+                    const touch = event.touches[0];
+                    lastMouseX = touch.clientX;
+                    lastMouseY = touch.clientY;
+                    spawnAsterisk({ clientX: touch.clientX, clientY: touch.clientY });
+                }
+            });
+
+            footer.addEventListener('touchend', () => {
+                isMouseInFooter = false;
+                if (asteriskSpawnTimer) {
+                    clearTimeout(asteriskSpawnTimer);
+                    asteriskSpawnTimer = null;
+                }
+                // Clear all active asterisks
+                activeAsterisks.forEach(asterisk => asterisk.remove());
+                activeAsterisks = [];
             });
         }
 
@@ -169,7 +207,7 @@
             const minutes = currentTime.getMinutes();
 
             // Map minutes (0-59) to hue (0-255)
-            const accentH = (minutes / 59) * 255;
+            const accentH = Math.floor((minutes / 59) * 255);
             
             // Update the CSS variables
             document.documentElement.style.setProperty('--accent-h', accentH);

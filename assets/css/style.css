@@ -1,7 +1,3 @@
----
-# Jekyll will process this file through PostCSS
----
-
 @font-face {
     font-family: 'Copernicus';
     src: url('../fonts/Copernicus-Book.woff2') format('woff2'),
@@ -30,7 +26,7 @@
 
 :root {
     /* ===== DESIGN TOKENS ===== */
-    
+
     /* Colors */
     --text-reg: rgb(42, 42, 42);
     --text-secondary: rgba(42, 42, 42, .7);
@@ -106,7 +102,7 @@
     --button-min-height-mobile: 44px;
     --cta-avatar-size: 40px;
     --startup-card-image-height-mobile: 240px;
-    
+
     /* Logo */
     --logo-size: 1024px;
     --logo-offset: -512px;
@@ -134,7 +130,7 @@
     --animation-delay-2: 800ms;
     --animation-delay-3: 1200ms;
     --animation-delay-scroll-tip: 4s;
-    
+
     /* Z-Index Scale */
     --z-video: 9;
     --z-video-container: 10;
@@ -153,7 +149,7 @@
     --scale-large: 40;
     --grid-gap-mobile: var(--spacing-md);
     --grid-gap-desktop: var(--spacing-2xl);
-    
+
     /* Breakpoints */
     --breakpoint-mobile: 800px;
     --breakpoint-tablet: 1100px;
@@ -456,14 +452,15 @@ header {
 }
 
 .footer {
-    z-index: 20;
+    z-index: var(--z-footer);
     position: relative;
     width: 100%;
     text-align: left;
     padding: var(--spacing-3xl) 0 var(--spacing-5xl) 0;
-    background: var(--footer-background-gradient);
-    -webkit-backdrop-filter: blur(20px) contrast(130%) saturate(150%);
-    backdrop-filter: blur(20px) contrast(130%) saturate(150%);
+    background-color: var(--footer-background);
+    -webkit-backdrop-filter: var(--backdrop-blur-footer);
+    backdrop-filter: var(--backdrop-blur-footer);
+    border-top: 1px solid var(--glass-edge);
     cursor: crosshair;
 }
 
@@ -476,29 +473,27 @@ header {
 .asterisk {
     font-family: var(--font-stack-sans);
     position: absolute;
-    width: var(--spacing-xl);
-    height: var(--spacing-xl);
+    width: 16px;
+    height: 16px;
     z-index: var(--z-asterisk);
     font-size: 80px;
     transition: var(--transition-fast);
-    animation: fadeOut 5s ease-out forwards;
+    animation: fadeOut 7s ease-out forwards;
     pointer-events: none;
-    margin-top: -44px;
+    margin-top: -40px;
     margin-left: -26px;
-    will-change: opacity;
-    contain: layout style paint;
+    color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 }
-
 
 @keyframes fadeOut {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
 }
-
 
 .footer-equal-columns {
     display: -webkit-box;
@@ -656,12 +651,19 @@ a.tag:hover {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-30px);
     }
+
     60% {
         transform: translateY(-15px);
     }
@@ -689,8 +691,6 @@ a.tag:hover {
 .square-button:hover::after {
     content: '\00a0]';
 }
-
-
 
 .team-container {
     display: -ms-grid;
@@ -730,8 +730,6 @@ a.tag:hover {
     transition: background-color var(--transition-normal) ease;
 }
 
-
-
 .section-divider {
     width: var(--width-desktop);
     max-width: var(--max-width);
@@ -748,8 +746,6 @@ a.tag:hover {
     position: relative;
     padding: var(--spacing-md) var(--spacing-4xl) var(--spacing-lg) var(--spacing-2xl);
 }
-
-
 
 .service-card summary::-webkit-details-marker {
     display: none;
@@ -819,8 +815,6 @@ a.tag:hover {
     font-size: var(--font-size-lg);
 }
 
-
-
 .team-description {
     font-size: var(--font-size-md);
     font-family: var(--font-stack-sans);
@@ -834,7 +828,6 @@ a.tag:hover {
     -o-object-fit: cover;
     object-fit: cover;
 }
-
 
 /* ===== TABLET BREAKPOINT ===== */
 @media (max-width: 1100px) {
@@ -862,7 +855,7 @@ a.tag:hover {
         margin: 0 auto;
     }
 
-    .project-container > *:nth-child(3n-2) {
+    .project-container>*:nth-child(3n-2) {
         grid-column: span 2;
     }
 }
@@ -1012,6 +1005,7 @@ a.tag:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -1073,7 +1067,6 @@ a.tag:hover {
     animation: fadeIn 1s both;
     will-change: opacity;
 }
-
 
 @-webkit-keyframes fadeIn {
     0% {
@@ -1471,9 +1464,12 @@ a .startup-cta:hover {
 }
 
 @keyframes rainbow-border {
-    0%, 100% {
+
+    0%,
+    100% {
         background-position: 0% 0%;
     }
+
     50% {
         background-position: 100% 100%;
     }
@@ -1486,7 +1482,6 @@ a .startup-cta:hover {
     margin-right: 0.5rem;
     margin-left: -2px;
 }
-
 
 .cta-avatar {
     width: 40px;
@@ -1547,7 +1542,6 @@ a .startup-cta:hover {
     opacity: .85;
     line-height: var(--line-height-tight);
 }
-
 
 /* Keyframe animations */
 @-webkit-keyframes fade-in-slide {
@@ -1806,14 +1800,12 @@ a .startup-cta:hover {
 
     .footer-column a {}
 
-
     .footer-equal-columns {
         display: flex;
         flex-direction: column;
         width: var(--width-mobile);
         gap: var(--spacing-sm);
     }
-
 
     .button {
         min-height: var(--button-min-height-mobile);
@@ -1851,8 +1843,6 @@ a .startup-cta:hover {
         border-bottom: 1px solid var(--black-5);
     }
 
-
-
     .card-stack .card:first-child {
         border-radius: var(--border-radius-sm) var(--border-radius-sm) 0 0;
     }
@@ -1872,8 +1862,6 @@ a .startup-cta:hover {
         flex-direction: column;
         gap: 0;
     }
-
-
 
     .project-container {
         width: var(--width-mobile);
@@ -1920,8 +1908,6 @@ a .startup-cta:hover {
         font-size: var(--font-size-lg);
     }
 
-
-
     .team-container {
         display: -ms-grid;
         display: grid;
@@ -1930,7 +1916,6 @@ a .startup-cta:hover {
         gap: var(--spacing-md);
         width: var(--width-mobile);
     }
-
 
     .team-card {
         height: var(--team-card-height-mobile);
@@ -1945,8 +1930,6 @@ a .startup-cta:hover {
     .team-description {
         font-size: var(--font-size-sm);
     }
-
-
 
     .about-section {
         display: -webkit-box;
@@ -1964,16 +1947,12 @@ a .startup-cta:hover {
         flex-direction: column;
     }
 
-
-
     .huge-text {
         margin: auto;
         font-size: var(--font-size-2xl);
         text-align: left;
         padding: var(--spacing-5xl) 0;
     }
-
-
 
     .top-right {
         width: auto;
@@ -2046,8 +2025,6 @@ a .startup-cta:hover {
         font-size: var(--font-size-md);
     }
 
-
-
     .service-container {
         display: -ms-grid;
         display: grid;
@@ -2078,7 +2055,6 @@ a .startup-cta:hover {
     .service-card .service-description {
         padding: 0;
     }
-
 
     .service-name {
         font-size: var(--font-size-lg);
