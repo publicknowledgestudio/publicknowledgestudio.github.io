@@ -946,49 +946,6 @@ a.tag:hover {
     margin: auto;
 }
 
-.asterisk-line h3::before {
-    content: "";
-    display: inline-block;
-    width: var(--spacing-md);
-    height: var(--spacing-md);
-    background-image: url(pkstar.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin-bottom: -3px;
-    margin-right: var(--spacing-sm);
-}
-
-.asterisk-line p {
-    border-left: 1px solid #C2C2C2;
-    margin: -21px 0 -20px var(--spacing-md);
-    padding: var(--spacing-md) 0 var(--spacing-md) var(--spacing-md);
-}
-
-.asterisk-line:last-child p {
-    border-left: none;
-}
-
-.asterisk-bullet-line h3::before {
-    content: "";
-    display: inline-block;
-    width: var(--spacing-md);
-    height: var(--spacing-md);
-    background-image: url(pkstar.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin-bottom: -3px;
-    margin-right: var(--spacing-sm);
-}
-
-.asterisk-bullet-line p {
-    line-height: 1.75;
-    border-left: 1px solid #C2C2C2;
-    margin: var(--spacing-md) 0 0px var(--spacing-md);
-    padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-md);
-}
-
 #logo {
     position: absolute;
     height: var(--logo-size);
