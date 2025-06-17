@@ -1,7 +1,7 @@
 ---
 banner: /assets/img/dwm-banner.jpg
 date: 02-06-2024
-date modified: 16-06-2025
+date modified: 17-06-2025
 external_url: https://www.dancingwithmountains.com/
 feed: show
 layout: case-study

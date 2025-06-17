@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/Amie.md",
+                "file": "_projects/EBC Reader.sync-conflict-20250617-124421-57TS2FW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Amie"
+              "title": "EBC Reader.sync-conflict-20250617-124421-57TS2FW"
             }
           }
         ]
@@ -66,17 +66,7 @@
             }
           },
           {
-            "id": "9420122fcc6861a8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "b2ca3b95ec0f4d8a",
+            "id": "654c83062ff39e2e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -86,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -175,51 +165,51 @@
   },
   "active": "8aa2d34713739b24",
   "lastOpenFiles": [
-    "_site/assets/img/listen-thumbnail.jpg",
-    "assets/img/listen-thumbnail.jpg",
-    "_site/assets/img/netgala-thumbnail.jpg",
-    "assets/img/netgala-thumbnail.jpg",
-    "_site/net-gala.html",
-    "assets/img/net-gala-banner.jpg",
-    "_site/assets/img/net-gala-banner.jpg",
-    "_site/assets/img/dwm-banner.jpg",
-    "assets/img/dwm-banner.jpg",
-    "_site/assets/img/amie-mockup1.png",
-    "_site/assets/img/amie-mockup2.png",
-    "assets/img/amie-mockup2.png",
-    "_projects/Listen.md",
-    "_site/listen.html",
-    "_notes/Design Process.md",
-    "_notes/Website Inspiration.md",
-    "_notes/Ways of Working.md",
-    "_notes/Collections.md",
-    "_notes/Case Studies.md",
-    "_notes/Software.md",
-    "_notes/New Employee Checklist.md",
-    "_notes/FAQs.md",
-    "_notes/Internship.md",
-    "_quotes/dewey.md",
-    "_quotes/neel.md",
-    "_quotes/einstein.md",
-    "_team/charu-pragya.md",
-    "_team/ravee-deshpande.md",
-    "_team/namita-sunil.md",
-    "_team/gyan-lakhwani.md",
-    "_services/brandwork.md",
-    "_services/interface-experience.md",
-    "_services/strategy.md",
-    "_services/development.md",
+    "_projects/Cakeshop.sync-conflict-20250617-124418-S6AUBIN.md",
+    "_projects/Borkowski.sync-conflict-20250617-124419-57TS2FW.md",
     "_projects/Net Gala.md",
-    "_projects/Sā Biennale.md",
-    "_projects/Literary Map by Hammock Mag.md",
-    "_projects/Emotional AI.md",
-    "_site/untitled.html",
-    "_site/amie-sync-conflict-20250507-190353-s6aubin.html",
-    "_site/assets/js/slideshow.js",
-    "assets/css/slideshow.css",
-    "assets/js/slideshow.js",
-    "_site/assets/css/slideshow.css",
-    "_site/dancing-with-mountains.html",
-    "_site/emotional-ai.html"
+    "_projects/Bobo Cakery.md",
+    "_projects/Amie.md",
+    "_projects/Advanced Hydrocarbon Fuels.md",
+    "_projects/EBC Reader.sync-conflict-20250617-124421-57TS2FW.md",
+    "_team/Namita Sunil.md",
+    "_team/Harshit Chandna.md",
+    "_site/ebc-reader-sync-conflict-20250617-124421-57ts2fw.html",
+    "_site/team/devina-narang.html",
+    "_site/blog/internship.html",
+    "_site/blog/collections.html",
+    "_site/team.html",
+    "_site/tag/branding.html",
+    "_site/blog/website-inspiration.html",
+    "_site/blog/ways-of-working.html",
+    "_site/tag/website.html",
+    "_site/blog/design-process.html",
+    "_site/assets/img/config-25-0.jpg",
+    "_tags/website.md",
+    "assets/img/config-25-0.jpg",
+    "_site/assets/img/config25-thumbnail.png",
+    "_blog/Case Studies We Like.md",
+    "_team/Devina Narang.md",
+    "_blog/Vibe Code Your Portfolio.md",
+    "_blog/New Employee Checklist.md",
+    "_site/assets/img/config-25-1.jpg",
+    "assets/img/config25-thumbnail.png",
+    "_site/assets/img/config-25-2.jpg",
+    "pages/team.md",
+    "_tags/ui-ux.md",
+    "_blog/Website Inspiration.md",
+    "_site/assets/img/spectra-thumbnail.png",
+    "_blog/FAQs.md",
+    "assets/img/devina-tall.jpg",
+    "assets/img/config-25-2.jpg",
+    "_blog/Internship.md",
+    "assets/img/spectra-thumbnail.png",
+    "_tags/branding.md",
+    "_blog/Design Process.md",
+    "_tags/strategy.md",
+    "_blog/Welcoming Summer 2025 Interns.md",
+    "pages/blog.md",
+    "_blog/Ways of Working.md",
+    "_blog/Keep the Web Weird - Design Degree Showcase, IIT Delhi.md"
   ]
 }

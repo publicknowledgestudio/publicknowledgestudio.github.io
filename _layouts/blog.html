@@ -2,8 +2,13 @@
 
 <body>
 
-    {% include logo.html %}
-    <img class="page-header-image" src="{{ page.banner | default: page.thumbnail }}" alt="{{ page.title }}">
+    {% if page.banner %}
+    <img class="page-header-image" src="{{ page.banner }}" alt="{{ page.title }}">
+    {% else %}
+    <div class="page-header-image"></div>
+    {% endif %}
+
+    {% include site-nav.html %}
 
     <div class="blog-container">
         <div class="project-header container-width">
