@@ -21,3 +21,8 @@ _notes/Private/
 
 # Space files
 .space/
+
+# Node.js (if needed in future)
+node_modules/
+package-lock.json
+npm-debug.log*
