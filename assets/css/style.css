@@ -1,3 +1,7 @@
+---
+# Jekyll will process this file through PostCSS
+---
+
 @font-face {
     font-family: 'Copernicus';
     src: url('../fonts/Copernicus-Book.woff2') format('woff2'),
@@ -25,14 +29,13 @@
 }
 
 :root {
-
+    /* ===== DESIGN TOKENS ===== */
+    
     /* Colors */
     --text-reg: rgb(42, 42, 42);
     --text-secondary: rgba(42, 42, 42, .7);
-
     --header-background: rgba(255, 255, 255, 0.4);
     --header-shadow: rgba(0, 0, 0, 0.1);
-
     --background-color: #FFFFFF;
     --background-color-dark: #ece4dc;
     --slightly-warm-gray: #faf9f9;
@@ -43,38 +46,28 @@
     --black-3: rgba(0, 0, 0, .03);
     --black: #000000;
     --white: #FFFFFF;
-
     --accent-h: 348;
     --accent-s: 70%;
     --accent-l: 40%;
-
     --accent-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
-
     --card-background: #faf9f9;
     --footer-background: rgba(255, 255, 255, 0.92);
-    --footer-background-gradient: linear-gradient(to bottom,
-            rgba(255, 255, 255, 1) 0%,
-            rgba(255, 255, 255, .8) 100%);
+    --footer-background-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .8) 100%);
     --glass-edge: rgba(255, 255, 255, 0.1);
-
-
     --focus-outline: 2px solid var(--accent-color);
     --focus-outline-offset: 2px;
 
     /* Typography */
     --font-stack-serif: 'Copernicus', serif;
+    --font-stack-sans: 'Tasa Orbiter Deck', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --line-height-base: 1.4;
     --line-height-tight: 1.1;
-
-    --font-stack-sans: 'Tasa Orbiter Deck', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --line-height-sans-loose: 1.5;
     --line-height-sans-base: 1.4;
     --line-height-sans-tight: 1.2;
-
     --letter-spacing-tight: -0.03em;
     --letter-spacing-regular: -0.01em;
     --letter-spacing-wide: 0.03em;
-
     --font-size-base: 1em;
     --font-size-sm: 14px;
     --font-size-md: 16px;
@@ -84,15 +77,12 @@
     --font-size-3xl: 32px;
     --font-size-4xl: 48px;
 
-
-
-    /* Layout */
+    /* Layout & Spacing */
     --max-width: 1920px;
     --width-desktop: 90vw;
     --width-mobile: 90vw;
     --blog-para-width: 800px;
     --blog-image-width: 900px;
-
     --container-width: 800px;
     --spacing-xs: 4px;
     --spacing-sm: 8px;
@@ -105,6 +95,18 @@
     --spacing-5xl: 80px;
     --spacing-6xl: 100px;
 
+    /* Component Dimensions */
+    --team-card-height: 400px;
+    --team-card-height-mobile: 300px;
+    --team-card-height-tablet: 280px;
+    --team-member-photo-size: 300px;
+    --team-member-photo-size-mobile: 200px;
+    --project-thumbnail-max-height: 480px;
+    --blog-tile-min-height: 110px;
+    --button-min-height-mobile: 44px;
+    --cta-avatar-size: 40px;
+    --startup-card-image-height-mobile: 240px;
+    
     /* Logo */
     --logo-size: 1024px;
     --logo-offset: -512px;
@@ -117,14 +119,46 @@
     --border-radius-sm: 4px;
     --border-radius-md: 8px;
     --border-radius-lg: 10px;
+    --border-radius-card: calc(var(--border-radius-lg) + 4px);
 
-    /* Transitions */
+    /* Transitions & Animation */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 1s;
+    --animation-duration-bounce: 3s;
+    --animation-duration-spin: 16s;
+    --animation-duration-rotate: 20s;
+    --animation-duration-rainbow: 10s;
+    --animation-duration-rainbow-hover: 4s;
+    --animation-delay-base: 400ms;
+    --animation-delay-2: 800ms;
+    --animation-delay-3: 1200ms;
+    --animation-delay-scroll-tip: 4s;
+    
+    /* Z-Index Scale */
+    --z-video: 9;
+    --z-video-container: 10;
+    --z-content: 10;
+    --z-footer: 20;
+    --z-asterisk: 22;
+    --z-button: 25;
+    --z-nav: 100;
+    --z-controls: 1000;
 
+    /* Effects */
+    --backdrop-blur: blur(20px) contrast(130%) saturate(250%);
+    --backdrop-blur-footer: blur(20px) contrast(130%) saturate(150%);
     --header-image-height-desktop: 70vh;
     --header-image-height-mobile: 70vh;
+    --scale-large: 40;
+    --grid-gap-mobile: var(--spacing-md);
+    --grid-gap-desktop: var(--spacing-2xl);
+    
+    /* Breakpoints */
+    --breakpoint-mobile: 800px;
+    --breakpoint-tablet: 1100px;
+    --breakpoint-desktop: 1500px;
+    --breakpoint-large: 1600px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -289,16 +323,9 @@
     top: var(--spacing-2xl);
     left: 0;
     right: 0;
-    z-index: 100;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    z-index: var(--z-nav);
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     text-transform: uppercase;
     font-family: var(--font-stack-sans);
@@ -306,17 +333,12 @@
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--border-radius-md);
     width: var(--width-desktop);
-    max-width: var(--max-width-desktop);
+    max-width: var(--max-width);
     margin: auto;
-
     background: var(--header-background);
-    border: .5px solid var(--black-10);
-
-    backdrop-filter: blur(20px) contrast(130%) saturate(250%);
-    -webkit-backdrop-filter: blur(20px) contrast(130%) saturate(250%);
-
-    box-shadow: 0px 2px 12px var(--header-shadow);
-
+    border: 0.5px solid var(--black-10);
+    backdrop-filter: var(--backdrop-blur);
+    box-shadow: 0 2px 12px var(--header-shadow);
 }
 
 .site-nav a {
@@ -454,29 +476,17 @@ header {
 .asterisk {
     font-family: var(--font-stack-sans);
     position: absolute;
-    width: 24px;
-    height: 24px;
-    z-index: 22;
+    width: var(--spacing-xl);
+    height: var(--spacing-xl);
+    z-index: var(--z-asterisk);
     font-size: 80px;
-    -webkit-transition: .2s;
-    -o-transition: .2s;
-    transition: .2s;
-    -webkit-animation: fadeOut 5s ease-out forwards;
+    transition: var(--transition-fast);
     animation: fadeOut 5s ease-out forwards;
     pointer-events: none;
     margin-top: -44px;
     margin-left: -26px;
-}
-
-
-@-webkit-keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
+    will-change: opacity;
+    contain: layout style paint;
 }
 
 
@@ -484,7 +494,6 @@ header {
     0% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
@@ -565,22 +574,20 @@ h1 {
 .project {
     display: block;
     padding: var(--spacing-md);
-    border-radius: calc(var(--border-radius-lg) + 4px);
+    border-radius: var(--border-radius-card);
 }
 
 a.project {
     text-decoration: none;
     color: var(--text-reg);
-    -webkit-transition: margin var(--transition-normal);
-    -o-transition: margin var(--transition-normal);
     transition: margin var(--transition-normal);
 }
 
 a.project:hover {
     background-color: var(--slightly-warm-gray);
     color: var(--charcoal);
-    margin-top: -4px;
-    margin-bottom: 4px;
+    margin-top: calc(var(--spacing-xs) * -1);
+    margin-bottom: var(--spacing-xs);
 }
 
 .project-title {
@@ -597,10 +604,8 @@ a.project:hover {
 .project-thumbnail {
     border-radius: var(--border-radius-lg);
     width: 100%;
-    max-height: 480px;
-    -o-object-fit: cover;
+    max-height: var(--project-thumbnail-max-height);
     object-fit: cover;
-    -o-object-position: top;
     object-position: top;
 }
 
@@ -645,52 +650,19 @@ a.tag:hover {
     text-align: center;
     margin-top: 80vh;
     color: var(--charcoal);
-    -webkit-animation: bounce 3s infinite;
-    animation: bounce 3s infinite;
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-}
-
-@-webkit-keyframes bounce {
-
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    40% {
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
-    }
-
-    60% {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
-    }
+    animation: bounce var(--animation-duration-bounce) infinite;
+    animation-delay: var(--animation-delay-scroll-tip);
+    will-change: transform;
 }
 
 @keyframes bounce {
-
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        -webkit-transform: translateY(0);
+    0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
     }
-
     40% {
-        -webkit-transform: translateY(-30px);
         transform: translateY(-30px);
     }
-
     60% {
-        -webkit-transform: translateY(-15px);
         transform: translateY(-15px);
     }
 }
@@ -698,26 +670,24 @@ a.tag:hover {
 .square-button {
     font-family: var(--font-stack-sans);
     padding: 0;
-    -webkit-transition: padding var(--transition-fast);
-    -o-transition: padding var(--transition-fast);
     transition: padding var(--transition-fast);
-    z-index: 25;
+    z-index: var(--z-button);
 }
 
 .square-button::before {
-    content: '\00a0[';
+    content: ' a0[';
 }
 
 .square-button::after {
-    content: ']\00a0';
+    content: '] a0';
 }
 
 .square-button:hover::before {
-    content: '[\00a0';
+    content: '[ a0';
 }
 
 .square-button:hover::after {
-    content: '\00a0]';
+    content: ' a0]';
 }
 
 
@@ -823,7 +793,7 @@ a.tag:hover {
 }
 
 .team-card {
-    height: 400px;
+    height: var(--team-card-height);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -832,7 +802,7 @@ a.tag:hover {
     padding: var(--spacing-md);
     border-radius: var(--border-radius-lg);
     background-color: var(--slightly-warm-gray);
-    transition: .2s;
+    transition: var(--transition-fast);
 }
 
 .service-name {
@@ -866,18 +836,17 @@ a.tag:hover {
 }
 
 
+/* ===== TABLET BREAKPOINT ===== */
 @media (max-width: 1100px) {
-
-
     .team-card {
-        height: 280px;
+        height: var(--team-card-height-tablet);
     }
 
     .team-name {
         font-size: var(--font-size-md);
         height: auto;
         line-height: 1.15;
-        padding-bottom: 4px;
+        padding-bottom: var(--spacing-xs);
     }
 
     .huge-text {
@@ -887,19 +856,15 @@ a.tag:hover {
     .project-container {
         width: var(--width-desktop);
         max-width: var(--max-width);
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr var(--spacing-4xl) 1fr;
         grid-template-columns: repeat(2, 1fr);
-        gap: var(--spacing-2xl);
+        gap: var(--grid-gap-desktop);
         margin: 0 auto;
     }
 
-    .project-container>*:nth-child(3n-2) {
-        -ms-grid-column-span: 2;
+    .project-container > *:nth-child(3n-2) {
         grid-column: span 2;
     }
-
 }
 
 .section-title {
@@ -1086,103 +1051,70 @@ a.tag:hover {
     gap: var(--spacing-md);
 }
 
-@-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
 @keyframes spin {
     0% {
-        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
-        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
 
 .spinny {
-    -webkit-animation: spin 16s linear infinite;
-    animation: spin 16s linear infinite;
+    animation: spin var(--animation-duration-spin) linear infinite;
+    will-change: transform;
 }
 
 .vcenter {
-    background-color: #FFF;
+    background-color: var(--white);
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     height: 75vh;
 }
 
 .rotateIn {
-    -webkit-animation: rotateIn 1.5s both;
     animation: rotateIn 1.5s both;
-    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-    -webkit-animation-delay: 0ms;
     animation-delay: 0ms;
+    will-change: transform, opacity;
 }
 
 .fadeInUp-fast {
-    -webkit-animation: fadeInUp .05s both;
-    animation: fadeInUp .05s both;
+    animation: fadeInUp 0.05s both;
+    will-change: transform, opacity;
 }
 
 .delay-anim {
-    -webkit-animation-delay: 1000ms;
     animation-delay: 1000ms;
 }
 
 .fadeInUp-1 {
-    -webkit-animation: fadeInUp 1s both;
     animation: fadeInUp 1s both;
-    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-    -webkit-animation-delay: 400ms;
-    animation-delay: 400ms;
+    animation-delay: var(--animation-delay-base);
+    will-change: transform, opacity;
 }
 
 .fadeInUp-2 {
-    -webkit-animation: fadeInUp 1s both;
     animation: fadeInUp 1s both;
-    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-    -webkit-animation-delay: 800ms;
-    animation-delay: 800ms;
+    animation-delay: var(--animation-delay-2);
+    will-change: transform, opacity;
 }
 
 .fadeInUp-3 {
-    -webkit-animation: fadeInUp 1s both;
     animation: fadeInUp 1s both;
-    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-    -webkit-animation-delay: 1200ms;
-    animation-delay: 1200ms;
+    animation-delay: var(--animation-delay-3);
+    will-change: transform, opacity;
 }
 
 .fade-in {
-    -webkit-animation: fadeIn 1s both;
     animation: fadeIn 1s both;
+    will-change: opacity;
 }
 
 
@@ -1377,11 +1309,9 @@ a.tag:hover {
 }
 
 .rotating {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
     transform-origin: center;
-    -webkit-animation: rotate 20s linear infinite;
-    animation: rotate 20s linear infinite;
+    animation: rotate var(--animation-duration-rotate) linear infinite;
+    will-change: transform;
 }
 
 /* ==========================================================================
@@ -1401,8 +1331,6 @@ a.tag:hover {
 a {
     color: var(--text-reg);
     text-decoration: none;
-    -webkit-transition: color var(--transition-fast);
-    -o-transition: color var(--transition-fast);
     transition: color var(--transition-fast);
 }
 
@@ -1575,43 +1503,22 @@ a .startup-cta:hover {
             rgba(255, 0, 255, 0.4),
             rgba(255, 0, 0, 0.4)) border-box;
     background-size: 400% 400%;
-    -webkit-animation: rainbow-border 10s linear infinite;
-    animation: rainbow-border 10s linear infinite;
+    animation: rainbow-border var(--animation-duration-rainbow) linear infinite;
+    will-change: background-position;
 }
 
 .startup-cta:hover {
-    -webkit-animation: rainbow-border 4s linear infinite;
-    animation: rainbow-border 4s linear infinite;
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
+    animation: rainbow-border var(--animation-duration-rainbow-hover) linear infinite;
     transform: translateY(-1px);
-}
-
-@-webkit-keyframes rainbow-border {
-    0% {
-        background-position: 0% 0%;
-    }
-
-    50% {
-        background-position: 100% 100%;
-    }
-
-    100% {
-        background-position: 0% 0%;
-    }
+    will-change: background-position, transform;
 }
 
 @keyframes rainbow-border {
-    0% {
+    0%, 100% {
         background-position: 0% 0%;
     }
-
     50% {
         background-position: 100% 100%;
-    }
-
-    100% {
-        background-position: 0% 0%;
     }
 }
 
@@ -1654,7 +1561,7 @@ a .startup-cta:hover {
 }
 
 .blog-tile {
-    min-height: 110px;
+    min-height: var(--blog-tile-min-height);
     padding: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-md);
     transition: var(--transition-fast);
     display: flex;
@@ -1663,7 +1570,6 @@ a .startup-cta:hover {
     align-items: flex-start;
     gap: var(--spacing-xs);
     border-bottom: 1px solid var(--black-5);
-
 }
 
 .blog-tile:hover {
@@ -1917,7 +1823,7 @@ a .startup-cta:hover {
         -webkit-transition: 1s;
         -o-transition: 1s;
         transition: 1s;
-        scale: 40;
+        scale: var(--scale-large);
     }
 
     .container {
@@ -1945,12 +1851,7 @@ a .startup-cta:hover {
 
 
     .footer-equal-columns {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
         width: var(--width-mobile);
         gap: var(--spacing-sm);
@@ -1958,7 +1859,7 @@ a .startup-cta:hover {
 
 
     .button {
-        min-height: 44px;
+        min-height: var(--button-min-height-mobile);
         padding: var(--spacing-sm) var(--spacing-md);
     }
 
@@ -2075,7 +1976,7 @@ a .startup-cta:hover {
 
 
     .team-card {
-        height: 300px;
+        height: var(--team-card-height-mobile);
         padding: var(--spacing-sm);
     }
 

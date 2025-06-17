@@ -1,0 +1,20 @@
+{
+  "name": "public-knowledge-studio",
+  "version": "1.0.0",
+  "description": "Jekyll site for Public Knowledge Studio",
+  "scripts": {
+    "serve": "bundle exec jekyll serve --livereload",
+    "serve:network": "bundle exec jekyll serve --host 0.0.0.0 --livereload",
+    "build": "bundle exec jekyll build"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ]
+}

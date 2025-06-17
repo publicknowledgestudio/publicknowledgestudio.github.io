@@ -8,20 +8,38 @@ This is a Jekyll-powered website for Public Knowledge Studio, a design studio sh
 
 ## Development Commands
 
-### Local Development
+### Prerequisites
 ```bash
-# Install dependencies
+# Install Ruby dependencies
 bundle install
 
-# Start local development server
-bundle exec jekyll serve
+# Optional: Install Node.js dependencies (for future PostCSS integration)
+npm install
+```
+
+### Local Development
+```bash
+# Start development server with live reload
+npm run serve
 
 # Start with network access (for testing on other devices)
-bundle exec jekyll serve --host 0.0.0.0
+npm run serve:network
 
-# Start with live reload
-bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload
+# Traditional Jekyll command
+bundle exec jekyll serve --livereload
 ```
+
+### Building for Production
+```bash
+# Build site
+npm run build
+
+# Or traditional Jekyll
+bundle exec jekyll build
+```
+
+### CSS Architecture
+The CSS uses modern design tokens and optimized animations. The file `assets/css/style.css` has Jekyll front matter for future PostCSS processing. All vendor prefixes have been removed from source - they can be added back via PostCSS when needed.
 
 ### Docker Development
 ```bash
