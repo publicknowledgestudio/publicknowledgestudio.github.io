@@ -32,15 +32,6 @@ bundle exec jekyll build
 ### CSS Architecture
 The CSS uses modern design tokens and optimized animations. The file `assets/css/style.css` has Jekyll front matter for asset processing. All vendor prefixes have been removed from source code for cleaner maintainability.
 
-### Docker Development
-```bash
-# Build and run with Docker Compose
-docker-compose up
-
-# Rebuild container
-docker-compose up --build
-```
-
 ### Network Testing
 To test on other devices, find your local IP address:
 - **macOS**: `ipconfig getifaddr en0`

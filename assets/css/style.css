@@ -675,19 +675,19 @@ a.tag:hover {
 }
 
 .square-button::before {
-    content: ' a0[';
+    content: ' [';
 }
 
 .square-button::after {
-    content: '] a0';
+    content: '] ';
 }
 
 .square-button:hover::before {
-    content: '[ a0';
+    content: '[ ';
 }
 
 .square-button:hover::after {
-    content: ' a0]';
+    content: ' ]';
 }
 
 
