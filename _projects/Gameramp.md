@@ -1,6 +1,7 @@
 ---
 date: 25-05-2025
-date modified: 17-06-2025
+date modified: 09-07-2025
+external_url: https://gameramp.com/
 feed: show
 format: list
 layout: case-study

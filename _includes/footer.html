@@ -73,12 +73,12 @@
                 return;
             }
 
-            const asteriskSpawnInterval = 200; // in ms
+            const asteriskSpawnInterval = 1000; // in ms
             const asteriskRemovalTime = 5000; // in ms
             const asteriskTrailLength = 200; // in px
             const asteriskSaturation = 80; // HSL saturation percentage
             const asteriskLightness = 65; // HSL lightness percentage
-            const asteriskHueStep = 10; // Hue shift per asterisk
+            const asteriskHueStep = 8; // Hue shift per asterisk
             let currentHue = 0; // Starting hue
 
             let isMouseInFooter = false;
@@ -202,6 +202,8 @@
         // Start initialization
         initFooterEffects();
 
+
+        // Update accent color based on the current time. Unrelated to the asterisks.
         function updateAccentColor() {
             const currentTime = new Date();
             const minutes = currentTime.getMinutes();
