@@ -375,6 +375,7 @@
     top: 0;
     left: 0;
     z-index: 9;
+    background: var(--accent-color); /* in case video doesn't load */
 }
 
 /* Fix for Safari */
