@@ -1,7 +1,13 @@
 <a href="https://calendar.app.google/uPWkrEeLiyFCYSPx5" class="sans startup-cta startup-cta-left-fix">
     {% if include.content %}
-        {{ include.content }} &rarr;
+        {{ include.primary_content }}
     {% else %}
-        Talk to us about your project &rarr;
+        Talk to us about your project
+    {% endif %}
+
+    {% if include.secondary_content %}
+        <div class="secondary text-sm text-secondary text-less-tight opacity-80">
+            {{ include.secondary_content }}
+        </div>
     {% endif %}
 </a>

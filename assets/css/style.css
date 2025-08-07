@@ -209,8 +209,8 @@
     letter-spacing: calc(var(--letter-spacing-tight) * .5);
 }
 
-.opacity-60 {
-    opacity: .6;
+.opacity-80 {
+    opacity: .8;
 }
 
 .uppercase {
@@ -1416,10 +1416,9 @@ a .startup-cta:hover {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: var(--spacing-md);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--border-radius-lg);
     text-decoration: none;
@@ -1997,6 +1996,12 @@ a .startup-cta:hover {
     .quote-author {
         font-size: var(--font-size-lg);
         padding-left: 0;
+    }
+
+    .startup-cta {
+        align-items: center;
+        text-align: center;
+        padding: var(--spacing-sm) var(--spacing-lg);
     }
 
     .startup-card {
