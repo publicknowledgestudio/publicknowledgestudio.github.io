@@ -7,7 +7,7 @@ format: list
 layout: case-study
 order: 3
 permalink: gameramp
-subtitle: Branding, sales collaterals and dashboard UX for Gameramp, a growth platform for mobile game developers.
+subtitle: Branding, Landing Page, Pitch Decks and Dashboard Product UX for Gameramp, the control layer for interactive software. 
 tags: 
   - Branding
   - UI/UX
