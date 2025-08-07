@@ -201,6 +201,18 @@
     letter-spacing: var(--letter-spacing-wide);
 }
 
+.text-sm {
+    font-size: var(--font-size-sm);
+}
+
+.text-less-tight {
+    letter-spacing: calc(var(--letter-spacing-tight) * .2);
+}
+
+.opacity-60 {
+    opacity: .6;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -375,7 +387,6 @@
     top: 0;
     left: 0;
     z-index: 9;
-    background: var(--accent-color); /* in case video doesn't load */
 }
 
 /* Fix for Safari */
