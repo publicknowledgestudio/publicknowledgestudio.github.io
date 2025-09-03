@@ -1,7 +1,7 @@
 ---
 date: 13-06-2025
-date modified: 17-07-2025
-feed: show
+date modified: 03-09-2025
+feed: hide
 image: /assets/img/devina-tall.jpg
 layout: team-member
 linkedin: https://www.linkedin.com/in/devina-narang-504a30245/

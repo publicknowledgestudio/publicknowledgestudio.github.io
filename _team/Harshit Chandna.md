@@ -1,8 +1,8 @@
 ---
 date: 11-04-2025
-date modified: 16-06-2025
+date modified: 03-09-2025
 email: harshit@publicknowledge.co
-feed: show
+feed: hide
 image: /assets/img/harshit-tall.jpg
 instagram: https://www.instagram.com/harshitchandna/
 layout: team-member

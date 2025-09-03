@@ -1,10 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 17-06-2025
+date modified: 03-09-2025
 feed: show
 image: /assets/img/namita-tall.jpg
 layout: team-member
-order: 3
+order: 4
 permalink: namita
 role: Branding & Web Design
 title: "Namita Sunil"
