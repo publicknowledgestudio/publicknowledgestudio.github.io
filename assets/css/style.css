@@ -1779,7 +1779,7 @@ a .startup-cta:hover {
 @media (max-width: 800px) {
 
     .announcement-inner{
-        flex-direction: column;
+        display: inline-block;
     }
 
     #p5canvas{
