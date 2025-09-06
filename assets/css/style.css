@@ -1778,6 +1778,10 @@ a .startup-cta:hover {
 /* Breakpoint */
 @media (max-width: 800px) {
 
+    #p5canvas{
+        height: 85vh;
+    }
+
     canvas{
         transform: scale(.75);
     }
@@ -1862,7 +1866,7 @@ a .startup-cta:hover {
     }
 
     .logo-text {
-        top: 72px;
+        top: 92px;
         left: var(--spacing-lg);
         font-size: var(--font-size-2xl);
         padding: 0px;
