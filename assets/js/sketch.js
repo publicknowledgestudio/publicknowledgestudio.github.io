@@ -193,9 +193,10 @@ class VoxelSketch {
     this.state.updateDarkMode();
     
     const p5CanvasContainer = document.getElementById('p5canvas');
-    if (p5CanvasContainer) {
-      createCanvas(this.state.canvasSize, this.state.canvasSize).parent(p5CanvasContainer);
-    }
+    const canvas = createCanvas(this.state.canvasSize, this.state.canvasSize).parent(p5CanvasContainer);
+    console.log('Canvas created:', canvas);
+    console.log('Canvas size:', this.state.canvasSize);
+    
     noStroke();
     rectMode(CENTER);
   }
@@ -260,10 +261,19 @@ let sketch;
 
 // p5.js functions
 function setup() {
-  sketch = new VoxelSketch();
-  sketch.setup();
+  // Only create sketch if p5canvas div exists on this page
+  const p5CanvasContainer = document.getElementById('p5canvas');
+  if (p5CanvasContainer) {
+    sketch = new VoxelSketch();
+    sketch.setup();
+  } else {
+    console.log('p5canvas div not found on this page, skipping sketch creation');
+  }
 }
 
 function draw() {
-  sketch.draw();
+  // Only draw if sketch exists
+  if (sketch) {
+    sketch.draw();
+  }
 }
