@@ -17,6 +17,7 @@ team:
   - Gyan Lakhwani
   - Harshit Chandna
   - Devina Narang
+  - Anandu Gopal
 thumbnail: assets/img/ebc-reader-thumbnail.jpg
 title: "EBC Reader"
 ---

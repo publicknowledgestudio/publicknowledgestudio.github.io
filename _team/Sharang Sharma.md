@@ -1,8 +1,9 @@
 ---
 date: 11-04-2025
-date modified: 03-09-2025
+date modified: 06-09-2025
 feed: show
 image: /assets/img/sharang-tall.jpg
+instagram: https://www.instagram.com/erroro1.0s
 layout: team-member
 order: 4
 permalink: sharang

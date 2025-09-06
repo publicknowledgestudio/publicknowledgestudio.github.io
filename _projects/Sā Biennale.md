@@ -1,6 +1,6 @@
 ---
 date: 11-04-2025
-date modified: 16-06-2025
+date modified: 06-09-2025
 feed: show
 format: list
 layout: case-study
@@ -16,6 +16,7 @@ team:
   - Namita Sunil
   - Ravee Deshpande
   - Devina Narang
+  - Sharang Sharma
 thumbnail: assets/img/sa-thumbnail.jpg
 title: "Sā Biennale"
 ---
