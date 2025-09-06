@@ -994,7 +994,7 @@ a.tag:hover {
     height: var(--logo-size);
     width: var(--logo-size);
     right: var(--logo-offset);
-    top: var(--logo-offset);
+    top: 80px;
     opacity: 0;
     -webkit-transition: 1s;
     -o-transition: 1s;
@@ -1012,7 +1012,7 @@ a.tag:hover {
     flex-direction: column;
     z-index: 11;
     position: absolute;
-    top: 52px;
+    top: 60px;
     left: 7vw;
     font-size: var(--font-size-3xl);
     line-height: 1.15;
@@ -1046,7 +1046,7 @@ a.tag:hover {
     align-items: flex-end;
     max-width: 330px;
     position: absolute;
-    top: 52px;
+    top: 72px;
     right: 7vw;
     gap: var(--spacing-md);
 }
