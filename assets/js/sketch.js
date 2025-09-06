@@ -192,7 +192,10 @@ class VoxelSketch {
     this.state.updateResponsive();
     this.state.updateDarkMode();
     
-    createCanvas(this.state.canvasSize, this.state.canvasSize).parent('p5canvas');
+    const p5CanvasContainer = document.getElementById('p5canvas');
+    if (p5CanvasContainer) {
+      createCanvas(this.state.canvasSize, this.state.canvasSize).parent(p5CanvasContainer);
+    }
     noStroke();
     rectMode(CENTER);
   }
