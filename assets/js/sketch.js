@@ -1,17 +1,56 @@
+// Global variables for responsive design
+let isMobile = false;
+let canvasSize = 640;
+let step = 15;
+let rectW = 400;
+let rectH = 60;
+let influenceRadius = 100;
+
 function setup() {
-  createCanvas(640, 640).parent('p5canvas');
+  // Check initial screen size
+  checkScreenSize();
+  createCanvas(canvasSize, canvasSize).parent('p5canvas');
   noStroke();
   rectMode(CENTER);
+  
+  // Add resize event listener
+  window.addEventListener('resize', handleResize);
+}
+
+function handleResize() {
+  checkScreenSize();
+  resizeCanvas(canvasSize, canvasSize);
+}
+
+function checkScreenSize() {
+  const wasMobile = isMobile;
+  isMobile = window.innerWidth < 800;
+  
+  if (isMobile) {
+    canvasSize = 360;
+    step = 12;
+    rectW = 240;
+    rectH = 40;
+    influenceRadius = 40;
+  } else {
+    canvasSize = 640;
+    step = 15;
+    rectW = 400;
+    rectH = 60;
+    influenceRadius = 100;
+  }
+  
+  // Only resize if mobile state changed
+  if (wasMobile !== isMobile) {
+    resizeCanvas(canvasSize, canvasSize);
+  }
 }
 
 function draw() {
   background(255);
 
-  let step = 15; // voxel size
   let cx = width / 2;
   let cy = height / 2;
-  let rectW = 400;
-  let rectH = 60;
 
   for (let x = 0; x < width; x += step) {
     for (let y = 0; y < height; y += step) {
@@ -29,7 +68,6 @@ function draw() {
       if (inside) {
         // distance from mouse
         let d = dist(mouseX, mouseY, x, y);
-        let influenceRadius = 100; // how far the mouse affects
 
         let offsetX = 0;
         let offsetY = 0;

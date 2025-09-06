@@ -213,7 +213,7 @@ canvas{
 
 .announcement-inner{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     width: var(--width-desktop);
     max-width: var(--max-width);
@@ -1778,12 +1778,16 @@ a .startup-cta:hover {
 /* Breakpoint */
 @media (max-width: 800px) {
 
+    .announcement-inner{
+        flex-direction: column;
+    }
+
     #p5canvas{
         height: 85vh;
     }
 
     canvas{
-        transform: scale(.75);
+        /* transform: scale(.75); */
     }
 
     .site-nav {
