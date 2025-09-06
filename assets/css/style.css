@@ -204,6 +204,24 @@ canvas{
 
 }
 
+.announcement{
+    background-color: var(--black-10);
+    padding: var(--spacing-sm) var(--spacing-xl);
+}
+
+.announcement-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: var(--width-desktop);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.announcement-inner a{
+    font-weight: bold;
+}
+
 
 
 .serif {
@@ -1758,6 +1776,10 @@ a .startup-cta:hover {
 /* Breakpoint */
 @media (max-width: 800px) {
 
+    canvas{
+        transform: scale(.75);
+    }
+
     .site-nav {
         top: var(--spacing-md);
         padding: var(--spacing-md) var(--spacing-lg);
@@ -1838,7 +1860,7 @@ a .startup-cta:hover {
     }
 
     .logo-text {
-        top: var(--spacing-xl);
+        top: 72px;
         left: var(--spacing-lg);
         font-size: var(--font-size-2xl);
         padding: 0px;

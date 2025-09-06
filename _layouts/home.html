@@ -2,46 +2,53 @@
 
 <body>
 
-{% include logo.html %}
-
-<div id="p5canvas"></div>
-
-<div class="top-right fade-in delay-anim">
-    Public Knowledge Studio is an India-based design studio focused on crafting technology with care.
+    {% include logo.html %}
 
 
-
-    {% include ContactButton.html primary_content="Book an Intro Call →" %}
-
-    </div>
-</div>
-
-
-
-<div class="scroll-tip square-button">
-    SCROLL TO START
-</div>
-
-<div class="container">
-    {% include site-nav.html %}
-    <div class="about-section">
-        <div class="section-title">About</div>
-        <div id="animate-words" class="huge-text">
-            We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences that
-            help organisations turn complexity into clarity—and ideas into impact.
+    <div class="announcement sans">
+        <div class="announcement-inner">
+            We won a Baby Elephant at Kyoorius Design Yatra 2025!
+            <a href="https://hammockmag.github.io/literarymap/">See the Project →</a>
         </div>
     </div>
 
-    {% include StartupCard.html %}
-    {% include services.html %}
-    {% include work-unclickable.html %}
-    {% include team.html %}
-    {% include quote.html %}
-</div>
+    <div id="p5canvas"></div>
+
+    <div class="top-right fade-in delay-anim">
+        Public Knowledge Studio is an India-based design studio focused on crafting technology with care.
+
+        {% include ContactButton.html primary_content="Book an Intro Call →" %}
+
+    </div>
+    </div>
 
 
-{% include footer.html %}
+
+    <div class="scroll-tip square-button">
+        SCROLL TO START
+    </div>
+
+    <div class="container">
+        {% include site-nav.html %}
+        <div class="about-section">
+            <div class="section-title">About</div>
+            <div id="animate-words" class="huge-text">
+                We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences
+                that
+                help organisations turn complexity into clarity—and ideas into impact.
+            </div>
+        </div>
+
+        {% include StartupCard.html %}
+        {% include services.html %}
+        {% include work-unclickable.html %}
+        {% include team.html %}
+        {% include quote.html %}
+    </div>
+
+
+    {% include footer.html %}
 </body>
 
 
-</html> 
+</html>
