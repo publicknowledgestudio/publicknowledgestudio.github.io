@@ -4,36 +4,16 @@
 
 {% include logo.html %}
 
+<div id="p5canvas"></div>
+
 <div class="top-right fade-in delay-anim">
-    Public Knowledge Studio is an India-based design studio focused on crafting technology with care. We build
-    interfaces and experiences with precision, personality, and purpose.
+    Public Knowledge Studio is an India-based design studio focused on crafting technology with care.
 
-    {% include ContactButton.html primary_content="Book an Intro Call" secondary_content="2 Slots left for Sept 2025!" %}
+
+
+    {% include ContactButton.html primary_content="Book an Intro Call →" %}
 
     </div>
-</div>
-
-<div class="controls-panel display-none" id="controls-panel">
-
-    <p>Congrats on unlocking<br> the Asterisk Controls!</p>
-
-    <div class="control-group">
-        <label for="arms">Arms: <span id="arms-value"></span></label>
-        <input type="range" id="arms" min="1" max="12" value="8">
-    </div>
-    <div class="control-group">
-        <label for="length">Length: <span id="length-value"></span></label>
-        <input type="range" id="length" min="1" max="100" value="14">
-    </div>
-    <div class="control-group">
-        <label for="width">Width: <span id="width-value"></span></label>
-        <input type="range" id="width" min="1" max="800" value="10">
-    </div>
-</div>
-
-<div id="video-container" class="rotateIn">
-    <div id="clip-path-wrapper"></div>
-    <video id="masked-video" autoplay playsinline loop muted></video>
 </div>
 
 
@@ -42,7 +22,7 @@
     SCROLL TO START
 </div>
 
-<div class="container mt-120vh">
+<div class="container">
     {% include site-nav.html %}
     <div class="about-section">
         <div class="section-title">About</div>

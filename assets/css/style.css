@@ -192,6 +192,20 @@
     }
 }
 
+#p5canvas{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center the canvas */
+}
+
+canvas{
+
+}
+
+
+
 .serif {
     font-family: var(--font-stack-serif);
 }
@@ -655,7 +669,7 @@ a.tag:hover {
     position: relative;
     font-family: var(--font-stack-sans);
     text-align: center;
-    margin-top: 80vh;
+    /* margin-top: 80vh; */
     color: var(--charcoal);
     animation: bounce var(--animation-duration-bounce) infinite;
     animation-delay: var(--animation-delay-scroll-tip);
@@ -1791,7 +1805,7 @@ a .startup-cta:hover {
     .container {
         padding-top: var(--spacing-lg);
         position: relative;
-        margin: 160vh 0 0 0;
+        margin: 0 0 0 0;
         border-radius: 0;
         bottom: 0;
     }
@@ -1967,7 +1981,7 @@ a .startup-cta:hover {
 
     .top-right {
         width: auto;
-        top: 65vh;
+        top: 75vh;
         max-width: var(--width-mobile);
         -webkit-box-align: center;
         -ms-flex-align: center;
