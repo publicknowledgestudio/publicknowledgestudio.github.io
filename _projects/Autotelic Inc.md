@@ -1,15 +1,16 @@
 ---
 banner: /assets/img/scc-online-header.jpg
 date: 11-04-2025
-date modified: 16-06-2025
+date modified: 08-09-2025
 external_url: https://autotelic.inc/
 feed: show
 format: list
 layout: case-study
-order: 6
+order: 2
 subtitle: A futuristic brand for the future of Artifical Intelligence and building agents that remember, learn and evolve.
 tags: 
   - Branding
+  - Website
 team:
   - Charu Pragya
   - Namita Sunil
