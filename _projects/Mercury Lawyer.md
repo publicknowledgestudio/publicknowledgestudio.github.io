@@ -1,25 +1,21 @@
 ---
-banner: /assets/img/ebc-reader-header.jpg
+banner: /assets/img/scc-online-header.jpg
 date: 11-04-2025
-date modified: 08-09-2025
-external_url: https://www.ebcreader.com/
+date modified: 16-06-2025
+external_url: https://mercury.lawyer/
 feed: show
 format: list
 layout: case-study
 order: 6
-subtitle: Helping EBC Group reimagine the brand and experiences for their e-Library offering, EBC Reader, for an AI-first era
+subtitle: Mercury uses AI to automatically scrape and summarise case alerts for lawyers. 
 tags: 
   - UI/UX
-  - Strategy
+  - Branding
 team:
-  - Charu Pragya
-  - Namita Sunil
   - Gyan Lakhwani
-  - Harshit Chandna
-  - Devina Narang
   - Anandu Gopal
-thumbnail: assets/img/ebc-reader-thumbnail.jpg
-title: "EBC Reader"
+thumbnail: assets/img/mercury-thumbnail.jpg
+title: "Mercury Lawyer"
 ---
 
 # Brief

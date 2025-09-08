@@ -1,25 +1,20 @@
 ---
-banner: /assets/img/ebc-reader-header.jpg
+banner: /assets/img/scc-online-header.jpg
 date: 11-04-2025
 date modified: 08-09-2025
-external_url: https://www.ebcreader.com/
+external_url: https://www.scconline.com/
 feed: show
 format: list
 layout: case-study
 order: 6
-subtitle: Helping EBC Group reimagine the brand and experiences for their e-Library offering, EBC Reader, for an AI-first era
+subtitle: Branding and Product design for SCC Online, India’s leading law publisher. 
 tags: 
   - UI/UX
-  - Strategy
+  - Branding
 team:
-  - Charu Pragya
-  - Namita Sunil
   - Gyan Lakhwani
-  - Harshit Chandna
-  - Devina Narang
-  - Anandu Gopal
-thumbnail: assets/img/ebc-reader-thumbnail.jpg
-title: "EBC Reader"
+thumbnail: assets/img/scc-online-thumbnail.jpg
+title: "SCC Online"
 ---
 
 # Brief
