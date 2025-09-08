@@ -1,7 +1,7 @@
 ---
 date: 29-03-2025
 date modified: 17-06-2025
-feed: show
+feed: hide
 layout: case-study
 order: 10
 permalink: ahfl
