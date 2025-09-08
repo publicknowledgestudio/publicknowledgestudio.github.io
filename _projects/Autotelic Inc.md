@@ -1,21 +1,22 @@
 ---
 banner: /assets/img/scc-online-header.jpg
 date: 11-04-2025
-date modified: 08-09-2025
-external_url: https://mercury.lawyer/
+date modified: 16-06-2025
+external_url: https://autotelic.inc/
 feed: show
 format: list
 layout: case-study
 order: 6
-subtitle: Mercury uses AI to automatically scrape and summarise case alerts for lawyers. 
+subtitle: A futuristic brand for the future of Artifical Intelligence and building agents that remember, learn and evolve.
 tags: 
-  - UI/UX
   - Branding
 team:
+  - Charu Pragya
+  - Namita Sunil
   - Gyan Lakhwani
   - Anandu Gopal
-thumbnail: assets/img/mercury-thumbnail.jpg
-title: "Mercury Lawyer"
+thumbnail: assets/img/autotelic-thumbnail.jpg
+title: "Autotelic Inc"
 ---
 
 # Brief
