@@ -1,6 +1,6 @@
 ---
 date: 29-03-2025
-date modified: 17-06-2025
+date modified: 11-09-2025
 feed: hide
 layout: case-study
 order: 10

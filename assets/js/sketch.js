@@ -9,7 +9,7 @@ const CONFIG = {
     mobile: 800
   },
   canvas: {
-    desktop: { size: 640, step: 15 },
+    desktop: { size: 640, step: 9 },
     mobile: { size: 360, step: 12 }
   },
   shapes: {
