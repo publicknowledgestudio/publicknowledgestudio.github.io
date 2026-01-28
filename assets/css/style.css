@@ -675,13 +675,11 @@ a.tag:hover {
 }
 
 .scroll-tip {
-    z-index: 15;
-    position: fixed;
-    bottom: var(--spacing-xl);
-    left: 50%;
-    transform: translateX(-50%);
+    z-index: 0;
+    position: relative;
     font-family: var(--font-stack-sans);
     text-align: center;
+    margin-top: 80vh;
     color: var(--charcoal);
     animation: bounce var(--animation-duration-bounce) infinite;
     animation-delay: var(--animation-delay-scroll-tip);
@@ -695,15 +693,15 @@ a.tag:hover {
     50%,
     80%,
     100% {
-        transform: translateX(-50%) translateY(0);
+        transform: translateY(0);
     }
 
     40% {
-        transform: translateX(-50%) translateY(-30px);
+        transform: translateY(-30px);
     }
 
     60% {
-        transform: translateX(-50%) translateY(-15px);
+        transform: translateY(-15px);
     }
 }
 
