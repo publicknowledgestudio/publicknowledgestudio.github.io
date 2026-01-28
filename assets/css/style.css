@@ -679,7 +679,7 @@ a.tag:hover {
     position: relative;
     font-family: var(--font-stack-sans);
     text-align: center;
-    /* margin-top: 80vh; */
+    margin-top: 80vh;
     color: var(--charcoal);
     animation: bounce var(--animation-duration-bounce) infinite;
     animation-delay: var(--animation-delay-scroll-tip);
