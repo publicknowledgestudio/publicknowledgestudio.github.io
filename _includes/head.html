@@ -34,20 +34,49 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that creates interactive, hand-crafted web and app experiences that feel unique to your brand.{% endif %}">
+        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge Studio is an India-based design partner for early-stage startups. We craft brands, build products, and create websites that attract users and investors.{% endif %}">
     <meta name="keywords"
-        content="design studio, web design, app development, interactive design, technology, user experience">
+        content="startup design agency India, product design for startups, brand identity design, UI UX design studio New Delhi, pitch deck design, startup branding, web development for startups, design partner for founders">
     <meta name="author" content="Public Knowledge Studio">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Public Knowledge Studio",
+        "description": "Design partner for early-stage startups. We craft brands, build products, and create websites that attract users and investors.",
+        "url": "https://publicknowledge.co",
+        "logo": "https://publicknowledge.co/assets/img/pk-og.jpg",
+        "image": "https://publicknowledge.co/assets/img/pk-og.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New Delhi",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "28.5378",
+            "longitude": "77.1431"
+        },
+        "priceRange": "$$",
+        "serviceType": ["Brand Identity Design", "UI/UX Design", "Web Development", "Product Strategy"],
+        "sameAs": [
+            "https://www.instagram.com/publicknowledgestudio/",
+            "https://x.com/pblcknw"
+        ]
+    }
+    </script>
 
     <!-- Open Graph Tags -->
     <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio | Design Partner for Startups">
     <meta property="og:description"
-        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.{% endif %}">
+        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}India-based design partner for early-stage startups. We craft brands, build products, and create websites that attract users and investors.{% endif %}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:site_name" content="Public Knowledge Studio">
@@ -56,10 +85,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pblcknw">
     <meta name="twitter:creator" content="@pblcknw">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {% endif %}Public Knowledge Studio">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {% endif %}Public Knowledge Studio | Design Partner for Startups">
     <meta name="twitter:description"
-        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}Public Knowledge is a design studio that makes technology work for humans. We specialise in interactive, hand-crafted web and app experiences that feel uniquely yours.{% endif %}">
-    <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}">
+        content="{% if page.subtitle %}{{ page.subtitle }}{% else %}India-based design partner for early-stage startups. We craft brands, build products, and create websites that attract users and investors.{% endif %}">
+    <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail | absolute_url }}{% else %}https://publicknowledge.co/assets/img/pk-og.jpg{% endif %}"">
 
     <!-- Favicon -->
     <link rel="icon" href="{{ '/assets/favicon/favicon.png' | relative_url }}" type="image/png">
@@ -67,7 +96,7 @@
     <link rel="apple-touch-icon" href="{{ '/assets/favicon/favicon.png' | relative_url }}">
 
     <!-- Page Title -->
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Public Knowledge Studio | Design Partner for Startups | India</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
