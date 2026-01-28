@@ -675,7 +675,7 @@ a.tag:hover {
 }
 
 .scroll-tip {
-    z-index: 0;
+    z-index: 15;
     position: relative;
     font-family: var(--font-stack-sans);
     text-align: center;
