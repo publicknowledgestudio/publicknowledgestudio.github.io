@@ -12,8 +12,6 @@
         </div>
     </div>
 
-    <div id="p5canvas"></div>
-
     <div class="top-right fade-in delay-anim">
         Public Knowledge Studio is an India-based design studio focused on crafting technology with care.
 
@@ -22,13 +20,32 @@
     </div>
     </div>
 
+    <div class="controls-panel display-none" id="controls-panel">
+        <p>Congrats on unlocking<br> the Asterisk Controls!</p>
+        <div class="control-group">
+            <label for="arms">Arms: <span id="arms-value"></span></label>
+            <input type="range" id="arms" min="1" max="12" value="8">
+        </div>
+        <div class="control-group">
+            <label for="length">Length: <span id="length-value"></span></label>
+            <input type="range" id="length" min="1" max="100" value="14">
+        </div>
+        <div class="control-group">
+            <label for="width">Width: <span id="width-value"></span></label>
+            <input type="range" id="width" min="1" max="800" value="10">
+        </div>
+    </div>
 
+    <div id="video-container" class="rotateIn">
+        <div id="clip-path-wrapper"></div>
+        <video id="masked-video" autoplay playsinline loop muted></video>
+    </div>
 
     <div class="scroll-tip square-button">
         SCROLL TO START
     </div>
 
-    <div class="container">
+    <div class="container mt-120vh">
         {% include site-nav.html %}
         <div class="about-section">
             <div class="section-title">About</div>

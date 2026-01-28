@@ -196,20 +196,6 @@
     }
 }
 
-#p5canvas{
-    width: 100vw;
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Horizontally center the canvas */
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-canvas{
-
-}
-
 .announcement{
     background-color: var(--black-10);
     padding: var(--spacing-sm) var(--spacing-xl);
@@ -1784,14 +1770,6 @@ a .startup-cta:hover {
 
     .announcement-inner{
         display: inline-block;
-    }
-
-    #p5canvas{
-        height: 85vh;
-    }
-
-    canvas{
-        /* transform: scale(.75); */
     }
 
     .site-nav {
