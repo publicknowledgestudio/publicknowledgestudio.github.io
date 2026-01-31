@@ -8,7 +8,7 @@ instagram: https://www.instagram.com/harshitchandna/
 layout: team-member
 linkedin: https://www.linkedin.com/in/hchandna/
 medium: https://medium.com/@harshitchandna
-order: 5
+order: 7
 permalink: harshit
 portfolio: https://harshitchandna.framer.website/
 role: Design Intern

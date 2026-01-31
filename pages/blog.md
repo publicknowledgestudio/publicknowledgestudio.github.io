@@ -1,6 +1,8 @@
 ---
 layout: base
 permalink: blog
+title: "Blog"
+subtitle: "Thoughts, resources and news from the Public Knowledge team"
 ---
 
 <div class="container">

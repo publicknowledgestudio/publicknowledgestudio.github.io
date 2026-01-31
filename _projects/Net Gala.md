@@ -4,11 +4,11 @@ date: 29-03-2024
 date modified: 17-06-2025
 feed: show
 layout: case-study
-order: 4
+order: 8
 subtitle: Playing sports together is fun. It should feel that way. Strategy and User Experience for a sports community and venue booking platform.
 tags:
-  - strategy
-  - ui/ux
+  - Strategy
+  - UI/UX
 team:
   - Charu Pragya
   - Namita Sunil
@@ -17,8 +17,11 @@ thumbnail: assets/img/netgala-thumbnail.jpg
 title: "Net Gala"
 ---
 
-Advanced Hydrocarbon Fuels Limited came to us to help them communicate their patented process to turn plastic into fuel.
+# Brief
 
-{: .img-grid }
+Net Gala is a sports community and venue booking platform designed to make organizing and playing recreational sports more straightforward and enjoyable. The product focuses on removing the friction from finding courts, booking venues, and coordinating games with other players. We led the product strategy and user experience design, working to ensure the platform feels as effortless as the sports it serves.
 
-![](../assets/img/ng-logo.jpg)![](../assets/img/ng-posters.jpg)
+<div class="img-grid">
+<img src="../assets/img/ng-logo.jpg" alt="Net Gala logo">
+<img src="../assets/img/ng-posters.jpg" alt="Net Gala posters">
+</div>
