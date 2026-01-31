@@ -5,9 +5,12 @@ external_url: https://map.hammockmag.com
 feed: show
 format: list
 layout: case-study
-order: 1
+order: 2
 subtitle: Designing an interactive literary map for Hammock Mag, visualizing authors' geographies with data-rich storytelling.
-tags: UI/UX Development Strategy
+tags:
+  - UI/UX
+  - Website
+  - Strategy
 team:
  - Gyan Lakhwani
  - Charu Pragya

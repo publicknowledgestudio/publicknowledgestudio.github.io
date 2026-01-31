@@ -5,7 +5,7 @@ external_url: https://bobocakery.com/
 featured: yes
 feed: show
 layout: case-study
-order: 20
+order: 17
 subtitle: A bespoke e-commerce website for Bobo Cakery, a bakery that specialises in highly-customised artisanal cakes.
 tags: [UI/UX, Strategy, Branding]
 team:

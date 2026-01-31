@@ -5,7 +5,7 @@ feed: show
 image: /assets/img/sharang-tall.jpg
 instagram: https://www.instagram.com/erroro1.0s
 layout: team-member
-order: 4
+order: 5
 permalink: sharang
 role: Generative Identities
 title: "Sharang Sharma"

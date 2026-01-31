@@ -1,6 +1,8 @@
 ---
 layout: base
 permalink: team
+title: "Team"
+subtitle: "Meet the people behind Public Knowledge Studio"
 ---
 
 <div class="container">

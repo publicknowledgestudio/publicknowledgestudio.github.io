@@ -6,7 +6,7 @@ featured: yes
 feed: hide
 format: list
 layout: case-study
-order: 20
+order: 18
 subtitle: A brand refresh and Framer website for Freestand, a sampling solutions provider for FMCG brands in India.
 tags: [Website, Branding]
 team:

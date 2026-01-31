@@ -5,7 +5,7 @@ feed: hide
 image: /assets/img/devina-tall.jpg
 layout: team-member
 linkedin: https://www.linkedin.com/in/devina-narang-504a30245/
-order: 6
+order: 8
 portfolio: https://www.behance.net/devina-narang
 role: Design Intern
 title: "Devina Narang"
