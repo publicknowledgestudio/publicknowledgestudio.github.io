@@ -3,35 +3,52 @@
 <div class="project-container">
     {% assign sorted_projects = site.projects | sort: 'order' %}
     {% for project in sorted_projects %}
-        <a class="project" href="{{ project.url }}" rel="noopener">
-            {% if project.external_url %}
-            <button class="external-link-badge" data-url="{{ project.external_url }}" aria-label="Visit live site">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 8.66667V12.6667C12 13.0203 11.8595 13.3594 11.6095 13.6095C11.3594 13.8595 11.0203 14 10.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V5.33333C2 4.97971 2.14048 4.64057 2.39052 4.39052C2.64057 4.14048 2.97971 4 3.33333 4H7.33333M10 2H14M14 2V6M14 2L6.66667 9.33333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </button>
-            {% endif %}
-            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
-            <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
-            <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
-            <div class="tag-container project-description-mobile-padding">
-                {% for tag in project.tags %}
-                <a href="/tag/{{ tag | slugify }}" class="tag">{{ tag }}</a>
-                {% endfor %}
-            </div>
-        </a>
+    <div class="project" data-href="{{ project.url }}">
+        {% if project.external_url %}
+        <span class="external-link-badge" data-url="{{ project.external_url }}" aria-label="Visit live site"
+            role="button" tabindex="0">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 8.66667V12.6667C12 13.0203 11.8595 13.3594 11.6095 13.6095C11.3594 13.8595 11.0203 14 10.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V5.33333C2 4.97971 2.14048 4.64057 2.39052 4.39052C2.64057 4.14048 2.97971 4 3.33333 4H7.33333M10 2H14M14 2V6M14 2L6.66667 9.33333"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </span>
+        {% endif %}
+        <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
+        <div class="project-title project-description-mobile-padding"
+            style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
+        <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
+        <div class="tag-container project-description-mobile-padding">
+            {% for tag in project.tags %}
+            <a href="/tag/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+            {% endfor %}
+        </div>
+    </div>
     {% endfor %}
 </div>
 
 <script>
-// Handle external link badge clicks
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.external-link-badge').forEach(function(badge) {
-        badge.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            window.open(this.dataset.url, '_blank', 'noopener,noreferrer');
+    // Handle external link badge and project card clicks
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.project').forEach(function (card) {
+            card.addEventListener('click', function (e) {
+                // If the click was on the external badge, it will be handled by its own listener
+                // If it was on a tag, let it go to the tag link
+                if (e.target.closest('.external-link-badge') || e.target.closest('.tag')) {
+                    return;
+                }
+
+                // Otherwise open the project URL
+                window.location.href = this.dataset.href;
+            });
+        });
+
+        document.querySelectorAll('.external-link-badge').forEach(function (badge) {
+            badge.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open(this.dataset.url, '_blank', 'noopener,noreferrer');
+            });
         });
     });
-});
-</script> 
+</script>

@@ -61,7 +61,7 @@ theme: null
 plugins:
   - jekyll-feed 
   - jekyll-sitemap 
-  - jekyll-tidy
+#  - jekyll-tidy
     
 ## Enable Collections
 collections:

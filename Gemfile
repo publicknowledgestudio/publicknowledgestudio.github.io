@@ -11,7 +11,7 @@ gem "ostruct", "~> 0.5.0"
 # Keep your existing plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-tidy"
+#  gem "jekyll-tidy"
 end
 
 gem 'jekyll-sitemap'

@@ -1,7 +1,7 @@
 ---
 date: 11-04-2025
 date modified: 03-09-2025
-feed: show
+feed: hide
 image: /assets/img/namita-tall.jpg
 layout: team-member
 order: 4
