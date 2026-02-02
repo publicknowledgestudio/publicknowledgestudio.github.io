@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // Animate each character when the div is in view
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
+                // First show the element
+                textElement.style.opacity = '1';
                 window.anime({
                     targets: textElement.querySelectorAll('span'),
                     opacity: [.5, 1],

@@ -1,22 +1,71 @@
----
-layout: base
----
+{% include head.html %}
 
-<h1 class="section-title">Projects tagged: {{ page.tag }}</h1>
+<body>
 
 
-<div class="project-container">
-    {% assign tagged_projects = site.projects | where_exp: "project", "project.tags contains page.tag" | sort: 'order' %}
-    {% for project in tagged_projects %}
-        <a class="project" href="{{ project.url }}" rel="noopener">
-            <img class="project-thumbnail" src="/{{ project.thumbnail }}" alt="{{ project.title }} thumbnail">
-            <div class="project-title project-description-mobile-padding" style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
-            <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
-            <div class="tag-container project-description-mobile-padding">
-                {% for tag in project.tags %}
-                <div class="tag">{{ tag }}</div>
-                {% endfor %}
+    {% include site-nav.html %}
+
+    <div class="blog-container">
+        <div class="project-header container-width">
+            <div class="flex-2">
+                <h1 class="mg-top-6xl mbe-0">{{ page.description }}</h1>
+                <p>{{ page.content }}</p>
             </div>
-        </a>
-    {% endfor %}
-</div>
+        </div>
+
+        <div class=" project-container">
+            {% assign tagged_projects = site.projects | where_exp: "project", "project.tags contains page.tag" |
+            sort:
+            'order' %}
+            {% for project in tagged_projects %}
+            <div class="project" data-href="{{ project.url | relative_url }}">
+                <img class="project-thumbnail" src="{{ project.thumbnail | relative_url }}"
+                    alt="{{ project.title }} thumbnail">
+                <div class="project-title project-description-mobile-padding"
+                    style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title
+                    }}
+                </div>
+                <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
+                <div class="tag-container project-description-mobile-padding">
+                    {% for tag in project.tags %}
+                    {% assign tag_slug = tag | slugify %}
+                    <a href="{{ " /tag/" | append: tag_slug | relative_url }}" class="tag">{{ tag }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+<script>
+    // Handle project card clicks (since they are now divs to avoid nested anchors)
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.project').forEach(function (card) {
+            card.addEventListener('click', function (e) {
+                if (e.target.closest('.tag')) {
+                    return;
+                }
+                window.location.href = this.dataset.href;
+            });
+        });
+    });
+
+    // Parallax effect for header image
+    var headerImage = document.querySelector('.page-header-image');
+    if (headerImage) {
+        var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
+        var browserHeight = window.visualViewport ? window.visualViewport.height : window.outerHeight;
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY < browserHeight) {
+                headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
+            }
+        });
+    }
+</script>
+
+</html>
