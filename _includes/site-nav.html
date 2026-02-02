@@ -1,4 +1,13 @@
 <nav class="site-nav" aria-label="Primary navigation">
     <a href="/">Public Knowledge</a>
+    <div class="nav-search">
+        <input type="text" placeholder="Search..." id="search-input" autocomplete="off">
+        <div id="search-results" class="search-results"></div>
+    </div>
     <a href="https://calendar.app.google/uPWkrEeLiyFCYSPx5">Schedule Call</a>
 </nav>
+
+{%- if site.preferences.search.enabled -%}
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/vendor/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/Search.js"></script>
+{%- endif -%}
