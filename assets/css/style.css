@@ -196,12 +196,12 @@
     }
 }
 
-.announcement{
+.announcement {
     background-color: var(--black-10);
     padding: var(--spacing-sm) var(--spacing-xl);
 }
 
-.announcement-inner{
+.announcement-inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -210,7 +210,7 @@
     margin: 0 auto;
 }
 
-.announcement-inner a{
+.announcement-inner a {
     font-weight: bold;
 }
 
@@ -693,7 +693,7 @@ h1 {
     display: grid;
     -ms-grid-columns: 1fr var(--spacing-4xl) 1fr;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--spacing-2xl);
+    gap: var(--spacing-xl);
     margin: 0 auto;
 }
 
@@ -712,6 +712,7 @@ h1 {
     display: block;
     padding: var(--spacing-md);
     border-radius: var(--border-radius-card);
+    position: relative;
 }
 
 a.project {
@@ -725,6 +726,34 @@ a.project:hover {
     color: var(--charcoal);
     margin-top: calc(var(--spacing-xs) * -1);
     margin-bottom: var(--spacing-xs);
+}
+
+.external-link-badge {
+    position: absolute;
+    top: var(--spacing-lg);
+    right: var(--spacing-lg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-bg);
+    border: 1px solid var(--black-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    z-index: 1;
+}
+
+.external-link-badge:hover {
+    background: var(--black);
+    border-color: var(--black);
+    color: var(--color-bg);
+    transform: scale(1.1);
+}
+
+.external-link-badge svg {
+    display: block;
 }
 
 .project-title {
@@ -1887,7 +1916,7 @@ a .startup-cta:hover {
 /* Breakpoint */
 @media (max-width: 800px) {
 
-    .announcement-inner{
+    .announcement-inner {
         display: inline-block;
     }
 
