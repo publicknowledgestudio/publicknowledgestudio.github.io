@@ -362,6 +362,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    background-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 }
 
 /* Ensure the video is visible */
