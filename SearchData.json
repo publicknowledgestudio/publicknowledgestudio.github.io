@@ -4,14 +4,39 @@ permalink: /SearchData.json
 
 {
   {%- assign i = 0 -%}
-  {%- for note in site.notes -%}
 
+  {%- comment -%} Include projects collection {%- endcomment -%}
+  {%- for item in site.projects -%}
     "{{ i }}": {
-       "doc":  {{ note.title | strip_html | escape | jsonify }},
-       "title": {{ note.title | strip_html | escape | jsonify }},
-       "content": {{ note.content | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | strip_html | strip_newline | strip | escape | jsonify }},
-       "url": "{{ site.baseurl }}{{ note.url }}"
+       "doc":  {{ item.title | strip_html | escape | jsonify }},
+       "title": {{ item.title | strip_html | escape | jsonify }},
+       "content": {{ item.content | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | strip_html | strip_newline | strip | escape | jsonify }},
+       "url": "{{ site.baseurl }}{{ item.url }}",
+       "type": "project"
+    }{%- assign i = i | plus: 1 -%},
+  {% endfor %}
+
+  {%- comment -%} Include blog collection {%- endcomment -%}
+  {%- for item in site.blog -%}
+    "{{ i }}": {
+       "doc":  {{ item.title | strip_html | escape | jsonify }},
+       "title": {{ item.title | strip_html | escape | jsonify }},
+       "content": {{ item.content | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | strip_html | strip_newline | strip | escape | jsonify }},
+       "url": "{{ site.baseurl }}{{ item.url }}",
+       "type": "blog"
     }{%- unless forloop.last -%},{%- endunless -%}{%- assign i = i | plus: 1 -%}
-    
+    {%- if forloop.last == false -%},{%- endif -%}
+  {% endfor %}
+
+  {%- comment -%} Include team collection {%- endcomment -%}
+  {%- if site.team.size > 0 -%},{% endif %}
+  {%- for item in site.team -%}
+    "{{ i }}": {
+       "doc":  {{ item.title | strip_html | escape | jsonify }},
+       "title": {{ item.title | strip_html | escape | jsonify }},
+       "content": {{ item.content | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | strip_html | strip_newline | strip | escape | jsonify }},
+       "url": "{{ site.baseurl }}{{ item.url }}",
+       "type": "team"
+    }{%- unless forloop.last -%},{%- endunless -%}{%- assign i = i | plus: 1 -%}
   {% endfor %}
 }

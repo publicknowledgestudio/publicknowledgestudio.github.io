@@ -342,6 +342,111 @@
     text-decoration: none;
 }
 
+/* Search in navigation */
+.nav-search {
+    position: relative;
+    flex: 0 1 300px;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border: 1px solid var(--color-border-light);
+    border-radius: 4px;
+    font-family: var(--font-stack-sans);
+    font-size: var(--font-size-sm);
+    background: var(--color-bg);
+    color: var(--color-text-main);
+}
+
+.nav-search input:focus {
+    outline: none;
+    border-color: var(--black);
+}
+
+.search-results {
+    position: absolute;
+    top: calc(100% + var(--spacing-xs));
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    border-radius: 4px;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: var(--z-modal);
+    display: none;
+}
+
+.search-active .search-results {
+    display: block;
+}
+
+.search-results-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-results-list-item {
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.search-results-list-item:last-child {
+    border-bottom: none;
+}
+
+.search-result {
+    display: block;
+    padding: var(--spacing-sm);
+    text-decoration: none;
+    color: var(--color-text-main);
+}
+
+.search-result:hover,
+.search-result.active {
+    background: var(--color-bg-secondary);
+}
+
+.search-result-title {
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+}
+
+.search-result-doc {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: var(--font-size-sm);
+}
+
+.search-result-doc svg {
+    flex-shrink: 0;
+    stroke: var(--color-text-main);
+}
+
+.search-result-previews {
+    margin-top: var(--spacing-xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.search-result-preview {
+    margin-top: var(--spacing-xs);
+}
+
+.search-result-highlight {
+    background: rgba(255, 255, 0, 0.3);
+    font-weight: 600;
+}
+
+.search-no-result {
+    padding: var(--spacing-md);
+    text-align: center;
+    color: var(--color-text-secondary);
+}
+
 .hover-accent:hover {
 
     color: red;
@@ -1738,6 +1843,13 @@ a .startup-cta:hover {
         top: var(--spacing-md);
         padding: var(--spacing-md) var(--spacing-lg);
         width: calc(var(--width-mobile) * .95);
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
+    }
+
+    .nav-search {
+        order: 3;
+        flex: 1 1 100%;
     }
 
     .desktop-only {
