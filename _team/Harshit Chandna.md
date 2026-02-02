@@ -1,14 +1,14 @@
 ---
 date: 11-04-2025
-date modified: 16-06-2025
+date modified: 03-09-2025
 email: harshit@publicknowledge.co
-feed: show
+feed: hide
 image: /assets/img/harshit-tall.jpg
 instagram: https://www.instagram.com/harshitchandna/
 layout: team-member
 linkedin: https://www.linkedin.com/in/hchandna/
 medium: https://medium.com/@harshitchandna
-order: 5
+order: 7
 permalink: harshit
 portfolio: https://harshitchandna.framer.website/
 role: Design Intern

@@ -1,10 +1,10 @@
 ---
 date: 11-04-2025
-date modified: 16-06-2025
+date modified: 03-09-2025
 feed: show
 image: /assets/img/ravee-tall.jpg
 layout: team-member
-order: 4
+order: 6
 permalink: ravee
 role: UX Research & Branding
 title: "Ravee Deshpande"

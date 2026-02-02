@@ -2,63 +2,70 @@
 
 <body>
 
-{% include logo.html %}
-
-<div class="top-right fade-in delay-anim">
-    {% include ContactButton.html content="Set up an Introduction" %}
-    Public Knowledge Studio is an India-based design studio focused on crafting technology with care. We build
-    interfaces and experiences with precision, personality, and purpose.
-</div>
-
-<div class="controls-panel display-none" id="controls-panel">
-
-    <p>Congrats on unlocking<br> the Asterisk Controls!</p>
-
-    <div class="control-group">
-        <label for="arms">Arms: <span id="arms-value"></span></label>
-        <input type="range" id="arms" min="1" max="12" value="8">
-    </div>
-    <div class="control-group">
-        <label for="length">Length: <span id="length-value"></span></label>
-        <input type="range" id="length" min="1" max="100" value="14">
-    </div>
-    <div class="control-group">
-        <label for="width">Width: <span id="width-value"></span></label>
-        <input type="range" id="width" min="1" max="800" value="10">
-    </div>
-</div>
-
-<div id="video-container" class="rotateIn">
-    <div id="clip-path-wrapper"></div>
-    <video id="masked-video" autoplay playsinline loop muted></video>
-</div>
+    {% include logo.html %}
 
 
-
-<div class="scroll-tip square-button">
-    SCROLL TO START
-</div>
-
-<div class="container mt-120vh">
-    {% include site-nav.html %}
-    <div class="about-section">
-        <div class="section-title">About</div>
-        <div id="animate-words" class="huge-text">
-            We believe technology should feel human. We specialise in thoughtful, handcrafted digital experiences that
-            help organisations turn complexity into clarity—and ideas into impact.
+    <div class="announcement sans">
+        <div class="announcement-inner">
+            We won a Baby Elephant at Kyoorius Design Awards 2025!
+            <a href="https://hammockmag.github.io/literarymap/">See the Project →</a>
         </div>
     </div>
 
-    {% include StartupCard.html %}
-    {% include services.html %}
-    {% include work-unclickable.html %}
-    {% include team.html %}
-    {% include quote.html %}
-</div>
+    <div class="top-right fade-in delay-anim">
+        <h1 class="sr-only">Public Knowledge Studio - Design Partner for Startups in India</h1>
+        Public Knowledge Studio is a design agency in New Delhi, India, helping early-stage startups build memorable brands, intuitive products, and high-converting websites.
+
+        {% include ContactButton.html primary_content="Book an Intro Call →" %}
+
+    </div>
+    </div>
+
+    <div class="controls-panel display-none" id="controls-panel">
+        <p>Congrats on unlocking<br> the Asterisk Controls!</p>
+        <div class="control-group">
+            <label for="arms">Arms: <span id="arms-value"></span></label>
+            <input type="range" id="arms" min="1" max="12" value="8">
+        </div>
+        <div class="control-group">
+            <label for="length">Length: <span id="length-value"></span></label>
+            <input type="range" id="length" min="1" max="100" value="14">
+        </div>
+        <div class="control-group">
+            <label for="width">Width: <span id="width-value"></span></label>
+            <input type="range" id="width" min="1" max="800" value="10">
+        </div>
+    </div>
+
+    <div id="video-container" class="rotateIn">
+        <div id="clip-path-wrapper"></div>
+        <video id="masked-video" autoplay playsinline loop muted></video>
+    </div>
+
+    <div class="scroll-tip square-button">
+        SCROLL TO START
+    </div>
+
+    <div class="container mt-120vh">
+        {% include site-nav.html %}
+        <div class="about-section">
+            <div class="section-title">About</div>
+            <div id="animate-words" class="huge-text">
+                We are a design partner for early stage startups.
+                We help tell your story and pitch your product vision so that you can attract your first users and investors.
+            </div>
+        </div>
+
+        {% include StartupCard.html %}
+        {% include services.html %}
+        {% include work-unclickable.html %}
+        {% include team.html %}
+        {% include quote.html %}
+    </div>
 
 
-{% include footer.html %}
+    {% include footer.html %}
 </body>
 
 
-</html> 
+</html>

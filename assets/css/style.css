@@ -42,6 +42,7 @@
     --black-3: rgba(0, 0, 0, .03);
     --black: #000000;
     --white: #FFFFFF;
+    --voxel-color: #f897ff;
     --accent-h: 348;
     --accent-s: 70%;
     --accent-l: 40%;
@@ -52,6 +53,7 @@
     --glass-edge: rgba(255, 255, 255, 0.1);
     --focus-outline: 2px solid var(--accent-color);
     --focus-outline-offset: 2px;
+
 
     /* Typography */
     --font-stack-serif: 'Copernicus', serif;
@@ -165,6 +167,8 @@
         --background-color: #1a1a1a;
         --background-color-dark: #2A2A2A;
 
+        --voxel-color: #72ff2b;
+
         --accent-h: 348;
         --accent-s: 80%;
         --accent-l: 65%;
@@ -192,6 +196,26 @@
     }
 }
 
+.announcement{
+    background-color: var(--black-10);
+    padding: var(--spacing-sm) var(--spacing-xl);
+}
+
+.announcement-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: var(--width-desktop);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.announcement-inner a{
+    font-weight: bold;
+}
+
+
+
 .serif {
     font-family: var(--font-stack-serif);
 }
@@ -199,6 +223,18 @@
 .sans {
     font-family: var(--font-stack-sans);
     letter-spacing: var(--letter-spacing-wide);
+}
+
+.text-sm {
+    font-size: var(--font-size-sm);
+}
+
+.text-less-tight {
+    letter-spacing: calc(var(--letter-spacing-tight) * .5);
+}
+
+.opacity-80 {
+    opacity: .8;
 }
 
 .uppercase {
@@ -745,7 +781,7 @@ a.tag:hover {
 }
 
 .scroll-tip {
-    z-index: 0;
+    z-index: 15;
     position: relative;
     font-family: var(--font-stack-sans);
     text-align: center;
@@ -1003,6 +1039,19 @@ a.tag:hover {
     display: none;
 }
 
+/* Screen reader only - visually hidden but accessible */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .uncard {
     font-size: var(--font-size-2xl);
     margin: var(--spacing-2xl) var(--spacing-md);
@@ -1050,7 +1099,7 @@ a.tag:hover {
     height: var(--logo-size);
     width: var(--logo-size);
     right: var(--logo-offset);
-    top: var(--logo-offset);
+    top: 80px;
     opacity: 0;
     -webkit-transition: 1s;
     -o-transition: 1s;
@@ -1068,7 +1117,7 @@ a.tag:hover {
     flex-direction: column;
     z-index: 11;
     position: absolute;
-    top: 52px;
+    top: 60px;
     left: 7vw;
     font-size: var(--font-size-3xl);
     line-height: 1.15;
@@ -1102,7 +1151,7 @@ a.tag:hover {
     align-items: flex-end;
     max-width: 330px;
     position: absolute;
-    top: 52px;
+    top: 72px;
     right: 7vw;
     gap: var(--spacing-md);
 }
@@ -1510,10 +1559,9 @@ a .startup-cta:hover {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: var(--spacing-md);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--border-radius-lg);
     text-decoration: none;
@@ -1839,6 +1887,10 @@ a .startup-cta:hover {
 /* Breakpoint */
 @media (max-width: 800px) {
 
+    .announcement-inner{
+        display: inline-block;
+    }
+
     .site-nav {
         top: var(--spacing-md);
         padding: var(--spacing-md) var(--spacing-lg);
@@ -1893,7 +1945,7 @@ a .startup-cta:hover {
     .container {
         padding-top: var(--spacing-lg);
         position: relative;
-        margin: 160vh 0 0 0;
+        margin: 0 0 0 0;
         border-radius: 0;
         bottom: 0;
     }
@@ -1926,7 +1978,7 @@ a .startup-cta:hover {
     }
 
     .logo-text {
-        top: var(--spacing-xl);
+        top: 92px;
         left: var(--spacing-lg);
         font-size: var(--font-size-2xl);
         padding: 0px;
@@ -2069,7 +2121,7 @@ a .startup-cta:hover {
 
     .top-right {
         width: auto;
-        top: 65vh;
+        top: 75vh;
         max-width: var(--width-mobile);
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -2077,10 +2129,6 @@ a .startup-cta:hover {
         text-align: center;
         right: var(--spacing-xl);
         left: var(--spacing-xl);
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
         gap: var(--spacing-lg);
     }
 
@@ -2102,6 +2150,12 @@ a .startup-cta:hover {
     .quote-author {
         font-size: var(--font-size-lg);
         padding-left: 0;
+    }
+
+    .startup-cta {
+        align-items: center;
+        text-align: center;
+        padding: var(--spacing-sm) var(--spacing-lg);
     }
 
     .startup-card {

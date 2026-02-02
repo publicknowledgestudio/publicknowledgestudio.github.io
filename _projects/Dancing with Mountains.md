@@ -5,10 +5,10 @@ date modified: 17-06-2025
 external_url: https://www.dancingwithmountains.com/
 feed: show
 layout: case-study
-order: 2
+order: 4
 subtitle: Designed and developed a digital space for Dancing with Mountains that translates radical philosophies into an exploratory web experience.
 tags:
-  - website
+  - Website
 team:
   - Charu Pragya
   - Namita Sunil

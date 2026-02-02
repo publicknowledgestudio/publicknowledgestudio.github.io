@@ -1,6 +1,6 @@
 <a href="/team" class="section-title">The Team</a>
 
-{% assign sorted_team = site.team | sort: 'order' %}
+{% assign sorted_team = site.team | where: 'feed', 'show' | sort: 'order' %}
 <div class="team-container">
     {% for member in sorted_team %}
     <a href="{{ member.url }}">

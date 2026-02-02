@@ -1,12 +1,12 @@
 ---
 banner: /assets/img/ebc-reader-header.jpg
 date: 11-04-2025
-date modified: 16-06-2025
+date modified: 08-09-2025
 external_url: https://www.ebcreader.com/
 feed: show
 format: list
 layout: case-study
-order: 6
+order: 10
 subtitle: Helping EBC Group reimagine the brand and experiences for their e-Library offering, EBC Reader, for an AI-first era
 tags: 
   - UI/UX
@@ -17,6 +17,7 @@ team:
   - Gyan Lakhwani
   - Harshit Chandna
   - Devina Narang
+  - Anandu Gopal
 thumbnail: assets/img/ebc-reader-thumbnail.jpg
 title: "EBC Reader"
 ---

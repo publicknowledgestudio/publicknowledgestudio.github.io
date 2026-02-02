@@ -4,11 +4,11 @@ date: 11-04-2025
 date modified: 16-06-2025
 feed: show
 layout: case-study
-order: 4
-subtitle: Developed Amie’s identity and web design, elevating its vision of a rotating wardrobe for modern lifestyles.
+order: 7
+subtitle: Developed Amie's identity and web design, elevating its vision of a rotating wardrobe for modern lifestyles.
 tags:
-  - branding
-  - website
+  - Branding
+  - Website
 team:
   - Charu Pragya
   - Namita Sunil
