@@ -4,8 +4,8 @@ date: 06-05-2024
 date modified: 07-06-2025
 feed: show
 layout: blog
-subtitle: 
-tags: 
+subtitle: "Frequently asked questions about working with Public Knowledge Studio"
+tags:
 thumbnail: /assets/thumbs/default.png
 title: "FAQs"
 ---

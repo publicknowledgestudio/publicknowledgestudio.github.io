@@ -4,8 +4,8 @@ date: 14-05-2024
 date modified: 08-06-2025
 feed: show
 layout: blog
-subtitle: 
-tags: 
+subtitle: "Onboarding checklist for new team members at Public Knowledge Studio"
+tags:
 thumbnail: /assets/thumbs/default.png
 title: "New Employee Checklist"
 ---

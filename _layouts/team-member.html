@@ -2,6 +2,41 @@
 
 <body>
 
+    {% assign same_as_links = "" | split: "" %}
+    {% if page.linkedin %}{% assign same_as_links = same_as_links | push: page.linkedin %}{% endif %}
+    {% if page.instagram %}{% assign same_as_links = same_as_links | push: page.instagram %}{% endif %}
+    {% if page.twitter %}{% assign same_as_links = same_as_links | push: page.twitter %}{% endif %}
+    {% if page.portfolio %}{% assign same_as_links = same_as_links | push: page.portfolio %}{% endif %}
+    {% if page.medium %}{% assign same_as_links = same_as_links | push: page.medium %}{% endif %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": {{ page.title | jsonify }},
+        {% if page.role %}"jobTitle": {{ page.role | jsonify }},{% endif %}
+        {% if page.image %}"image": "{{ page.image | absolute_url }}",{% endif %}
+        {% if page.email %}"email": "{{ page.email }}",{% endif %}
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Public Knowledge Studio",
+            "url": "https://publicknowledge.co"
+        },
+        {% if same_as_links.size > 0 %}"sameAs": [{% for link in same_as_links %}{% if forloop.index0 > 0 %},{% endif %}{{ link | jsonify }}{% endfor %}],{% endif %}
+        "url": "{{ page.url | absolute_url }}"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://publicknowledge.co/"},
+            {"@type": "ListItem", "position": 2, "name": "Team", "item": "https://publicknowledge.co/team"},
+            {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}"}
+        ]
+    }
+    </script>
+
     {% include site-nav.html %}
 
     <div class="container-width">

@@ -2,6 +2,41 @@
 
 <body>
 
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": {{ page.title | jsonify }},
+        {% if page.subtitle and page.subtitle != "" %}"description": {{ page.subtitle | jsonify }},{% endif %}
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        {% if page.author %}"author": [{% for author_name in page.author %}{% if forloop.index0 > 0 %},{% endif %}{"@type": "Person", "name": {{ author_name | jsonify }}}{% endfor %}],{% endif %}
+        "publisher": {
+            "@type": "Organization",
+            "name": "Public Knowledge Studio",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://publicknowledge.co/assets/img/pk-og.jpg"
+            }
+        },
+        {% if page.thumbnail %}"image": "{{ page.thumbnail | absolute_url }}",{% endif %}
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | absolute_url }}"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://publicknowledge.co/"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://publicknowledge.co/blog"},
+            {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}"}
+        ]
+    }
+    </script>
+
     {% if page.banner %}
     <img class="page-header-image" src="{{ page.banner }}" alt="{{ page.title }}">
     {% else %}

@@ -1,0 +1,6 @@
+---
+---
+User-agent: *
+Allow: /
+
+Sitemap: https://publicknowledge.co/sitemap.xml

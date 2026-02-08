@@ -4,7 +4,7 @@ date: 06-05-2024
 date modified: 09-06-2025
 feed: show
 layout: blog
-subtitle: Practices
+subtitle: "Our principles and practices for doing great design work"
 tags: 
 thumbnail: /assets/thumbs/default.png
 title: "Ways of Working"
