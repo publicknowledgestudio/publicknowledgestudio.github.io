@@ -1,0 +1,9 @@
+<div class="blog-cta sans">
+    <p class="blog-cta-heading">
+        {% if include.heading %}{{ include.heading }}{% else %}Want to work with us?{% endif %}
+    </p>
+    <p class="blog-cta-description secondary">
+        {% if include.description %}{{ include.description }}{% else %}We're a design studio for startups. Book a free intro call to talk about your project.{% endif %}
+    </p>
+    {% include ContactButton.html primary_content="Book an Intro Call →" %}
+</div>

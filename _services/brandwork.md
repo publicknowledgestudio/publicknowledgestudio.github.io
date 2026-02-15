@@ -8,4 +8,4 @@ order: 1
 title: "brandwork"
 ---
 
-We design distinctive, versatile brand identities that translate well across digital and real-world touchpoints.
+We design distinctive, versatile brand identities for startups that translate well across digital and real-world touchpoints — from your first pitch deck to your launched product.

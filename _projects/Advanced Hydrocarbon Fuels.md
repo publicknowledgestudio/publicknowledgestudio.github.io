@@ -18,7 +18,7 @@ title: "Advanced Hydrocarbon Fuels"
 Advanced Hydrocarbon Fuels Limited came to us to help them communicate their patented process to turn plastic into fuel.
 
 <div class="img-grid">
-<img src="../assets/img/AHFL-Horiz-Mono.png" alt="Alt text">
+<img src="../assets/img/AHFL-Horiz-Mono.png" alt="Advanced Hydrocarbon Fuels horizontal monochrome logo">
 </div>
 ## Turning Plastic into Fuel
 

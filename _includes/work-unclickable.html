@@ -8,7 +8,7 @@
         {% else %}
         <div class="project">
             {% endif %}
-            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="">
+            <img class="project-thumbnail" src="{{ project.thumbnail }}" alt="{{ project.title }}">
             <div class="project-title project-description-mobile-padding"
                 style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}</div>
             <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>

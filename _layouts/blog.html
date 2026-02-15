@@ -87,40 +87,37 @@
         </div>
     </div>
 
-</body>
+    {% include footer.html %}
 
-{% include footer.html %}
+    <script>
+    var headerImage = document.querySelector('.page-header-image');
+    var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
+    var browserHeight = window.visualViewport ? window.visualViewport.height : window.outerHeight;
 
-<script>
-
-var headerImage = document.querySelector('.page-header-image');
-var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
-var browserHeight = window.visualViewport ? window.visualViewport.height : window.outerHeight;
-
-window.addEventListener('scroll', function() {
-    if (window.scrollY < browserHeight) {
-        headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
-    }
-});
-
-// Update height on viewport resize (handles mobile Safari address bar)
-if (window.visualViewport) {
-    window.visualViewport.addEventListener('resize', function() {
-        browserHeight = window.visualViewport.height;
+    window.addEventListener('scroll', function() {
         if (window.scrollY < browserHeight) {
             headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
         }
     });
-}
 
-// Clickable checkboxes
-const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-checkboxes.forEach(checkbox => {
-  // remove the disabled attribute; added by kramdown by default
-  checkbox.removeAttribute('disabled');
-});
+    // Update height on viewport resize (handles mobile Safari address bar)
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', function() {
+            browserHeight = window.visualViewport.height;
+            if (window.scrollY < browserHeight) {
+                headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
+            }
+        });
+    }
 
-</script>
+    // Clickable checkboxes
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+      // remove the disabled attribute; added by kramdown by default
+      checkbox.removeAttribute('disabled');
+    });
+    </script>
 
+</body>
 
 </html>

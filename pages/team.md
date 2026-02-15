@@ -7,7 +7,7 @@ subtitle: "Meet the people behind Public Knowledge Studio"
 
 <div class="container">
 
-<div class="section-title mg-top-6xl">The Team</div>
+<h1 class="section-title mg-top-6xl">The Team</h1>
 
 {% assign sorted_team = site.team | where: 'feed', 'show' | sort: 'order' %}
 <div class="team-container">

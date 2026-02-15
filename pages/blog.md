@@ -8,12 +8,12 @@ subtitle: "Thoughts, resources and news from the Public Knowledge team"
 <div class="container">
 
 <div>
-<div class="section-title mg-top-6xl">The Journal</div>
+<h1 class="section-title mg-top-6xl">The Journal</h1>
 <div class="section-subtitle">Thoughts, resources and news from the Public Knowledge team</div>
 </div>
 
 <div class="blog-tile-container">
-    {% assign sorted_blog = site.blog | sort: 'date' | reverse %}
+    {% assign sorted_blog = site.blog | where: 'feed', 'show' | sort: 'date' | reverse %}
     {% for post in sorted_blog %}
         <a href="{{ post.url }}">
             <div class="blog-tile">

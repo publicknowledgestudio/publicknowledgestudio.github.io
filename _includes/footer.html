@@ -43,7 +43,7 @@
             <p class="secondary">INDEX</p>
             <div class="uppercase glowy">
                 {% for project in site.projects | sort: 'title' %}
-                <span class="square-button">{{ project.title }}</span><br>
+                <a href="{{ project.url }}" class="square-button">{{ project.title }}</a><br>
                 {% endfor %}
             </div>
 

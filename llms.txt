@@ -2,7 +2,7 @@
 ---
 # Public Knowledge Studio
 
-> Public Knowledge is a design studio that makes technology work for humans. Based in India, we are a design partner for early-stage startups — crafting brands, building products, and creating websites that attract users and investors.
+> Public Knowledge is a design studio and branding agency for startups, based in India. We are a design partner for early-stage startups — crafting brands, designing startup websites, building products, and creating pitch decks that attract users and investors.
 
 The studio was founded in 2024. We focus on design, not development — though we build front-ends and can recommend trusted developers. We work with startups at the earliest stages, from first pitch deck to launched product.
 
@@ -19,6 +19,10 @@ The studio was founded in 2024. We focus on design, not development — though w
 - [FAQs](https://publicknowledge.co/blog/faqs): Frequently asked questions about working with Public Knowledge Studio
 - [Ways of Working](https://publicknowledge.co/blog/ways-of-working): Our principles and practices for doing great design work
 - [Internship](https://publicknowledge.co/blog/internship): What to expect from a design internship at Public Knowledge Studio
+- [Startup Pitch Deck Design](https://publicknowledge.co/blog/startup-pitch-deck-design): Your product story needs to shine in your pitch deck
+- [Design Process for Startups](https://publicknowledge.co/blog/design-process-for-startups): How we approach branding, websites, product design, and pitch decks
+- [When Should a Startup Invest in Branding](https://publicknowledge.co/blog/when-should-a-startup-invest-in-branding): As soon as your story starts to matter
+- [What Should You Look for in a Founding Designer](https://publicknowledge.co/blog/what-should-you-look-for-in-a-founding-designer): Whether you are hiring in-house or working with a studio
 
 ## Team
 
