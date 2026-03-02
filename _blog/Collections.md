@@ -2,7 +2,7 @@
 author: 
 date: 04-05-2025
 date modified: 08-06-2025
-feed: show
+feed: hide
 layout: blog
 subtitle: Resources and links
 tags: 
