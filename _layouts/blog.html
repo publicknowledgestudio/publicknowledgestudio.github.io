@@ -120,6 +120,42 @@
     {% endif %}
     {% endif %}
 
+    {% assign blog_posts = site.blog | where: "feed", "show" | sort: "date" | reverse %}
+    {% assign prev_post = nil %}
+    {% assign next_post = nil %}
+    {% assign found = false %}
+    {% for post in blog_posts %}
+        {% if found and next_post == nil %}
+            {% assign next_post = post %}
+        {% endif %}
+        {% if post.url == page.url %}
+            {% assign found = true %}
+        {% endif %}
+        {% unless found %}
+            {% assign prev_post = post %}
+        {% endunless %}
+    {% endfor %}
+    {% if prev_post or next_post %}
+    <nav class="blog-nav container-width" aria-label="Blog post navigation">
+        <div class="blog-nav-prev">
+            {% if next_post %}
+            <a href="{{ next_post.url }}">
+                <span class="blog-nav-label sans uppercase">&larr; Older</span>
+                <span class="blog-nav-title">{{ next_post.title }}</span>
+            </a>
+            {% endif %}
+        </div>
+        <div class="blog-nav-next">
+            {% if prev_post %}
+            <a href="{{ prev_post.url }}">
+                <span class="blog-nav-label sans uppercase">Newer &rarr;</span>
+                <span class="blog-nav-title">{{ prev_post.title }}</span>
+            </a>
+            {% endif %}
+        </div>
+    </nav>
+    {% endif %}
+
     {% include footer.html %}
 
     <script>

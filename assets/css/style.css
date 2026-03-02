@@ -2335,3 +2335,46 @@ a .startup-cta:hover {
     border-radius: var(--border-radius-md);
     margin-bottom: var(--spacing-sm);
 }
+
+/* Blog prev/next navigation */
+.blog-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+    margin: var(--spacing-4xl) auto;
+    padding: 0 var(--spacing-md);
+}
+
+.blog-nav a {
+    text-decoration: none;
+    color: var(--text-reg);
+}
+
+.blog-nav a:hover {
+    color: var(--black);
+}
+
+.blog-nav-label {
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: var(--spacing-xs);
+}
+
+.blog-nav-title {
+    font-family: var(--font-stack-sans);
+    font-size: var(--font-size-md);
+}
+
+.blog-nav-next {
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .blog-nav {
+        flex-direction: column;
+    }
+    .blog-nav-next {
+        text-align: left;
+    }
+}
