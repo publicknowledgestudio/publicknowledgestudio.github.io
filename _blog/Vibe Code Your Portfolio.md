@@ -6,9 +6,7 @@ date modified: 08-06-2025
 feed: show
 layout: blog
 subtitle: Our talk at the Delhi Config Watch Party 2025 about portfolios and AI coding tools.
-tags:
-  - talks
-  - website
+tags: [Website]
 title: "Vibe Code Your Portfolio"
 ---
 

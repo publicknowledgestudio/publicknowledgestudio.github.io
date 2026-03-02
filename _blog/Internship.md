@@ -5,7 +5,7 @@ date modified: 08-06-2025
 feed: show
 layout: blog
 subtitle: "What to expect from a design internship at Public Knowledge Studio"
-tags:
+tags: [Strategy]
 thumbnail: /assets/thumbs/default.png
 title: "Internship"
 ---

@@ -5,7 +5,7 @@ date modified: 08-06-2025
 feed: show
 layout: blog
 subtitle: "Onboarding checklist for new team members at Public Knowledge Studio"
-tags:
+tags: [Strategy]
 thumbnail: /assets/thumbs/default.png
 title: "New Employee Checklist"
 ---

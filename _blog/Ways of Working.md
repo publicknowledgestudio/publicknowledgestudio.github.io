@@ -5,7 +5,7 @@ date modified: 09-06-2025
 feed: show
 layout: blog
 subtitle: "Our principles and practices for doing great design work"
-tags: 
+tags: [Strategy]
 thumbnail: /assets/thumbs/default.png
 title: "Ways of Working"
 ---

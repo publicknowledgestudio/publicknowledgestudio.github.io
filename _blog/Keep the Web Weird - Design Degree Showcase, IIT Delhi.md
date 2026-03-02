@@ -5,9 +5,7 @@ date modified: 08-06-2025
 feed: show
 layout: blog
 subtitle: Using AI to make weird things with code, and resisting the flattening of the web.
-tags:
-  - talks
-  - website
+tags: [Website, Strategy]
 title: "Keep the Web Weird - Design Degree Showcase, IIT Delhi"
 ---
 
