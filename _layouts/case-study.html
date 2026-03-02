@@ -74,6 +74,35 @@
         </div>
     </div>
 
+    {% if page.tags.size > 0 %}
+    {% assign related_projects = site.projects | where: "feed", "show" | where_exp: "project", "project.url != page.url" %}
+    {% assign matching_projects = "" | split: "" %}
+    {% for project in related_projects %}
+        {% for tag in page.tags %}
+            {% if project.tags contains tag %}
+                {% unless matching_projects contains project %}
+                    {% assign matching_projects = matching_projects | push: project %}
+                {% endunless %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% if matching_projects.size > 0 %}
+    <div class="related-content container-width">
+        <h2 class="sans uppercase related-content-title">More Projects</h2>
+        <div class="related-content-grid">
+            {% for project in matching_projects limit:3 %}
+            <a href="{{ project.url }}" class="related-content-card">
+                <img class="related-content-card-image" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+                <h3 class="related-content-card-title">{{ project.title }}</h3>
+                <p class="related-content-card-description">{{ project.subtitle }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    {% endif %}
+
     {% include footer.html %}
 
     <script>

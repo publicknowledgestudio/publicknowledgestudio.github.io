@@ -2329,3 +2329,9 @@ a .startup-cta:hover {
     font-size: var(--font-size-md);
     margin-bottom: var(--spacing-sm);
 }
+
+.related-content-card-image {
+    width: 100%;
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--spacing-sm);
+}
