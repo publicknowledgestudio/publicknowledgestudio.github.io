@@ -1,0 +1,85 @@
+{% include head.html %}
+
+<body>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "JobPosting",
+        "title": {{ page.title | jsonify }},
+        "description": {{ page.content | strip_html | strip_newlines | truncate: 500 | jsonify }},
+        "datePosted": "{{ page.date | date: '%Y-%m-%d' }}",
+        "employmentType": {{ page.type | jsonify }},
+        "jobLocation": {
+            "@type": "Place",
+            "address": {{ page.location | jsonify }}
+        },
+        "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Public Knowledge Studio",
+            "sameAs": "https://publicknowledge.co",
+            "logo": "https://publicknowledge.co/assets/img/pk-og.jpg"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://publicknowledge.co/"},
+            {"@type": "ListItem", "position": 2, "name": "Careers", "item": "https://publicknowledge.co/careers"},
+            {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}"}
+        ]
+    }
+    </script>
+
+    {% include site-nav.html %}
+
+    <div class="job-page container-width">
+        <div class="job-header">
+            <h1 class="sans uppercase mbs-0">{{ page.title }}</h1>
+            <div class="job-meta">
+                {% if page.location %}
+                <span class="job-badge">{{ page.location }}</span>
+                {% endif %}
+                {% if page.type %}
+                <span class="job-badge">{{ page.type }}</span>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="job-body blog">
+            {{ content }}
+        </div>
+
+        <div class="job-cta">
+            <a href="mailto:careers@publicknowledge.co?subject=Application: {{ page.title | url_encode }}" class="job-cta-button sans uppercase">
+                Apply for this role &rarr;
+            </a>
+        </div>
+    </div>
+
+    {% assign other_jobs = site.jobs | where: "feed", "show" | where_exp: "job", "job.url != page.url" %}
+    {% if other_jobs.size > 0 %}
+    <div class="related-content container-width">
+        <h2 class="sans uppercase related-content-title">Other Open Positions</h2>
+        <div class="related-content-grid">
+            {% for job in other_jobs limit:2 %}
+            <a href="{{ job.url }}" class="related-content-card">
+                <h3 class="related-content-card-title">{{ job.title }}</h3>
+                <div class="job-meta">
+                    {% if job.location %}<span class="job-badge">{{ job.location }}</span>{% endif %}
+                    {% if job.type %}<span class="job-badge">{{ job.type }}</span>{% endif %}
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% include footer.html %}
+
+</body>
+
+</html>
