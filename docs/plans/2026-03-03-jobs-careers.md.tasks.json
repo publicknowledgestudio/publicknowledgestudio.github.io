@@ -1,0 +1,12 @@
+{
+  "planPath": "docs/plans/2026-03-03-jobs-careers.md",
+  "tasks": [
+    {"id": 1, "subject": "Task 1: Add jobs collection to _config.yml", "status": "pending"},
+    {"id": 2, "subject": "Task 2: Create the job detail layout", "status": "pending", "blockedBy": [1]},
+    {"id": 3, "subject": "Task 3: Create the careers listing page", "status": "pending", "blockedBy": [1]},
+    {"id": 4, "subject": "Task 4: Add CSS for careers and job pages", "status": "pending"},
+    {"id": 5, "subject": "Task 5: Create first job posting (Designer)", "status": "pending", "blockedBy": [1]},
+    {"id": 6, "subject": "Task 6: Build, verify, and push", "status": "pending", "blockedBy": [2, 3, 4, 5]}
+  ],
+  "lastUpdated": "2026-03-03T00:00:00Z"
+}
