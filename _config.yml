@@ -83,7 +83,9 @@ collections:
     quotes:
       output: false
       permalink: /:slug
-
+    jobs:
+      output: true
+      permalink: /careers/:slug
 markdown: kramdown
 
 kramdown:
