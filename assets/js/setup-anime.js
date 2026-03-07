@@ -64,39 +64,43 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Animate every service inside service-container when it's in view
     const serviceContainer = document.querySelector('.service-container');
-    const serviceItems = serviceContainer.querySelectorAll('.service-card');
-    serviceItems.forEach((item, index) => {
-        const observer = new IntersectionObserver((entries) => {
-            if (entries[0].isIntersecting) {
-                window.anime({
-                    targets: item,
-                    translateY: [20, 0],
-                    opacity: [0, 1],
-                    duration: ANIM_DURATION,
-                    delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
-                });
-                observer.disconnect();
-            }
+    if (serviceContainer) {
+        const serviceItems = serviceContainer.querySelectorAll('.service-card');
+        serviceItems.forEach((item, index) => {
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    window.anime({
+                        targets: item,
+                        translateY: [20, 0],
+                        opacity: [0, 1],
+                        duration: ANIM_DURATION,
+                        delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
+                    });
+                    observer.disconnect();
+                }
+            });
+            observer.observe(item);
         });
-        observer.observe(item);
-    });
+    }
 
     // Animate every team inside team-container when it's in view
     const teamContainer = document.querySelector('.team-container');
-    const teamItems = teamContainer.querySelectorAll('.team-card');
-    teamItems.forEach((item, index) => {
-        const observer = new IntersectionObserver((entries) => {
-            if (entries[0].isIntersecting) {
-                window.anime({
-                    targets: item,
-                    translateY: [20, 0],
-                    opacity: [0, 1],
-                    duration: ANIM_DURATION,
-                    delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
-                });
-                observer.disconnect();
-            }
+    if (teamContainer) {
+        const teamItems = teamContainer.querySelectorAll('.team-card');
+        teamItems.forEach((item, index) => {
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    window.anime({
+                        targets: item,
+                        translateY: [20, 0],
+                        opacity: [0, 1],
+                        duration: ANIM_DURATION,
+                        delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
+                    });
+                    observer.disconnect();
+                }
+            });
+            observer.observe(item);
         });
-        observer.observe(item);
-    });
+    }
 });
