@@ -1,9 +1,9 @@
 ---
-title: "Designer (Generalist)"
+title: "Generalist Designer (Contract)"
 subtitle: "New Delhi, India · Full-time"
-location: "New Delhi, India"
-type: "Full-time"
-layout: blog
+location: "Vasant Kunj, New Delhi, India"
+type: "Contract (6 months)"
+layout: case-study
 feed: show
 order: 1
 date: 03-03-2026
@@ -13,19 +13,11 @@ banner: /assets/img/pk-designer.jpg
 
 ## About Public Knowledge
 
-Public Knowledge Studio is a small design studio based in New Delhi. We work with startups to design brands, products, and digital experiences.
-
-We value thoughtful work, curiosity about new tools and technologies, and building a team that learns by doing.
-
-Our studio is small by design — which means everyone has meaningful influence over the work and how the studio evolves.
+Public Knowledge Studio is a small design studio based in New Delhi. We work with startups to design brands, products, and digital experiences. We value thoughtful work, curiosity about new tools and technologies, and building a team that learns by doing. Our studio is small by design — which means everyone has meaningful influence over the work we do and how the studio evolves.
 
 ## The Role
 
-Public Knowledge Studio is looking for a designer who enjoys working across disciplines and is excited by the evolving nature of design.
-
-This isn’t a traditional design role. We work with early-stage startups, which means every project is different. Some days you might be shaping a brand identity, other days designing a product interface, prototyping a website, or experimenting with motion and AI tools.
-
-The ideal person for this role is self-directed, curious, and comfortable moving between ideation and execution. You'll work closely with the studio team and startup founders and will have a high degree of ownership and will often be responsible for carrying ideas through to a polished outcome.
+Public Knowledge Studio is looking for a designer who enjoys working across disciplines and is excited by the evolving nature of design. This isn’t a traditional design role. We work with early-stage startups, which means every project is different. Some days you might be shaping a brand identity, other days designing a product interface, prototyping a website, or experimenting with motion and AI tools. The ideal person for this role is self-directed, curious, and comfortable moving between ideation and execution. You'll work closely with the studio team and startup founders and will have a high degree of ownership and will often be responsible for carrying ideas through to a polished outcome.
 
 Some experience in **three or more** of the following areas is expected:
 
@@ -61,8 +53,6 @@ We’re looking for someone curious about how things are actually made — and i
 
 
 ## Signals We Look For in Portfolios
-
-Portfolios don’t need to be perfect, but they should show how you think. Things we love seeing:
 
 - Designers who prototype ideas in code
 - Experiments with AI or generative design tools  

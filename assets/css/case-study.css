@@ -138,14 +138,15 @@
     vertical-align: top;
 }
 
-.case-study h2+p {
+.case-study h2+p,
+.case-study h2+ul,
+.case-study h2+ol {
     margin-top: var(--spacing-4xl);
     margin-bottom: var(--spacing-3xl);
     display: inline-block;
     padding-left: calc(var(--spacing-2xl) / 2);
     width: calc(var(--width-desktop)/2.15);
 }
-
 
 .case-study ul,
 .case-study ol {
@@ -231,13 +232,14 @@ figcaption {
         padding: 0;
     }
 
-    .case-study h2+p {
+    .case-study h2+p,
+    .case-study h2+ul,
+    .case-study h2+ol {
         width: calc(var(--width-mobile) - var(--spacing-2xl));
         max-width: var(--max-width);
         margin: var(--spacing-lg) auto var(--spacing-3xl) auto;
         display: block;
         padding: 0;
-
     }
 
 }

@@ -47,9 +47,10 @@
                         &nearr;]</a>
                     {% endif %}
                 </h1>
+                {% if page.collection != "jobs" %}
                 <p class="sans uppercase">
                     IN {{ page.date | date: "%B %Y" }}
-                    <br> BY 
+                    <br> BY
                     {% assign team = page.team %}
                     {% for person in team %}
                       {% assign index = forloop.index0 %}
@@ -59,6 +60,7 @@
                       {{ person }}
                     {% endfor %}
                 </p>
+                {% endif %}
             </div>
             <div class="flex-1">
                 <p class="mbs-0">{{ page.subtitle }}</p>
