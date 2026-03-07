@@ -2472,6 +2472,13 @@ a .startup-cta:hover {
     background-color: var(--black);
 }
 
+.careers-hero {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    display: block;
+}
+
 .careers-intro {
     margin: var(--spacing-3xl) auto var(--spacing-4xl);
     font-size: var(--font-size-lg);

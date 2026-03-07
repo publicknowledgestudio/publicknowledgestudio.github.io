@@ -5,6 +5,10 @@ title: "Careers"
 subtitle: "Join the team at Public Knowledge Studio"
 ---
 
+<div>
+<img class="careers-hero" src="/assets/img/pk-team-offsite-2025.jpg" alt="Public Knowledge team offsite 2025">
+</div>
+
 <div class="container">
 
 <h1 class="section-title mg-top-6xl">Careers</h1>
