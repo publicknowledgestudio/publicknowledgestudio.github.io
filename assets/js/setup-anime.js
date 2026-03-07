@@ -84,8 +84,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Animate every team inside team-container when it's in view
-    const teamContainer = document.querySelector('.team-container');
-    if (teamContainer) {
+    const teamContainers = document.querySelectorAll('.team-container');
+    teamContainers.forEach(teamContainer => {
         const teamItems = teamContainer.querySelectorAll('.team-card');
         teamItems.forEach((item, index) => {
             const observer = new IntersectionObserver((entries) => {
@@ -95,12 +95,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         translateY: [20, 0],
                         opacity: [0, 1],
                         duration: ANIM_DURATION,
-                        delay: ANIM_DELAY + (index * ANIM_DELAY) // Stagger each project by .5s
+                        delay: ANIM_DELAY + (index * ANIM_DELAY)
                     });
                     observer.disconnect();
                 }
             });
             observer.observe(item);
         });
-    }
+    });
 });

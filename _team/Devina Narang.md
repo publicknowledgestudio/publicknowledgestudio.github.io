@@ -9,6 +9,7 @@ order: 8
 portfolio: https://www.behance.net/devina-narang
 role: Design Intern
 title: "Devina Narang"
+permalink: devina
 ---
 
 Hi, I’m Devina — a designer who loves creating designs that not only look good but also make sense, feel good to use, and bring a little joy along the way.

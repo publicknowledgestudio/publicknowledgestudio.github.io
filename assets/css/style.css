@@ -2382,23 +2382,20 @@ a .startup-cta:hover {
 }
 
 /* Careers & Job pages */
-.careers-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-3xl);
+.careers-content {
     padding-bottom: var(--spacing-4xl);
 }
 
-.careers-col-left .blog {
+.careers-content .blog {
     padding-bottom: 0;
 }
 
-.careers-col-left .blog p {
+.careers-content .blog p {
     width: 100%;
 }
 
-.careers-col-right h2 {
-    margin-top: 0;
+.careers-content h2 {
+    margin-top: var(--spacing-3xl);
     font-family: var(--font-stack-sans);
 }
 
@@ -2496,7 +2493,7 @@ a .startup-cta:hover {
 }
 
 @media (max-width: 800px) {
-    .careers-grid {
-        grid-template-columns: 1fr;
+    .careers-content h2 {
+        margin-top: var(--spacing-2xl);
     }
 }
