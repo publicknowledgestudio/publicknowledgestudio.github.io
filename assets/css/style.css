@@ -2472,6 +2472,24 @@ a .startup-cta:hover {
     background-color: var(--black);
 }
 
+.careers-intro {
+    margin: var(--spacing-3xl) auto var(--spacing-4xl);
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-base);
+}
+
+.careers-open-application {
+    margin: var(--spacing-4xl) auto;
+    padding: var(--spacing-3xl);
+    background-color: var(--slightly-warm-gray);
+    border-radius: var(--border-radius-card);
+    font-size: var(--font-size-md);
+}
+
+.careers-open-application p {
+    margin: 0;
+}
+
 @media (max-width: 800px) {
     .careers-container {
         grid-template-columns: 1fr;
