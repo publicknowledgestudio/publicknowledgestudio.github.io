@@ -96,13 +96,17 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    {% if page.layout == 'blog' %}
+    {% if page.layout == 'blog' or page.layout == 'careers' %}
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
 
     {% elsif page.layout == 'case-study' %}
     <link rel="stylesheet" href="{{ '/assets/css/case-study.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">
+
+    {% elsif page.layout == 'landingpage' %}
+    <link rel="stylesheet" href="{{ '/assets/css/landingpage.css' | relative_url }}">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
 
     {% endif %}
 </head>
