@@ -1,14 +1,11 @@
 ---
-layout: base
+layout: careers
 permalink: careers
 title: "Careers"
 subtitle: "Join the team at Public Knowledge Studio"
 banner: /assets/img/pk-team-offsite-2025.jpg
 ---
 
-<img class="page-header-image" src="{{ page.banner }}" alt="Public Knowledge team">
-
-<div class="blog-container">
 <div class="container">
 
 <h1 class="section-title mg-top-6xl">Careers</h1>
@@ -60,25 +57,3 @@ banner: /assets/img/pk-team-offsite-2025.jpg
 </div>
 
 </div>
-</div>
-
-<script>
-var headerImage = document.querySelector('.page-header-image');
-var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
-var browserHeight = window.visualViewport ? window.visualViewport.height : window.outerHeight;
-
-window.addEventListener('scroll', function() {
-    if (window.scrollY < browserHeight) {
-        headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
-    }
-});
-
-if (window.visualViewport) {
-    window.visualViewport.addEventListener('resize', function() {
-        browserHeight = window.visualViewport.height;
-        if (window.scrollY < browserHeight) {
-            headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
-        }
-    });
-}
-</script>
