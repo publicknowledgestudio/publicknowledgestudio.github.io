@@ -64,9 +64,9 @@
     --font-stack-sans: 'Tasa Orbiter Deck', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --line-height-base: 1.4;
     --line-height-tight: 1.1;
-    --line-height-sans-loose: 1.5;
-    --line-height-sans-base: 1.4;
-    --line-height-sans-tight: 1.2;
+    --line-height-sans-loose: 1.6;
+    --line-height-sans-base: 1.5;
+    --line-height-sans-tight: 1.3;
     --letter-spacing-tight: -0.03em;
     --letter-spacing-regular: -0.01em;
     --letter-spacing-wide: 0.03em;
@@ -231,6 +231,7 @@
 .sans {
     font-family: var(--font-stack-sans);
     letter-spacing: var(--letter-spacing-wide);
+    line-height: var(--line-height-sans-base);
 }
 
 .text-sm {
@@ -2374,6 +2375,7 @@ a .startup-cta:hover {
     .blog-nav {
         flex-direction: column;
     }
+
     .blog-nav-next {
         text-align: left;
     }

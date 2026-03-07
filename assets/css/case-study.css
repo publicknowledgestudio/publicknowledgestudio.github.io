@@ -78,6 +78,7 @@
     position: relative;
     z-index: 10 !important;
     padding-bottom: var(--spacing-4xl);
+    line-height: var(--line-height-sans-loose);
 }
 
 .case-study h1,

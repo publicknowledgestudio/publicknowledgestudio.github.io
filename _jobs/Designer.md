@@ -1,6 +1,6 @@
 ---
 title: "Generalist Designer (Contract)"
-subtitle: "New Delhi, India · Full-time"
+subtitle: "Hiring someone who can do a little bit of everything, and wants to do the best work of their lives without worrying about the boundary of their role."
 location: "Vasant Kunj, New Delhi, India"
 type: "Contract (6 months)"
 layout: case-study
@@ -13,25 +13,19 @@ banner: /assets/img/pk-designer.jpg
 
 ## About Public Knowledge
 
-Public Knowledge Studio is a small design studio based in New Delhi. We work with startups to design brands, products, and digital experiences. We value thoughtful work, curiosity about new tools and technologies, and building a team that learns by doing. Our studio is small by design — which means everyone has meaningful influence over the work we do and how the studio evolves.
+Public Knowledge Studio is a small design studio based in New Delhi. We primarily work with startups to design brands, landing pages, digital products and experiences. Our sphere of work exposes us to new technology, and we consider ourselves at the cutting edge of new ways of designing and producing digital experiences and artefacts - with AI and otherwise. We value thoughtful work, curiosity about new tools and technologies, and learning by doing. Our studio is small by design, and everyone on the team has meaningful influence over the work we do and how the studio evolves. 
 
 ## The Role
 
-Public Knowledge Studio is looking for a designer who enjoys working across disciplines and is excited by the evolving nature of design. This isn’t a traditional design role. We work with early-stage startups, which means every project is different. Some days you might be shaping a brand identity, other days designing a product interface, prototyping a website, or experimenting with motion and AI tools. The ideal person for this role is self-directed, curious, and comfortable moving between ideation and execution. You'll work closely with the studio team and startup founders and will have a high degree of ownership and will often be responsible for carrying ideas through to a polished outcome.
+This isn’t a traditional specialised design role. We work with early-stage startups, which means every project is different, and timelines are always tight. We are looking for a designer who enjoys working across disciplines. Some days you might be shaping a brand identity, other days designing a product interface, prototyping a website, or experimenting with motion and AI tools. The ideal person for this role is self-directed, curious, and comfortable moving between ideation and execution. You'll work closely with startup founders and will have a high degree of ownership on projects. You will often be responsible for seeing ideas through to a polished outcome.
 
-Some experience in **three or more** of the following areas is expected:
+## Experience required (3 or more is good)
 
 - Branding  
 - Website design
 - Website development (Framer, Webflow, or code)  
 - Motion and video  
-- Product design  
-
-
-We believe design improves when designers understand the material they are working with. For us, that includes code, thinking in systems, and increasingly, working with and using AI. Figma is only one tool in the process, but the Figma is not what any end user sees.
-
-We’re looking for someone curious about how things are actually made — and interested in exploring new ways of designing and producing digital experiences and artefacts.
-
+- Product design
 
 ## What You'll Do
 
