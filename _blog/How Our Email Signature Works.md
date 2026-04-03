@@ -40,6 +40,4 @@ Because the image is loaded from a URL, you don't need to re-upload anything if 
 
 When we migrated the main Public Knowledge website to Framer, the image at `/assets/img/email-signature.png` no longer existed, so the signature broke across all past and future emails — the image just wouldn't load.
 
-We could have changed the signature in Gmail to point to the new location, but that would only work for new emails we sent - the signature image would still be broken in every past email. To fix this, we used Cloudflare Worker (a small service worker that runs at the edge) that intercepts requests to `publicknowledge.co/assets/img/email-signature.png` and redirects them to the correct static image hosted elsewhere. This restored the signature for everyone without any changes needed on the Gmail side.
-
-
+We could have changed the signature in Gmail to point to a new URL, but that would only work for new emails we sent - the signature image would still be broken in every past email. To fix this, we used Cloudflare Worker (a small service worker that runs at the edge) that intercepted requests to `publicknowledge.co/assets/img/email-signature.png` and redirects them to the correct static image hosted elsewhere. This restored the signature for everyone without any changes needed on the Gmail side.

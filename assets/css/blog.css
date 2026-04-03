@@ -122,6 +122,14 @@
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-stack-serif);
+    overflow-wrap: break-word;
+}
+
+.blog img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--border-radius-md);
 }
 
 .blog p img {
@@ -156,6 +164,8 @@
     background-color: var(--slightly-warm-gray);
     padding: 0.15em 0.4em;
     border-radius: var(--border-radius-sm);
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 .blog pre code {
@@ -284,6 +294,23 @@ figcaption {
         display: block;
         padding: 0;
 
+    }
+
+    .blog p {
+        width: calc(var(--width-mobile) - var(--spacing-2xl));
+        max-width: var(--max-width);
+    }
+
+    .blog p img {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blog ul,
+    .blog ol {
+        width: calc(var(--width-mobile) - var(--spacing-2xl));
+        max-width: var(--max-width);
     }
 
     .blog pre {
