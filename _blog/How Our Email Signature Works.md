@@ -5,7 +5,7 @@ feed: show
 layout: blog
 subtitle: "How the Public Knowledge Studio email signature is hosted, why it broke when we moved to Framer, and how we fixed it"
 tags: []
-thumbnail: /assets/thumbs/default.png
+banner: /assets/img/email-signature-example.jpg
 title: "How Our Email Signature Works"
 ---
 
@@ -13,17 +13,9 @@ title: "How Our Email Signature Works"
 
 Images in emails can be included in one of two ways: embedded as attachments (the image data travels with the email itself), or loaded from a URL on the web (the email client fetches the image each time the email is opened).
 
-The Public Knowledge Studio email signature uses a web-hosted image. When someone opens an email with our signature, their email client loads the image from:
-
-`https://publicknowledge.co/assets/img/email-signature.png`
+The Public Knowledge Studio email signature uses a web-hosted image. When someone opens an email with our signature, their email client loads the image from: `https://publicknowledge.co/assets/img/email-signature.png`
 
 This approach has a useful side effect: if we update the image at that URL, the new version appears in every email that gets reopened — including emails already sent. All future emails automatically pick up the change too. We only have to update the image in one place.
-
-## What broke when we moved to Framer
-
-When we migrated the main Public Knowledge website to Framer, the image at `/assets/img/email-signature.png` no longer existed, so the signature broke across all past and future emails — the image just wouldn't load.
-
-We could have changed the signature in Gmail to point to the new location, but that would only work for new emails we sent - the signature image would still be broken in every past email. To fix this, we used Cloudflare Worker (a small service worker that runs at the edge) that intercepts requests to `publicknowledge.co/assets/img/email-signature.png` and redirects them to the correct static image hosted elsewhere. This restored the signature for everyone without any changes needed on the Gmail side.
 
 ## Setting up the signature in Gmail
 
@@ -38,11 +30,16 @@ We could have changed the signature in Gmail to point to the new location, but t
 
    ![Email signature example 2](/assets/img/email-signature-2.jpg)
 
-4. Set the signature to appear on new emails and replies
+4. Set the signature to appear on new emails and replies. 
 5. Save changes
 
 Because the image is loaded from a URL, you don't need to re-upload anything if the signature design changes in the future — it'll update automatically the next time your email is opened.
 
 
+## What broke when we moved to Framer
+
+When we migrated the main Public Knowledge website to Framer, the image at `/assets/img/email-signature.png` no longer existed, so the signature broke across all past and future emails — the image just wouldn't load.
+
+We could have changed the signature in Gmail to point to the new location, but that would only work for new emails we sent - the signature image would still be broken in every past email. To fix this, we used Cloudflare Worker (a small service worker that runs at the edge) that intercepts requests to `publicknowledge.co/assets/img/email-signature.png` and redirects them to the correct static image hosted elsewhere. This restored the signature for everyone without any changes needed on the Gmail side.
 
 
