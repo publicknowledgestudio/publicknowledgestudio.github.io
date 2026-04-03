@@ -135,6 +135,35 @@
 }
 
 
+.blog pre {
+    width: var(--blog-para-width);
+    max-width: var(--max-width-desktop);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background-color: var(--slightly-warm-gray);
+    border-radius: var(--border-radius-md);
+    overflow-x: auto;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-sans);
+    box-sizing: border-box;
+}
+
+.blog code {
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+    font-size: 0.9em;
+    background-color: var(--slightly-warm-gray);
+    padding: 0.15em 0.4em;
+    border-radius: var(--border-radius-sm);
+}
+
+.blog pre code {
+    background: none;
+    padding: 0;
+    font-size: inherit;
+}
+
 .blog ul,
 .blog ol {
     font-family: var(--font-stack-serif);
@@ -255,6 +284,13 @@ figcaption {
         display: block;
         padding: 0;
 
+    }
+
+    .blog pre {
+        width: calc(var(--width-mobile) - var(--spacing-2xl));
+        max-width: var(--max-width);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .blog-cta {
