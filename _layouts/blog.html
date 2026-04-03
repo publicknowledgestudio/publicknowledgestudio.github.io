@@ -85,7 +85,6 @@
         <div class="blog">
             {{ content }}
         </div>
-    </div>
 
     {% if page.tags.size > 0 %}
     {% assign related_posts = site.blog | where: "feed", "show" | where_exp: "post", "post.url != page.url" %}
@@ -155,6 +154,7 @@
         </div>
     </nav>
     {% endif %}
+    </div>
 
     {% include footer.html %}
 
