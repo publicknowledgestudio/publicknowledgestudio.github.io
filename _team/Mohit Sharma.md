@@ -1,12 +1,12 @@
 ---
 date: 01-04-2026
 feed: show
-image: /assets/img/mohit.jpg
+image: /assets/img/mohit-tall.jpg
 instagram: https://www.instagram.com/neq_uam?igsh=MTl5eTJ0bmp4ajU1aQ==
 layout: team-member
 order: 9
 role: Motion Designer
-title: "Mohit Sharma"
+title: "Mohit Jakhar"
 permalink: mohit
 ---
 
