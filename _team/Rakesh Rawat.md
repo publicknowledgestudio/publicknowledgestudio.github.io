@@ -11,4 +11,4 @@ title: "Rakesh Rawat"
 permalink: rakesh
 ---
 
-Bio coming soon.
+Rakesh is a frontend developer who turns designs into sharp, interactive experiences. He specializes in scroll animations, custom interactions, and motion-driven UI — bringing the kind of polish that makes interfaces feel alive. His toolkit includes Javascript, React, Next.js, Webflow, Shopify and GSAP.
