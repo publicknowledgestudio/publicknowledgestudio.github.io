@@ -12,7 +12,7 @@ tags:
   - Website
 team:
   - Charu Pragya
-  - Namita Sunil
+  - Sharang Sharma
   - Gyan Lakhwani
   - Anandu Gopal
 thumbnail: assets/img/memory-store-thumbnail.jpg

@@ -13,6 +13,8 @@ tags:
   - Branding
 team:
   - Gyan Lakhwani
+  - Sharang Sharma
+  - Anandu Gopal
 thumbnail: assets/img/scc-online-thumbnail.jpg
 title: "SCC Online"
 ---
