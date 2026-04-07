@@ -15,7 +15,7 @@ team:
   - Namita Sunil
   - Gyan Lakhwani
   - Anandu Gopal
-thumbnail: assets/img/autotelic-thumbnail.jpg
+thumbnail: assets/img/memory-store-thumbnail.jpg
 title: "Memory Store"
 ---
 
