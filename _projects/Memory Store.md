@@ -6,7 +6,7 @@ feed: show
 format: list
 layout: case-study
 order: 6
-subtitle: A futuristic brand for the future of Artifical Intelligence and building agents that remember, learn and evolve.
+subtitle: A Dropbox for your agent's context. Automatically store, sync, and recall context across every AI session.
 tags:
   - Branding
   - Website
