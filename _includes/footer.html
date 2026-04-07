@@ -40,6 +40,14 @@
                 <br><a class="square-button" href="https://calendar.app.google/uPWkrEeLiyFCYSPx5">Book a call</a>
             </div>
 
+            <p class="secondary">SERVICES</p>
+            <div class="uppercase glowy">
+                <a class="square-button" href="/startup-branding">Startup Branding</a>
+                <br><a class="square-button" href="/pitch-deck-design">Pitch Deck Design</a>
+                <br><a class="square-button" href="/startup-website-design">Website Design</a>
+                <br><a class="square-button" href="/startup-product-design">Product Design</a>
+            </div>
+
             <p class="secondary">INDEX</p>
             <div class="uppercase glowy">
                 {% for project in site.projects | sort: 'title' %}
@@ -49,7 +57,8 @@
 
             <p class="secondary">PEOPLE</p>
             <div class="uppercase glowy">
-                {% for person in site.team %}
+                {% assign current_team = site.team | where: "feed", "show" %}
+                {% for person in current_team %}
                 <a href="{{ person.url }}" class="square-button">
                     {{ person.title }}
                 </a><br>
@@ -210,7 +219,7 @@
 
             // Map minutes (0-59) to hue (0-255)
             const accentH = Math.floor((minutes / 59) * 255);
-            
+
             // Update the CSS variables
             document.documentElement.style.setProperty('--accent-h', accentH);
         }
