@@ -695,6 +695,52 @@ h1 {
     gap: var(--spacing-4xl);
 }
 
+.project-filters {
+    width: var(--width-desktop);
+    max-width: var(--max-width);
+    margin: 0 auto var(--spacing-3xl) auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.project-filter {
+    text-transform: uppercase;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-stack-sans);
+    padding: var(--spacing-xs) var(--spacing-md);
+    background-color: var(--black-5);
+    border-radius: 100px;
+    color: var(--text-reg);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: var(--transition-normal);
+}
+
+.project-filter:hover {
+    background-color: var(--background-color);
+    border: 1px solid var(--black-5);
+    box-shadow: 0 0 0 1px var(--black-5);
+    transform: translateY(-2px);
+}
+
+.project-filter.active {
+    background-color: var(--charcoal);
+    color: var(--white);
+    border-color: var(--charcoal);
+}
+
+.project-filter.active:hover {
+    background-color: var(--charcoal);
+    border-color: var(--charcoal);
+    box-shadow: none;
+}
+
+.filter-count {
+    opacity: 0.5;
+    margin-left: 2px;
+}
+
 .project-container {
     width: var(--width-desktop);
     max-width: var(--max-width);
@@ -2073,6 +2119,10 @@ a .startup-cta:hover {
         -ms-flex-direction: column;
         flex-direction: column;
         gap: 0;
+    }
+
+    .project-filters {
+        width: var(--width-mobile);
     }
 
     .project-container {

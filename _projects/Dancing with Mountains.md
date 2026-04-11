@@ -4,8 +4,9 @@ date: 02-06-2024
 date modified: 17-06-2025
 external_url: https://www.dancingwithmountains.com/
 feed: show
+featured: true
 layout: case-study
-order: 5
+order: 6
 subtitle: Designed and developed a digital space for Dancing with Mountains that translates radical philosophies into an exploratory web experience.
 tags:
   - Website

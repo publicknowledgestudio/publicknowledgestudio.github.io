@@ -5,7 +5,7 @@ external_url: https://mercury.lawyer/
 feed: show
 format: list
 layout: case-study
-order: 13
+order: 14
 subtitle: Mercury uses AI to automatically scrape and summarise case alerts for lawyers.
 tags:
   - UI/UX

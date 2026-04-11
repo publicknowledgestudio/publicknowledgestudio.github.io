@@ -57,6 +57,6 @@ But it is not just about fundraising. If you are showing your product to early c
 
 The pitch deck is a small investment with outsized impact. It is your story, distilled into 12–15 slides, designed to open doors.
 
-If your deck is not doing that, it is not a design problem. It is a clarity problem. And clarity is where we start.
+If your deck is not doing that, it is not a design problem. It is a clarity problem. And clarity is where we start. Learn more about our [pitch deck design service](/pitch-deck-design).
 
 {% include ContactCTA.html heading="Need help with your pitch deck?" description="We work with startups to craft pitch decks that communicate with clarity and taste. Let's talk." %}

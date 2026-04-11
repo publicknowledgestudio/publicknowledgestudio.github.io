@@ -13,7 +13,7 @@ Startups are not regular clients. They move fast, they are resource-constrained,
 
 A design process for startups needs to account for all of this. It needs to be lean enough to ship fast, adaptable enough to change direction, and rigorous enough to produce work that actually converts.
 
-Here is how we approach it at [Public Knowledge Studio](https://publicknowledge.co).
+Here is how we approach it at [Public Knowledge Studio](https://publicknowledge.co). (If you're looking for specifics on any one service, see our dedicated pages on [startup branding](/startup-branding), [website design](/startup-website-design), [product design](/startup-product-design), and [pitch deck design](/pitch-deck-design).)
 
 ## Starting with the story
 

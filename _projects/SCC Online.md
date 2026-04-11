@@ -6,7 +6,7 @@ external_url: https://www.scconline.com/
 feed: show
 format: list
 layout: case-study
-order: 14
+order: 15
 subtitle: Branding and Product design for SCC Online, India's leading law publisher.
 tags:
   - UI/UX

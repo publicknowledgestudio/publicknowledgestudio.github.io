@@ -4,7 +4,7 @@ date modified: 08-09-2025
 feed: show
 format: list
 layout: case-study
-order: 6
+order: 7
 subtitle: A website for Fleetcraft to bring to life their vision of making the skies more accessible to humankind.
 tags:
   - Website

@@ -3,9 +3,10 @@ date: 11-04-2025
 date modified: 08-09-2025
 external_url: https://map.hammockmag.com
 feed: show
+featured: true
 format: list
 layout: case-study
-order: 8
+order: 9
 subtitle: Designing an interactive literary map for Hammock Mag, visualizing authors' geographies with data-rich storytelling.
 tags:
   - UI/UX

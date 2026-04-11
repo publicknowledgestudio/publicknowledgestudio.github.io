@@ -70,6 +70,6 @@ Brand debt works like technical debt. Every month without a coherent brand syste
 
 A full rebrand at Series A is expensive, disruptive, and distracting at exactly the moment when the team should be focused on growth. Investing earlier is cheaper and produces better results, because the brand grows with the company rather than being retrofitted onto it.
 
-The best time to invest in branding was at the beginning. The second best time is now.
+The best time to invest in branding was at the beginning. The second best time is now. Learn more about our [startup branding service](/startup-branding).
 
 {% include ContactCTA.html heading="Ready to invest in your brand?" description="We help early-stage startups build brands that attract users and investors. Let's talk about your stage and goals." %}

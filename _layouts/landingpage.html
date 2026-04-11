@@ -1,0 +1,139 @@
+{% include head.html %}
+
+<body>
+
+    <!-- Schema.org Service structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": {{ page.service_name | jsonify }},
+        "description": {{ page.subtitle | jsonify }},
+        "provider": {
+            "@type": "ProfessionalService",
+            "name": "Public Knowledge Studio",
+            "url": "https://publicknowledge.co",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "New Delhi",
+                "addressCountry": "IN"
+            }
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "India"
+        },
+        "serviceType": {{ page.service_name | jsonify }},
+        "url": "{{ page.url | absolute_url }}"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://publicknowledge.co/"},
+            {"@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}"}
+        ]
+    }
+    </script>
+
+    {% include site-nav.html %}
+
+    <div class="landing-container">
+
+        <!-- Hero -->
+        <div class="landing-hero">
+            <h1>{{ page.title }}</h1>
+            <p class="landing-hero-subtitle">{{ page.subtitle }}</p>
+        </div>
+
+        <!-- Body Content -->
+        <div class="landing-body">
+            {{ content }}
+        </div>
+
+        <!-- Featured Projects -->
+        {% if page.featured_tags %}
+        <div class="container-width mg-top-3xl">
+            <h2 class="section-title">Selected Work</h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="project-container">
+            {% assign all_projects = site.projects | where: 'feed', 'show' | sort: 'order' %}
+            {% for project in all_projects %}
+                {% assign show_project = false %}
+                {% for tag in page.featured_tags %}
+                    {% if project.tags contains tag %}
+                        {% assign show_project = true %}
+                    {% endif %}
+                {% endfor %}
+                {% if show_project %}
+                <div class="project" data-href="{{ project.url | relative_url }}">
+                    <img class="project-thumbnail" src="{{ project.thumbnail | relative_url }}"
+                        alt="{{ project.title }}">
+                    <div class="project-title project-description-mobile-padding"
+                        style="view-transition-name: title-{{ project.title | replace: ' ', '' }};">{{ project.title }}
+                    </div>
+                    <div class="project-description project-description-mobile-padding">{{ project.subtitle }}</div>
+                    <div class="tag-container project-description-mobile-padding">
+                        {% for tag in project.tags %}
+                        {% assign tag_slug = tag | slugify %}
+                        <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="tag">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Related Reading -->
+        {% if page.related_posts %}
+        <div class="landing-related">
+            <h2 class="section-title">Related Reading</h2>
+            <div class="section-divider" style="width: 100%; margin: 0;"></div>
+
+            <div class="landing-related-grid">
+                {% for post_title in page.related_posts %}
+                    {% assign matched_post = site.blog | where: 'title', post_title | first %}
+                    {% if matched_post %}
+                    <a href="{{ matched_post.url | relative_url }}" class="landing-related-card">
+                        <div class="landing-related-card-title">{{ matched_post.title }}</div>
+                        <div class="landing-related-card-subtitle">{{ matched_post.subtitle }}</div>
+                    </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- CTA -->
+        <div class="landing-cta">
+            <div class="landing-cta-heading">{{ page.cta_text }}</div>
+            <div class="landing-cta-subtext">{{ page.cta_subtext }}</div>
+            {% include ContactButton.html primary_content="Schedule a Call →" %}
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+
+    <script>
+        // Handle project card clicks
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.project').forEach(function (card) {
+                card.addEventListener('click', function (e) {
+                    if (e.target.closest('.tag')) {
+                        return;
+                    }
+                    window.location.href = this.dataset.href;
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

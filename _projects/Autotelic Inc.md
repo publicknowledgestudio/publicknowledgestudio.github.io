@@ -10,6 +10,7 @@ subtitle: A futuristic brand for the future of Artifical Intelligence and buildi
 tags:
   - Branding
   - Website
+  - Video
 team:
   - Charu Pragya
   - Namita Sunil

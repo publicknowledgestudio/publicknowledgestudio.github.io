@@ -1,9 +1,33 @@
 <div class="section-title">The Work</div>
 
-<div class="project-container">
-    {% assign sorted_projects = site.projects | where: 'feed', 'show' | sort: 'order' %}
+{% assign sorted_projects = site.projects | where: 'feed', 'show' | sort: 'order' %}
+{% assign all_tags = "" | split: "" %}
+{% for project in sorted_projects %}
+    {% for tag in project.tags %}
+        {% unless all_tags contains tag %}
+            {% assign all_tags = all_tags | push: tag %}
+        {% endunless %}
+    {% endfor %}
+{% endfor %}
+{% assign featured_count = sorted_projects | where: 'featured', true | size %}
+
+<div class="project-filters">
+    <button class="project-filter active" data-filter="featured">Featured <span class="filter-count">{{ featured_count }}</span></button>
+    <button class="project-filter" data-filter="all">All <span class="filter-count">{{ sorted_projects | size }}</span></button>
+    {% for tag in all_tags %}
+    {% assign tag_count = 0 %}
     {% for project in sorted_projects %}
-    <div class="project" data-href="{{ project.url }}">
+        {% if project.tags contains tag %}
+            {% assign tag_count = tag_count | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+    <button class="project-filter" data-filter="{{ tag | slugify }}">{{ tag }} <span class="filter-count">{{ tag_count }}</span></button>
+    {% endfor %}
+</div>
+
+<div class="project-container">
+    {% for project in sorted_projects %}
+    <div class="project" data-href="{{ project.url }}" data-tags="{% for tag in project.tags %}{{ tag | slugify }}{% unless forloop.last %} {% endunless %}{% endfor %}" data-featured="{{ project.featured }}">
         {% if project.external_url %}
         <span class="external-link-badge" data-url="{{ project.external_url }}" aria-label="Visit live site"
             role="button" tabindex="0">
@@ -28,17 +52,45 @@
 </div>
 
 <script>
-    // Handle external link badge and project card clicks
     document.addEventListener('DOMContentLoaded', function () {
+        var filters = document.querySelectorAll('.project-filter');
+        var projects = document.querySelectorAll('.project');
+
+        function applyFilter(filterValue) {
+            projects.forEach(function (project) {
+                var tags = (project.dataset.tags || '').trim().split(/\s+/);
+                var featured = project.dataset.featured === 'true';
+                var show = false;
+
+                if (filterValue === 'all') {
+                    show = true;
+                } else if (filterValue === 'featured') {
+                    show = featured;
+                } else {
+                    show = tags.indexOf(filterValue) !== -1;
+                }
+
+                project.style.display = show ? '' : 'none';
+            });
+        }
+
+        filters.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                filters.forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                applyFilter(btn.dataset.filter);
+            });
+        });
+
+        // Apply featured filter on load
+        applyFilter('featured');
+
+        // Handle external link badge and project card clicks
         document.querySelectorAll('.project').forEach(function (card) {
             card.addEventListener('click', function (e) {
-                // If the click was on the external badge, it will be handled by its own listener
-                // If it was on a tag, let it go to the tag link
                 if (e.target.closest('.external-link-badge') || e.target.closest('.tag')) {
                     return;
                 }
-
-                // Otherwise open the project URL
                 window.location.href = this.dataset.href;
             });
         });
