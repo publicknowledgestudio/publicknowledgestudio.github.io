@@ -5,7 +5,7 @@ external_url: https://autotelic.inc/
 feed: show
 format: list
 layout: case-study
-order: 5
+order: 3
 subtitle: A futuristic brand for the future of Artifical Intelligence and building agents that remember, learn and evolve.
 tags:
   - Branding

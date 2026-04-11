@@ -5,9 +5,9 @@ external_url: https://ressl.ai/
 feed: show
 format: list
 layout: case-study
-order: 1
+order: 2
 permalink: ressl
-subtitle: Brandwork for a SF-based startup automating Salesforce system integrations through intelligent agents. 
+subtitle: Brandwork for a SF-based startup automating system of records through intelligent agents. 
 tags: 
   - Branding
 team:

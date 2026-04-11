@@ -5,7 +5,7 @@ external_url: https://memory.store/
 feed: show
 format: list
 layout: case-study
-order: 6
+order: 4
 subtitle: A Dropbox for your agent's context. Automatically store, sync, and recall context across every AI session.
 tags:
   - Branding

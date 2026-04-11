@@ -4,7 +4,7 @@ date: 11-04-2025
 date modified: 16-06-2025
 feed: show
 layout: case-study
-order: 7
+order: 9
 subtitle: Developed Amie's identity and web design, elevating its vision of a rotating wardrobe for modern lifestyles.
 tags:
   - Branding
