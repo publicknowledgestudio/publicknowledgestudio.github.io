@@ -17,6 +17,7 @@ team:
   - Naveed
   - Sharang Sharma
   - Anandu Gopal
+  - Rakesh Rawat
 thumbnail: assets/img/presentations-ai-thumbnail.jpg
 title: "Presentations.ai"
 ---
