@@ -2,7 +2,6 @@
 date: 11-04-2026
 external_url: https://sycamore.so/
 feed: show
-featured: true
 format: list
 layout: case-study
 order: 1

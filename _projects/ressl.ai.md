@@ -3,7 +3,6 @@ date: 25-05-2025
 date modified: 29-07-2025
 external_url: https://ressl.ai/
 feed: show
-featured: true
 format: list
 layout: case-study
 order: 2

@@ -4,7 +4,7 @@ date: 29-03-2024
 date modified: 17-06-2025
 feed: show
 layout: case-study
-order: 11
+order: 10
 subtitle: Playing sports together is fun. It should feel that way. Strategy and User Experience for a sports community and venue booking platform.
 tags:
   - Strategy

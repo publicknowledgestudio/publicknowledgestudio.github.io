@@ -4,7 +4,7 @@ date modified: 06-09-2025
 feed: show
 format: list
 layout: case-study
-order: 16
+order: 15
 permalink: sa-biennale
 subtitle: Immersive branding and design for sā Biennale, Asia's highest land art festival
 tags:
