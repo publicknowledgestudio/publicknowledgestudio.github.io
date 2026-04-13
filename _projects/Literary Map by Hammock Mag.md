@@ -2,6 +2,7 @@
 date: 11-04-2025
 date modified: 08-09-2025
 external_url: https://map.hammockmag.com
+featured: true
 feed: show
 format: list
 layout: case-study
