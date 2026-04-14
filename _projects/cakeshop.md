@@ -6,7 +6,10 @@ feed: show
 layout: case-study
 order: 11
 subtitle: Design explorations and identity for Zomato Cakeshop, reimagining how desserts delight a broader audience.
-tags: [UI/UX, Strategy, Branding]
+tags: 
+  - UI/UX
+  - Strategy
+  - Branding
 thumbnail: assets/img/cakeshop-thumbnail.jpg
 title: "Cakeshop"
 ---
