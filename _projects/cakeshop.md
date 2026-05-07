@@ -1,7 +1,7 @@
 ---
 date: 11-04-2025
 date modified: 07-06-2025
-featured: yes
+featured: false
 feed: show
 layout: case-study
 order: 11

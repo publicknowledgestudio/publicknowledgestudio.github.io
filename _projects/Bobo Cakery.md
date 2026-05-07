@@ -2,7 +2,7 @@
 date: 11-04-2025
 date modified: 03-06-2025
 external_url: https://bobocakery.com/
-featured: yes
+featured: false
 feed: show
 layout: case-study
 order: 19
