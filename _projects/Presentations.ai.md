@@ -15,6 +15,7 @@ team:
   - Gyan Lakhwani
   - Charu Pragya
   - Naveed
+  - Mohit Jakhar
   - Sharang Sharma
   - Anandu Gopal
   - Rakesh Rawat

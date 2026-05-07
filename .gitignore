@@ -29,3 +29,6 @@ npm-debug.log*
 # Docker (if needed in future)
 Dockerfile*
 docker-compose*.yml
+
+# Claude
+.claude
