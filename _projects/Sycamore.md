@@ -16,6 +16,7 @@ team:
   - Charu Pragya
   - Mohit Jakhar
   - Sharang Sharma
+  - Saurabh Yadav
 thumbnail: assets/img/sycamore-thumbnail.jpg
 title: "Sycamore"
 ---
