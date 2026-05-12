@@ -14,6 +14,6 @@ title: "Saurabh Yadav"
 twitter: https://x.com/saura3h
 ---
 
-Saurabh is a designer, creative coder, and design educator dedicated to exploring the intersection of technology, code, AI, and thoughtful design. Previously a product designer at Microsoft, he now co-leads Public Knowledge.
+Saurabh is the Product Design Lead at Public Knowledge, where he designs digital products for early-stage startups building in AI, fintech, and healthcare. His work focuses on clarity, systems thinking, and scale, often sitting at the intersection of product design and design systems, building interfaces, patterns, and foundations that help teams move faster and products feel thoughtful, coherent, and built with care.
 
-Saurabh is an analytical thinker who excels at systems, and he puts these skills to use at the studio on Product Design and Development projects.
+Before this, he spent four years at Primer designing products across global payments infrastructure and emerging AI experiences.
