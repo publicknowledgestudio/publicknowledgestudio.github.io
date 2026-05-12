@@ -8,13 +8,13 @@ format: list
 layout: case-study
 order: 2
 permalink: ressl
-subtitle: Brandwork for a SF-based startup automating system of records through intelligent agents. 
+subtitle: Branding for a startup automating system of records through intelligent agents. YC W26.
 tags: 
   - Branding
 team:
   - Charu Pragya
   - Gyan Lakhwani
   - Namita Sunil
-thumbnail: assets/img/resslai.webp
+thumbnail: assets/img/ressl-thumbnail.jpg
 title: "ressl.ai"
 ---

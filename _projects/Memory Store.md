@@ -7,7 +7,7 @@ feed: show
 format: list
 layout: case-study
 order: 4
-subtitle: A Dropbox for your agent's context. Automatically store, sync, and recall context across every AI session.
+subtitle: A Dropbox for your agent's context. Automatically store, sync, and recall context across every AI session. YC P26.
 tags:
   - Branding
   - Website
