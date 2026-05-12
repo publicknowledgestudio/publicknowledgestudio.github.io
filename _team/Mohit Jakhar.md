@@ -5,7 +5,7 @@ image: /assets/img/mohit-tall.jpg
 instagram: https://www.instagram.com/neq_uam?igsh=MTl5eTJ0bmp4ajU1aQ==
 layout: team-member
 order: 9
-role: Motion Designer
+role: Motion & Video
 title: "Mohit Jakhar"
 permalink: mohit
 ---
