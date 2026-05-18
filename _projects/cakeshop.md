@@ -10,6 +10,10 @@ tags:
   - UI/UX
   - Strategy
   - Branding
+team:
+  - Charu Pragya
+  - Namita Sunil
+  - Gyan Lakhwani
 thumbnail: assets/img/cakeshop-thumbnail.jpg
 title: "Cakeshop"
 ---
