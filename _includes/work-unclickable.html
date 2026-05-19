@@ -1,3 +1,4 @@
+<section class="work-section">
 <div class="section-title">The Work</div>
 
 {% assign sorted_projects = site.projects | where: 'feed', 'show' | sort: 'order' %}
@@ -48,6 +49,7 @@
 {% endif %}
 {% endfor %}
 </div>
+</section>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
