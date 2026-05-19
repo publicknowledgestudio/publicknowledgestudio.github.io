@@ -1,13 +1,18 @@
 ---
-layout: base
+layout: team-page
 permalink: team
 title: "Team"
 subtitle: "Meet the people behind Public Knowledge Studio"
+banner: /assets/img/team-bkk.jpg
 ---
 
 <div class="container">
 
-<h1 class="section-title mg-top-6xl">The Team</h1>
+<div class="team-intro">
+    <p>We're a small studio working closely with founders to build brands, websites, and product launches that earn attention. We care about craft, clarity, and the long road of getting the details right.</p>
+</div>
+
+<h1 class="section-title">The Team</h1>
 
 {% assign sorted_team = site.team | where: 'feed', 'show' | sort: 'order' %}
 <div class="team-container">
@@ -38,5 +43,10 @@ subtitle: "Meet the people behind Public Knowledge Studio"
     </a>
     {% endfor %}
 </div>
+
+<a href="/careers" class="team-careers-cta">
+    <div class="team-careers-cta-title">Join the team &rarr;</div>
+    <div class="team-careers-cta-subtitle sans">See our open roles and how to get in touch.</div>
+</a>
 
 </div>

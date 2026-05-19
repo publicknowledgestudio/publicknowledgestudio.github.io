@@ -1,0 +1,42 @@
+{% include head.html %}
+
+<body>
+
+    {% if page.banner %}
+    <img class="page-header-image" src="{{ page.banner }}" alt="{{ page.title }}">
+    {% else %}
+    <div class="page-header-image"></div>
+    {% endif %}
+
+    {% include site-nav.html %}
+
+    <div class="blog-container">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    <script>
+    var headerImage = document.querySelector('.page-header-image');
+    var headerImageHeight = (headerImage.offsetHeight / window.innerHeight) * 100;
+    var browserHeight = window.visualViewport ? window.visualViewport.height : window.outerHeight;
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY < browserHeight) {
+            headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
+        }
+    });
+
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', function() {
+            browserHeight = window.visualViewport.height;
+            if (window.scrollY < browserHeight) {
+                headerImage.style.height = (headerImageHeight + window.scrollY / 32) + 'vh';
+            }
+        });
+    }
+    </script>
+
+</body>
+
+</html>
