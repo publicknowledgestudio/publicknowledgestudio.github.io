@@ -712,7 +712,7 @@ h1 {
 
 .project-filter {
     text-transform: uppercase;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-md);
     font-family: var(--font-stack-sans);
     padding: var(--spacing-xs) var(--spacing-md);
     background-color: var(--black-5);
@@ -929,23 +929,13 @@ a.tag:hover {
 }
 
 .team-container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr var(--spacing-2xl) 1fr var(--spacing-2xl) 1fr var(--spacing-2xl) 1fr;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-2xl);
     max-width: var(--max-width);
     width: var(--width-desktop);
     margin: 0 auto;
     padding-bottom: var(--spacing-6xl);
-    max-width: var(--max-width);
-    width: var(--width-desktop);
-}
-
-@media (min-width: 1500px) {
-    .team-container {
-        grid-template-columns: repeat(6, 1fr);
-    }
 }
 
 .service-container {
@@ -2177,9 +2167,7 @@ a .startup-cta:hover {
     }
 
     .team-container {
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr var(--spacing-md) 1fr;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-md);
         width: var(--width-mobile);
