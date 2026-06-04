@@ -1141,10 +1141,6 @@ a.tag:hover {
         gap: var(--grid-gap-desktop);
         margin: 0 auto;
     }
-
-    .project-container>*:nth-child(3n-2) {
-        grid-column: span 2;
-    }
 }
 
 .section-title {
