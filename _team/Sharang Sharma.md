@@ -1,13 +1,13 @@
 ---
 date: 11-04-2025
 date modified: 06-09-2025
-feed: show
+feed: hide
 image: /assets/img/sharang-tall.jpg
 instagram: https://www.instagram.com/erroro1.0s
 layout: team-member
 order: 5
 permalink: sharang
-role: Generative Identities
+role: Brand Identities
 title: "Sharang Sharma"
 ---
 
