@@ -12,7 +12,7 @@ tags:
 team:
   - Gyan Lakhwani
   - Charu Pragya
-thumbnail: assets/img/afa-thumbnail.jpg
+thumbnail: assets/img/afa-thumbnail.webp
 title: "Anant Foundation for the Arts"
 ---
 
